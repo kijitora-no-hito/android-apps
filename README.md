@@ -44,7 +44,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="radio_survey/"><img src="radio_survey/images/icon.png" width="80" alt="電測記録"></a></td>
-<td><b><a href="radio_survey/">電測記録</a></b>（v1.0.1）<br>電波の測定をプランと実測で記録。地図・写真・携帯網の RSRP をまとめ、PDF / CSV / KML で出力します。</td>
+<td><b><a href="radio_survey/">電測記録</a></b>（v1.1.0）<br>電波の測定をプランと実測で記録。地図・写真・携帯網の RSRP をまとめ、PDF / CSV / KML で出力します。</td>
 <td align="center"><img src="radio_survey/images/qr.png" width="140" alt="電測記録のページの QR コード"></td>
 </tr>
 </table>
