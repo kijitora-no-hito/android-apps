@@ -27,11 +27,11 @@
     },
     {
       "folder": "link_conne2",
-      "tag": "linkconne2-v1.3.0",
-      "title": "りんくこねこね v1.3.0",
-      "apk": "d:/work/android/link_conne2/dist/linkconne2-1.3.0-release.apk",
-      "sha256": "B382EA084343E9D3B6909531368B9973BBE428AD3CD9E922F2A4FB1E786DAD79",
-      "notes": "りんくこねこね v1.3.0（2026-09-24）\n\n- Android 16（targetSdk 36）に対応しました。大画面の端末でも横向き表示を保ちます。\n- ゲーム内容の変更はありません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/link_conne2/\nSHA-256: B382EA084343E9D3B6909531368B9973BBE428AD3CD9E922F2A4FB1E786DAD79"
+      "tag": "linkconne2-v1.3.1",
+      "title": "りんくこねこね v1.3.1",
+      "apk": "d:/work/android/link_conne2/dist/linkconne2-1.3.1-release.apk",
+      "sha256": "F55B4D32AB1002F84FD28BB2AD6C5F4D83269298E76B4500541D1CDE07A89C34",
+      "notes": "りんくこねこね v1.3.1（2026-09-24）\n\n- チュートリアルの説明が画面からはみ出して読めないことがある不具合を直しました（縦の短い端末など）。長い説明はスクロールで読めます。\n- 設定画面に「チュートリアルの文字サイズ」（小・標準・大）を追加しました。\n\n前の版（1.3.0）: Android 16（targetSdk 36）に対応。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/link_conne2/\nSHA-256: F55B4D32AB1002F84FD28BB2AD6C5F4D83269298E76B4500541D1CDE07A89C34"
     },
     {
       "folder": "mask_camera",

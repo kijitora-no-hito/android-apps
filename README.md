@@ -29,7 +29,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="link_conne2/"><img src="link_conne2/images/icon.png" width="80" alt="りんくこねこね"></a></td>
-<td><b><a href="link_conne2/">りんくこねこね</a></b>（v1.3.0）<br>機器を置き、ケーブルを引き、設定を直す。目標スループットを達成するネットワーク構築パズルゲーム。</td>
+<td><b><a href="link_conne2/">りんくこねこね</a></b>（v1.3.1）<br>機器を置き、ケーブルを引き、設定を直す。目標スループットを達成するネットワーク構築パズルゲーム。</td>
 <td align="center"><img src="link_conne2/images/qr.png" width="140" alt="りんくこねこねのページの QR コード"></td>
 </tr>
 <tr>
