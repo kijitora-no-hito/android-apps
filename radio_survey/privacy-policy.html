@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>電測記録 プライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.8;
+         max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+  .updated { color: #666; font-size: 0.9rem; }
+  code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; font-size: 0.95rem; }
+  th { background: #f7f7f7; }
+</style>
+</head>
+<body>
+
+<h1>電測記録 プライバシーポリシー</h1>
+<p class="updated">制定日・最終更新日: 2026年9月24日（電測記録 1.0）</p>
+
+<h2>収集する情報</h2>
+<p>
+電測記録（以下「本アプリ」）は、利用者の個人情報を<strong>収集しません</strong>。
+アカウント登録は不要で、氏名・メールアドレス・電話番号・端末の識別子などを取得することはありません。
+本アプリの開発者が運営するサーバはなく、記録した実験・測定・写真・位置が開発者に送られることはありません。
+</p>
+
+<h2>端末内に保存されるデータ</h2>
+<table>
+  <tr><th>データ</th><th>保存場所</th><th>外部送信</th></tr>
+  <tr>
+    <td>実験・送信局・測定（プラン値と実測値、日時、座標、方位角、周波数、電界強度、メモ）</td>
+    <td>端末内のアプリ専用のデータベース</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>携帯網の記録（RSRP / RSRQ / SINR、方式、事業者名、バンド、ARFCN、PCI、セル ID、TAC）</td>
+    <td>同上</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>現地写真</td>
+    <td>端末内のアプリ専用フォルダ（アプリの外部ファイル領域の <code>Pictures/</code>）</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>取り込んだ建物データ・作成したカバレッジマップ・表示の設定</td>
+    <td>端末内のアプリ専用領域</td>
+    <td>なし</td>
+  </tr>
+</table>
+<p>
+本アプリをアンインストールすると、これらはすべて削除されます。
+なお、端末の設定で Android 標準のバックアップを有効にしている場合、これらのデータは Android の仕組みにより
+利用者自身の Google アカウントのバックアップに含まれることがあります（開発者はその内容を見られません）。
+</p>
+
+<h2>端末の機能の利用</h2>
+<ul>
+  <li><strong>位置情報</strong>（<code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code>）:
+    「GPS から取得」や地図の現在地ボタンを押したときに、測定点の座標を入れ、地図に現在地を表示するために使います。
+    また Android では、携帯網のセル情報（接続中の基地局の信号の強さなど）を読むにも位置情報の許可が必要なため、
+    「携帯電波を記録」でも使います。取得した位置とセル情報は、利用者が保存した測定の中に端末内でのみ記録され、
+    外部へは送りません。バックグラウンドで位置を取得することはありません。
+    ただし地図上の現在地の表示（青い丸）は Google マップの SDK が端末の位置情報を使って描くため、
+    その際の位置の扱いは下の「外部サービスへの通信」のとおり Google のポリシーに従います。</li>
+  <li><strong>写真</strong>: 撮影は端末の標準カメラアプリに任せます。本アプリはカメラの権限も、写真・ストレージへのアクセス権限も求めず、
+    自分で撮らせた写真以外を読むことはありません。</li>
+  <li><strong>レポートの保存</strong>: PDF / CSV / KML は、Android の標準の保存先選択画面で利用者が選んだ場所
+    （端末内のフォルダや Google ドライブなど）にだけ書き出します。どこへ保存するか、誰に渡すかは利用者が決めるものです。
+    書き出したファイルには測定の座標・値・写真（PDF）が含まれます。</li>
+</ul>
+
+<h2>外部サービスへの通信</h2>
+<p>本アプリは以下の外部サービスに接続します。利用者がアカウントを作る必要はありません。</p>
+
+<table>
+  <tr><th>接続先</th><th>送るもの</th><th>目的・タイミング</th></tr>
+  <tr>
+    <td>Google マップ（Google LLC の Maps SDK for Android）</td>
+    <td>表示しようとしている地図の範囲、地図の操作（移動・拡大縮小）、アプリを識別する情報（パッケージ名・署名・本アプリの API キー）。
+      このほか Google の開示によると、SDK は端末の情報（OS のバージョン・機種など）、SDK 内で異常終了したときのクラッシュ情報、
+      IP アドレス、Maps SDK 用の仮名の識別子を Google に送ります。
+      位置情報を許可している場合、地図上の現在地の表示のために SDK が端末の位置情報を扱います。
+      Google Play 開発者サービスを通じて送られます</td>
+    <td>地図の表示（実験のマップタブと位置の選択画面）。Google はこれらをサービスの提供・改善にも使います</td>
+  </tr>
+  <tr>
+    <td>Overpass API（OpenStreetMap のデータの検索サービス）<br>
+      <code>overpass-api.de</code>（つながらないときは <code>overpass.kumi.systems</code>）</td>
+    <td>取得する範囲（地図に表示している範囲の南西・北東の緯度経度）と、アプリを識別するための User-Agent</td>
+    <td>建物データの取得（マップタブの「建物データ…」で「この表示範囲を取得」を押したときだけ）</td>
+  </tr>
+  <tr>
+    <td>地理院タイル（国土地理院）<br><code>cyberjapandata.gsi.go.jp</code></td>
+    <td>必要な地図タイルの番号（ズームと位置から決まるタイル座標。配置図に入る範囲に相当します）と、アプリを識別するための User-Agent</td>
+    <td>PDF レポートの配置図の背景（PDF を書き出したときだけ）</td>
+  </tr>
+</table>
+
+<p>
+いずれも測定値・写真・メモ・携帯網の記録そのものを送ることはありません。
+ただし、地図を表示する範囲、建物データを取得する範囲、配置図のタイルの位置は、測定点の周辺の場所を示すため、
+それぞれのサービスに伝わります。これらのサービス側でのアクセス記録（IP アドレスなど）の扱いは、各サービスの規約・ポリシーに従います。
+Google マップでの情報の取り扱いは
+<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>
+をご確認ください。
+</p>
+
+<h2>広告・解析</h2>
+<p>
+本アプリは広告を表示せず、開発者がアクセス解析やクラッシュレポートを収集することもありません。
+第三者の解析ツールや広告 SDK を一切組み込んでいません
+（上の「外部サービスへの通信」に書いた Google マップの SDK が Google に送る情報を除きます）。
+</p>
+
+<h2>配布元について</h2>
+<p>
+本アプリは GitHub（<a href="https://github.com/kijitora-no-hito/android-apps">kijitora-no-hito/android-apps</a>）での
+APK ファイルの直接配布でのみ提供しています。ダウンロードの際の通信は GitHub のポリシーに従って扱われます。
+開発者がダウンロードした人を特定できる情報を受け取ることはありません。
+</p>
+
+<h2>お子様の利用について</h2>
+<p>
+本アプリの開発者は個人情報を収集しません。ただし地図の表示に Google マップを使うため、
+上記のとおり Google に情報が送られます。本アプリは 13 歳未満のお子様を対象としたものではありません。
+</p>
+
+<h2>ポリシーの変更</h2>
+<p>
+本ポリシーを変更する場合は、本ページを更新します。
+</p>
+
+<h2>お問い合わせ</h2>
+<p>
+本ポリシーに関するご質問は、<a href="https://github.com/kijitora-no-hito/android-apps/issues">GitHub の Issues</a> へお寄せください。
+</p>
+
+</body>
+</html>

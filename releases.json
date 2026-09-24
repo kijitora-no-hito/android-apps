@@ -48,6 +48,14 @@
       "apk": "d:/work/android/TPS_CAMERA/dist/tpscamera-1.2-release.apk",
       "sha256": "EABA9685F3D3C2F8E27A3F0B2A37DF9AFD524BB69068A15DC8C96B912F70FA8A",
       "notes": "TPS Camera v1.2（2026-09-24）\n\n- 設定画面の 2 本目のゲージの表記を「FP」から「MP」に変えました。\n\n前の版（1.1）: Android 16（targetSdk 36）に対応。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/TPS_CAMERA/\nSHA-256: EABA9685F3D3C2F8E27A3F0B2A37DF9AFD524BB69068A15DC8C96B912F70FA8A"
+    },
+    {
+      "folder": "radio_survey",
+      "tag": "radiosurvey-v1.0",
+      "title": "電測記録 v1.0",
+      "apk": "d:/work/android/radio_survey/dist/radiosurvey-1.0-release.apk",
+      "sha256": "34676138A95EC5D78FEE7964CB1736E2F0A1E00E4282546D1DAD8CE34318FF9C",
+      "notes": "電測記録 v1.0（2026-09-24）初公開\n\n無線の電界強度測定（電測）の記録アプリです。\n\n- 実験ごとに送信局と測定点を登録し、プラン（予定の日時・位置・方位角・想定電界強度）と実測を別々に記録します。\n- 現地では GPS で位置を取り、実測値・写真・メモを記録。スマホがつかんでいる携帯網（LTE / 5G）の RSRP なども取り込めます。\n- 地図に送信局と測定点を方位の矢印つきで表示。実測値から補間したカバレッジマップや、OpenStreetMap の建物の輪郭も重ねられます。\n- PDF（地理院地図の配置図・写真つき）/ CSV / KML でレポートを書き出せます。\n\nAndroid 8.0 以上。地図の表示にはインターネット接続と Google Play 開発者サービスが必要です。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 34676138A95EC5D78FEE7964CB1736E2F0A1E00E4282546D1DAD8CE34318FF9C"
     }
   ]
 }

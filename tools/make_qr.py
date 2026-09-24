@@ -24,6 +24,7 @@ PAGES = [
     "link_conne2",
     "mask_camera",
     "TPS_CAMERA",
+    "radio_survey",
 ]
 
 ROOT = Path(__file__).resolve().parent.parent

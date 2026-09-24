@@ -71,7 +71,10 @@ android-apps/
 ## 注意
 
 - **ソースコード・署名鍵・keystore.properties・local.properties は絶対に入れない。**
-- 載せていないアプリ: target_camera（同梱モデルのライセンスが未決）、radio_survey（Maps API キーの扱いで保留）、radioprop（配布しない）。
+- 載せていないアプリ: target_camera（同梱モデルのライセンスが未決）、radioprop（配布しない）。
+- radio_survey（電測記録）は **GitHub でのみ配布**（tsukutta / Play には出していない）。Maps の API キーが APK に入るので、
+  Google Cloud 側のキー制限（パッケージ名 `jp.kjtr.radiosurvey` + release の SHA-1、Maps SDK for Android のみ）が前提。
+  手順は `d:\work\android\radio_survey\store\README.md`。
 - link_conne2 の APK（direct flavor）は、アプリ内のアップデート確認が **tsukutta.app の配布ページ**を読み、
   APK の SHA-256 で版を判定する。GitHub にも **tsukutta に上げたのと同じ APK** を置くこと（作り直すと「履歴に無い」扱いになる）。
 - link_conne2 の譜面データ（`link_conne2/music-data/`）は ODbL の Share-Alike のための公開物。譜面を変えたら `store/music-data/` からコピーし直す。
