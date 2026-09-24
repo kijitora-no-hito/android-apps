@@ -8,13 +8,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v1.0・2.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/radiosurvey-v1.0/radiosurvey-1.0-release.apk)
+### [APK をダウンロード（v1.0.1・2.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/radiosurvey-v1.0.1/radiosurvey-1.0.1-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 1.0（2026-09-24） |
-| ファイル | `radiosurvey-1.0-release.apk`（2,210,363 バイト） |
-| SHA-256 | `34676138A95EC5D78FEE7964CB1736E2F0A1E00E4282546D1DAD8CE34318FF9C` |
+| バージョン | 1.0.1（2026-09-25） |
+| ファイル | `radiosurvey-1.0.1-release.apk`（2,210,363 バイト） |
+| SHA-256 | `9E127C1D623375F3780A1965E5840F3B7FA53C5136B01020826C188F3889AA96` |
 | 対応 Android | 8.0 以上 |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 

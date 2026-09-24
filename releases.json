@@ -51,11 +51,11 @@
     },
     {
       "folder": "radio_survey",
-      "tag": "radiosurvey-v1.0",
-      "title": "電測記録 v1.0",
-      "apk": "d:/work/android/radio_survey/dist/radiosurvey-1.0-release.apk",
-      "sha256": "34676138A95EC5D78FEE7964CB1736E2F0A1E00E4282546D1DAD8CE34318FF9C",
-      "notes": "電測記録 v1.0（2026-09-24）初公開\n\n無線の電界強度測定（電測）の記録アプリです。\n\n- 実験ごとに送信局と測定点を登録し、プラン（予定の日時・位置・方位角・想定電界強度）と実測を別々に記録します。\n- 現地では GPS で位置を取り、実測値・写真・メモを記録。スマホがつかんでいる携帯網（LTE / 5G）の RSRP なども取り込めます。\n- 地図に送信局と測定点を方位の矢印つきで表示。実測値から補間したカバレッジマップや、OpenStreetMap の建物の輪郭も重ねられます。\n- PDF（地理院地図の配置図・写真つき）/ CSV / KML でレポートを書き出せます。\n\nAndroid 8.0 以上。地図の表示にはインターネット接続と Google Play 開発者サービスが必要です。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 34676138A95EC5D78FEE7964CB1736E2F0A1E00E4282546D1DAD8CE34318FF9C"
+      "tag": "radiosurvey-v1.0.1",
+      "title": "電測記録 v1.0.1",
+      "apk": "d:/work/android/radio_survey/dist/radiosurvey-1.0.1-release.apk",
+      "sha256": "9E127C1D623375F3780A1965E5840F3B7FA53C5136B01020826C188F3889AA96",
+      "notes": "電測記録 v1.0.1（2026-09-25）\n\n- 建物データを取得・保存した直後に、地図の「3D建物」で建物が表示されない不具合を直しました（これまではアプリの再起動が必要でした）。\n\n以下は v1.0（2026-09-24、初公開）の紹介です。\n\n無線の電界強度測定（電測）の記録アプリです。\n\n- 実験ごとに送信局と測定点を登録し、プラン（予定の日時・位置・方位角・想定電界強度）と実測を別々に記録します。\n- 現地では GPS で位置を取り、実測値・写真・メモを記録。スマホがつかんでいる携帯網（LTE / 5G）の RSRP なども取り込めます。\n- 地図に送信局と測定点を方位の矢印つきで表示。実測値から補間したカバレッジマップや、OpenStreetMap の建物の輪郭も重ねられます。\n- PDF（地理院地図の配置図・写真つき）/ CSV / KML でレポートを書き出せます。\n\nAndroid 8.0 以上。地図の表示にはインターネット接続と Google Play 開発者サービスが必要です。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 9E127C1D623375F3780A1965E5840F3B7FA53C5136B01020826C188F3889AA96"
     }
   ]
 }
