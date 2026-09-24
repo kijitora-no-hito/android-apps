@@ -43,11 +43,11 @@
     },
     {
       "folder": "TPS_CAMERA",
-      "tag": "tpscamera-v1.1",
-      "title": "TPS Camera v1.1",
-      "apk": "d:/work/android/TPS_CAMERA/dist/tpscamera-1.1-release.apk",
-      "sha256": "F0B181C9CDB24673C720FBCC0D37B5F844423457A41C0CE52D23E00ADE2063B3",
-      "notes": "TPS Camera v1.1（2026-09-24）\n\n- Android 16（targetSdk 36）に対応しました（画面の端まで表示する edge-to-edge に合わせ、地図の出典表記・ズームボタンがナビゲーションバーに隠れないようにしました）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/TPS_CAMERA/\nSHA-256: F0B181C9CDB24673C720FBCC0D37B5F844423457A41C0CE52D23E00ADE2063B3"
+      "tag": "tpscamera-v1.2",
+      "title": "TPS Camera v1.2",
+      "apk": "d:/work/android/TPS_CAMERA/dist/tpscamera-1.2-release.apk",
+      "sha256": "EABA9685F3D3C2F8E27A3F0B2A37DF9AFD524BB69068A15DC8C96B912F70FA8A",
+      "notes": "TPS Camera v1.2（2026-09-24）\n\n- 設定画面の 2 本目のゲージの表記を「FP」から「MP」に変えました。\n\n前の版（1.1）: Android 16（targetSdk 36）に対応。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/TPS_CAMERA/\nSHA-256: EABA9685F3D3C2F8E27A3F0B2A37DF9AFD524BB69068A15DC8C96B912F70FA8A"
     }
   ]
 }

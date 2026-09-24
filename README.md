@@ -39,7 +39,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="TPS_CAMERA/"><img src="TPS_CAMERA/images/icon.png" width="80" alt="TPS Camera"></a></td>
-<td><b><a href="TPS_CAMERA/">TPS Camera</a></b>（v1.1）<br>カメラ映像にゲーム風の HUD を重ね、地図で立てたピンを AR の光柱で現地に案内します。</td>
+<td><b><a href="TPS_CAMERA/">TPS Camera</a></b>（v1.2）<br>カメラ映像にゲーム風の HUD を重ね、地図で立てたピンを AR の光柱で現地に案内します。</td>
 <td align="center"><img src="TPS_CAMERA/images/qr.png" width="140" alt="TPS Camera のページの QR コード"></td>
 </tr>
 </table>

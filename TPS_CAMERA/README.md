@@ -6,15 +6,23 @@
 
 <p><img src="images/feature.png" width="720" alt="TPS Camera の概要"></p>
 
+## 紹介動画
+
+<video src="images/demo.mp4" poster="images/demo-poster.jpg" controls playsinline preload="metadata" width="720" style="max-width:100%;height:auto;"></video>
+
+動画が表示されないときは [こちら（MP4・38 秒・7.6 MB）](https://kijitora-no-hito.github.io/android-apps/TPS_CAMERA/images/demo.mp4) から再生できます。
+
+<small>BGM：<a href="https://maou.audio/">魔王魂</a></small>
+
 ## ダウンロード
 
-### [APK をダウンロード（v1.1・2.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tpscamera-v1.1/tpscamera-1.1-release.apk)
+### [APK をダウンロード（v1.2・2.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tpscamera-v1.2/tpscamera-1.2-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 1.1（2026-09-24） |
-| ファイル | `tpscamera-1.1-release.apk`（2,489,885 バイト） |
-| SHA-256 | `F0B181C9CDB24673C720FBCC0D37B5F844423457A41C0CE52D23E00ADE2063B3` |
+| バージョン | 1.2（2026-09-24） |
+| ファイル | `tpscamera-1.2-release.apk`（2,489,885 バイト） |
+| SHA-256 | `EABA9685F3D3C2F8E27A3F0B2A37DF9AFD524BB69068A15DC8C96B912F70FA8A` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 下の「権限の使いみち」を参照 |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
@@ -89,6 +97,7 @@
 ## 出典
 
 - 地図: [地理院タイル](https://maps.gsi.go.jp/development/ichiran.html)（国土地理院）/ 地図表示ライブラリ [osmdroid](https://github.com/osmdroid/osmdroid)
+- 紹介動画の BGM：[魔王魂](https://maou.audio/)（アプリには同梱していません）
 
 ## プライバシーポリシー
 
