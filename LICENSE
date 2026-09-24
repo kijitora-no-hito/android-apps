@@ -1,0 +1,39 @@
+【下書き】利用条件 / Terms of Use
+
+Copyright (c) 2026 kijitora-no-hito. All rights reserved.
+
+このリポジトリで配布している Android アプリ（APK）と、このリポジトリに含まれる
+文章・画像（アイコン、スクリーンショット、フィーチャーグラフィック等）の著作権は
+kijitora-no-hito に帰属します。
+
+1. 利用
+   配布している APK は、個人・非商用の範囲で自由にインストールして利用できます。
+
+2. 禁止事項
+   - APK の再配布（他のサイト・ストア・ファイル共有サービス等への掲載を含む）
+   - APK を改変したもの、または APK から取り出したものの配布
+   - このリポジトリの文章・画像の無断転載
+   アプリを紹介する場合は、配布ページ
+   https://kijitora-no-hito.github.io/android-apps/ へのリンクをご利用ください。
+
+3. 無保証
+   アプリは現状のまま提供され、明示・黙示を問わず、いかなる保証もありません。
+   アプリの利用または利用できないことによって生じた損害について、開発者は責任を負いません。
+
+4. 第三者の権利
+   アプリに含まれる第三者のソフトウェア・データ（地図データ、機械学習モデル、楽曲データ等）は、
+   それぞれのライセンスに従います。表記は各アプリのページとアプリ内の表示を参照してください。
+   それらのライセンスが認める範囲については、本条件は制限しません。
+
+5. 変更
+   この利用条件は予告なく変更することがあります。
+
+---
+
+Copyright (c) 2026 kijitora-no-hito. All rights reserved.
+
+The APKs distributed here and the text and images in this repository are the property of
+kijitora-no-hito. You may install and use the APKs freely for personal, non-commercial purposes.
+Redistribution of the APKs, and distribution of modified APKs or of anything extracted from them,
+is not permitted. The apps are provided "as is", without warranty of any kind. Third-party
+components bundled with the apps remain under their own licenses.

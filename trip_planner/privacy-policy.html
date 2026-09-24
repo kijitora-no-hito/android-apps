@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>旅行プランナー プライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.8;
+         max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+  .updated { color: #666; font-size: 0.9rem; }
+  code { background: #f4f4f4; padding: 0.1em 0.35em; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: 0.5rem 0.7rem; text-align: left; font-size: 0.95rem; }
+  th { background: #f7f7f7; }
+</style>
+</head>
+<body>
+
+<h1>旅行プランナー プライバシーポリシー</h1>
+<p class="updated">最終更新日: 2026年9月24日（Google Play での配布に合わせ、Google マップの SDK が送る情報と配布元についての記述を追加。
+同日、バージョン 1.4 で「共有」と「同じ Wi-Fi 内の端末への送信」を追加したため改訂。
+さらに同日、予定カードへの画像・リンクの添付を追加したため改訂）</p>
+
+<h2>収集する情報</h2>
+<p>
+旅行プランナー（以下「本アプリ」）は、利用者の個人情報を<strong>収集しません</strong>。
+アカウント登録は不要で、氏名・メールアドレス・電話番号・端末の識別子などを取得することはありません。
+本アプリの開発者が運営するサーバはなく、入力された旅行の内容が開発者に送られることはありません。
+</p>
+
+<h2>端末内に保存されるデータ</h2>
+<p>
+作成した旅行（日程、予定カード、場所、予算、メモ、リンク（URL）、準備項目、地図の既定範囲）は、
+アプリ専用領域（<code>filesDir/trips</code>）に JSON ファイルとして<strong>端末内にのみ</strong>保存されます。
+予定カードに添付した画像は、利用者が Android の写真選択画面で選んだものだけを縮小してコピーし、
+アプリ専用領域（<code>filesDir/images</code>）に保存します。本アプリは写真・ストレージへのアクセス権限を求めず、
+選ばれた画像以外の写真を読むことはありません。
+本アプリをアンインストールすると削除されます。
+</p>
+<p>
+カードのリンクをタップすると、その URL を端末のブラウザなどで開きます。開いた先のサイトとの通信は、
+そのアプリ・サイトの規約・ポリシーに従います。
+</p>
+<p>
+書き出し機能を使った場合のみ、利用者が選んだ保存先（端末内のフォルダやクラウドストレージ）に
+JSON ファイルが作られます。この JSON には<strong>カードに添付した画像も含まれます</strong>。
+どこへ書き出すか、誰に渡すかは利用者が決めるものです。
+</p>
+
+<h2>ほかの端末への受け渡し</h2>
+<p>
+旅行を別の端末へ渡す方法は、上の書き出しのほかに次の 2 つがあります。どちらも利用者が操作したときだけ動きます。送る JSON には、カードに添付した画像も含まれます。
+</p>
+<ul>
+  <li><strong>共有</strong>: Android の共有メニューに旅行の JSON ファイルを渡します。
+    送り先のアプリ（Quick Share、メール、チャットなど）は利用者が選び、以降の扱いはそのアプリの規約・ポリシーに従います。
+    ほかのアプリから共有された JSON ファイルを本アプリで開いた場合は、内容を確認する画面が出て、
+    利用者が「取り込む」を押したときだけ保存されます。</li>
+  <li><strong>Wi-Fi で送る / 受け取る</strong>: 同じ Wi-Fi（同じネットワーク）にある端末どうしで、旅行の JSON を直接送ります。
+    インターネット上のサーバは経由しません。
+    受け取る側が「Wi-Fi で受け取る」画面を開いている間だけ、その端末は同じネットワーク内に
+    <strong>端末名</strong>（例: 「Pixel 10 Pro」）を知らせて待ち受けます。画面を閉じると待ち受けをやめます。
+    送る側は、受け取る側の画面に出る 4 桁の確認コードを入力しないと送れません。
+    この通信は暗号化されないため、公衆 Wi-Fi など信頼できないネットワークでは使わないことをおすすめします。</li>
+</ul>
+
+<h2>外部サービスへの通信</h2>
+<p>本アプリは以下の 2 つの外部サービスに接続します（上の「Wi-Fi で送る / 受け取る」は端末どうしの通信で、外部サービスには接続しません）。利用者がアカウントを作る必要はありません。</p>
+
+<table>
+  <tr><th>接続先</th><th>送るもの</th><th>目的</th></tr>
+  <tr>
+    <td>Google マップ（Google LLC の Maps SDK for Android）</td>
+    <td>表示しようとしている地図の範囲、地図の操作（移動・拡大縮小）、アプリを識別する情報（パッケージ名・署名・本アプリの API キー）。
+      このほか Google の開示によると、SDK は端末の情報（OS のバージョン・機種など）、SDK 内で異常終了したときのクラッシュ情報、
+      IP アドレス、Maps SDK 用の仮名の識別子を Google に送ります。
+      Google Play 開発者サービスを通じて送られます</td>
+    <td>地図の表示（地図画面と位置ピッカー）。Google はこれらをサービスの提供・改善にも使います</td>
+  </tr>
+  <tr>
+    <td>Nominatim（OpenStreetMap Foundation）<br><code>nominatim.openstreetmap.org</code></td>
+    <td>利用者が入力した検索語と、アプリを識別するための User-Agent</td>
+    <td>場所名から座標を調べる（位置ピッカーの検索欄を使ったときだけ）</td>
+  </tr>
+</table>
+
+<p>
+いずれも旅行の内容そのもの（予定・予算・メモ・リンク・画像）を送ることはありません。
+ただし地図を表示する際、表示している範囲（予定の場所の周辺を含みます）は Google に伝わります。
+これらのサービス側でのアクセス記録の扱いは、各サービスの規約・ポリシーに従います。
+Google マップでの情報の取り扱いは
+<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>
+をご確認ください。
+</p>
+
+<h2>位置情報</h2>
+<p>
+本アプリは位置情報の権限（<code>ACCESS_FINE_LOCATION</code> など）を<strong>要求しません</strong>。
+端末の現在地を取得することはなく、地図に出る場所はすべて利用者が自分で指定したものです。
+</p>
+
+<h2>広告・解析</h2>
+<p>
+本アプリは広告を表示せず、開発者がアクセス解析やクラッシュレポートを収集することもありません。
+第三者の解析ツールや広告 SDK を一切組み込んでいません
+（上の「外部サービスへの通信」に書いた Google マップの SDK が Google に送る情報を除きます）。
+</p>
+
+<h2>配布元について</h2>
+<p>
+本アプリは Google Play と、APK ファイルの直接配布の両方で提供しています。
+Google Play から入手・更新した場合、そのための情報（アカウント、端末、インストール状況など）は
+Google Play が Google のプライバシーポリシーに従って扱います。開発者はそれを個人を特定できる形では受け取りません
+（Google Play Console で見られるのはインストール数などの集計値です）。
+</p>
+
+<h2>お子様の利用について</h2>
+<p>
+本アプリの開発者は個人情報を収集しません。ただし地図の表示に Google マップを使うため、
+上記のとおり Google に情報が送られます。本アプリは 13 歳未満のお子様を対象としたものではありません。
+</p>
+
+<h2>ポリシーの変更</h2>
+<p>
+本ポリシーを変更する場合は、本ページを更新します。
+</p>
+
+<h2>お問い合わせ</h2>
+<p>
+本ポリシーに関するご質問は <a href="https://github.com/kijitora-no-hito/android-apps/issues">GitHub の Issues</a> でお寄せください。
+</p>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+# APK / AAB は git に入れず GitHub Releases に添付する
+*.apk
+*.aab
+# 署名鍵・秘密情報
+*.jks
+*.keystore
+keystore.properties
+local.properties
+# Jekyll のローカルビルド
+_site/
+.jekyll-cache/
+.sass-cache/

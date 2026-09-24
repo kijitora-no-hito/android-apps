@@ -1,0 +1,90 @@
+りんくこねこね (Link Conne2) — 同梱楽曲データのライセンス
+Tune data bundled with Link Conne2 — License notice
+
+================================================================
+1. このデータについて / About this data
+================================================================
+
+このフォルダの *.abc は、アイルランド音楽データベース The Session
+(https://thesession.org) に投稿された採譜データ（setting）をもとにした
+派生データベース (Derivative Database) です。
+
+The *.abc files in this folder form a Derivative Database based on tune
+settings contributed to The Session (https://thesession.org).
+
+楽曲そのもの（旋律）はアイルランド伝統曲、および Turlough O'Carolan
+(1670-1738) の作品であり、いずれもパブリックドメインです。
+ライセンスの対象は「採譜データ」です。
+
+The tunes themselves are Irish traditional music and compositions by
+Turlough O'Carolan (1670-1738), all in the public domain. What is
+licensed here is the transcription data.
+
+================================================================
+2. ライセンス / License
+================================================================
+
+ODC Open Database License (ODbL) v1.0
+
+ライセンス全文 / Full license text:
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+このデータを利用・改変・再配布する場合は、ODbL v1.0 の条件に従ってください。
+If you use, modify or redistribute this data, you must comply with ODbL v1.0.
+
+================================================================
+3. 著作権表示 / Attribution
+================================================================
+
+Contains information from The Session (https://thesession.org), which is
+made available under the ODC Open Database License (ODbL).
+
+採譜者 / Transcribed by:
+
+    Sí Bheag Sí Mhór      dirk              https://thesession.org/tunes/449#setting449
+    The South Wind        bsykes62          https://thesession.org/tunes/601#setting601
+    Planxty Irwin         Mark de Jong      https://thesession.org/tunes/790#setting790
+    Cooley's              Jeremy            https://thesession.org/tunes/1#setting1
+    Drowsy Maggie         Jeremy            https://thesession.org/tunes/27#setting27
+    The Kesh              Jeremy            https://thesession.org/tunes/55#setting55
+    The Swallowtail       Jeremy            https://thesession.org/tunes/106#setting106
+    The Parting Glass     Fiddle Inferno    https://thesession.org/tunes/6275#setting6275
+
+================================================================
+4. 加えた変更 / Changes made
+================================================================
+
+The Session の API から取得した各 setting の abc 本文に対し、以下を行いました。
+旋律（音符）そのものは変更していません。
+
+The following changes were applied to the abc body of each setting as
+retrieved from The Session's API. The notes themselves were not altered.
+
+    1. X: / T: / R: / M: / L:1/8 / K: のヘッダを付与した。
+       Added X: / T: / R: / M: / L:1/8 / K: headers.
+
+    2. 行区切りとして使われている '!' を改行に置換した。
+       Replaced '!' line separators with newlines.
+
+    3. 各行の前後の空白を削除し、空行を除去した。
+       Trimmed leading/trailing whitespace and removed blank lines.
+
+    4. 1 曲 1 ファイルに分割し、UTF-8 (BOM なし) で保存した。
+       Split into one file per tune, saved as UTF-8 without BOM.
+
+取得日 / Retrieved: 2026-09-18
+
+================================================================
+5. データの入手 / Obtaining this data
+================================================================
+
+この派生データベースは以下で公開しています。
+This Derivative Database is published at:
+
+    https://drive.google.com/drive/folders/1SfqH3V8z9xQmKWMSXFSYBVEwY7y9Jj4S?usp=sharing
+
+アプリ内の「設定 → クレジット → 楽曲データを書き出す」からも、このフォルダの
+内容一式（*.abc・credits.json・本ファイル）を zip で取り出せます。
+
+You can also export the full contents of this folder (*.abc, credits.json
+and this file) as a zip from the app: Settings → Credits → Export tune data.

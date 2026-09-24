@@ -1,0 +1,63 @@
+ホイッスルトレーナー — 第三者ソフトウェアの表示
+===============================================
+
+このアプリには以下の第三者のソフトウェア・モデルが含まれています。
+いずれも Apache License 2.0 で、その全文を同じフォルダの Apache-2.0.txt に同梱しています。
+
+
+1. Spotify Basic Pitch（採譜モデル）
+   Copyright (c) Spotify AB
+   https://github.com/spotify/basic-pitch
+   Licensed under the Apache License, Version 2.0
+
+   assets/models/basic_pitch_nmp.onnx は、Basic Pitch 同梱の "nmp" モデルを
+   ONNX 形式に変換したものです（推論のみに使用し、重みは変更していません）。
+
+   論文: Rachel M. Bittner, Juan José Bosch, David Rubinstein, Gabriel Meseguer-Brocal,
+   Sebastian Ewert, "A Lightweight Instrument-Agnostic Model for Polyphonic Note
+   Transcription and Multipitch Estimation", ICASSP 2022.
+
+
+2. ONNX Runtime（推論エンジン）
+   Copyright (c) Microsoft Corporation
+   https://github.com/microsoft/onnxruntime
+   Licensed under the MIT License
+
+   MIT License
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+
+3. AndroidX / Jetpack Compose / Kotlin 標準ライブラリ ほか
+   Copyright (c) The Android Open Source Project ほか
+   Licensed under the Apache License, Version 2.0
+
+
+同梱の練習用サンプル曲について
+------------------------------
+
+assets/samples/ の 3 曲はいずれも伝統曲・古典曲で、曲そのものはパブリックドメインです。
+
+  01_scale_d.abc     D メジャー音階（練習用に書き起こしたもの）
+  02_twinkle_d.abc   きらきら星（伝承曲）
+  03_kesh_jig.abc    The Kesh Jig（アイルランド伝統曲）
+
+「Web から探す」機能で thesession.org から取り込んだ譜面は、
+ODC Open Database License (ODbL) に基づくデータベースに由来します。
+取り込んだ譜面を再配布する場合は、出典（thesession.org）と ODbL の表示が必要です。

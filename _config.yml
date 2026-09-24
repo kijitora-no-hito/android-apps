@@ -1,0 +1,8 @@
+title: kijitora-no-hito の Android アプリ
+description: 個人開発の Android アプリの配布ページ（APK の直接配布）
+theme: jekyll-theme-primer
+lang: ja
+# 公開ページに出さないもの
+exclude:
+  - MAINTAINING.md
+  - tools/publish-releases.ps1

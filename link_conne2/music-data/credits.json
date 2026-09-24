@@ -1,0 +1,106 @@
+{
+    "source":  "The Session (thesession.org)",
+    "license":  "ODC Open Database License (ODbL) v1.0 - https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution":  "Contains information from The Session (https://thesession.org), which is made available under the ODC Open Database License (ODbL). Tunes are traditional / Turlough O\u0027Carolan (public domain).",
+    "tunes":  [
+                  {
+                      "file":  "si_bheag_si_mhor.abc",
+                      "role":  "TITLE",
+                      "title":  "Sí Bheag Sí Mhór",
+                      "type":  "waltz",
+                      "key":  "Dmajor",
+                      "tuneId":  449,
+                      "settingId":  449,
+                      "url":  "https://thesession.org/tunes/449#setting449",
+                      "transcribedBy":  "dirk",
+                      "date":  "2001-12-19 22:35:18"
+                  },
+                  {
+                      "file":  "the_south_wind.abc",
+                      "role":  "EDIT",
+                      "title":  "The South Wind",
+                      "type":  "waltz",
+                      "key":  "Gmajor",
+                      "tuneId":  601,
+                      "settingId":  601,
+                      "url":  "https://thesession.org/tunes/601#setting601",
+                      "transcribedBy":  "bsykes62",
+                      "date":  "2002-03-17 21:26:28"
+                  },
+                  {
+                      "file":  "planxty_irwin.abc",
+                      "role":  "EDIT",
+                      "title":  "Planxty Irwin",
+                      "type":  "waltz",
+                      "key":  "Gmajor",
+                      "tuneId":  790,
+                      "settingId":  790,
+                      "url":  "https://thesession.org/tunes/790#setting790",
+                      "transcribedBy":  "Mark de Jong",
+                      "date":  "2002-06-20 07:20:32"
+                  },
+                  {
+                      "file":  "cooleys.abc",
+                      "role":  "RUN",
+                      "title":  "Cooley\u0027s",
+                      "type":  "reel",
+                      "key":  "Edorian",
+                      "tuneId":  1,
+                      "settingId":  1,
+                      "url":  "https://thesession.org/tunes/1#setting1",
+                      "transcribedBy":  "Jeremy",
+                      "date":  "2001-05-14 18:45:18"
+                  },
+                  {
+                      "file":  "drowsy_maggie.abc",
+                      "role":  "RUN",
+                      "title":  "Drowsy Maggie",
+                      "type":  "reel",
+                      "key":  "Edorian",
+                      "tuneId":  27,
+                      "settingId":  27,
+                      "url":  "https://thesession.org/tunes/27#setting27",
+                      "transcribedBy":  "Jeremy",
+                      "date":  "2001-05-21 03:47:39"
+                  },
+                  {
+                      "file":  "the_kesh.abc",
+                      "role":  "RESULT_CLEAR",
+                      "title":  "The Kesh",
+                      "type":  "jig",
+                      "key":  "Gmajor",
+                      "tuneId":  55,
+                      "settingId":  55,
+                      "url":  "https://thesession.org/tunes/55#setting55",
+                      "transcribedBy":  "Jeremy",
+                      "date":  "2001-05-25 02:54:11"
+                  },
+                  {
+                      "file":  "the_swallowtail.abc",
+                      "role":  "RESULT_CLEAR",
+                      "title":  "The Swallowtail",
+                      "type":  "jig",
+                      "key":  "Adorian",
+                      "tuneId":  106,
+                      "settingId":  106,
+                      "url":  "https://thesession.org/tunes/106#setting106",
+                      "transcribedBy":  "Jeremy",
+                      "date":  "2001-05-25 04:15:17"
+                  },
+                  {
+                      "file":  "the_parting_glass.abc",
+                      "role":  "RESULT_FAIL",
+                      "title":  "The Parting Glass",
+                      "type":  "march",
+                      "key":  "Aminor",
+                      "tuneId":  6275,
+                      "settingId":  6275,
+                      "url":  "https://thesession.org/tunes/6275#setting6275",
+                      "transcribedBy":  "Fiddle Inferno",
+                      "date":  "2006-10-20 20:22:41"
+                  }
+              ],
+    "licenseUrl":  "https://opendatacommons.org/licenses/odbl/1-0/",
+    "modifications":  "The Session から取得した各 setting の abc 本文に、X:/T:/R:/M:/L:/K: のヘッダを付与し、行区切りの \u0027!\u0027 を改行に置換し、各行の前後の空白を削除して 1 曲 1 ファイルに分割した。音符そのものは変更していない。",
+    "dataUrl":  "https://drive.google.com/drive/folders/1SfqH3V8z9xQmKWMSXFSYBVEwY7y9Jj4S?usp=sharing"
+}

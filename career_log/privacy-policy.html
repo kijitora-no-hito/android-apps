@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>キャリアログ プライバシーポリシー</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 24px 16px; max-width: 760px; line-height: 1.8;
+    font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  }
+  h1 { font-size: 1.6rem; border-bottom: 2px solid #D4AF37; padding-bottom: 8px; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top; }
+  th { background: rgba(212, 175, 55, 0.18); white-space: nowrap; }
+  .note { background: rgba(212, 175, 55, 0.12); padding: 12px 16px; border-radius: 6px; }
+  footer { margin-top: 3em; font-size: 0.9rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>キャリアログ プライバシーポリシー</h1>
+
+<p>
+  「キャリアログ」（以下、本アプリ）は、利用者が登録した経歴データを端末内だけで扱うアプリです。
+  本アプリは利用者の個人情報を収集・送信しません。
+</p>
+
+<div class="note">
+  <strong>本アプリが通信するのは「地図から選ぶ」を使うときだけです。</strong>
+  訪問地・居住地の場所を地図から選ぶ画面を開いたときに限り、地図タイルの取得のために
+  <code>cyberjapandata.gsi.go.jp</code>（国土地理院）へ、場所名の検索・住所の取得のために
+  <code>nominatim.openstreetmap.org</code>（OpenStreetMap Foundation）へ接続します。
+  送信するのは<strong>利用者が入力した検索語、またはタップした地点の緯度・経度</strong>と、
+  アプリを識別する User-Agent（<code>CareerLog/1.0 (jp.kjtr.careerlog)</code>）だけです。
+  登録した経歴・氏名・写真などが送られることはなく、これ以外の画面・機能はいっさい通信しません。
+  端末の位置情報を取得する権限も取りません（現在地は使わず、利用者が地図上で選びます）。
+</div>
+
+<h2>1. 取り扱う情報</h2>
+
+<table>
+  <tr><th>情報</th><th>保存場所</th><th>外部送信</th></tr>
+  <tr>
+    <td>氏名・ふりがな・生年月日・国籍・住所・電話番号・メールアドレス・自己PR など、利用者がプロフィールに入力した内容</td>
+    <td>端末内のアプリ専用領域（<code>profile.json</code>）</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>学歴・職歴・担当業務・資格・実績・論文や発表・活動・特技・訪問地・居住地・ライフイベント・年収などの経歴データ</td>
+    <td>端末内のアプリ専用領域（<code>profile.json</code>）</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>利用者が添付した写真</td>
+    <td>端末内のアプリ専用領域（<code>photos/</code>）</td>
+    <td>なし</td>
+  </tr>
+  <tr>
+    <td>表示モード・画面の設定</td>
+    <td>端末内の SharedPreferences</td>
+    <td>なし</td>
+  </tr>
+</table>
+
+<p>
+  本アプリは、広告・アクセス解析・クラッシュレポートのいずれのサービスも組み込んでいません。
+  利用状況の記録や送信も行いません。アカウント登録もありません。
+</p>
+
+<h2>2. 端末の機能の利用</h2>
+
+<ul>
+  <li>
+    <strong>写真の選択</strong>: 経歴やプロフィールに写真を添付するとき、Android の写真ピッカーを使います。
+    利用者が選んだ画像だけを読み込み、縮小したコピーをアプリ専用領域に保存します。
+    写真ライブラリ全体へのアクセス権限は取得しません。
+  </li>
+  <li>
+    <strong>地図から場所を選ぶ</strong>: 訪問地・居住地の場所を地図から選ぶときだけ、地図タイル
+    （地理院タイル / 国土地理院）と場所検索（Nominatim / © OpenStreetMap contributors）を利用します。
+    送信する内容は冒頭に記載したとおりで、検索した語や選んだ地点をアプリが記録・蓄積することはありません。
+  </li>
+  <li>
+    <strong>ファイルの読み書き</strong>: バックアップ ZIP の書き出し・復元、PDF や Markdown の保存、
+    researchmap のエクスポートファイルの読み込みに、Android の標準のファイル選択画面（SAF）を使います。
+    利用者がその場で選んだファイルだけを対象にします。
+  </li>
+</ul>
+
+<h2>3. 書き出しと共有について</h2>
+
+<p>
+  本アプリは、利用者が明示的に操作したときにだけ次のデータを出力します。自動送信は一切ありません。
+</p>
+
+<ul>
+  <li>履歴書・職務経歴書・Wiki の <strong>PDF</strong>（保存先は利用者が選択）</li>
+  <li>ステータス画面などの <strong>PNG 画像</strong>（共有相手は利用者が選択）</li>
+  <li>AI に相談するための <strong>Markdown</strong>（クリップボードへのコピー、ファイル保存、他アプリへの共有）</li>
+  <li>全データの <strong>ZIP バックアップ</strong>（保存先は利用者が選択）</li>
+</ul>
+
+<p>
+  出力したデータをどこへ渡すか（生成 AI のアプリ、メール、クラウドストレージなど）は利用者が選びます。
+  渡した先での取り扱いは、その送信先のサービスのプライバシーポリシーに従います。
+  生成 AI に経歴を貼り付ける場合は、必要に応じてアプリの「固有名詞を伏せる」機能をご利用ください。
+</p>
+
+<h2>4. researchmap からの取り込みについて</h2>
+
+<p>
+  researchmap の業績データは、利用者自身が researchmap からエクスポートしたファイルを
+  端末上で選択して読み込みます。本アプリが researchmap のサーバへ接続することはありません。
+  取り込んだ内容は利用者自身のデータとして端末内にのみ保存されます。
+</p>
+
+<h2>5. データの削除</h2>
+
+<p>
+  アプリをアンインストールすると、端末内に保存されたすべてのデータが削除されます。
+  個別の経歴・写真はアプリ内から削除できます。復元したい場合に備えて、
+  アンインストールの前に「設定 → バックアップ（ZIP 書き出し）」で控えを取ることをおすすめします。
+</p>
+
+<h2>6. 第三者提供</h2>
+
+<p>本アプリの開発者は、利用者のデータを取得しません。したがって第三者へ提供することもありません。</p>
+
+<h2>7. 年齢について</h2>
+
+<p>本アプリは経歴・履歴書を扱う、13 歳以上の方を対象としたアプリです。開発者が利用者のデータを収集することはありません。</p>
+
+<h2>7-2. 配布元について</h2>
+
+<p>
+  本アプリは Google Play と、APK ファイルの直接配布の両方で提供しています。どちらで入手しても、アプリの動作と本ポリシーの内容は同じです。
+  Google Play から入手・更新した場合、そのための情報（アカウント、端末、インストール状況など）は Google Play が
+  <a href="https://policies.google.com/privacy">Google のプライバシーポリシー</a>に従って扱います。
+  開発者はそれを個人を特定できる形では受け取りません（Google Play Console で見られるのはインストール数などの集計値です）。
+</p>
+
+<h2>8. ポリシーの変更</h2>
+
+<p>内容を変更する場合は、本ページを更新し、アプリの更新時にお知らせします。</p>
+
+<h2>9. お問い合わせ</h2>
+
+<p>本アプリおよび本ポリシーに関するお問い合わせ先: <a href="https://github.com/kijitora-no-hito/android-apps/issues">GitHub の Issues</a></p>
+
+<footer>
+  <p>制定日: 2026年9月20日 / キャリアログ 1.0</p>
+  <p>最終更新日: 2026年9月24日 / キャリアログ 1.2.0（Google Play での配布に合わせて「年齢について」「配布元について」を改訂）</p>
+</footer>
+
+</body>
+</html>
