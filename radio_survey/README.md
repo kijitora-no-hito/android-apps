@@ -68,6 +68,29 @@
 
 - 実験・測定・写真・携帯網の記録は端末の中だけに保存されます（サーバに預かりません）。
 
+## スクリーンショット
+
+画面はデモ用のダミーデータです（大阪城公園周辺・架空の送信局と測定値）。
+
+<table>
+<tr>
+<td align="center"><img src="images/02-measurements.jpg" width="220" alt="測定の一覧"><br>測定の一覧（プラン / 測定済 / 携帯網）</td>
+<td align="center"><img src="images/04-map.jpg" width="220" alt="実験のマップ"><br>マップ（送信局・測定点・アンテナ方位）</td>
+</tr>
+<tr>
+<td align="center"><img src="images/05-coverage.jpg" width="220" alt="カバレッジマップ"><br>カバレッジマップ</td>
+<td align="center"><img src="images/06-buildings.jpg" width="220" alt="建物データの重ね表示"><br>建物データ（OpenStreetMap）</td>
+</tr>
+<tr>
+<td align="center"><img src="images/07-record.jpg" width="220" alt="実測の記録"><br>実測の記録（プラン値を参照）</td>
+<td align="center"><img src="images/10-satellite.jpg" width="220" alt="衛星写真のマップ"><br>衛星写真に切り替え</td>
+</tr>
+<tr>
+<td align="center"><img src="images/09-report.jpg" width="220" alt="レポート出力"><br>レポート（PDF / CSV / KML）</td>
+<td align="center"><img src="images/01-experiments.jpg" width="220" alt="実験の一覧"><br>実験の一覧</td>
+</tr>
+</table>
+
 ## 注意
 
 - 地図・建物データ・PDF の配置図にはインターネット接続が必要です。機内モードでは地図が出ません（PDF は通信できないと配置図が簡易図になります）。
