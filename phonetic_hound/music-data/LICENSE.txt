@@ -1,0 +1,95 @@
+Phonetic Hound — 同梱楽曲データのライセンス
+Tune data bundled with Phonetic Hound — License notice
+
+================================================================
+1. このデータについて / About this data
+================================================================
+
+このフォルダの *.abc は、アイルランド音楽データベース The Session
+(https://thesession.org) に投稿された採譜データ（setting）をもとにした
+派生データベース (Derivative Database) です。ゲームの BGM として、
+アプリ内のシンセサイザーで演奏しています。
+
+The *.abc files in this folder form a Derivative Database based on tune
+settings contributed to The Session (https://thesession.org). The game
+plays them as background music with its built-in synthesizer.
+
+楽曲そのもの（旋律）はアイルランド伝統曲、および Turlough O'Carolan
+(1670-1738) の作品であり、いずれもパブリックドメインです。
+ライセンスの対象は「採譜データ」です。
+
+The tunes themselves are Irish traditional music and compositions by
+Turlough O'Carolan (1670-1738), all in the public domain. What is
+licensed here is the transcription data.
+
+================================================================
+2. ライセンス / License
+================================================================
+
+ODC Open Database License (ODbL) v1.0
+
+ライセンス全文 / Full license text:
+    https://opendatacommons.org/licenses/odbl/1-0/
+
+このデータを利用・改変・再配布する場合は、ODbL v1.0 の条件に従ってください。
+If you use, modify or redistribute this data, you must comply with ODbL v1.0.
+
+================================================================
+3. 著作権表示 / Attribution
+================================================================
+
+Contains information from The Session (https://thesession.org), which is
+made available under the ODC Open Database License (ODbL).
+
+採譜者 / Transcribed by:
+
+    Carolan's Farewell To Music  glauber   https://thesession.org/tunes/244#setting244
+    Morrison's                   Jeremy    https://thesession.org/tunes/71#setting71
+    The Cliffs Of Moher          Jeremy    https://thesession.org/tunes/12#setting12
+    The Kid On The Mountain      Jeremy    https://thesession.org/tunes/52#setting52
+    Scatter The Mud              seara     https://thesession.org/tunes/728#setting728
+    The Musical Priest           Jeremy    https://thesession.org/tunes/73#setting73
+    The Star Of Munster          Jeremy    https://thesession.org/tunes/197#setting197
+    Port Na bPúcaí               Daithi_C  https://thesession.org/tunes/1811#setting1811
+    Haste To The Wedding         Jeremy    https://thesession.org/tunes/582#setting582
+    Chumha Eoghain Rua Ui Neill  Respect   https://thesession.org/tunes/907#setting7199
+
+================================================================
+4. 加えた変更 / Changes made
+================================================================
+
+The Session の API から取得した各 setting の abc 本文に対し、以下を行いました。
+旋律（音符）そのものは変更していません。
+
+The following changes were applied to the abc body of each setting as
+retrieved from The Session's API. The notes themselves were not altered.
+
+    1. X: / T: / R: / M: / L:1/8 / K: のヘッダを付与した。
+       Added X: / T: / R: / M: / L:1/8 / K: headers.
+
+    2. 行区切りとして使われている '!' を改行に置換した。
+       Replaced '!' line separators with newlines.
+
+    3. 各行の前後の空白を削除し、空行を除去した。
+       Trimmed leading/trailing whitespace and removed blank lines.
+
+    4. 1 曲 1 ファイルに分割し、UTF-8 (BOM なし) で保存した。
+       Split into one file per tune, saved as UTF-8 without BOM.
+
+取得日 / Retrieved: 2026-09-25
+
+================================================================
+5. データの入手 / Obtaining this data
+================================================================
+
+この派生データベースは次の URL で公開しています（credits.json の dataUrl と同じ）。
+https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data
+
+This Derivative Database is published at the URL above
+(same as dataUrl in credits.json).
+
+アプリ内の「クレジット → 楽曲データを書き出す」から、このフォルダの
+内容一式（*.abc・credits.json・本ファイル）を zip で取り出せます。
+
+You can export the full contents of this folder (*.abc, credits.json and
+this file) as a zip from the app: Credits → Export tune data.

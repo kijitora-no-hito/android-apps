@@ -2,7 +2,7 @@
 
 # Phonetic Hound（開発中）
 
-> **⚠ 開発中の版です。** 遊べるのは最初のステージ（練馬）だけで、見た目・バランス・操作は今後大きく変わります。
+> **⚠ 開発中の版です。** 遊べるのは 2 ステージ（練馬・神城）で、見た目・バランス・操作は今後大きく変わります。
 > セーブデータは今後の版で引き継げなくなることがあります。
 
 電波で操られたゾンビがあふれる街。スマートフォンの**信号強度と電波の到来方向**を頼りに、
@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.1.0-dev・5.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.1.0-dev/phonetichound-0.1.0-dev-release.apk)
+### [APK をダウンロード（v0.2.0-dev・6.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.2.0-dev/phonetichound-0.2.0-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.1.0-dev（2026-09-25・開発中） |
-| ファイル | `phonetichound-0.1.0-dev-release.apk`（6,172,406 バイト） |
-| SHA-256 | `98BFFBFBDF072905A78E6BFCEF0DBC79C6ECB554B9188ADF869074562CC42419` |
+| バージョン | 0.2.0-dev（2026-09-25・開発中） |
+| ファイル | `phonetichound-0.2.0-dev-release.apk`（7,141,203 バイト） |
+| SHA-256 | `7DD8BA3D68D925C82B8881BFC6A051FB73695AA79D7865DC8288DCA33D26C94C` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -33,32 +33,51 @@
 - 小さな基地局の設備盤で**停波**すると制圧。制圧した基地局は休憩地点・復活地点になります。
   小基地局をすべて制圧すると、巨大基地局のシールドが消えます。巨大基地局を止めればステージクリアです。
 - 攻撃はパンチ、アンテナ振り（長押しで溜め）、アンテナからの電波放射（指示役のスマホを一時的に止める）。
+- アンテナは 5 種類（ダイポール・八木・バイコニカル・ホーン・パラボラ）。基地局を制圧すると手に入り、
+  リーチ・攻撃力・電波放射の形（細く遠くまで／自分の周り全部／鉛筆のようなビーム など）がそれぞれ違います。
 - マップは歩いた場所だけが見えます。ピンを置けるほか、まれに手に入る**電波伝搬シミュレータ**で、
   地図上の 3 か所の信号強度と到来方向を調べられます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.1.0-dev）
+## この版でできること（0.2.0-dev）
 
-- ステージ 1「練馬」を最初から最後（巨大基地局 Kilo の停波）まで遊べます。
+- **ステージ 1「練馬」**（住宅地・チュートリアル、難易度 ★☆☆）と **ステージ 2「神城（白馬村）」**（山あい・森林、難易度 ★★★ ゾンビ多め）を、
+  最初から巨大基地局の停波まで遊べます。開発中の版では、どちらのステージも最初から選べます。
+- アンテナ 5 種類（メニューの「装備」で持ち替え。手に入れたアンテナは次のステージにも持ち越し）。
+- BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。設定画面で音量とカメラの感度を変えられます。
 - 操作: 画面の左半分をドラッグで移動、右半分をドラッグで視点。右下のボタンで攻撃・回避・指揮・停波。
-- セーブは 1 つ（休憩地点・制圧時・60 秒ごとに自動保存。タイトルの「つづきから」で再開）。
+- セーブはステージごとに自動保存（休憩地点・制圧時・60 秒ごと）。0.1.0-dev のセーブは練馬に引き継がれます。
 
-まだ無いもの: 2 ステージ目以降（住宅地・博多・東京駅・山あい・新宿を予定）、効果音・音楽、設定画面、ステージ選択。
+まだ無いもの: 3 ステージ目以降（住宅地・博多・東京駅・新宿を予定）。
+
+### 0.1.0-dev からの変更
+
+- 2 本目のステージ「神城」を追加（田んぼ・森・山すその斜面。尾根の上の巨大局 Oscar を目指します）。
+- アンテナ装備（八木・バイコニカル・ホーン・パラボラ）を追加。
+- BGM・効果音・設定画面・ステージ選択を追加。
 
 ## スクリーンショット
 
 <table>
 <tr>
-<td align="center"><img src="images/02.jpg" width="340" alt="チュートリアル"><br>チュートリアル（指示役の方向を案内）</td>
-<td align="center"><img src="images/04.jpg" width="340" alt="アンテナで攻撃"><br>アンテナ振りで攻撃</td>
+<td align="center"><img src="images/01.jpg" width="340" alt="ステージ選択"><br>ステージ選択</td>
+<td align="center"><img src="images/02.jpg" width="340" alt="神城の田んぼと森"><br>神城（白馬村）の田んぼと森</td>
 </tr>
 <tr>
-<td align="center"><img src="images/06.jpg" width="340" alt="電波伝搬シミュレータ"><br>マップと電波伝搬シミュレータ</td>
-<td align="center"><img src="images/08.jpg" width="340" alt="停波"><br>基地局 Alpha を停波中</td>
+<td align="center"><img src="images/03.jpg" width="340" alt="ゾンビの群れ"><br>神城はゾンビ多め</td>
+<td align="center"><img src="images/10.jpg" width="340" alt="尾根の上の巨大局"><br>尾根の上に巨大局 Oscar</td>
 </tr>
 <tr>
-<td align="center"><img src="images/10.jpg" width="340" alt="指揮"><br>ゾンビを指揮（護衛・攻撃・待機）</td>
-<td align="center"><img src="images/13.jpg" width="340" alt="クリア"><br>ステージクリア</td>
+<td align="center"><img src="images/04.jpg" width="340" alt="装備"><br>アンテナ 5 種類の性能比較</td>
+<td align="center"><img src="images/05.jpg" width="340" alt="パラボラの電波放射"><br>パラボラのビーム</td>
+</tr>
+<tr>
+<td align="center"><img src="images/06.jpg" width="340" alt="バイコニカルの電波放射"><br>バイコニカルは周り全部に放射</td>
+<td align="center"><img src="images/07.jpg" width="340" alt="電波伝搬シミュレータ"><br>マップと電波伝搬シミュレータ</td>
+</tr>
+<tr>
+<td align="center"><img src="images/08.jpg" width="340" alt="停波"><br>基地局を停波中</td>
+<td align="center"><img src="images/09.jpg" width="340" alt="指揮"><br>ゾンビを指揮（護衛・攻撃・待機）</td>
 </tr>
 </table>
 
@@ -83,6 +102,9 @@
 
 - 建物・道路などの地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
 - 地形: [国土地理院（標高タイル）](https://maps.gsi.go.jp/development/ichiran.html)
+- BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
+  [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
+  アプリのクレジット画面からも書き出せます。
 - フォント: Noto Sans JP（SIL Open Font License 1.1）
 - ゲームエンジン: libGDX（Apache License 2.0）
 

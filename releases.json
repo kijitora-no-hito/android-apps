@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.1.0-dev",
-      "title": "Phonetic Hound v0.1.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.1.0-dev-release.apk",
-      "sha256": "98BFFBFBDF072905A78E6BFCEF0DBC79C6ECB554B9188ADF869074562CC42419",
+      "tag": "phonetichound-v0.2.0-dev",
+      "title": "Phonetic Hound v0.2.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.2.0-dev-release.apk",
+      "sha256": "7DD8BA3D68D925C82B8881BFC6A051FB73695AA79D7865DC8288DCA33D26C94C",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.1.0-dev（2026-09-25・**開発中**）\n\n開発中の版です。遊べるのはステージ 1「練馬」だけで、見た目・バランス・操作は今後大きく変わります。セーブデータは今後の版で引き継げなくなることがあります。\n\n- 練馬を最初から巨大基地局 Kilo の停波まで通しで遊べます\n- 戦闘（パンチ・アンテナ・電波放射）、スマホの信号強度と到来方向、ゾンビの指揮、基地局の制圧、マップ・ピン・電波伝搬シミュレータ、セーブ\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 98BFFBFBDF072905A78E6BFCEF0DBC79C6ECB554B9188ADF869074562CC42419"
+      "notes": "Phonetic Hound v0.2.0-dev（2026-09-25・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- 2 本目のステージ「神城（白馬村）」を追加（山あい・森林・ゾンビ多めの厳しめステージ）\n- アンテナ装備 5 種類（ダイポール・八木・バイコニカル・ホーン・パラボラ）。リーチ・攻撃力・電波放射がそれぞれ違います\n- BGM・効果音（ケルト伝統曲をアプリ内のシンセで演奏）、設定画面、ステージ選択\n- 0.1.0-dev から上書きインストールでき、練馬のセーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 7DD8BA3D68D925C82B8881BFC6A051FB73695AA79D7865DC8288DCA33D26C94C"
     }
   ]
 }
