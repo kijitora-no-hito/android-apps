@@ -56,6 +56,15 @@
       "apk": "d:/work/android/radio_survey/dist/radiosurvey-1.1.1-release.apk",
       "sha256": "61ECB0CFC467D84C280077C73FE330E053C56146497797C3A17C970AD56B9C51",
       "notes": "電測記録 v1.1.1（2026-09-25）\n\n- マップ右上のボタン類を、右上の開閉ボタンで畳めるようにしました（開閉の状態は次回も保たれます。位置を選ぶ地図も同じ）。\n- ボタン名を「カバレッジマップ（実測）」「カバレッジマップ（推定）」に変えました。\n- 建物データのサーバが混み合っているときや、短時間に取得が続いたときに、分かりやすい案内を出すようにしました。\n- 取得済みの範囲の建物データを取り直そうとしたときに、確認を出すようにしました。\n\n前の版（1.1.0）: カバレッジマップ（推定）を追加（送信局の設定と地形・建物データから、エリアの推定電界強度と各測定点の推定値を計算）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 61ECB0CFC467D84C280077C73FE330E053C56146497797C3A17C970AD56B9C51"
+    },
+    {
+      "folder": "phonetic_hound",
+      "tag": "phonetichound-v0.1.0-dev",
+      "title": "Phonetic Hound v0.1.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.1.0-dev-release.apk",
+      "sha256": "98BFFBFBDF072905A78E6BFCEF0DBC79C6ECB554B9188ADF869074562CC42419",
+      "prerelease": true,
+      "notes": "Phonetic Hound v0.1.0-dev（2026-09-25・**開発中**）\n\n開発中の版です。遊べるのはステージ 1「練馬」だけで、見た目・バランス・操作は今後大きく変わります。セーブデータは今後の版で引き継げなくなることがあります。\n\n- 練馬を最初から巨大基地局 Kilo の停波まで通しで遊べます\n- 戦闘（パンチ・アンテナ・電波放射）、スマホの信号強度と到来方向、ゾンビの指揮、基地局の制圧、マップ・ピン・電波伝搬シミュレータ、セーブ\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 98BFFBFBDF072905A78E6BFCEF0DBC79C6ECB554B9188ADF869074562CC42419"
     }
   ]
 }

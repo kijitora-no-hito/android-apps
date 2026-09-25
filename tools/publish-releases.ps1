@@ -54,7 +54,10 @@ foreach ($r in $config.releases) {
     $notesFile = [System.IO.Path]::GetTempFileName()
     try {
         [System.IO.File]::WriteAllText($notesFile, $r.notes, (New-Object System.Text.UTF8Encoding($false)))
-        gh release create $r.tag $r.apk --repo $repo --title $r.title --notes-file $notesFile
+        # 開発中の版（"prerelease": true）はプレリリースとして作る
+        $extra = @()
+        if ($r.prerelease) { $extra += '--prerelease' }
+        gh release create $r.tag $r.apk --repo $repo --title $r.title --notes-file $notesFile @extra
         if ($LASTEXITCODE -ne 0) { throw "gh release create に失敗しました: $($r.tag)" }
         Write-Host "done   $($r.tag)"
     }

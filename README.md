@@ -47,6 +47,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="radio_survey/">電測記録</a></b>（v1.1.1）<br>電波の測定をプランと実測で記録。地図・写真・携帯網の RSRP をまとめ、PDF / CSV / KML で出力します。</td>
 <td align="center"><img src="radio_survey/images/qr.png" width="140" alt="電測記録のページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="phonetic_hound/"><img src="phonetic_hound/images/icon.png" width="80" alt="Phonetic Hound"></a></td>
+<td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（<b>開発中</b> v0.1.0-dev）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
+<td align="center"><img src="phonetic_hound/images/qr.png" width="140" alt="Phonetic Hound のページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -64,7 +69,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録はここ GitHub でのみ配布しています。）
+  （電測記録と Phonetic Hound はここ GitHub でのみ配布しています。）
 
 ## 利用条件
 
