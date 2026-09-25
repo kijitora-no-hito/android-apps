@@ -10,11 +10,38 @@ music (a Derivative Database), to be published as required by the ODbL share-ali
 
 | ファイル | 内容 |
 | --- | --- |
-| `*.abc` | 譜面データ 10 曲（ABC 記譜） |
-| `credits.json` | 曲ごとの場面（role）・出典・採譜者・元 URL・加えた変更 |
+| `*.abc` | 譜面データ 19 曲（ABC 記譜） |
+| `credits.json` | 曲ごとの場面（role・stage・scene）・出典・採譜者・元 URL・加えた変更 |
 | `LICENSE.txt` | ライセンス表記・著作権表示・加えた変更 |
 
 `android/assets/music/` と同じ内容です。`tools/music/fetch_tunes.py` が両方を書き出します。
+
+## 曲一覧 / Tunes
+
+| 場面 / Scene | 曲 / Tune | 種類・調 / Type, key | 採譜 / Transcribed by | 出典 / Source |
+| --- | --- | --- | --- | --- |
+| TITLE | Carolan's Farewell To Music | reel, A dorian | glauber | <https://thesession.org/tunes/244#setting244> |
+| EXPLORE (nerima) | Morrison's | jig, E dorian | Jeremy | <https://thesession.org/tunes/71#setting71> |
+| EXPLORE (nerima) | The Cliffs Of Moher | jig, A dorian | Jeremy | <https://thesession.org/tunes/12#setting12> |
+| EXPLORE (tama) | The Rights Of Man | hornpipe, E minor | Jeremy | <https://thesession.org/tunes/83#setting83> |
+| EXPLORE (tama) | The Mist Covered Mountain | jig, A dorian | glauber | <https://thesession.org/tunes/256#setting256> |
+| EXPLORE (hakata) | The Ballydesmond | polka, A dorian | Jeremy | <https://thesession.org/tunes/238#setting238> |
+| EXPLORE (hakata) | The Sligo Maid | reel, A dorian | Josh Kane | <https://thesession.org/tunes/399#setting399> |
+| EXPLORE (tokyo) | Julia Delaney's | reel, D dorian | b.maloney | <https://thesession.org/tunes/589#setting589> |
+| EXPLORE (tokyo) | Jenny's Chickens | reel, B minor | b.maloney | <https://thesession.org/tunes/756#setting756> |
+| EXPLORE (kamishiro) | The Kid On The Mountain | slip jig, E minor | Jeremy | <https://thesession.org/tunes/52#setting52> |
+| EXPLORE (kamishiro) | Scatter The Mud | jig, A dorian | seara | <https://thesession.org/tunes/728#setting728> |
+| EXPLORE (shinjuku) | The Gravel Walks | reel, A dorian | Jeremy | <https://thesession.org/tunes/42#setting42> |
+| EXPLORE (shinjuku) | Brian Boru's March | jig, A minor | JeffK627 | <https://thesession.org/tunes/271#setting271> |
+| COMBAT | The Musical Priest | reel, B minor | Jeremy | <https://thesession.org/tunes/73#setting73> |
+| COMBAT | The Star Of Munster | reel, A dorian | Jeremy | <https://thesession.org/tunes/197#setting197> |
+| COMBAT (FINAL) | Toss The Feathers | reel, E dorian | Jeremy | <https://thesession.org/tunes/113#setting113> |
+| REST | Port Na bPúcaí | waltz, D major | Daithi_C | <https://thesession.org/tunes/1811#setting1811> |
+| CLEAR | Haste To The Wedding | jig, D major | Jeremy | <https://thesession.org/tunes/582#setting582> |
+| DOWN | Chumha Eoghain Rua Ui Neill | reel, G minor | Respect | <https://thesession.org/tunes/907#setting7199> |
+
+COMBAT (FINAL) は最終ステージ（新宿）で巨大局のシールドが消えた後の戦闘曲です（`credits.json` の `scene: "FINAL"`）。
+COMBAT (FINAL) is the battle tune for the final stage (Shinjuku) after the macro station's shield is down.
 
 ## ライセンス / License
 

@@ -43,16 +43,25 @@ made available under the ODC Open Database License (ODbL).
 
 採譜者 / Transcribed by:
 
-    Carolan's Farewell To Music  glauber   https://thesession.org/tunes/244#setting244
-    Morrison's                   Jeremy    https://thesession.org/tunes/71#setting71
-    The Cliffs Of Moher          Jeremy    https://thesession.org/tunes/12#setting12
-    The Kid On The Mountain      Jeremy    https://thesession.org/tunes/52#setting52
-    Scatter The Mud              seara     https://thesession.org/tunes/728#setting728
-    The Musical Priest           Jeremy    https://thesession.org/tunes/73#setting73
-    The Star Of Munster          Jeremy    https://thesession.org/tunes/197#setting197
-    Port Na bPúcaí               Daithi_C  https://thesession.org/tunes/1811#setting1811
-    Haste To The Wedding         Jeremy    https://thesession.org/tunes/582#setting582
-    Chumha Eoghain Rua Ui Neill  Respect   https://thesession.org/tunes/907#setting7199
+    Carolan's Farewell To Music  glauber    https://thesession.org/tunes/244#setting244
+    Morrison's                   Jeremy     https://thesession.org/tunes/71#setting71
+    The Cliffs Of Moher          Jeremy     https://thesession.org/tunes/12#setting12
+    The Rights Of Man            Jeremy     https://thesession.org/tunes/83#setting83
+    The Mist Covered Mountain    glauber    https://thesession.org/tunes/256#setting256
+    The Ballydesmond             Jeremy     https://thesession.org/tunes/238#setting238
+    The Sligo Maid               Josh Kane  https://thesession.org/tunes/399#setting399
+    Julia Delaney's              b.maloney  https://thesession.org/tunes/589#setting589
+    Jenny's Chickens             b.maloney  https://thesession.org/tunes/756#setting756
+    The Kid On The Mountain      Jeremy     https://thesession.org/tunes/52#setting52
+    Scatter The Mud              seara      https://thesession.org/tunes/728#setting728
+    The Gravel Walks             Jeremy     https://thesession.org/tunes/42#setting42
+    Brian Boru's March           JeffK627   https://thesession.org/tunes/271#setting271
+    The Musical Priest           Jeremy     https://thesession.org/tunes/73#setting73
+    The Star Of Munster          Jeremy     https://thesession.org/tunes/197#setting197
+    Toss The Feathers            Jeremy     https://thesession.org/tunes/113#setting113
+    Port Na bPúcaí               Daithi_C   https://thesession.org/tunes/1811#setting1811
+    Haste To The Wedding         Jeremy     https://thesession.org/tunes/582#setting582
+    Chumha Eoghain Rua Ui Neill  Respect    https://thesession.org/tunes/907#setting7199
 
 ================================================================
 4. 加えた変更 / Changes made

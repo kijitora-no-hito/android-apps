@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.2.0-dev",
-      "title": "Phonetic Hound v0.2.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.2.0-dev-release.apk",
-      "sha256": "7DD8BA3D68D925C82B8881BFC6A051FB73695AA79D7865DC8288DCA33D26C94C",
+      "tag": "phonetichound-v0.3.0-dev",
+      "title": "Phonetic Hound v0.3.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.3.0-dev-release.apk",
+      "sha256": "834747A07B515C41CF2CF093AC95E9F21729A32102380DBF8874E29F470CA282",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.2.0-dev（2026-09-25・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- 2 本目のステージ「神城（白馬村）」を追加（山あい・森林・ゾンビ多めの厳しめステージ）\n- アンテナ装備 5 種類（ダイポール・八木・バイコニカル・ホーン・パラボラ）。リーチ・攻撃力・電波放射がそれぞれ違います\n- BGM・効果音（ケルト伝統曲をアプリ内のシンセで演奏）、設定画面、ステージ選択\n- 0.1.0-dev から上書きインストールでき、練馬のセーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 7DD8BA3D68D925C82B8881BFC6A051FB73695AA79D7865DC8288DCA33D26C94C"
+      "notes": "Phonetic Hound v0.3.0-dev（2026-09-25・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- ステージ「多摩ニュータウン」「博多」「東京駅」「新宿（最終）」を追加し、全 6 ステージを遊べるようになりました\n- 川・濠の水面と橋、超高層ビルの街並み（遠くまで見えるように）\n- ステージごとの探索曲と、新宿の決戦曲\n- 狭い路地でのカメラのガタつきを改善\n- 0.2.0-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 834747A07B515C41CF2CF093AC95E9F21729A32102380DBF8874E29F470CA282"
     }
   ]
 }

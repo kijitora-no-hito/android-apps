@@ -46,6 +46,84 @@
       "stage": "nerima"
     },
     {
+      "file": "the_rights_of_man.abc",
+      "role": "EXPLORE",
+      "title": "The Rights Of Man",
+      "type": "hornpipe",
+      "key": "Eminor",
+      "tuneId": 83,
+      "settingId": 83,
+      "url": "https://thesession.org/tunes/83#setting83",
+      "transcribedBy": "Jeremy",
+      "date": "2001-05-25 03:42:13",
+      "stage": "tama"
+    },
+    {
+      "file": "the_mist_covered_mountain.abc",
+      "role": "EXPLORE",
+      "title": "The Mist Covered Mountain",
+      "type": "jig",
+      "key": "Adorian",
+      "tuneId": 256,
+      "settingId": 256,
+      "url": "https://thesession.org/tunes/256#setting256",
+      "transcribedBy": "glauber",
+      "date": "2001-08-25 22:40:53",
+      "stage": "tama"
+    },
+    {
+      "file": "the_ballydesmond.abc",
+      "role": "EXPLORE",
+      "title": "The Ballydesmond",
+      "type": "polka",
+      "key": "Adorian",
+      "tuneId": 238,
+      "settingId": 238,
+      "url": "https://thesession.org/tunes/238#setting238",
+      "transcribedBy": "Jeremy",
+      "date": "2001-08-16 02:00:34",
+      "stage": "hakata"
+    },
+    {
+      "file": "the_sligo_maid.abc",
+      "role": "EXPLORE",
+      "title": "The Sligo Maid",
+      "type": "reel",
+      "key": "Adorian",
+      "tuneId": 399,
+      "settingId": 399,
+      "url": "https://thesession.org/tunes/399#setting399",
+      "transcribedBy": "Josh Kane",
+      "date": "2001-11-28 01:55:40",
+      "stage": "hakata"
+    },
+    {
+      "file": "julia_delaneys.abc",
+      "role": "EXPLORE",
+      "title": "Julia Delaney's",
+      "type": "reel",
+      "key": "Ddorian",
+      "tuneId": 589,
+      "settingId": 589,
+      "url": "https://thesession.org/tunes/589#setting589",
+      "transcribedBy": "b.maloney",
+      "date": "2002-03-13 05:56:07",
+      "stage": "tokyo"
+    },
+    {
+      "file": "jennys_chickens.abc",
+      "role": "EXPLORE",
+      "title": "Jenny's Chickens",
+      "type": "reel",
+      "key": "Bminor",
+      "tuneId": 756,
+      "settingId": 756,
+      "url": "https://thesession.org/tunes/756#setting756",
+      "transcribedBy": "b.maloney",
+      "date": "2002-06-11 23:56:47",
+      "stage": "tokyo"
+    },
+    {
       "file": "the_kid_on_the_mountain.abc",
       "role": "EXPLORE",
       "title": "The Kid On The Mountain",
@@ -72,6 +150,32 @@
       "stage": "kamishiro"
     },
     {
+      "file": "the_gravel_walks.abc",
+      "role": "EXPLORE",
+      "title": "The Gravel Walks",
+      "type": "reel",
+      "key": "Adorian",
+      "tuneId": 42,
+      "settingId": 42,
+      "url": "https://thesession.org/tunes/42#setting42",
+      "transcribedBy": "Jeremy",
+      "date": "2001-05-21 04:23:59",
+      "stage": "shinjuku"
+    },
+    {
+      "file": "brian_borus_march.abc",
+      "role": "EXPLORE",
+      "title": "Brian Boru's March",
+      "type": "jig",
+      "key": "Aminor",
+      "tuneId": 271,
+      "settingId": 271,
+      "url": "https://thesession.org/tunes/271#setting271",
+      "transcribedBy": "JeffK627",
+      "date": "2001-09-05 18:52:19",
+      "stage": "shinjuku"
+    },
+    {
       "file": "the_musical_priest.abc",
       "role": "COMBAT",
       "title": "The Musical Priest",
@@ -94,6 +198,19 @@
       "url": "https://thesession.org/tunes/197#setting197",
       "transcribedBy": "Jeremy",
       "date": "2001-07-17 23:10:46"
+    },
+    {
+      "file": "toss_the_feathers.abc",
+      "role": "COMBAT",
+      "title": "Toss The Feathers",
+      "type": "reel",
+      "key": "Edorian",
+      "tuneId": 113,
+      "settingId": 113,
+      "url": "https://thesession.org/tunes/113#setting113",
+      "transcribedBy": "Jeremy",
+      "date": "2001-05-25 04:22:45",
+      "scene": "FINAL"
     },
     {
       "file": "port_na_bpucai.abc",
