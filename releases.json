@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.4.0-dev",
-      "title": "Phonetic Hound v0.4.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.4.0-dev-release.apk",
-      "sha256": "42EFD12917C0506052F4B47FB1355646502D7FC73B750C7944D43F81C7290DC8",
+      "tag": "phonetichound-v0.5.0-dev",
+      "title": "Phonetic Hound v0.5.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.5.0-dev-release.apk",
+      "sha256": "83CA79BA80FF0540FCF2C4B8E3E493EB978BAD5E44B9C5D9455F37175BC73EA6",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.4.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- 野良ゾンビを追加し、ゾンビに出会う回数を約 15 倍に（野良は指揮できません。制圧した基地局のエリアには入ってきません）\n- ドローンが建物越し・建物の中から撃っていた不具合を修正。撃たれた方向を赤い弧で表示（上からなら ▲）、弾の軌跡も表示\n- 巨大基地局の設備盤（停波する場所）を建物の前の開けた場所に移し、光の柱・距離・地図のアイコンで案内\n- デバッグモード: 設定で ON にするとフリープレイ（全ステージ・本編のセーブに影響なし・無敵やワープなどのパネル）\n- 0.3.0-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 42EFD12917C0506052F4B47FB1355646502D7FC73B750C7944D43F81C7290DC8"
+      "notes": "Phonetic Hound v0.5.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- 電波伝搬シミュレータを作り直し: 各基地局のエリアに 1 台ずつ置いてあり、使うとその局の位置・カバレッジマップ・到来方向（AoA）が分かります\n- スマホは信号の強さだけ（強くなった ↑ / 弱くなった ↓ を表示）\n- アンテナは溜めないと射程が出ないように調整（溜めずに振るとリーチ 1.1m・威力半分）。パンチ 3 段目で敵がよろめく\n- 練馬のチュートリアルを新しい流れに\n- 0.4.0-dev から上書きインストールできます（旧版のシミュレータの所持数は引き継がれません）\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 83CA79BA80FF0540FCF2C4B8E3E493EB978BAD5E44B9C5D9455F37175BC73EA6"
     }
   ]
 }
