@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.5.1-dev",
-      "title": "Phonetic Hound v0.5.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.5.1-dev-release.apk",
-      "sha256": "C63159D431A8F15C667D738B96236E78EAF529458469D0EA0C78BF4ED2B27727",
+      "tag": "phonetichound-v0.6.0-dev",
+      "title": "Phonetic Hound v0.6.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.6.0-dev-release.apk",
+      "sha256": "CCBD69A403C53363204D9B952217CD58587D99A4168EF2026128B580BA68B96E",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.5.1-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- カバレッジマップを見やすく: その局が一番強く届くエリアだけを局の色で塗り、強さを色の濃淡で表示（解析済みを全部表示すると局ごとのエリアの境目が分かります）\n- 0.5.0-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: C63159D431A8F15C667D738B96236E78EAF529458469D0EA0C78BF4ED2B27727"
+      "notes": "Phonetic Hound v0.6.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 神城の敵をすべてロボットに（小型ロボット・指揮ロボット・野良ロボット。指揮ロボットは通信端末を落とします）\n- 神城に回復スポット（ゲームセンター）を追加。最初から使える休憩地点で、周りには敵が近づきません\n- 神城のステージを南と東へ広げました（旧版の神城のセーブは引き継げず、はじめからになります）\n- 倒した敵が白いまま残ることがある不具合を修正\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: CCBD69A403C53363204D9B952217CD58587D99A4168EF2026128B580BA68B96E"
     }
   ]
 }
