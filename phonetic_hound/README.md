@@ -159,7 +159,7 @@
 <td align="center"><img src="images/14.jpg" width="340" alt="多摩ニュータウンの団地"><br>多摩ニュータウンの団地</td>
 </tr>
 <tr>
-<td align="center"><img src="images/03.jpg" width="340" alt="ゾンビの群れ"><br>神城はゾンビ多め</td>
+<td align="center"><img src="images/03.jpg" width="340" alt="ロボットの群れ"><br>神城はロボット多め</td>
 <td align="center"><img src="images/10.jpg" width="340" alt="尾根の上の巨大局"><br>尾根の上に巨大局 Oscar</td>
 </tr>
 <tr>
