@@ -49,7 +49,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="phonetic_hound/"><img src="phonetic_hound/images/icon.png" width="80" alt="Phonetic Hound"></a></td>
-<td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（<b>開発中</b> v0.6.0-dev）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
+<td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（<b>開発中</b> v0.6.1-dev）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
 <td align="center"><img src="phonetic_hound/images/qr.png" width="140" alt="Phonetic Hound のページの QR コード"></td>
 </tr>
 </table>
