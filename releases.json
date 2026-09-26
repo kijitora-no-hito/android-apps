@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.6.1-dev",
-      "title": "Phonetic Hound v0.6.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.6.1-dev-release.apk",
-      "sha256": "19F43450B0F4784E1EAEABF223DB6C951AAE509F36D67EC09F67E8E7FBAFCB01",
+      "tag": "phonetichound-v0.7.0-dev",
+      "title": "Phonetic Hound v0.7.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.7.0-dev-release.apk",
+      "sha256": "05DF95BB8681374EB5D92987947C7EE28BAD8D80739F3F87EB6F5F8F3BDFA35E",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.6.1-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 新宿の終盤演出「赤い都庁」: 小基地局 4 局を制圧すると都庁が赤く染まり、敵が一気に増えます（野良が 2 倍、都庁の方角から群れが押し寄せる）\n- デバッグモードのフリープレイ（新宿）に「赤い都庁を発動」を追加\n- 0.6.0-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 19F43450B0F4784E1EAEABF223DB6C951AAE509F36D67EC09F67E8E7FBAFCB01"
+      "notes": "Phonetic Hound v0.7.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- スコアアタック: 「はじめから」でクリアするまでのタイム・撃破数・支配数を記録\n- ステージごとのランキング（上位 10 件・名前入力）。タイトルに「ランキング」、ステージ選択に自己ベスト\n- リザルト画面を作り直し、スクリーンショット付きで結果を共有（#phonetichound）\n- フリープレイ（デバッグ）の結果は記録しません。旧版のセーブを「つづきから」でクリアした場合もランキングの対象外です\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 05DF95BB8681374EB5D92987947C7EE28BAD8D80739F3F87EB6F5F8F3BDFA35E"
     }
   ]
 }
