@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.7.1-dev・10.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.7.1-dev/phonetichound-0.7.1-dev-release.apk)
+### [APK をダウンロード（v0.8.0-dev・10.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.8.0-dev/phonetichound-0.8.0-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.7.1-dev（2026-09-26・開発中） |
-| ファイル | `phonetichound-0.7.1-dev-release.apk`（11,269,372 バイト） |
-| SHA-256 | `2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F` |
+| バージョン | 0.8.0-dev（2026-09-26・開発中） |
+| ファイル | `phonetichound-0.8.0-dev-release.apk`（11,298,472 バイト） |
+| SHA-256 | `7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.7.1-dev）
+## この版でできること（0.8.0-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -63,6 +63,12 @@
   （全アンテナ所持。ゲーム中の DEBUG ボタンで無敵・敵なし・野良ゾンビの量・局へワープ・即時制圧など）。
 
 これから: 難易度・バランスの調整、見た目の改善。
+
+### 0.7.1-dev からの変更
+
+- **道路を 3D の路面に**（全ステージ）: 国道・県道は白線付き、生活道路はアスファルト、農道・あぜ道は砂利の道。
+- **神城の街並み**: 田んぼの区画、三角屋根（切妻）の家並み、回復スポットの周りの建物（空中写真から起こした 41 棟）、
+  白い三角屋根の旅館と、隣のゲームセンター（回復スポット）。
 
 ### 0.7.0-dev からの変更
 
@@ -135,6 +141,10 @@
 <td align="center"><img src="images/25.jpg" width="340" alt="回復スポット"><br>神城の回復スポット（ゲームセンター）</td>
 </tr>
 <tr>
+<td align="center"><img src="images/30.jpg" width="340" alt="三角屋根の旅館"><br>神城・三角屋根の旅館と家並み</td>
+<td align="center"><img src="images/31.jpg" width="340" alt="田んぼと農道"><br>神城・田んぼと農道
+</tr>
+<tr>
 <td align="center"><img src="images/19.jpg" width="340" alt="スマホの信号レベル"><br>スマホは信号の強さ（↑↓）だけ</td>
 <td align="center"><img src="images/20.jpg" width="340" alt="AoA"><br>シミュレータで解析した局は到来方向が出る</td>
 </tr>
@@ -197,6 +207,7 @@
 
 - 建物・道路などの地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
 - 地形: [国土地理院（標高タイル）](https://maps.gsi.go.jp/development/ichiran.html)
+- 神城の一部の建物の位置・形: [国土地理院（シームレス空中写真）](https://maps.gsi.go.jp/development/ichiran.html)をもとに作成
 - BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
   [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
   アプリのクレジット画面からも書き出せます。

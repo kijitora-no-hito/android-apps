@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.7.1-dev",
-      "title": "Phonetic Hound v0.7.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.7.1-dev-release.apk",
-      "sha256": "2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F",
+      "tag": "phonetichound-v0.8.0-dev",
+      "title": "Phonetic Hound v0.8.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.8.0-dev-release.apk",
+      "sha256": "7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.7.1-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 神城の回復スポットを正しい位置に移し、ステージを東へ少し広げました（旧版の神城のセーブははじめからになります。ランキングは残ります）\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F"
+      "notes": "Phonetic Hound v0.8.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 道路を 3D の路面に（全ステージ）: 国道・県道は白線付き、生活道路はアスファルト、農道・あぜ道は砂利の道\n- 神城の街並み: 田んぼの区画、三角屋根の家並み、回復スポットの周りの建物（国土地理院の空中写真から起こした 41 棟）、白い三角屋根の旅館と隣のゲームセンター（回復スポット）\n- 0.7.1-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD"
     }
   ]
 }
