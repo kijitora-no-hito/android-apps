@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.5.0-dev・10.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.5.0-dev/phonetichound-0.5.0-dev-release.apk)
+### [APK をダウンロード（v0.5.1-dev・10.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.5.1-dev/phonetichound-0.5.1-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.5.0-dev（2026-09-26・開発中） |
-| ファイル | `phonetichound-0.5.0-dev-release.apk`（10,649,496 バイト） |
-| SHA-256 | `83CA79BA80FF0540FCF2C4B8E3E493EB978BAD5E44B9C5D9455F37175BC73EA6` |
+| バージョン | 0.5.1-dev（2026-09-26・開発中） |
+| ファイル | `phonetichound-0.5.1-dev-release.apk`（10,649,496 バイト） |
+| SHA-256 | `C63159D431A8F15C667D738B96236E78EAF529458469D0EA0C78BF4ED2B27727` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.5.0-dev）
+## この版でできること（0.5.1-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -61,6 +61,10 @@
   （全アンテナ所持。ゲーム中の DEBUG ボタンで無敵・敵なし・野良ゾンビの量・局へワープ・即時制圧など）。
 
 これから: 難易度・バランスの調整、見た目の改善。
+
+### 0.5.0-dev からの変更
+
+- カバレッジマップを見やすく: その局が一番強く届くエリアだけを局の色で塗り、強さを色の濃淡で表すようにしました（解析済みを全部表示すると、局ごとのエリアの境目が分かります）。
 
 ### 0.4.0-dev からの変更
 
@@ -101,7 +105,7 @@
 </tr>
 <tr>
 <td align="center"><img src="images/21.jpg" width="340" alt="溜め"><br>アンテナを溜めて振る</td>
-<td align="center"><img src="images/07.jpg" width="340" alt="カバレッジ"><br>カバレッジマップ</td>
+<td align="center"><img src="images/23.jpg" width="340" alt="カバレッジ"><br>カバレッジマップ（局ごとのエリアを濃淡で表示）</td>
 </tr>
 <tr>
 <td align="center"><img src="images/16.jpg" width="340" alt="野良ゾンビ"><br>野良ゾンビが街中から寄ってくる</td>

@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.5.0-dev",
-      "title": "Phonetic Hound v0.5.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.5.0-dev-release.apk",
-      "sha256": "83CA79BA80FF0540FCF2C4B8E3E493EB978BAD5E44B9C5D9455F37175BC73EA6",
+      "tag": "phonetichound-v0.5.1-dev",
+      "title": "Phonetic Hound v0.5.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.5.1-dev-release.apk",
+      "sha256": "C63159D431A8F15C667D738B96236E78EAF529458469D0EA0C78BF4ED2B27727",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.5.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。見た目・バランス・操作は今後大きく変わります。\n\n- 電波伝搬シミュレータを作り直し: 各基地局のエリアに 1 台ずつ置いてあり、使うとその局の位置・カバレッジマップ・到来方向（AoA）が分かります\n- スマホは信号の強さだけ（強くなった ↑ / 弱くなった ↓ を表示）\n- アンテナは溜めないと射程が出ないように調整（溜めずに振るとリーチ 1.1m・威力半分）。パンチ 3 段目で敵がよろめく\n- 練馬のチュートリアルを新しい流れに\n- 0.4.0-dev から上書きインストールできます（旧版のシミュレータの所持数は引き継がれません）\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 83CA79BA80FF0540FCF2C4B8E3E493EB978BAD5E44B9C5D9455F37175BC73EA6"
+      "notes": "Phonetic Hound v0.5.1-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- カバレッジマップを見やすく: その局が一番強く届くエリアだけを局の色で塗り、強さを色の濃淡で表示（解析済みを全部表示すると局ごとのエリアの境目が分かります）\n- 0.5.0-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: C63159D431A8F15C667D738B96236E78EAF529458469D0EA0C78BF4ED2B27727"
     }
   ]
 }
