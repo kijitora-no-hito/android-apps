@@ -183,7 +183,7 @@
 </tr>
 <tr>
 <td align="center"><img src="images/30.jpg" width="340" alt="三角屋根の旅館"><br>神城・三角屋根の旅館と家並み</td>
-<td align="center"><img src="images/31.jpg" width="340" alt="田んぼと農道"><br>神城・田んぼと農道
+<td align="center"><img src="images/31.jpg" width="340" alt="田んぼと農道"><br>神城・田んぼと農道</td>
 </tr>
 <tr>
 <td align="center"><img src="images/19.jpg" width="340" alt="スマホの信号レベル"><br>スマホは信号の強さ（↑↓）だけ</td>
