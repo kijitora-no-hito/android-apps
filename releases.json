@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.7.0-dev",
-      "title": "Phonetic Hound v0.7.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.7.0-dev-release.apk",
-      "sha256": "05DF95BB8681374EB5D92987947C7EE28BAD8D80739F3F87EB6F5F8F3BDFA35E",
+      "tag": "phonetichound-v0.7.1-dev",
+      "title": "Phonetic Hound v0.7.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.7.1-dev-release.apk",
+      "sha256": "2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.7.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- スコアアタック: 「はじめから」でクリアするまでのタイム・撃破数・支配数を記録\n- ステージごとのランキング（上位 10 件・名前入力）。タイトルに「ランキング」、ステージ選択に自己ベスト\n- リザルト画面を作り直し、スクリーンショット付きで結果を共有（#phonetichound）\n- フリープレイ（デバッグ）の結果は記録しません。旧版のセーブを「つづきから」でクリアした場合もランキングの対象外です\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 05DF95BB8681374EB5D92987947C7EE28BAD8D80739F3F87EB6F5F8F3BDFA35E"
+      "notes": "Phonetic Hound v0.7.1-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 神城の回復スポットを正しい位置に移し、ステージを東へ少し広げました（旧版の神城のセーブははじめからになります。ランキングは残ります）\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F"
     }
   ]
 }

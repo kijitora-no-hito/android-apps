@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.7.0-dev・10.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.7.0-dev/phonetichound-0.7.0-dev-release.apk)
+### [APK をダウンロード（v0.7.1-dev・10.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.7.1-dev/phonetichound-0.7.1-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.7.0-dev（2026-09-26・開発中） |
-| ファイル | `phonetichound-0.7.0-dev-release.apk`（11,091,640 バイト） |
-| SHA-256 | `05DF95BB8681374EB5D92987947C7EE28BAD8D80739F3F87EB6F5F8F3BDFA35E` |
+| バージョン | 0.7.1-dev（2026-09-26・開発中） |
+| ファイル | `phonetichound-0.7.1-dev-release.apk`（11,269,372 バイト） |
+| SHA-256 | `2C51C823D21D6DCECB220F54E9D5DFC571835F3A25FA8702E6E095129C6DA72F` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.7.0-dev）
+## この版でできること（0.7.1-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -63,6 +63,10 @@
   （全アンテナ所持。ゲーム中の DEBUG ボタンで無敵・敵なし・野良ゾンビの量・局へワープ・即時制圧など）。
 
 これから: 難易度・バランスの調整、見た目の改善。
+
+### 0.7.0-dev からの変更
+
+- 神城の回復スポットを正しい位置に移し、ステージを東へ少し広げました（旧版の神城のセーブははじめからになります。ランキングは残ります）。
 
 ### 0.6.1-dev からの変更
 
