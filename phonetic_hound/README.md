@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.12.1-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.12.1-dev/phonetichound-0.12.1-dev-release.apk)
+### [APK をダウンロード（v0.13.0-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.0-dev/phonetichound-0.13.0-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.12.1-dev（2026-09-28・開発中） |
-| ファイル | `phonetichound-0.12.1-dev-release.apk`（11,397,102 バイト） |
-| SHA-256 | `9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E` |
+| バージョン | 0.13.0-dev（2026-09-28・開発中） |
+| ファイル | `phonetichound-0.13.0-dev-release.apk`（11,397,106 バイト） |
+| SHA-256 | `67FB03B2C2D0E53420FE72649D962EBB72D07CBCBF3EAD2BA3B50C06AF031DB3` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.12.1-dev）
+## この版でできること（0.13.0-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -73,6 +73,16 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.13.0-dev</b>（2026-09-28）</summary>
+
+- **スタミナ**: アンテナを振るとスタミナを使います（溜めずに 25〜溜め切って 50）。足りないと振れません。走っている間もスタミナを使い、使い切ると回復するまで歩きになります。スタミナにポイントを振ると続けて振れる回数が増えます。
+- **パンチ**: スタミナは使いません。パンチにポイントを振ると、攻撃力に加えてリーチ（最大 2 倍）と攻撃の範囲も広がります。
+- **指示役のオーラ**: 指示役（神城では指揮ロボット）は、スマホの電波で光をまとうようになりました。150m 以内の指示役は地図にも出て、HUD に「近くの指示役: 2（最寄り 64m）」と表示します。
+- **光柱のラベル**: 光柱の上に「Alpha 設備盤 120m」「ピン: メモ」「逆探知装置（Alpha）」のように何の光柱かを表示します。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.12.1-dev</b>（2026-09-28）</summary>
 
 - 画面によって説明文の折り返しが次の行に重なる不具合を直しました（チャレンジの入口など）。日本語を文字の途中で自然に折り返し、行の高さを測って並べるようにしました。
@@ -220,6 +230,10 @@
 ## スクリーンショット
 
 <table>
+<tr>
+<td align="center"><img src="images/44.jpg" width="340" alt="地図の指示役"><br>150m 以内の指示役が地図に出る</td>
+<td align="center"><img src="images/45.jpg" width="340" alt="光柱のラベル"><br>光柱に「Alpha 設備盤」などのラベル</td>
+</tr>
 <tr>
 <td align="center"><img src="images/40.jpg" width="340" alt="チャレンジの選択"><br>チャレンジ: 全ステージ通し / ステージ選択</td>
 <td align="center"><img src="images/41.jpg" width="340" alt="通しの開始地点"><br>通しの開始地点（ノーマルでクリア済みのステージ）</td>

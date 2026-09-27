@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.12.1-dev",
-      "title": "Phonetic Hound v0.12.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.12.1-dev-release.apk",
-      "sha256": "9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E",
+      "tag": "phonetichound-v0.13.0-dev",
+      "title": "Phonetic Hound v0.13.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.13.0-dev-release.apk",
+      "sha256": "67FB03B2C2D0E53420FE72649D962EBB72D07CBCBF3EAD2BA3B50C06AF031DB3",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.12.1-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- 画面によって説明文の折り返しが次の行に重なる不具合を直しました（チャレンジの入口など）。日本語を文字の途中で自然に折り返し、行の高さを測って並べるようにしました。\n- 端末の解像度によって文字の大きさが変わらないようにしました。タブレットなど横幅の狭い画面で表がはみ出すのも直しています。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E"
+      "notes": "Phonetic Hound v0.13.0-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- **スタミナ**: アンテナを振るとスタミナを使います（溜めずに 25〜溜め切って 50）。足りないと振れません。走っている間もスタミナを使い、使い切ると回復するまで歩きになります。スタミナにポイントを振ると続けて振れる回数が増えます。\n- **パンチ**: スタミナは使いません。パンチにポイントを振ると、攻撃力に加えてリーチ（最大 2 倍）と攻撃の範囲も広がります。\n- **指示役のオーラ**: 指示役（神城では指揮ロボット）は、スマホの電波で光をまとうようになりました。150m 以内の指示役は地図にも出て、HUD に「近くの指示役: 2（最寄り 64m）」と表示します。\n- **光柱のラベル**: 光柱の上に「Alpha 設備盤 120m」「ピン: メモ」「逆探知装置（Alpha）」のように何の光柱かを表示します。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 67FB03B2C2D0E53420FE72649D962EBB72D07CBCBF3EAD2BA3B50C06AF031DB3"
     }
   ]
 }
