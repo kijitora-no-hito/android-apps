@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.9.0-dev",
-      "title": "Phonetic Hound v0.9.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.9.0-dev-release.apk",
-      "sha256": "45106E525985BDEA7D64A1706EBB650E410628587AC542E30FB38034E903A57C",
+      "tag": "phonetichound-v0.10.0-dev",
+      "title": "Phonetic Hound v0.10.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.10.0-dev-release.apk",
+      "sha256": "1F9B03178790B2B4882911B600A61678E08F9CBA7E48349147316316410D7B37",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.9.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **記録画面**: タイトルの「ランキング」を「記録」にし、ランキング / プレイ記録（総プレイ時間・討伐数の内訳・支配数・制圧数・アンテナの使用割合など）/ ステージ別（自己ベスト・クリア回数・累計）の 3 タブに。集計はこの版から（それ以前はランキングの記録から自己ベストとクリア回数だけ引き継ぎ）。フリープレイは累計に入りません。\n- 設定に「記録のリセット」（確認 2 回。ステージの進行・アンテナは消えません）。\n- クレジットなどの版の表記が古いままだった不具合を直しました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 45106E525985BDEA7D64A1706EBB650E410628587AC542E30FB38034E903A57C"
+      "notes": "Phonetic Hound v0.10.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **レベルと成長**: 本編で倒した敵の数でレベルが上がり（最大 Lv 999）、1 レベルごとに 1 ポイント。体力・パンチ・移動速度・スタミナに振れます（1 ポイント = +1%、各 200 ポイントまで）。メニューの「成長」タブで振り、休憩地点では無料で振り直せます。\n- **チャレンジモード**: Lv 200 固定・セーブ無し・1 回倒れたら終わり。開始前にポイントを割り振ります。チャレンジ専用のランキングがあります。\n- **やり込みの記録**: 振らなかったポイントと振り直した回数をランキング・記録画面・共有に残します（「未使用ポイント最多でのクリア」「振り直し 0 回での最速クリア」）。\n- 電波伝搬シミュレータの名前を**電波逆探知装置**に変えました。\n- 0.9.0-dev から上書きインストールでき、それまでの討伐数からレベルが決まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 1F9B03178790B2B4882911B600A61678E08F9CBA7E48349147316316410D7B37"
     }
   ]
 }
