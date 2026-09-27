@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.10.0-dev",
-      "title": "Phonetic Hound v0.10.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.10.0-dev-release.apk",
-      "sha256": "1F9B03178790B2B4882911B600A61678E08F9CBA7E48349147316316410D7B37",
+      "tag": "phonetichound-v0.11.0-dev",
+      "title": "Phonetic Hound v0.11.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.11.0-dev-release.apk",
+      "sha256": "C30988DDDDA32940C0D9CE6DA37A6E5150707753CC2A0E5F2BDD605543525DF2",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.10.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **レベルと成長**: 本編で倒した敵の数でレベルが上がり（最大 Lv 999）、1 レベルごとに 1 ポイント。体力・パンチ・移動速度・スタミナに振れます（1 ポイント = +1%、各 200 ポイントまで）。メニューの「成長」タブで振り、休憩地点では無料で振り直せます。\n- **チャレンジモード**: Lv 200 固定・セーブ無し・1 回倒れたら終わり。開始前にポイントを割り振ります。チャレンジ専用のランキングがあります。\n- **やり込みの記録**: 振らなかったポイントと振り直した回数をランキング・記録画面・共有に残します（「未使用ポイント最多でのクリア」「振り直し 0 回での最速クリア」）。\n- 電波伝搬シミュレータの名前を**電波逆探知装置**に変えました。\n- 0.9.0-dev から上書きインストールでき、それまでの討伐数からレベルが決まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 1F9B03178790B2B4882911B600A61678E08F9CBA7E48349147316316410D7B37"
+      "notes": "Phonetic Hound v0.11.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **ゲームパッド対応（DualShock 4 など）**: 左スティックで移動・右スティックでカメラ、□ パンチ・△ アンテナ・○ 回避・× アクション・R1/R2 電波放射・L1 指揮・L2 ロックオン・SHARE 地図・OPTIONS メニュー。メニュー・地図・ステージ選択・名前入力などすべての画面をパッドだけで操作できます（× 決定・○ 戻る・L1/R1 タブ）。\n- パッドを使うと画面のボタンが隠れ、操作表示が □△○×（Xbox 系は A/B/X/Y）になります。画面に触るとタッチ用の表示に戻ります。\n- 設定に「操作・パッド」ページ: カメラの上下反転、スティックの遊び（デッドゾーン）、ボタンの配置・表記、割り当て表、「パッドの入力を確認」画面。\n- ロックオン（L2）を追加。\n- 実機の DualShock 4 では未確認です。ボタンが合わないときは設定の「パッドの入力を確認」で確かめ、「ボタンの配置」を切り替えてください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: C30988DDDDA32940C0D9CE6DA37A6E5150707753CC2A0E5F2BDD605543525DF2"
     }
   ]
 }
