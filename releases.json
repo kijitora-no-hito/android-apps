@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.11.0-dev",
-      "title": "Phonetic Hound v0.11.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.11.0-dev-release.apk",
-      "sha256": "C30988DDDDA32940C0D9CE6DA37A6E5150707753CC2A0E5F2BDD605543525DF2",
+      "tag": "phonetichound-v0.12.0-dev",
+      "title": "Phonetic Hound v0.12.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.12.0-dev-release.apk",
+      "sha256": "4846E150D9022D17896CC37A80F4132CE2183DC3D491DD9F384E7FAF3184CD1C",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.11.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **ゲームパッド対応（DualShock 4 など）**: 左スティックで移動・右スティックでカメラ、□ パンチ・△ アンテナ・○ 回避・× アクション・R1/R2 電波放射・L1 指揮・L2 ロックオン・SHARE 地図・OPTIONS メニュー。メニュー・地図・ステージ選択・名前入力などすべての画面をパッドだけで操作できます（× 決定・○ 戻る・L1/R1 タブ）。\n- パッドを使うと画面のボタンが隠れ、操作表示が □△○×（Xbox 系は A/B/X/Y）になります。画面に触るとタッチ用の表示に戻ります。\n- 設定に「操作・パッド」ページ: カメラの上下反転、スティックの遊び（デッドゾーン）、ボタンの配置・表記、割り当て表、「パッドの入力を確認」画面。\n- ロックオン（L2）を追加。\n- 実機の DualShock 4 では未確認です。ボタンが合わないときは設定の「パッドの入力を確認」で確かめ、「ボタンの配置」を切り替えてください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: C30988DDDDA32940C0D9CE6DA37A6E5150707753CC2A0E5F2BDD605543525DF2"
+      "notes": "Phonetic Hound v0.12.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- 通常のモードを**ノーマルモード**と呼ぶようにしました（記録画面・リザルト・共有文も）。\n- **チャレンジ（Lv 200）に 2 通りの遊び方**:\n  - **全ステージ通し**: 開始ステージから新宿まで続けて遊びます。開始地点は練馬か、ノーマルモードでクリア済みのステージ。アンテナと割り振りは次のステージへ持ち越し、HP は全回復。1 回倒れたら終わり。合計タイムを開始ステージごとのランキングに記録します。\n  - **ステージ選択**: 1 ステージだけ遊びます。選べるのはノーマルモードでクリア済みのステージだけです。\n- チャレンジでクリアしても、ノーマルモードのステージは解放されません。\n- 記録画面のランキングを「ノーマル / チャレンジ（ステージ）/ チャレンジ（通し）」で切り替えられるようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 4846E150D9022D17896CC37A80F4132CE2183DC3D491DD9F384E7FAF3184CD1C"
     }
   ]
 }
