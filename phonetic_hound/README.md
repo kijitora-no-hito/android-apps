@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.12.0-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.12.0-dev/phonetichound-0.12.0-dev-release.apk)
+### [APK をダウンロード（v0.12.1-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.12.1-dev/phonetichound-0.12.1-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.12.0-dev（2026-09-27・開発中） |
-| ファイル | `phonetichound-0.12.0-dev-release.apk`（11,380,722 バイト） |
-| SHA-256 | `4846E150D9022D17896CC37A80F4132CE2183DC3D491DD9F384E7FAF3184CD1C` |
+| バージョン | 0.12.1-dev（2026-09-28・開発中） |
+| ファイル | `phonetichound-0.12.1-dev-release.apk`（11,397,102 バイト） |
+| SHA-256 | `9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.12.0-dev）
+## この版でできること（0.12.1-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -73,6 +73,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.12.1-dev</b>（2026-09-28）</summary>
+
+- 画面によって説明文の折り返しが次の行に重なる不具合を直しました（チャレンジの入口など）。日本語を文字の途中で自然に折り返し、行の高さを測って並べるようにしました。
+- 端末の解像度によって文字の大きさが変わらないようにしました。タブレットなど横幅の狭い画面で表がはみ出すのも直しています。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.12.0-dev</b>（2026-09-27）</summary>
 
 - 通常のモードを**ノーマルモード**と呼ぶようにしました（記録画面・リザルト・共有文も）。

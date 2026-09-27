@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.12.0-dev",
-      "title": "Phonetic Hound v0.12.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.12.0-dev-release.apk",
-      "sha256": "4846E150D9022D17896CC37A80F4132CE2183DC3D491DD9F384E7FAF3184CD1C",
+      "tag": "phonetichound-v0.12.1-dev",
+      "title": "Phonetic Hound v0.12.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.12.1-dev-release.apk",
+      "sha256": "9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.12.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- 通常のモードを**ノーマルモード**と呼ぶようにしました（記録画面・リザルト・共有文も）。\n- **チャレンジ（Lv 200）に 2 通りの遊び方**:\n  - **全ステージ通し**: 開始ステージから新宿まで続けて遊びます。開始地点は練馬か、ノーマルモードでクリア済みのステージ。アンテナと割り振りは次のステージへ持ち越し、HP は全回復。1 回倒れたら終わり。合計タイムを開始ステージごとのランキングに記録します。\n  - **ステージ選択**: 1 ステージだけ遊びます。選べるのはノーマルモードでクリア済みのステージだけです。\n- チャレンジでクリアしても、ノーマルモードのステージは解放されません。\n- 記録画面のランキングを「ノーマル / チャレンジ（ステージ）/ チャレンジ（通し）」で切り替えられるようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 4846E150D9022D17896CC37A80F4132CE2183DC3D491DD9F384E7FAF3184CD1C"
+      "notes": "Phonetic Hound v0.12.1-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- 画面によって説明文の折り返しが次の行に重なる不具合を直しました（チャレンジの入口など）。日本語を文字の途中で自然に折り返し、行の高さを測って並べるようにしました。\n- 端末の解像度によって文字の大きさが変わらないようにしました。タブレットなど横幅の狭い画面で表がはみ出すのも直しています。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 9CBE6E85CB6CD58775EBD94C3AF319A6B96EA30FE6EBAD6B695CD913A5FB476E"
     }
   ]
 }
