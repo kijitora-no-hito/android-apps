@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.8.0-dev・10.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.8.0-dev/phonetichound-0.8.0-dev-release.apk)
+### [APK をダウンロード（v0.9.0-dev・10.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.9.0-dev/phonetichound-0.9.0-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.8.0-dev（2026-09-26・開発中） |
-| ファイル | `phonetichound-0.8.0-dev-release.apk`（11,298,472 バイト） |
-| SHA-256 | `7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD` |
+| バージョン | 0.9.0-dev（2026-09-27・開発中） |
+| ファイル | `phonetichound-0.9.0-dev-release.apk`（11,314,856 バイト） |
+| SHA-256 | `45106E525985BDEA7D64A1706EBB650E410628587AC542E30FB38034E903A57C` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.8.0-dev）
+## この版でできること（0.9.0-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -69,6 +69,15 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.9.0-dev</b>（2026-09-27）</summary>
+
+- **記録画面**: タイトルの「ランキング」を「記録」にし、ランキング / プレイ記録（総プレイ時間・討伐数の内訳・支配数・制圧数・アンテナの使用割合など）/ ステージ別（自己ベスト・クリア回数・累計）の 3 タブに。集計はこの版から（それ以前はランキングの記録から自己ベストとクリア回数だけ引き継ぎ）。フリープレイは累計に入りません。
+- 設定に「記録のリセット」（確認 2 回。ステージの進行・アンテナは消えません）。
+- クレジットなどの版の表記が古いままだった不具合を直しました。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.8.0-dev</b>（2026-09-26）</summary>
 
 - **道路を 3D の路面に**（全ステージ）: 国道・県道は白線付き、生活道路はアスファルト、農道・あぜ道は砂利の道。
@@ -165,6 +174,10 @@
 ## スクリーンショット
 
 <table>
+<tr>
+<td align="center"><img src="images/32.jpg" width="340" alt="プレイ記録"><br>記録画面（プレイ記録）</td>
+<td align="center"><img src="images/33.jpg" width="340" alt="ステージ別の記録"><br>記録画面（ステージ別）</td>
+</tr>
 <tr>
 <td align="center"><img src="images/01.jpg" width="340" alt="ステージ選択"><br>ステージ選択</td>
 <td align="center"><img src="images/02.jpg" width="340" alt="神城の田んぼと森"><br>神城（白馬村）の田んぼと森</td>

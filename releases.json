@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.8.0-dev",
-      "title": "Phonetic Hound v0.8.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.8.0-dev-release.apk",
-      "sha256": "7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD",
+      "tag": "phonetichound-v0.9.0-dev",
+      "title": "Phonetic Hound v0.9.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.9.0-dev-release.apk",
+      "sha256": "45106E525985BDEA7D64A1706EBB650E410628587AC542E30FB38034E903A57C",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.8.0-dev（2026-09-26・**開発中**）\n\n開発中の版です。\n\n- 道路を 3D の路面に（全ステージ）: 国道・県道は白線付き、生活道路はアスファルト、農道・あぜ道は砂利の道\n- 神城の街並み: 田んぼの区画、三角屋根の家並み、回復スポットの周りの建物（国土地理院の空中写真から起こした 41 棟）、白い三角屋根の旅館と隣のゲームセンター（回復スポット）\n- 0.7.1-dev から上書きインストールでき、セーブは引き継がれます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 7F7ACB7B1DE66B5F01ECBCEB5EDF86715463FF35CAF466EF0FFBC6B44ABE12DD"
+      "notes": "Phonetic Hound v0.9.0-dev（2026-09-27・**開発中**）\n\n開発中の版です。\n\n- **記録画面**: タイトルの「ランキング」を「記録」にし、ランキング / プレイ記録（総プレイ時間・討伐数の内訳・支配数・制圧数・アンテナの使用割合など）/ ステージ別（自己ベスト・クリア回数・累計）の 3 タブに。集計はこの版から（それ以前はランキングの記録から自己ベストとクリア回数だけ引き継ぎ）。フリープレイは累計に入りません。\n- 設定に「記録のリセット」（確認 2 回。ステージの進行・アンテナは消えません）。\n- クレジットなどの版の表記が古いままだった不具合を直しました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 45106E525985BDEA7D64A1706EBB650E410628587AC542E30FB38034E903A57C"
     }
   ]
 }
