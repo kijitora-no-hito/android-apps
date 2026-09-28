@@ -59,12 +59,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.13.1-dev",
-      "title": "Phonetic Hound v0.13.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.13.1-dev-release.apk",
-      "sha256": "6ADCC2FC38F90F21F0A5522440100B4F14A48AD09C05B48042BA755558B628DA",
+      "tag": "phonetichound-v0.13.2-dev",
+      "title": "Phonetic Hound v0.13.2-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.13.2-dev-release.apk",
+      "sha256": "2A758BF98A9E9E4A727A692F53C123D3D5FFC24460E5EFF03F2AA4823350F3C2",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.13.1-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- **ダッシュボタン**: 走るのはダッシュボタンを押している間だけになりました（スティックを大きく倒しても走らず、歩きの速さが変わるだけ）。ボタンの周りの弧がスタミナの残りです。設定で「押している間 / 押すたびに切り替え」を選べます。\n- ゲームパッドは **R2 を押している間ダッシュ**。電波放射は R1 だけになりました。\n- スティック・ダッシュ・攻撃を別々の指で同時に押しても入力を取りこぼさないようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 6ADCC2FC38F90F21F0A5522440100B4F14A48AD09C05B48042BA755558B628DA"
+      "notes": "Phonetic Hound v0.13.2-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- **敵の色分け**: 各局のゾンビ（群れ・指示役）は、つながっている局の色の服と腕章。野良は色の無い灰色がかった茶色（腕章なし）。中立は薄い色＋頭上に「−」、指揮中の味方は頭上に水色のひし形。神城のロボットは目とランプが局の色。敵の HP バーの左に局の頭文字（野良は「野」）。地図に凡例も付けました。\n- **タイトルの構成**: タイトルに［ノーマルモード］［チャレンジ］を並べ、［ノーマルモード］の次の画面で「はじめから」「つづきから」を選ぶようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 2A758BF98A9E9E4A727A692F53C123D3D5FFC24460E5EFF03F2AA4823350F3C2"
     }
   ]
 }
