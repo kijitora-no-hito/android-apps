@@ -24,6 +24,17 @@
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
+## インストール方法
+
+1. このページをスマホのブラウザで開き、上の「APK をダウンロード」を押します。
+2. ダウンロードした APK を開きます。初回は「提供元不明のアプリ」のインストールを許可するよう求められるので、使っているブラウザ（またはファイルアプリ）に許可してください。
+3. Google Play プロテクトが警告を出すことがあります。ストアを通さない APK では一般的に出る表示です。心配なときは上の SHA-256 と一致するか確かめてください。
+
+### 更新について
+
+- 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
+- このアプリは GitHub でのみ配布しています。
+
 ## どんなゲーム？
 
 街の携帯基地局から出る電波が、ゾンビを操っています。スマホの**信号の強さ**と、**電波逆探知装置**でつかむ電波の**到来方向**を頼りに、
@@ -70,6 +81,27 @@
 - タッチ操作のほか、**ゲームパッド（DualShock 4 など）**でも遊べます。
 
 これから: 難易度・バランスの調整、見た目の改善。
+
+## 注意
+
+- 開発中の版です。不具合があれば [Issues](https://github.com/kijitora-no-hito/android-apps/issues) へお知らせください。
+- 登場する携帯基地局・事業者は架空のもので、実在の事業者・基地局とは関係ありません。
+- ゾンビとの戦闘の表現があります（流血の表現はありません）。
+
+## 出典
+
+- 建物・道路などの地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
+- 地形: [国土地理院（標高タイル）](https://maps.gsi.go.jp/development/ichiran.html)
+- NAGANO の一部の建物の位置・形: [国土地理院（シームレス空中写真）](https://maps.gsi.go.jp/development/ichiran.html)をもとに作成
+- BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
+  [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
+  アプリのクレジット画面からも書き出せます。
+- フォント: Noto Sans JP（SIL Open Font License 1.1）
+- ゲームエンジン: libGDX（Apache License 2.0）
+
+## プライバシーポリシー
+
+[Phonetic Hound プライバシーポリシー](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/privacy-policy.html)
 
 ## 更新履歴
 
@@ -270,38 +302,6 @@
 - 最初の開発版。ステージ 1「TOKYO AREA I」を最初から最後まで遊べる版。
 
 </details>
-
-## 注意
-
-- 開発中の版です。不具合があれば [Issues](https://github.com/kijitora-no-hito/android-apps/issues) へお知らせください。
-- 登場する携帯基地局・事業者は架空のもので、実在の事業者・基地局とは関係ありません。
-- ゾンビとの戦闘の表現があります（流血の表現はありません）。
-
-## インストール方法
-
-1. このページをスマホのブラウザで開き、上の「APK をダウンロード」を押します。
-2. ダウンロードした APK を開きます。初回は「提供元不明のアプリ」のインストールを許可するよう求められるので、使っているブラウザ（またはファイルアプリ）に許可してください。
-3. Google Play プロテクトが警告を出すことがあります。ストアを通さない APK では一般的に出る表示です。心配なときは上の SHA-256 と一致するか確かめてください。
-
-### 更新について
-
-- 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
-- このアプリは GitHub でのみ配布しています。
-
-## 出典
-
-- 建物・道路などの地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
-- 地形: [国土地理院（標高タイル）](https://maps.gsi.go.jp/development/ichiran.html)
-- NAGANO の一部の建物の位置・形: [国土地理院（シームレス空中写真）](https://maps.gsi.go.jp/development/ichiran.html)をもとに作成
-- BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
-  [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
-  アプリのクレジット画面からも書き出せます。
-- フォント: Noto Sans JP（SIL Open Font License 1.1）
-- ゲームエンジン: libGDX（Apache License 2.0）
-
-## プライバシーポリシー
-
-[Phonetic Hound プライバシーポリシー](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/privacy-policy.html)
 
 ---
 
