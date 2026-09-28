@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.13.2-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.2-dev/phonetichound-0.13.2-dev-release.apk)
+### [APK をダウンロード（v0.13.3-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.3-dev/phonetichound-0.13.3-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.13.2-dev（2026-09-28・開発中） |
-| ファイル | `phonetichound-0.13.2-dev-release.apk`（11,417,494 バイト） |
-| SHA-256 | `2A758BF98A9E9E4A727A692F53C123D3D5FFC24460E5EFF03F2AA4823350F3C2` |
+| バージョン | 0.13.3-dev（2026-09-28・開発中） |
+| ファイル | `phonetichound-0.13.3-dev-release.apk`（11,417,494 バイト） |
+| SHA-256 | `553E9BDF1276807A97B4382B0776F3AD954CE42C6D7B8BF48799E2A759CC8CD0` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.13.2-dev）
+## この版でできること（0.13.3-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -73,6 +73,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.13.3-dev</b>（2026-09-28）</summary>
+
+- タイトルのボタン名を**チャレンジモード**にしました。
+- ノーマルモード・チャレンジモードの画面をゲームらしく作り直しました（大きなカードに名前と要点だけ、ルールは「Lv 200」「1 LIFE」「NO SAVE」の札）。細かい説明は右上の **？** ボタンで読めます（パッドでは △）。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.13.2-dev</b>（2026-09-28）</summary>
 
 - **敵の色分け**: 各局のゾンビ（群れ・指示役）は、つながっている局の色の服と腕章。野良は色の無い灰色がかった茶色（腕章なし）。中立は薄い色＋頭上に「−」、指揮中の味方は頭上に水色のひし形。神城のロボットは目とランプが局の色。敵の HP バーの左に局の頭文字（野良は「野」）。地図に凡例も付けました。
@@ -247,6 +255,10 @@
 ## スクリーンショット
 
 <table>
+﻿<tr>
+<td align="center"><img src="images/47.jpg" width="340" alt="ノーマルモード"><br>ノーマルモードの画面</td>
+<td align="center"><img src="images/46.jpg" width="340" alt="？の説明"><br>？ボタンで説明を表示</td>
+</tr>
 <tr>
 <td align="center"><img src="images/44.jpg" width="340" alt="地図の指示役"><br>150m 以内の指示役が地図に出る</td>
 <td align="center"><img src="images/45.jpg" width="340" alt="光柱のラベル"><br>光柱に「Alpha 設備盤」などのラベル</td>
@@ -265,7 +277,7 @@
 </tr>
 <tr>
 <td align="center"><img src="images/34.jpg" width="340" alt="成長"><br>レベルアップしてポイントを割り振る</td>
-<td align="center"><img src="images/35.jpg" width="340" alt="チャレンジの割り振り"><br>チャレンジ（Lv 200）の割り振り</td>
+<td align="center"><img src="images/35.jpg" width="340" alt="チャレンジの割り振り"><br>チャレンジモードの割り振り</td>
 </tr>
 <tr>
 <td align="center"><img src="images/36.jpg" width="340" alt="GAME OVER"><br>チャレンジは 1 回倒れたら GAME OVER</td>
