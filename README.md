@@ -48,6 +48,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td align="center"><img src="radio_survey/images/qr.png" width="140" alt="電測記録のページの QR コード"></td>
 </tr>
 <tr>
+<td align="center"><a href="gps_camera/"><img src="gps_camera/images/icon.png" width="80" alt="GPSカメラ"></a></td>
+<td><b><a href="gps_camera/">GPSカメラ</a></b>（v1.0）<br>カメラ映像に速度・方位・累計距離・ミニマップを重ねて表示。車・自転車・徒歩のお供に。</td>
+<td align="center"><img src="gps_camera/images/qr.png" width="140" alt="GPSカメラのページの QR コード"></td>
+</tr>
+<tr>
 <td align="center"><a href="phonetic_hound/"><img src="phonetic_hound/images/icon.png" width="80" alt="Phonetic Hound"></a></td>
 <td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（<b>開発中</b> v0.13.5-dev）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
 <td align="center"><img src="phonetic_hound/images/qr.png" width="140" alt="Phonetic Hound のページの QR コード"></td>
@@ -69,7 +74,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録と Phonetic Hound はここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound はここ GitHub でのみ配布しています。）
 
 ## 利用条件
 
