@@ -67,12 +67,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.14.0-dev",
-      "title": "Phonetic Hound v0.14.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.14.0-dev-release.apk",
-      "sha256": "2EE70B5F39D11C5B5DDA2FAADBF46E7ACA2110D23AC30722362CF6DB0CA66870",
+      "tag": "phonetichound-v0.15.0-dev",
+      "title": "Phonetic Hound v0.15.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.15.0-dev-release.apk",
+      "sha256": "AC9CBAF623B467478AE36F7C0A140DEC8831E6A233B83F2681F202F1CABCDBA9",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.14.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **テンポを上げました**: プレイヤーの移動速度（歩き・走り）が 2 倍、パンチのリーチが 2 倍、最大スタミナが 2 倍になりました。\n- **疾走**: ［ダッシュ］は［疾走］に変わりました。押すと ON になり、手を離していても前へ走り続けます（スティックで向きを変えられます）。疾走中はスタミナを使いませんが攻撃はできません。もう一度押すと止まります。ゲームパッドは R2 で ON / OFF。設定の「ダッシュの方式」は無くなりました。\n- **ロックオンのボタン**: 画面に［ロックオン］（押すたびに次の敵へ）と、ロック中だけ出る［解除］を追加しました。ゲームパッドの解除は L3（左スティック押し込み）。\n- **回収範囲**: 成長に 5 つ目の項目「回収範囲」を追加しました。200 ポイントまで振れて、アイテムを拾う距離が最大 6 倍に広がります。\n- **ドローンの弾**: 撃った瞬間に当たる弾をやめ、大きな光の玉がゆっくり飛んでくるようにしました（速さ 1/5・大きさ 5 倍）。見てから避けられます。\n- **群れの BGM**: 敵が 6 体以上集まって襲ってくると、専用の激しい曲に変わります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 2EE70B5F39D11C5B5DDA2FAADBF46E7ACA2110D23AC30722362CF6DB0CA66870"
+      "notes": "Phonetic Hound v0.15.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **アンテナを大きく強化**: 振ると形どおりの衝撃波が飛び、範囲内の敵すべてに当たります（建物の向こうには届きません）。アンテナごとに形とリーチがはっきり違います: バイコニカル＝全周 10m、ダイポール＝前後の 8 の字 14m、ホーン＝前方 ±15° 20m、八木＝前方 ±20° 24m、パラボラ＝前方 ±6° の細い突き 30m。電波放射の形もアンテナごとに変えました。溜め中は足元にその形が表示されます。\n- **アンテナ入手の演出**: 基地局を制圧してアンテナを手に入れると、ゲームを止めて「NEW ANTENNA」を大きく表示します（アンテナの姿・上から見た範囲の図・特徴・ファンファーレ）。「すぐ装備する」「あとで」を選べます。まだ装備していないアンテナには「NEW」の札が付きます。\n- **ニューゲーム**: ノーマルモードに「ニューゲーム（Lv 1 から）」を追加しました。Lv・割り振り・アンテナ・ステージの進行を消して最初から始めます（記録・ランキング・設定は残ります）。普段の「はじめから」は今までどおり Lv を持ち越します。\n- **後半ほど手ごわく**: ステージが進むほどゾンビの体力が上がります（TOKYO AREA I ×1.0 → TOKYO AREA II ×1.3 → KYUSHU ×1.6 → TOKYO AREA III ×2.0 → NAGANO ×2.4 → TOKYO AREA IV ×3.0）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: AC9CBAF623B467478AE36F7C0A140DEC8831E6A233B83F2681F202F1CABCDBA9"
     }
   ]
 }
