@@ -40,7 +40,7 @@ music (a Derivative Database), to be published as required by the ODbL share-ali
 | CLEAR | Haste To The Wedding | jig, D major | Jeremy | <https://thesession.org/tunes/582#setting582> |
 | DOWN | Chumha Eoghain Rua Ui Neill | reel, G minor | Respect | <https://thesession.org/tunes/907#setting7199> |
 
-COMBAT (FINAL) は最終ステージ（新宿）で巨大局のシールドが消えた後の戦闘曲です（`credits.json` の `scene: "FINAL"`）。
+COMBAT (FINAL) は最終ステージ（TOKYO AREA IV）で巨大局のシールドが消えた後の戦闘曲です（`credits.json` の `scene: "FINAL"`）。
 COMBAT (FINAL) is the battle tune for the final stage (Shinjuku) after the macro station's shield is down.
 
 ## ライセンス / License

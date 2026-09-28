@@ -302,7 +302,7 @@ SP を使ってアンテナから電波を出します。**指示役のスマホ
 | --- | --- | --- | --- |
 | 1 | TOKYO AREA I | 住宅地。チュートリアル | ★ |
 | 2 | TOKYO AREA II | 団地と坂 | ★★ |
-| 3 | KYUSHU | 川と橋、中洲 | ★★ |
+| 3 | KYUSHU | 川と橋 | ★★ |
 | 4 | TOKYO AREA III | 高層ビルの谷。反射波が多い | ★★★ |
 | 5 | NAGANO | 山あいの田んぼと森。敵はすべてロボット。回復スポットあり | ★★★ |
 | 6 | TOKYO AREA IV | 超高層街（最終ステージ）。終盤に大変なことが… | ★★★★ |
@@ -318,7 +318,7 @@ SP を使ってアンテナから電波を出します。**指示役のスマホ
 </tr>
 <tr>
 <td align="center"><img src="manual/53_stage_nagano_robots.jpg" width="420" alt="NAGANO"><br>NAGANO（ロボット）</td>
-<td align="center"><img src="manual/55_stage_tokyo_area_4_red_tocho.jpg" width="420" alt="TOKYO AREA IV"><br>TOKYO AREA IV</td>
+<td align="center"><img src="manual/35_beam_labels.jpg" width="420" alt="TOKYO AREA IV"><br>TOKYO AREA IV</td>
 </tr>
 </table>
 
