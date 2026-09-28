@@ -255,7 +255,7 @@
 ## スクリーンショット
 
 <table>
-﻿<tr>
+<tr>
 <td align="center"><img src="images/47.jpg" width="340" alt="ノーマルモード"><br>ノーマルモードの画面</td>
 <td align="center"><img src="images/46.jpg" width="340" alt="？の説明"><br>？ボタンで説明を表示</td>
 </tr>
