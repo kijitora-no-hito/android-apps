@@ -59,11 +59,11 @@
     },
     {
       "folder": "gps_camera",
-      "tag": "gpscamera-v1.0",
-      "title": "GPSカメラ v1.0",
-      "apk": "d:/work/android/gps_camera/dist/gpscamera-1.0-release.apk",
-      "sha256": "E98F4862104B6B04A41608F62C7FAA84E322C4CCCB8C494417A48B39A531238C",
-      "notes": "GPSカメラ v1.0（2026-09-28・初公開）\n\n- 背面カメラの映像に、速度（直近 1km の平均つき）・スピードメーター・方位テープ・累計走行距離・ミニマップ（Google マップ、走った道を赤線で表示）を重ねて表示します。\n- 前後のカメラを同時に使える端末では、前面カメラの小窓も表示します。\n- 表示だけのアプリです（撮影・録画はしません）。運転中は操作したり画面を注視したりしないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: E98F4862104B6B04A41608F62C7FAA84E322C4CCCB8C494417A48B39A531238C"
+      "tag": "gpscamera-v1.1",
+      "title": "GPSカメラ v1.1",
+      "apk": "d:/work/android/gps_camera/dist/gpscamera-1.1-release.apk",
+      "sha256": "E5D502312E1209F2BBE0B655CE3122B379CD62B42A4CAC1D1A46EEDF422424D5",
+      "notes": "GPSカメラ v1.1（2026-09-29）\n\n- カメラのズームを調整できるようにしました（下中央の −/＋、カメラ映像の上でピンチ。倍率をタップで 1.0x）。\n- ミニマップのズームレベルを調整できるようにしました（地図左上の −/＋、10〜20）。\n- どちらの設定も次回起動時に引き継がれます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: E5D502312E1209F2BBE0B655CE3122B379CD62B42A4CAC1D1A46EEDF422424D5"
     },
     {
       "folder": "phonetic_hound",
