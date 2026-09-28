@@ -50,15 +50,6 @@
       "notes": "電測記録 v1.1.1（2026-09-25）\n\n- マップ右上のボタン類を、右上の開閉ボタンで畳めるようにしました（開閉の状態は次回も保たれます。位置を選ぶ地図も同じ）。\n- ボタン名を「カバレッジマップ（実測）」「カバレッジマップ（推定）」に変えました。\n- 建物データのサーバが混み合っているときや、短時間に取得が続いたときに、分かりやすい案内を出すようにしました。\n- 取得済みの範囲の建物データを取り直そうとしたときに、確認を出すようにしました。\n\n前の版（1.1.0）: カバレッジマップ（推定）を追加（送信局の設定と地形・建物データから、エリアの推定電界強度と各測定点の推定値を計算）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 61ECB0CFC467D84C280077C73FE330E053C56146497797C3A17C970AD56B9C51"
     },
     {
-      "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.13.5-dev",
-      "title": "Phonetic Hound v0.13.5-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.13.5-dev-release.apk",
-      "sha256": "9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3",
-      "prerelease": true,
-      "notes": "Phonetic Hound v0.13.5-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- ステージの名前を変えました: TOKYO AREA I・TOKYO AREA II・KYUSHU・TOKYO AREA III・NAGANO・TOKYO AREA IV（セーブと記録はそのまま引き継がれます）。\n- 遊び方の[マニュアル](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html)をスクリーンショット付きで作りました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3"
-    },
-    {
       "folder": "link_conne2",
       "tag": "linkconne2-v1.3.2",
       "title": "りんくこねこね v1.3.2",
@@ -73,6 +64,15 @@
       "apk": "d:/work/android/gps_camera/dist/gpscamera-1.0-release.apk",
       "sha256": "E98F4862104B6B04A41608F62C7FAA84E322C4CCCB8C494417A48B39A531238C",
       "notes": "GPSカメラ v1.0（2026-09-28・初公開）\n\n- 背面カメラの映像に、速度（直近 1km の平均つき）・スピードメーター・方位テープ・累計走行距離・ミニマップ（Google マップ、走った道を赤線で表示）を重ねて表示します。\n- 前後のカメラを同時に使える端末では、前面カメラの小窓も表示します。\n- 表示だけのアプリです（撮影・録画はしません）。運転中は操作したり画面を注視したりしないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: E98F4862104B6B04A41608F62C7FAA84E322C4CCCB8C494417A48B39A531238C"
+    },
+    {
+      "folder": "phonetic_hound",
+      "tag": "phonetichound-v0.14.0-dev",
+      "title": "Phonetic Hound v0.14.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.14.0-dev-release.apk",
+      "sha256": "2EE70B5F39D11C5B5DDA2FAADBF46E7ACA2110D23AC30722362CF6DB0CA66870",
+      "prerelease": true,
+      "notes": "Phonetic Hound v0.14.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **テンポを上げました**: プレイヤーの移動速度（歩き・走り）が 2 倍、パンチのリーチが 2 倍、最大スタミナが 2 倍になりました。\n- **疾走**: ［ダッシュ］は［疾走］に変わりました。押すと ON になり、手を離していても前へ走り続けます（スティックで向きを変えられます）。疾走中はスタミナを使いませんが攻撃はできません。もう一度押すと止まります。ゲームパッドは R2 で ON / OFF。設定の「ダッシュの方式」は無くなりました。\n- **ロックオンのボタン**: 画面に［ロックオン］（押すたびに次の敵へ）と、ロック中だけ出る［解除］を追加しました。ゲームパッドの解除は L3（左スティック押し込み）。\n- **回収範囲**: 成長に 5 つ目の項目「回収範囲」を追加しました。200 ポイントまで振れて、アイテムを拾う距離が最大 6 倍に広がります。\n- **ドローンの弾**: 撃った瞬間に当たる弾をやめ、大きな光の玉がゆっくり飛んでくるようにしました（速さ 1/5・大きさ 5 倍）。見てから避けられます。\n- **群れの BGM**: 敵が 6 体以上集まって襲ってくると、専用の激しい曲に変わります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 2EE70B5F39D11C5B5DDA2FAADBF46E7ACA2110D23AC30722362CF6DB0CA66870"
     }
   ]
 }
