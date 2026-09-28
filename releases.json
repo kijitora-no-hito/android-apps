@@ -64,7 +64,7 @@
       "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.13.5-dev-release.apk",
       "sha256": "9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.13.5-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- ステージの名前を変えました: TOKYO AREA I・TOKYO AREA II・KYUSHU・TOKYO AREA III・NAGANO・TOKYO AREA IV（セーブと記録はそのまま引き継がれます）。\n- 遊び方の[マニュアル](manual.html)をスクリーンショット付きで作りました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3"
+      "notes": "Phonetic Hound v0.13.5-dev（2026-09-28・**開発中**）\n\n開発中の版です。\n\n- ステージの名前を変えました: TOKYO AREA I・TOKYO AREA II・KYUSHU・TOKYO AREA III・NAGANO・TOKYO AREA IV（セーブと記録はそのまま引き継がれます）。\n- 遊び方の[マニュアル](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html)をスクリーンショット付きで作りました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3"
     }
   ]
 }

@@ -33,7 +33,7 @@
 </tr>
 </table>
 
-### [📖 遊び方マニュアル（画面の見方・操作・攻略のヒント）](manual.html)
+### [📖 遊び方マニュアル（画面の見方・操作・攻略のヒント）](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html)
 
 ## ダウンロード
 
@@ -101,7 +101,7 @@
 <summary><b>0.13.5-dev</b>（2026-09-28）</summary>
 
 - ステージの名前を変えました: TOKYO AREA I・TOKYO AREA II・KYUSHU・TOKYO AREA III・NAGANO・TOKYO AREA IV（セーブと記録はそのまま引き継がれます）。
-- 遊び方の[マニュアル](manual.html)をスクリーンショット付きで作りました。
+- 遊び方の[マニュアル](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html)をスクリーンショット付きで作りました。
 
 </details>
 

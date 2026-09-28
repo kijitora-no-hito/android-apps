@@ -2,7 +2,7 @@
 
 # Phonetic Hound 遊び方マニュアル
 
-[← Phonetic Hound のページに戻る](./)
+[← Phonetic Hound のページに戻る](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/)
 
 > 開発中の版（v0.13.5-dev）の画面です。見た目や数値は今後変わることがあります。
 
@@ -345,4 +345,4 @@ Bluetooth で接続したゲームパッド（DualShock 4 など）でも遊べ�
 
 ---
 
-[← Phonetic Hound のページに戻る](./)
+[← Phonetic Hound のページに戻る](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/)
