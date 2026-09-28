@@ -1,0 +1,348 @@
+<p><img src="images/icon.png" width="72" alt="Phonetic Hound のアイコン"></p>
+
+# Phonetic Hound 遊び方マニュアル
+
+[← Phonetic Hound のページに戻る](./)
+
+> 開発中の版（v0.13.5-dev）の画面です。見た目や数値は今後変わることがあります。
+
+## もくじ
+
+1. [ゲームの目的](#ゲームの目的)
+2. [画面の見方](#画面の見方)
+3. [操作](#操作)
+4. [基地局を探す](#基地局を探す)
+5. [ゾンビを指揮する](#ゾンビを指揮する)
+6. [基地局を停波する](#基地局を停波する)
+7. [アンテナと成長](#アンテナと成長)
+8. [地図](#地図)
+9. [リザルトと記録](#リザルトと記録)
+10. [チャレンジモード](#チャレンジモード)
+11. [ステージ](#ステージ)
+12. [設定・ゲームパッド](#設定ゲームパッド)
+13. [ヒント](#ヒント)
+
+## ゲームの目的
+
+街の携帯基地局から出る電波が、ゾンビを操っています。基地局には Alpha・Bravo・Charlie… と名前があり、
+ゾンビは自分の基地局の電波が届く範囲でしか動けません。
+
+1. スマホを持った**指示役**を倒してスマホを手に入れる
+2. スマホの信号の強さや**電波逆探知装置**を頼りに、隠れた**小基地局**を探す
+3. 小基地局の足元の**設備盤**で**停波**して制圧する（4 局）
+4. 小基地局をすべて制圧すると**巨大局**のシールドが消える。巨大局を停波すればステージクリア
+
+<table>
+<tr>
+<td align="center"><img src="manual/01_title.jpg" width="420" alt="タイトル"><br>タイトル</td>
+<td align="center"><img src="manual/02_normal_menu.jpg" width="420" alt="ノーマルモード"><br>ノーマルモード（はじめから / つづきから）</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="manual/03_stage_select.jpg" width="420" alt="ステージ選択"><br>ステージ選択</td>
+</tr>
+</table>
+
+## 画面の見方
+
+<p><img src="manual/04_game_hud.jpg" width="720" alt="ゲーム画面"></p>
+
+| 場所 | 内容 |
+| --- | --- |
+| 左上 | Lv と次のレベルまで、HP（赤）、SP（青・電波放射に使う）、スタミナ（黄）、いま居る所の基地局（圏内）、救急キットと電波逆探知装置の数、タイム |
+| 右上 | 地図・メニュー。その下にスマホ（基地局の名前・信号の強さ・到来方向）と「近くの指示役」 |
+| 左下 | 移動のスティック（触った所に出ます） |
+| 右下 | ダッシュ・回避・電波・アンテナ・パンチ。スマホを持つと指揮、設備盤の前では停波・休憩のボタンも出ます |
+
+最初のステージ（TOKYO AREA I）では、画面上の帯で操作を案内します。
+
+<p><img src="manual/05_tutorial.jpg" width="420" alt="チュートリアル"></p>
+
+## 操作
+
+| 操作 | タッチ | ゲームパッド（DualShock 4 の表記） |
+| --- | --- | --- |
+| 移動 | 左半分をドラッグ | 左スティック |
+| 視点 | 右半分をドラッグ | 右スティック |
+| ダッシュ | ［ダッシュ］を押している間 | R2 を押している間 |
+| パンチ | ［パンチ］ | □ |
+| アンテナ | ［アンテナ］（長押しで溜め） | △（押している間溜め） |
+| 電波放射 | ［電波］ | R1 |
+| 回避 | ［回避］ | ○ |
+| 停波・休憩・決定 | 出てきたボタン | × |
+| 指揮 | ［指揮］ | L1 |
+| ロックオン | ― | L2 |
+| 地図 / メニュー | 右上のボタン | SHARE / OPTIONS |
+
+### 移動とダッシュ
+
+スティックを倒した量で歩く速さが変わります。走るのは［ダッシュ］を押している間だけで、走るとスタミナを使います。
+スタミナが切れると、少し回復するまで歩きになります（ダッシュボタンの周りの弧がスタミナの残りです）。
+
+<p><img src="manual/06_move.jpg" width="420" alt="移動"></p>
+
+### パンチ
+
+スタミナを使わない基本の攻撃です。続けて押すと 3 段コンボになり、3 段目で敵がよろめきます。
+成長でパンチにポイントを振ると、攻撃力に加えてリーチと範囲も広がります。
+
+<p><img src="manual/07_punch_3rd.jpg" width="420" alt="パンチの 3 段目"></p>
+
+### アンテナ
+
+長押しで溜め、放すと振ります。**溜めるほどリーチと威力が伸び**、溜め切ると足元の輪が金色になります。
+溜めずに振ると短く弱い攻撃です。振るとスタミナを使い（溜めずに 25〜溜め切って 50）、スタミナで払える所までしか溜まりません。
+
+<table>
+<tr>
+<td align="center"><img src="manual/08_antenna_charge.jpg" width="420" alt="溜め"><br>溜め（足元の輪がリーチ）</td>
+<td align="center"><img src="manual/09_antenna_swing.jpg" width="420" alt="振る"><br>溜めて振る</td>
+</tr>
+</table>
+
+### 電波放射
+
+SP を使ってアンテナから電波を出します。**指示役のスマホを一時的に止め**（止まっている間、群れは指示を受けられません）、
+ドローンを落とし、ロボットを硬直させます。SP は攻撃を当てると溜まります。電波の形はアンテナによって違います。
+
+<table>
+<tr>
+<td align="center"><img src="manual/10_radio_dipole.jpg" width="420" alt="ダイポールの電波"><br>ダイポール（前方の円錐）</td>
+<td align="center"><img src="manual/11_radio_biconical.jpg" width="420" alt="バイコニカルの電波"><br>バイコニカル（自分の周り全部）</td>
+</tr>
+</table>
+
+### 回避
+
+前転して攻撃をかわします（スタミナを使います）。
+
+<p><img src="manual/12_dodge.jpg" width="420" alt="回避"></p>
+
+## 基地局を探す
+
+### スマホの信号の強さ
+
+指示役を倒すとスマホが手に入ります。スマホには、そのスマホがつながっている基地局の**信号の強さ**が出ます。
+「↑ 強く」なら基地局に近づいている、「↓ 弱く」なら遠ざかっています。強くなる方へ歩いて探しましょう。
+
+<p><img src="manual/13_phone_signal.jpg" width="420" alt="スマホの信号の強さ"></p>
+
+### 指示役を見つける
+
+指示役はスマホで電波を出しているので、**局の色の光（オーラ）**をまとっています。150m 以内の指示役は地図にも点で出ます。
+ゾンビの服の色は、つながっている基地局の色です。**色の無い灰色がかった茶色は野良**で、指揮できません（HP バーの左の文字は「野」）。
+
+<table>
+<tr>
+<td align="center"><img src="manual/14_leader_aura_colors.jpg" width="420" alt="指示役のオーラ"><br>指示役のオーラと局の色の群れ</td>
+<td align="center"><img src="manual/15_map_leader_dot.jpg" width="420" alt="地図の指示役"><br>地図の指示役の点（150m の円）</td>
+</tr>
+</table>
+
+### 電波逆探知装置
+
+各基地局のエリアに 1 台ずつ、緑に光る端末（**電波逆探知装置**）が置いてあります。近づくと拾えます。
+メニューの所持品から「使う」と、**その局の位置**と**カバレッジマップ**（その局が一番強く届くエリアを局の色の濃淡で表示）が地図に出て、
+その局のスマホに電波の**到来方向（AoA）**の矢印が出るようになります。
+
+ビルの壁で反射した電波は壁の方から届くので、矢印が基地局の方向を指しているとは限りません。場所を変えて確かめましょう。
+
+<table>
+<tr>
+<td align="center"><img src="manual/16_simulator_ground.jpg" width="420" alt="電波逆探知装置"><br>地面の電波逆探知装置</td>
+<td align="center"><img src="manual/17_simulator_pickup.jpg" width="420" alt="拾う"><br>拾う</td>
+</tr>
+<tr>
+<td align="center"><img src="manual/18_menu_items_use.jpg" width="420" alt="使う"><br>所持品から使う</td>
+<td align="center"><img src="manual/19_map_coverage.jpg" width="420" alt="カバレッジ"><br>局の位置とカバレッジ</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="manual/20_hud_aoa.jpg" width="420" alt="到来方向"><br>スマホに到来方向の矢印</td>
+</tr>
+</table>
+
+## ゾンビを指揮する
+
+スマホを持っていると、**そのスマホと同じ基地局につながっているゾンビ**（40m 以内・最大 8 体）を指揮できます。
+［指揮］で円形のメニューを開き、護衛・攻撃・待機・解除を選びます。指示役が健在の群れは奪えないので、倒すか電波で止めてからにしましょう。
+
+<table>
+<tr>
+<td align="center"><img src="manual/21_command_radial.jpg" width="420" alt="指揮"><br>指揮の円形メニュー</td>
+<td align="center"><img src="manual/22_allies.jpg" width="420" alt="味方"><br>味方（頭上に水色のひし形）</td>
+</tr>
+</table>
+
+基地局を制圧すると、そのエリアのゾンビは戦わなくなります（中立。頭上に白い「−」）。中立のゾンビもスマホ無しで指揮できます。
+
+<p><img src="manual/23_neutral.jpg" width="420" alt="中立"></p>
+
+## 基地局を停波する
+
+基地局のアンテナは建物の上にあっても、**停波するのは足元（地上）の設備盤**です。見つけた基地局には光柱が立ち、
+「Alpha 設備盤 120m」のように名前と距離が出ます（赤 = 未制圧、青 = 制圧済み）。
+
+設備盤の前で［停波］を押すと 10 秒のカウントダウンが始まります。8m 以上離れると中断されるので、群れを防ぎながら耐えましょう。
+
+<table>
+<tr>
+<td align="center"><img src="manual/24_cabinet.jpg" width="420" alt="設備盤"><br>設備盤と［停波］</td>
+<td align="center"><img src="manual/25_capture_countdown.jpg" width="420" alt="停波中"><br>停波のカウントダウン</td>
+</tr>
+</table>
+
+制圧した基地局は**休憩地点**になります（HP 全回復・セーブ・ファストトラベル・能力の振り直し。倒れたらここから再開）。
+
+<table>
+<tr>
+<td align="center"><img src="manual/26_captured_beam.jpg" width="420" alt="制圧後"><br>制圧後は青い光柱</td>
+<td align="center"><img src="manual/27_rest_panel.jpg" width="420" alt="休憩"><br>休憩地点のパネル</td>
+</tr>
+</table>
+
+巨大局はシールドで守られていて、小基地局を 4 局すべて制圧するとシールドが消えます。設備盤の場所は画面で案内されます。
+
+<table>
+<tr>
+<td align="center"><img src="manual/28_macro_shield.jpg" width="420" alt="シールド"><br>巨大局のシールドと守りのロボット</td>
+<td align="center"><img src="manual/29_shield_down_hint.jpg" width="420" alt="シールド解除"><br>シールドが消えた所</td>
+</tr>
+</table>
+
+## アンテナと成長
+
+### アンテナ
+
+基地局を制圧すると新しいアンテナが手に入ります。メニューの「装備」でいつでも持ち替えられます。
+
+| アンテナ | 特徴 |
+| --- | --- |
+| ダイポール | 最初の装備。標準的なリーチと電波 |
+| 八木 | リーチが長い突き。電波は細く遠くまで届き、指示役を長く止める |
+| バイコニカル | 振りが速く範囲が広い。電波は自分の周り全部 |
+| ホーン | 攻撃力が高い。電波でもダメージを与える |
+| パラボラ | 大きく吹き飛ばす。電波は溜めてから撃つ細いビーム（ドローンを確実に落とす） |
+
+<p><img src="manual/30_menu_equip.jpg" width="720" alt="装備"></p>
+
+### レベルと成長
+
+ノーマルモードで敵を倒すとレベルが上がり（最大 Lv 999）、1 レベルごとに 1 ポイントもらえます。
+メニューの「成長」で**体力・パンチ・移動速度・スタミナ**に振れます（1 ポイント = +1%、各 200 ポイントまで）。
+減らす（振り直す）のは休憩地点でできます（無料）。
+
+<p><img src="manual/31_menu_growth.jpg" width="720" alt="成長"></p>
+
+メニューの「操作説明」でも、操作とルールをいつでも確かめられます。
+
+<p><img src="manual/32_menu_help.jpg" width="420" alt="操作説明"></p>
+
+## 地図
+
+地図は歩いた場所だけが見えます（霧）。空いている所をタップするとピンを置けます（5 色・メモ付き）。
+ピンはゲーム画面にも光柱で出ます。電波逆探知装置で解析した局のカバレッジも、ここで表示を切り替えられます。
+
+<table>
+<tr>
+<td align="center"><img src="manual/34_map_fog_pins.jpg" width="420" alt="地図"><br>地図（霧・ピン・凡例）</td>
+<td align="center"><img src="manual/35_beam_labels.jpg" width="420" alt="光柱のラベル"><br>光柱のラベル</td>
+</tr>
+</table>
+
+## リザルトと記録
+
+ノーマルモードで「はじめから」クリアすると、クリアタイム・撃破数・支配数などが記録され、ステージごとのランキング（上位 10 件）に載ります。
+「結果を共有」で、スクリーンショット付きの画像と文章を SNS などに送れます（#phonetichound）。
+
+<table>
+<tr>
+<td align="center"><img src="manual/36_result_name_entry.jpg" width="420" alt="名前入力"><br>ランクインの名前入力</td>
+<td align="center"><img src="manual/38_share_image.jpg" width="420" alt="共有画像"><br>共有される画像</td>
+</tr>
+</table>
+
+タイトルの「記録」で、ランキング・プレイ記録（総プレイ時間・討伐数の内訳など）・ステージ別の記録を見られます。
+
+<table>
+<tr>
+<td align="center"><img src="manual/39_records_ranking.jpg" width="420" alt="ランキング"><br>ランキング</td>
+<td align="center"><img src="manual/40_records_play.jpg" width="420" alt="プレイ記録"><br>プレイ記録</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="manual/41_records_stage.jpg" width="420" alt="ステージ別"><br>ステージ別（縛りの記録も）</td>
+</tr>
+</table>
+
+## チャレンジモード
+
+**Lv 200 固定・セーブ無し・1 回倒れたら終わり**の腕試しです。開始前に 199 ポイントを割り振ります。アンテナはダイポールから始まります。
+右上の「？」でルールの説明を読めます。
+
+- **全ステージ通し**: 開始ステージから TOKYO AREA IV まで続けて遊び、合計タイムを競います。開始地点は TOKYO AREA I か、ノーマルモードでクリアしたステージ。
+- **ステージ選択**: 1 ステージだけ遊びます。選べるのはノーマルモードでクリアしたステージ。
+
+チャレンジでクリアしても、ノーマルモードのステージは解放されません。
+
+<table>
+<tr>
+<td align="center"><img src="manual/42_challenge_menu.jpg" width="420" alt="チャレンジモード"><br>チャレンジモード</td>
+<td align="center"><img src="manual/43_challenge_help.jpg" width="420" alt="？の説明"><br>「？」の説明</td>
+</tr>
+<tr>
+<td align="center"><img src="manual/45_challenge_setup.jpg" width="420" alt="割り振り"><br>開始前の割り振り</td>
+<td align="center"><img src="manual/46_challenge_run_leg.jpg" width="420" alt="通しの途中"><br>通しの途中のリザルト</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="manual/47_challenge_gameover_ingame.jpg" width="420" alt="GAME OVER"><br>倒れたら GAME OVER</td>
+</tr>
+</table>
+
+## ステージ
+
+| # | ステージ | 特徴 | 難易度 |
+| --- | --- | --- | --- |
+| 1 | TOKYO AREA I | 住宅地。チュートリアル | ★ |
+| 2 | TOKYO AREA II | 団地と坂 | ★★ |
+| 3 | KYUSHU | 川と橋、中洲 | ★★ |
+| 4 | TOKYO AREA III | 高層ビルの谷。反射波が多い | ★★★ |
+| 5 | NAGANO | 山あいの田んぼと森。敵はすべてロボット。回復スポットあり | ★★★ |
+| 6 | TOKYO AREA IV | 超高層街（最終ステージ）。終盤に大変なことが… | ★★★★ |
+
+<table>
+<tr>
+<td align="center"><img src="manual/49_stage_tokyo_area_1.jpg" width="420" alt="TOKYO AREA I"><br>TOKYO AREA I</td>
+<td align="center"><img src="manual/50_stage_tokyo_area_2.jpg" width="420" alt="TOKYO AREA II"><br>TOKYO AREA II</td>
+</tr>
+<tr>
+<td align="center"><img src="manual/51_stage_kyushu_river.jpg" width="420" alt="KYUSHU"><br>KYUSHU</td>
+<td align="center"><img src="manual/52_stage_tokyo_area_3_highrise.jpg" width="420" alt="TOKYO AREA III"><br>TOKYO AREA III</td>
+</tr>
+<tr>
+<td align="center"><img src="manual/53_stage_nagano_robots.jpg" width="420" alt="NAGANO"><br>NAGANO（ロボット）</td>
+<td align="center"><img src="manual/55_stage_tokyo_area_4_red_tocho.jpg" width="420" alt="TOKYO AREA IV"><br>TOKYO AREA IV</td>
+</tr>
+</table>
+
+## 設定・ゲームパッド
+
+設定では音量・カメラの感度・カメラの上下反転・ダッシュの方式（押している間 / 押すたびに切り替え）・ゲームパッドの設定を変えられます。
+Bluetooth で接続したゲームパッド（DualShock 4 など）でも遊べます。パッドを使うと画面の操作表示が □△○× に変わり、全画面をパッドだけで操作できます。
+ボタンが思ったように反応しないときは、設定の「パッドの入力を確認」で確かめ、「ボタンの配置」を切り替えてください。
+
+<table>
+<tr>
+<td align="center"><img src="manual/33_settings_pad.jpg" width="420" alt="設定"><br>設定（操作・パッド）</td>
+<td align="center"><img src="manual/57_gamepad_hud.jpg" width="420" alt="パッド操作"><br>ゲームパッドで遊ぶ</td>
+</tr>
+</table>
+
+## ヒント
+
+- スタミナは走り・アンテナ・回避で使います。群れに囲まれる前にパンチで崩し、溜めたアンテナで吹き飛ばしましょう。
+- 電波放射で指示役のスマホを止めると、群れが指示を受けられなくなります。その間に指示役を倒すか、群れを奪いましょう。
+- ゾンビは自分の基地局の電波が届く範囲の近くまでしか追って来られません。灰色になって頭上に砂嵐が出たゾンビは、電波が届かず下がっていきます。
+- 制圧した基地局のエリアは安全地帯です。野良ゾンビも入ってきません。
+- 迷ったら地図を開きましょう。解析した局のカバレッジと、近くの指示役が分かります。
+
+---
+
+[← Phonetic Hound のページに戻る](./)

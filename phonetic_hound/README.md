@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.13.4-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.4-dev/phonetichound-0.13.4-dev-release.apk)
+### [APK をダウンロード（v0.13.5-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.5-dev/phonetichound-0.13.5-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.13.4-dev（2026-09-28・開発中） |
-| ファイル | `phonetichound-0.13.4-dev-release.apk`（11,417,494 バイト） |
-| SHA-256 | `71E92FD5A61929D18CD58422BE2A3437CE691409A1FF305E84AF681372A27EB5` |
+| バージョン | 0.13.5-dev（2026-09-28・開発中） |
+| ファイル | `phonetichound-0.13.5-dev-release.apk`（11,417,470 バイト） |
+| SHA-256 | `9B23A84B735445C92D50DD5F2DCFDFAEEFA3F5B5D8578D208F675AF7C2ED41B3` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -26,43 +26,48 @@
 
 ## どんなゲーム？
 
-- 街の携帯基地局（Alpha・Bravo・Charlie…）から出る電波がゾンビを操っています。ゾンビは電波の届く範囲でしか動けません。
-- スマホを持った**指示役のゾンビ**を倒すと、スマホが手に入ります。スマホには、その基地局の**信号の強さ**が出ます（強くなった ↑ / 弱くなった ↓）。
-  信号が強くなる方へ歩いて基地局を探します。
-- 各基地局のエリアには**電波逆探知装置**が 1 台ずつ置いてあります。使うと、その局の位置と**カバレッジマップ**が地図に出て、
-  スマホに電波の**到来方向（AoA）**の矢印が出るようになります。ビルの壁で反射した電波は壁の方から届くので、矢印をうのみにしないこと。
-- スマホと同じ基地局に繋がっているゾンビは**指揮**できます（護衛・攻撃・待機）。
-- 小さな基地局の設備盤で**停波**すると制圧。制圧した基地局は休憩地点・復活地点になります。
-  小基地局をすべて制圧すると、巨大基地局のシールドが消えます。巨大基地局を止めればステージクリアです。
-- 攻撃はパンチ、アンテナ振り（**溜めるほどリーチと威力が伸びる**。溜めずに振ると短く弱い）、アンテナからの電波放射（指示役のスマホを一時的に止める）。
-- アンテナは 5 種類（ダイポール・八木・バイコニカル・ホーン・パラボラ）。基地局を制圧すると手に入り、
-  リーチ・攻撃力・電波放射の形（細く遠くまで／自分の周り全部／鉛筆のようなビーム など）がそれぞれ違います。
-- マップは歩いた場所だけが見えます。ピンも置けます。
-- 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
+街の携帯基地局から出る電波が、ゾンビを操っています。スマホの**信号の強さ**と、**電波逆探知装置**でつかむ電波の**到来方向**を頼りに、
+隠れた基地局を探し出し、足元の設備盤で**停波**して制圧していきます。小基地局をすべて止めたら、最後は巨大基地局へ。
 
-## この版でできること（0.13.4-dev）
+- パンチ・溜めて振るアンテナ・電波放射で戦う。アンテナは 5 種類（ダイポール・八木・バイコニカル・ホーン・パラボラ）
+- スマホと同じ基地局につながるゾンビを**指揮**して味方にできる
+- 倒した数でレベルが上がり、体力・パンチ・移動速度・スタミナを育てる
+- 街並みは実在の地形と建物のデータから作り、電波は建物での反射・回折まで計算
 
-- **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
+<table>
+<tr>
+<td align="center"><img src="top/battle.jpg" width="340" alt="戦闘"><br>群れに囲まれたらアンテナを溜めて振る</td>
+<td align="center"><img src="top/direction_finder.jpg" width="340" alt="電波逆探知装置"><br>電波逆探知装置で基地局を探す</td>
+</tr>
+<tr>
+<td align="center"><img src="top/map_coverage.jpg" width="340" alt="地図とカバレッジ"><br>基地局の位置とカバレッジを地図に</td>
+<td align="center"><img src="top/macro_station.jpg" width="340" alt="巨大局"><br>シールドに守られた巨大局</td>
+</tr>
+<tr>
+<td align="center"><img src="top/nagano.jpg" width="340" alt="NAGANO"><br>NAGANO: 山あいのロボットの群れ</td>
+<td align="center"><img src="top/red_tocho.jpg" width="340" alt="TOKYO AREA IV"><br>TOKYO AREA IV: 最終ステージ</td>
+</tr>
+</table>
+
+### [📖 遊び方マニュアル（画面の見方・操作・攻略のヒント）](manual.html)
+
+## この版でできること（0.13.5-dev）
+
+- **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
   | # | ステージ | 特徴 | 難易度 |
   | --- | --- | --- | --- |
-  | 1 | 練馬 | 住宅地・チュートリアル | ★ |
-  | 2 | 多摩ニュータウン | 永山駅と団地・丘 | ★★ |
-  | 3 | 博多 | 博多駅・那珂川・中洲（橋を渡る） | ★★ |
-  | 4 | 東京駅 | 丸の内の高層ビル・駅舎・濠 | ★★★ |
-  | 5 | 神城（白馬村） | 山あい・森林・**敵はすべてロボット**・回復スポットあり | ★★★ |
-  | 6 | 新宿 | 西新宿の超高層街（最終ステージ）。終盤に都庁が赤く染まる | ★★★★ |
+  | 1 | TOKYO AREA I | 住宅地・チュートリアル | ★ |
+  | 2 | TOKYO AREA II | 団地と坂 | ★★ |
+  | 3 | KYUSHU | 川と橋・中洲 | ★★ |
+  | 4 | TOKYO AREA III | 高層ビルの谷 | ★★★ |
+  | 5 | NAGANO | 山あい・森林・敵はすべてロボット・回復スポットあり | ★★★ |
+  | 6 | TOKYO AREA IV | 超高層街（最終ステージ） | ★★★★ |
 
-- **スコアアタック**: クリアタイム・撃破数・支配数を記録し、ステージごとに上位 10 件のランキングを端末に残します。
-  リザルト画面の「結果を共有」で、スクリーンショット付きで SNS に投稿できます（ハッシュタグ #phonetichound）。
-- **記録画面**: ランキング・プレイ記録（総プレイ時間・討伐数など）・ステージ別の記録を見られます。
-- **レベルと成長**: 倒した敵の数でレベルが上がり（最大 Lv 999）、体力・パンチ・移動速度・スタミナにポイントを振れます（各 +200% まで）。
-- **チャレンジモード**: Lv 200 固定・セーブ無し・1 回倒れたら終わりの腕試し。「全ステージ通し」と「ステージ選択」があり、どちらもノーマルモードでクリアしたステージから選べます。専用のランキング付き。
-- アンテナ 5 種類（メニューの「装備」で持ち替え。手に入れたアンテナは次のステージにも持ち越し）。
-- BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。設定画面で音量とカメラの感度を変えられます。
-- 操作: 画面の左半分をドラッグで移動、右半分をドラッグで視点。右下のボタンで攻撃・回避・指揮・停波。
-- **ゲームパッド（DualShock 4 など）でも遊べます**（Bluetooth で接続。全画面をパッドだけで操作できます）。
-- セーブはステージごとに自動保存（休憩地点・制圧時・60 秒ごと）。0.1.0-dev のセーブは練馬に引き継がれます。
+- **ノーマルモード**（セーブあり・レベルと成長）と、**チャレンジモード**（Lv 200 固定・セーブ無し・1 回倒れたら終わり。全ステージ通し / ステージ選択）。
+- スコアアタック: クリアタイム・撃破数・支配数のランキング、記録画面、スクリーンショット付きの結果共有（#phonetichound）。
+- BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。
+- タッチ操作のほか、**ゲームパッド（DualShock 4 など）**でも遊べます。
 
 これから: 難易度・バランスの調整、見た目の改善。
 
@@ -71,6 +76,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.13.5-dev</b>（2026-09-28）</summary>
+
+- ステージの名前を変えました: TOKYO AREA I・TOKYO AREA II・KYUSHU・TOKYO AREA III・NAGANO・TOKYO AREA IV（セーブと記録はそのまま引き継がれます）。
+- 遊び方の[マニュアル](manual.html)をスクリーンショット付きで作りました。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.13.4-dev</b>（2026-09-28）</summary>
 
 - アンテナの溜めを直しました: スタミナが足りないときは溜め始めず、溜めは今のスタミナで払える所で止まります（放せば必ず振れます）。
@@ -257,103 +270,6 @@
 - 最初の開発版。ステージ 1「練馬」を最初から最後まで遊べる版。
 
 </details>
-
-## スクリーンショット
-
-<table>
-<tr>
-<td align="center"><img src="images/47.jpg" width="340" alt="ノーマルモード"><br>ノーマルモードの画面</td>
-<td align="center"><img src="images/46.jpg" width="340" alt="？の説明"><br>？ボタンで説明を表示</td>
-</tr>
-<tr>
-<td align="center"><img src="images/44.jpg" width="340" alt="地図の指示役"><br>150m 以内の指示役が地図に出る</td>
-<td align="center"><img src="images/45.jpg" width="340" alt="光柱のラベル"><br>光柱に「Alpha 設備盤」などのラベル</td>
-</tr>
-<tr>
-<td align="center"><img src="images/40.jpg" width="340" alt="チャレンジの選択"><br>チャレンジ: 全ステージ通し / ステージ選択</td>
-<td align="center"><img src="images/41.jpg" width="340" alt="通しの開始地点"><br>通しの開始地点（ノーマルでクリア済みのステージ）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/42.jpg" width="340" alt="通しのステージクリア"><br>通しの途中のステージクリア</td>
-<td align="center"><img src="images/43.jpg" width="340" alt="通しの完走"><br>全ステージ通しの完走</td>
-</tr>
-<tr>
-<td align="center"><img src="images/38.jpg" width="340" alt="パッド操作の HUD"><br>ゲームパッドで遊ぶ（□△○× の操作表示）</td>
-<td align="center"><img src="images/39.jpg" width="340" alt="パッドの入力確認"><br>設定の「パッドの入力を確認」</td>
-</tr>
-<tr>
-<td align="center"><img src="images/34.jpg" width="340" alt="成長"><br>レベルアップしてポイントを割り振る</td>
-<td align="center"><img src="images/35.jpg" width="340" alt="チャレンジの割り振り"><br>チャレンジモードの割り振り</td>
-</tr>
-<tr>
-<td align="center"><img src="images/36.jpg" width="340" alt="GAME OVER"><br>チャレンジは 1 回倒れたら GAME OVER</td>
-<td align="center"><img src="images/37.jpg" width="340" alt="縛りの記録"><br>縛りの記録（ステージ別）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/32.jpg" width="340" alt="プレイ記録"><br>記録画面（プレイ記録）</td>
-<td align="center"><img src="images/33.jpg" width="340" alt="ステージ別の記録"><br>記録画面（ステージ別）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/01.jpg" width="340" alt="ステージ選択"><br>ステージ選択</td>
-<td align="center"><img src="images/02.jpg" width="340" alt="神城の田んぼと森"><br>神城（白馬村）の田んぼと森</td>
-</tr>
-<tr>
-<td align="center"><img src="images/28.jpg" width="340" alt="共有画像"><br>共有される画像（スクリーンショット＋結果）</td>
-<td align="center"><img src="images/29.jpg" width="340" alt="ランキング"><br>ステージごとのランキング</td>
-</tr>
-<tr>
-<td align="center"><img src="images/26.jpg" width="340" alt="赤い都庁"><br>新宿の終盤、都庁が赤く染まる</td>
-<td align="center"><img src="images/27.jpg" width="340" alt="押し寄せる敵"><br>巨大局 Papa の足元に敵が押し寄せる</td>
-</tr>
-<tr>
-<td align="center"><img src="images/24.jpg" width="340" alt="神城のロボット"><br>神城の敵はロボット（指揮ロボットと小型ロボット）</td>
-<td align="center"><img src="images/25.jpg" width="340" alt="回復スポット"><br>神城の回復スポット（ゲームセンター）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/30.jpg" width="340" alt="三角屋根の旅館"><br>神城・三角屋根の旅館と家並み</td>
-<td align="center"><img src="images/31.jpg" width="340" alt="田んぼと農道"><br>神城・田んぼと農道</td>
-</tr>
-<tr>
-<td align="center"><img src="images/19.jpg" width="340" alt="スマホの信号レベル"><br>スマホは信号の強さ（↑↓）だけ</td>
-<td align="center"><img src="images/20.jpg" width="340" alt="AoA"><br>電波逆探知装置で解析した局は到来方向が出る</td>
-</tr>
-<tr>
-<td align="center"><img src="images/21.jpg" width="340" alt="溜め"><br>アンテナを溜めて振る</td>
-<td align="center"><img src="images/23.jpg" width="340" alt="カバレッジ"><br>カバレッジマップ（局ごとのエリアを濃淡で表示）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/16.jpg" width="340" alt="野良ゾンビ"><br>野良ゾンビが街中から寄ってくる</td>
-<td align="center"><img src="images/17.jpg" width="340" alt="被弾方向の表示"><br>撃たれた方向を赤い弧で表示</td>
-</tr>
-<tr>
-<td align="center"><img src="images/18.jpg" width="340" alt="設備盤の案内"><br>巨大局は足元の設備盤で停波</td>
-<td></td>
-</tr>
-<tr>
-<td align="center"><img src="images/13.jpg" width="340" alt="新宿の超高層街"><br>新宿（最終）の超高層街</td>
-<td align="center"><img src="images/12.jpg" width="340" alt="東京駅の高層ビル"><br>東京駅・丸の内の高層ビル</td>
-</tr>
-<tr>
-<td align="center"><img src="images/11.jpg" width="340" alt="博多の那珂川"><br>博多・那珂川のほとり</td>
-<td align="center"><img src="images/14.jpg" width="340" alt="多摩ニュータウンの団地"><br>多摩ニュータウンの団地</td>
-</tr>
-<tr>
-<td align="center"><img src="images/03.jpg" width="340" alt="ロボットの群れ"><br>神城はロボット多め</td>
-<td align="center"><img src="images/10.jpg" width="340" alt="尾根の上の巨大局"><br>尾根の上に巨大局 Oscar</td>
-</tr>
-<tr>
-<td align="center"><img src="images/04.jpg" width="340" alt="装備"><br>アンテナ 5 種類の性能比較</td>
-<td align="center"><img src="images/05.jpg" width="340" alt="パラボラの電波放射"><br>パラボラのビーム</td>
-</tr>
-<tr>
-<td align="center"><img src="images/06.jpg" width="340" alt="バイコニカルの電波放射"><br>バイコニカルは周り全部に放射</td>
-<td align="center"><img src="images/22.jpg" width="340" alt="地面の電波逆探知装置"><br>各局のエリアに置いてある電波逆探知装置（緑の光）</td>
-</tr>
-<tr>
-<td align="center"><img src="images/08.jpg" width="340" alt="停波"><br>基地局を停波中</td>
-<td align="center"><img src="images/09.jpg" width="340" alt="指揮"><br>ゾンビを指揮（護衛・攻撃・待機）</td>
-</tr>
-</table>
 
 ## 注意
 
