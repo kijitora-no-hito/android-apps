@@ -10,13 +10,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.13.3-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.3-dev/phonetichound-0.13.3-dev-release.apk)
+### [APK をダウンロード（v0.13.4-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.13.4-dev/phonetichound-0.13.4-dev-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.13.3-dev（2026-09-28・開発中） |
-| ファイル | `phonetichound-0.13.3-dev-release.apk`（11,417,494 バイト） |
-| SHA-256 | `553E9BDF1276807A97B4382B0776F3AD954CE42C6D7B8BF48799E2A759CC8CD0` |
+| バージョン | 0.13.4-dev（2026-09-28・開発中） |
+| ファイル | `phonetichound-0.13.4-dev-release.apk`（11,417,494 バイト） |
+| SHA-256 | `71E92FD5A61929D18CD58422BE2A3437CE691409A1FF305E84AF681372A27EB5` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
@@ -40,7 +40,7 @@
 - マップは歩いた場所だけが見えます。ピンも置けます。
 - 街並みは実在の地形と建物のデータから作っています。電波は建物での反射・回折まで計算しています。
 
-## この版でできること（0.13.3-dev）
+## この版でできること（0.13.4-dev）
 
 - **全 6 ステージ**を、最初から巨大基地局の停波まで遊べます。開発中の版では、どのステージも最初から選べます。
 
@@ -71,6 +71,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.13.4-dev</b>（2026-09-28）</summary>
+
+- アンテナの溜めを直しました: スタミナが足りないときは溜め始めず、溜めは今のスタミナで払える所で止まります（放せば必ず振れます）。
+- ゾンビがプレイヤーの目の前で止まってしまう問題を直しました。攻撃の順番待ちのゾンビは周りを回り込むように、担当エリアの境目で止まっていたゾンビは 8m まで追って来るようになりました。それ以上離れると灰色になり、頭上に砂嵐が出て下がっていきます（電波が届かない合図）。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.13.3-dev</b>（2026-09-28）</summary>
 
 - タイトルのボタン名を**チャレンジモード**にしました。
