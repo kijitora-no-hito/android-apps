@@ -8,13 +8,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v1.3.1・2.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/linkconne2-v1.3.1/linkconne2-1.3.1-release.apk)
+### [APK をダウンロード（v1.3.2・2.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/linkconne2-v1.3.2/linkconne2-1.3.2-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 1.3.1（2026-09-24） |
-| ファイル | `linkconne2-1.3.1-release.apk`（2,533,940 バイト） |
-| SHA-256 | `F55B4D32AB1002F84FD28BB2AD6C5F4D83269298E76B4500541D1CDE07A89C34` |
+| バージョン | 1.3.2（2026-09-28） |
+| ファイル | `linkconne2-1.3.2-release.apk`（2,536,396 バイト） |
+| SHA-256 | `856CCB7A33BA6629A5F8C51726594D6B76094A97FE758096337350FA5ECC174A` |
 | 対応 Android | 8.0 以上 |
 | 権限 | インターネット（新しいバージョンの確認のためだけ。設定でオフにできます） |
 | 画面 | 横向き専用 |
