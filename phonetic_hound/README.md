@@ -37,7 +37,7 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.17.0-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.17.0-dev/phonetichound-0.17.0-dev-release.apk)
+### [APK をダウンロード（v0.17.1-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.17.1-dev/phonetichound-0.17.1-dev-release.apk)
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -52,7 +52,7 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.17.0-dev）
+## この版でできること（0.17.1-dev）
 
 - **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
@@ -98,6 +98,13 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.17.1-dev</b>（2026-09-29）</summary>
+
+- **敵のレーダー**: 右上のスマホのパネルの左隣に、周囲 30m の敵を映すレーダーを付けました（カメラの向きが上）。群れは局の色、野良は茶色、ロボットは四角、ドローンは三角、指示役は大きめの点、ボスは金の縁。技を振りかぶっている指示役・ボスは赤く点滅し、飛んでくるスマホや弾も赤い点で出ます。30〜60m の指示役・ボスは縁に向きだけ出ます。設定の「音・カメラ」で ON / OFF できます。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.17.0-dev</b>（2026-09-29）</summary>
 
 - **スマホ投げ**: 指示役が 10〜35m 離れたプレイヤーへ光るスマホを投げてきます。振りかぶりの間は落ちる地点が赤い円で予告されるので、回避か円の外へ。TOKYO AREA III 以降は 2 個続けて投げます。
@@ -344,9 +351,9 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.17.0-dev（2026-09-29・開発中） |
-| ファイル | `phonetichound-0.17.0-dev-release.apk`（11,466,634 バイト） |
-| SHA-256 | `DBA1079BAFE36A6CDC9A0261E092763711E4A08574D01227B714EB23B8CD1A07` |
+| バージョン | 0.17.1-dev（2026-09-29・開発中） |
+| ファイル | `phonetichound-0.17.1-dev-release.apk`（11,466,630 バイト） |
+| SHA-256 | `759C1736525BBCF97B07C53503C1DEC9F1C2189A3C80B44B856A5A72C5780C7A` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
