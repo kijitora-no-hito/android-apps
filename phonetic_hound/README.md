@@ -37,9 +37,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.20.0-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.20.0-dev/phonetichound-0.20.0-dev-release.apk)
+### [フル版 APK をダウンロード（v0.21.0-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.21.0-dev/phonetichound-0.21.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.20.0-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.20.0-dev/phonetichound-0.20.0-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.21.0-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.21.0-dev/phonetichound-0.21.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -56,7 +56,7 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.20.0-dev）
+## この版でできること（0.21.0-dev）
 
 - **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
@@ -103,6 +103,15 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.21.0-dev</b>（2026-09-30）</summary>
+
+- **ノーマルモードを 1 本道に**: ステージ選択を無くし、TOKYO AREA I から順に進むようにしました。ステージをクリアするとリザルトの［次のステージへ］で次のステージが始まります。ノーマルモードの画面は［つづきから］［最初のステージから］（Lv・アンテナは持ち越し）［ニューゲーム（Lv 1 から）］。
+- **エンディング**: 最後のステージをクリアするとスタッフロールが流れます（タップでスキップ、長押しで早送り）。最後に［ステータスを引き継いで最初から］で次の周を始められます。
+- **アンテナはステージクリアで入手**: 基地局の制圧ではなく、ステージをクリアするたびに 1 本（TOKYO AREA I 八木・II バイコニカル・KYUSHU ホーン・III パラボラ）。すでに持っているアンテナはそのままです。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.20.0-dev</b>（2026-09-30）</summary>
 
 - **BGM の分け方を変更**: 「ゲームプレイ外（タイトル・設定など）」と、各ステージの「① 探索・通常戦闘」「② 指示役との戦闘」「③ ボス戦」の曲に分けました。
@@ -383,11 +392,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.20.0-dev（2026-09-30・開発中） |
-| ファイル（フル版） | `phonetichound-0.20.0-dev-release.apk`（93,628,865 バイト） |
-| SHA-256（フル版） | `561138F9BEEE2F5AE6003E313FB2A7F04EA1639BEFA718A9D10B8A48B3AD0F29` |
-| ファイル（軽量版） | `phonetichound-0.20.0-dev-lite-release.apk`（11,405,045 バイト） |
-| SHA-256（軽量版） | `E235DCC6E5FF48865A475805D3CD2F35DC666C87BA0476B89F7CBB417E710CEC` |
+| バージョン | 0.21.0-dev（2026-09-30・開発中） |
+| ファイル（フル版） | `phonetichound-0.21.0-dev-release.apk`（93,644,917 バイト） |
+| SHA-256（フル版） | `63FF5C574D8381EFCD652152D05C4AC84DF49D5CA409D93E709FD86FABB082C4` |
+| ファイル（軽量版） | `phonetichound-0.21.0-dev-lite-release.apk`（11,421,097 バイト） |
+| SHA-256（軽量版） | `F7DCA6C275963D81362A938BEFEEB5F0C974E2566CA785EC839424DF5864F298` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 

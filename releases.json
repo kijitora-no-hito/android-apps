@@ -67,13 +67,18 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.20.0-dev",
-      "title": "Phonetic Hound v0.20.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.20.0-dev-release.apk",
-      "extraApks": [{ "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.20.0-dev-lite-release.apk", "sha256": "E235DCC6E5FF48865A475805D3CD2F35DC666C87BA0476B89F7CBB417E710CEC" }],
-      "sha256": "561138F9BEEE2F5AE6003E313FB2A7F04EA1639BEFA718A9D10B8A48B3AD0F29",
+      "tag": "phonetichound-v0.21.0-dev",
+      "title": "Phonetic Hound v0.21.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.21.0-dev-release.apk",
+      "sha256": "63FF5C574D8381EFCD652152D05C4AC84DF49D5CA409D93E709FD86FABB082C4",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.20.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **BGM の分け方を変更**: 「ゲームプレイ外（タイトル・設定など）」と、各ステージの「① 探索・通常戦闘」「② 指示役との戦闘」「③ ボス戦」の曲に分けました。\n- **BGM の 3 方式**: 設定の「BGM の曲」で「内蔵（演奏）」「内蔵 MP3」「自分の MP3」を選べます。\n- **フル版と軽量版**: フル版には内蔵 MP3 の曲（音楽：かまタマゴ・魔王魂）が入っていて、はじめは内蔵 MP3 で流れます（約 89 MB）。軽量版は曲なし（約 11 MB、BGM は内蔵の演奏か自分の MP3）。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 561138F9BEEE2F5AE6003E313FB2A7F04EA1639BEFA718A9D10B8A48B3AD0F29"
+      "notes": "Phonetic Hound v0.21.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **ノーマルモードを 1 本道に**: ステージ選択を無くし、TOKYO AREA I から順に進むようにしました。ステージをクリアするとリザルトの［次のステージへ］で次のステージが始まります。ノーマルモードの画面は［つづきから］［最初のステージから］（Lv・アンテナは持ち越し）［ニューゲーム（Lv 1 から）］。\n- **エンディング**: 最後のステージをクリアするとスタッフロールが流れます（タップでスキップ、長押しで早送り）。最後に［ステータスを引き継いで最初から］で次の周を始められます。\n- **アンテナはステージクリアで入手**: 基地局の制圧ではなく、ステージをクリアするたびに 1 本（TOKYO AREA I 八木・II バイコニカル・KYUSHU ホーン・III パラボラ）。すでに持っているアンテナはそのままです。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 63FF5C574D8381EFCD652152D05C4AC84DF49D5CA409D93E709FD86FABB082C4\nSHA-256（軽量版）: F7DCA6C275963D81362A938BEFEEB5F0C974E2566CA785EC839424DF5864F298",
+      "extraApks": [
+        {
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.21.0-dev-lite-release.apk",
+          "sha256": "F7DCA6C275963D81362A938BEFEEB5F0C974E2566CA785EC839424DF5864F298"
+        }
+      ]
     }
   ]
 }
