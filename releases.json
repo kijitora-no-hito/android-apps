@@ -67,12 +67,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.17.1-dev",
-      "title": "Phonetic Hound v0.17.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.17.1-dev-release.apk",
-      "sha256": "759C1736525BBCF97B07C53503C1DEC9F1C2189A3C80B44B856A5A72C5780C7A",
+      "tag": "phonetichound-v0.18.0-dev",
+      "title": "Phonetic Hound v0.18.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.18.0-dev-release.apk",
+      "sha256": "4269871C8E7CC221B683D9F8BE89FF536D9D55D7D4C1A0ED2D51C544DECF4035",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.17.1-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **敵のレーダー**: 右上のスマホのパネルの左隣に、周囲 30m の敵を映すレーダーを付けました（カメラの向きが上）。群れは局の色、野良は茶色、ロボットは四角、ドローンは三角、指示役は大きめの点、ボスは金の縁。技を振りかぶっている指示役・ボスは赤く点滅し、飛んでくるスマホや弾も赤い点で出ます。30〜60m の指示役・ボスは縁に向きだけ出ます。設定の「音・カメラ」で ON / OFF できます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 759C1736525BBCF97B07C53503C1DEC9F1C2189A3C80B44B856A5A72C5780C7A"
+      "notes": "Phonetic Hound v0.18.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **BGM の MP3 モード**: 設定の「BGM の曲」で、BGM を内蔵の曲から自分で選んだ曲（mp3 など）に切り替えられます。「ふだん」と「戦闘」の 2 つのリストに曲を追加でき、戦闘が始まる・終わると 1.5 秒で曲が入れ替わります。曲は Android のファイル選択画面で選びます（ストレージの権限は使いません）。効果音は内蔵のままです。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 4269871C8E7CC221B683D9F8BE89FF536D9D55D7D4C1A0ED2D51C544DECF4035"
     }
   ]
 }
