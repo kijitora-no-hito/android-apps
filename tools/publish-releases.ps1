@@ -45,8 +45,20 @@ foreach ($r in $config.releases) {
         throw "SHA-256 が releases.json と一致しません: $($r.tag)`n  実際: $hash`n  記載: $($r.sha256)"
     }
 
+    # 追加の APK（例: 軽量版。"extraApks": [{"apk": "...", "sha256": "..."}]）も同じく照合して添付する
+    $assets = @($r.apk)
+    foreach ($x in @($r.extraApks)) {
+        if (-not $x) { continue }
+        if (-not (Test-Path $x.apk)) { throw "APK が見つかりません: $($x.apk)" }
+        $xh = (Get-FileHash $x.apk -Algorithm SHA256).Hash
+        if ($xh -ne $x.sha256) {
+            throw "SHA-256 が releases.json と一致しません: $($x.apk)`n  実際: $xh`n  記載: $($x.sha256)"
+        }
+        $assets += $x.apk
+    }
+
     if ($DryRun) {
-        Write-Host "create $($r.tag)  $($r.title)  <= $($r.apk)"
+        Write-Host "create $($r.tag)  $($r.title)  <= $($assets -join ', ')"
         continue
     }
 
@@ -57,7 +69,7 @@ foreach ($r in $config.releases) {
         # 開発中の版（"prerelease": true）はプレリリースとして作る
         $extra = @()
         if ($r.prerelease) { $extra += '--prerelease' }
-        gh release create $r.tag $r.apk --repo $repo --title $r.title --notes-file $notesFile @extra
+        gh release create $r.tag @assets --repo $repo --title $r.title --notes-file $notesFile @extra
         if ($LASTEXITCODE -ne 0) { throw "gh release create に失敗しました: $($r.tag)" }
         Write-Host "done   $($r.tag)"
     }

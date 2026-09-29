@@ -37,13 +37,17 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.19.0-dev・11.0 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.19.0-dev/phonetichound-0.19.0-dev-release.apk)
+### [フル版 APK をダウンロード（v0.20.0-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.20.0-dev/phonetichound-0.20.0-dev-release.apk)
+
+### [軽量版 APK をダウンロード（v0.20.0-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.20.0-dev/phonetichound-0.20.0-dev-lite-release.apk)
+
+フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
 ## インストール方法
 
-1. このページをスマホのブラウザで開き、上の「APK をダウンロード」を押します。
+1. このページをスマホのブラウザで開き、上の「フル版」か「軽量版」の「APK をダウンロード」を押します。
 2. ダウンロードした APK を開きます。初回は「提供元不明のアプリ」のインストールを許可するよう求められるので、使っているブラウザ（またはファイルアプリ）に許可してください。
 3. Google Play プロテクトが警告を出すことがあります。ストアを通さない APK では一般的に出る表示です。心配なときは上の SHA-256 と一致するか確かめてください。
 
@@ -52,7 +56,7 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.19.0-dev）
+## この版でできること（0.20.0-dev）
 
 - **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
@@ -67,7 +71,7 @@
 
 - **ノーマルモード**（セーブあり・レベルと成長）と、**チャレンジモード**（Lv 200 固定・セーブ無し・1 回倒れたら終わり。全ステージ通し / ステージ選択）。
 - スコアアタック: クリアタイム・撃破数・支配数のランキング、記録画面、スクリーンショット付きの結果共有（#phonetichound）。
-- BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。
+- BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏。フル版は内蔵 MP3 の曲も。自分の MP3 も設定できます）。
 - タッチ操作のほか、**ゲームパッド（DualShock 4 など）**でも遊べます。
 
 これから: 難易度・バランスの調整、見た目の改善。
@@ -86,6 +90,7 @@
 - BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
   [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
   アプリのクレジット画面からも書き出せます。
+- 音楽（フル版の内蔵 MP3）: 音楽：[かまタマゴ](https://kamatamago.com/)、音楽：[魔王魂](https://maou.audio/)。曲名はアプリのクレジット画面に。曲ファイル単体の再配布は各サイトの規約で禁止されています。
 - フォント: Noto Sans JP（SIL Open Font License 1.1）
 - ゲームエンジン: libGDX（Apache License 2.0）
 
@@ -98,6 +103,15 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.20.0-dev</b>（2026-09-30）</summary>
+
+- **BGM の分け方を変更**: 「ゲームプレイ外（タイトル・設定など）」と、各ステージの「① 探索・通常戦闘」「② 指示役との戦闘」「③ ボス戦」の曲に分けました。
+- **BGM の 3 方式**: 設定の「BGM の曲」で「内蔵（演奏）」「内蔵 MP3」「自分の MP3」を選べます。
+- **フル版と軽量版**: フル版には内蔵 MP3 の曲（音楽：かまタマゴ・魔王魂）が入っていて、はじめは内蔵 MP3 で流れます（約 89 MB）。軽量版は曲なし（約 11 MB、BGM は内蔵の演奏か自分の MP3）。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.19.0-dev</b>（2026-09-29）</summary>
 
 - **ステージごとの曲**: 内蔵の BGM がステージごとに変わります（探索・戦闘の曲がステージ専用。戦闘曲を 5 曲追加）。MP3 モードも「共通」とステージごとに「ふだん」「戦闘」「ボス」のリストを持てます（空なら共通の曲）。
@@ -369,9 +383,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.19.0-dev（2026-09-29・開発中） |
-| ファイル | `phonetichound-0.19.0-dev-release.apk`（11,501,997 バイト） |
-| SHA-256 | `0CD0E9EA59DDC238B207835ECC9DDDAC504C1CFD70791ABA9FACE6BA5B3ADD6F` |
+| バージョン | 0.20.0-dev（2026-09-30・開発中） |
+| ファイル（フル版） | `phonetichound-0.20.0-dev-release.apk`（93,628,865 バイト） |
+| SHA-256（フル版） | `561138F9BEEE2F5AE6003E313FB2A7F04EA1639BEFA718A9D10B8A48B3AD0F29` |
+| ファイル（軽量版） | `phonetichound-0.20.0-dev-lite-release.apk`（11,405,045 バイト） |
+| SHA-256（軽量版） | `E235DCC6E5FF48865A475805D3CD2F35DC666C87BA0476B89F7CBB417E710CEC` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
