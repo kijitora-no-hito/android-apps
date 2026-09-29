@@ -67,12 +67,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.16.1-dev",
-      "title": "Phonetic Hound v0.16.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.16.1-dev-release.apk",
-      "sha256": "79CCCEE275FD9DF7273598124835C9C11D7C55A553AEA75CAA70DF9EC70CE904",
+      "tag": "phonetichound-v0.17.0-dev",
+      "title": "Phonetic Hound v0.17.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.17.0-dev-release.apk",
+      "sha256": "DBA1079BAFE36A6CDC9A0261E092763711E4A08574D01227B714EB23B8CD1A07",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.16.1-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **ブレイクの修正**: 指示役の振りかぶり中に電波放射を当てたとき、膝つきが 2 秒で終わって「止まっているのにパンチで吹っ飛ばない」状態になっていたのを直しました。膝つきは電波で止まっている間ずっと続き、その間ならいつパンチしても吹っ飛ばせます。エリアの境目の近くでも吹っ飛ぶようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 79CCCEE275FD9DF7273598124835C9C11D7C55A553AEA75CAA70DF9EC70CE904"
+      "notes": "Phonetic Hound v0.17.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **スマホ投げ**: 指示役が 10〜35m 離れたプレイヤーへ光るスマホを投げてきます。振りかぶりの間は落ちる地点が赤い円で予告されるので、回避か円の外へ。TOKYO AREA III 以降は 2 個続けて投げます。\n- **吹っ飛ばしパンチ**: 膝をついた指示役にパンチすると専用の大技になります（ボタンが金色の「吹っ飛ばし」に変わります）。ゆっくり振りかぶって殴り、出している間は無敵。当てた瞬間は周り 3m の敵もまとめて吹っ飛ばします。\n- **ボス**: 各ステージの一番大きな基地局に、指示役をさらに大きく速くしたボスが 2 体います（王冠が目印、画面上部に HP バー）。倒すと救急キット（大）・SP 全回復・討伐 10 体分。\n- **敵の湧き直し**: 制圧していない局のエリアでは、群れ・指示役・ドローン・ロボットが減ると見えない所から少しずつ湧き直します（制圧した局と回復スポットの周りには湧きません）。湧き直した指示役は、その局のスマホを持っていれば代わりに救急キットを落とします。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: DBA1079BAFE36A6CDC9A0261E092763711E4A08574D01227B714EB23B8CD1A07"
     }
   ]
 }
