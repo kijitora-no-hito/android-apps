@@ -67,12 +67,12 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.18.0-dev",
-      "title": "Phonetic Hound v0.18.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.18.0-dev-release.apk",
-      "sha256": "4269871C8E7CC221B683D9F8BE89FF536D9D55D7D4C1A0ED2D51C544DECF4035",
+      "tag": "phonetichound-v0.19.0-dev",
+      "title": "Phonetic Hound v0.19.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.19.0-dev-release.apk",
+      "sha256": "0CD0E9EA59DDC238B207835ECC9DDDAC504C1CFD70791ABA9FACE6BA5B3ADD6F",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.18.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **BGM の MP3 モード**: 設定の「BGM の曲」で、BGM を内蔵の曲から自分で選んだ曲（mp3 など）に切り替えられます。「ふだん」と「戦闘」の 2 つのリストに曲を追加でき、戦闘が始まる・終わると 1.5 秒で曲が入れ替わります。曲は Android のファイル選択画面で選びます（ストレージの権限は使いません）。効果音は内蔵のままです。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 4269871C8E7CC221B683D9F8BE89FF536D9D55D7D4C1A0ED2D51C544DECF4035"
+      "notes": "Phonetic Hound v0.19.0-dev（2026-09-29・**開発中**）\n\n開発中の版です。\n\n- **ステージごとの曲**: 内蔵の BGM がステージごとに変わります（探索・戦闘の曲がステージ専用。戦闘曲を 5 曲追加）。MP3 モードも「共通」とステージごとに「ふだん」「戦闘」「ボス」のリストを持てます（空なら共通の曲）。\n- **ボス戦の曲**: ボスに狙われている間は、重いボス戦の曲になります（ボス用に 2 曲追加）。\n- **効果音を重く**: 攻撃・被弾・爆発などの効果音を低く重い音にしました。\n- **弾の演出**: ドローンの弾に光の尾と火花、着弾で小爆発と焦げ跡。投げたスマホは電撃の尾を引き、青白い放電で破裂します。\n- **疾走の土煙**: 疾走で走っている間、足元から土煙が出ます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 0CD0E9EA59DDC238B207835ECC9DDDAC504C1CFD70791ABA9FACE6BA5B3ADD6F"
     }
   ]
 }

@@ -10,7 +10,7 @@ music (a Derivative Database), to be published as required by the ODbL share-ali
 
 | ファイル | 内容 |
 | --- | --- |
-| `*.abc` | 譜面データ 19 曲（ABC 記譜） |
+| `*.abc` | 譜面データ 26 曲（ABC 記譜） |
 | `credits.json` | 曲ごとの場面（role・stage・scene）・出典・採譜者・元 URL・加えた変更 |
 | `LICENSE.txt` | ライセンス表記・著作権表示・加えた変更 |
 
@@ -33,15 +33,30 @@ music (a Derivative Database), to be published as required by the ODbL share-ali
 | EXPLORE (kamishiro) | Scatter The Mud | jig, A dorian | seara | <https://thesession.org/tunes/728#setting728> |
 | EXPLORE (shinjuku) | The Gravel Walks | reel, A dorian | Jeremy | <https://thesession.org/tunes/42#setting42> |
 | EXPLORE (shinjuku) | Brian Boru's March | jig, A minor | JeffK627 | <https://thesession.org/tunes/271#setting271> |
-| COMBAT | The Musical Priest | reel, B minor | Jeremy | <https://thesession.org/tunes/73#setting73> |
-| COMBAT | The Star Of Munster | reel, A dorian | Jeremy | <https://thesession.org/tunes/197#setting197> |
+| COMBAT (nerima) | The Musical Priest | reel, B minor | Jeremy | <https://thesession.org/tunes/73#setting73> |
+| COMBAT (tama) | The Tarbolton | reel, E dorian | b.maloney | <https://thesession.org/tunes/560#setting560> |
+| COMBAT (hakata) | The Rakes Of Kildare | jig, A dorian | Jeremy | <https://thesession.org/tunes/84#setting84> |
+| COMBAT (tokyo) | The Glass Of Beer | reel, B minor | Will Harmon | <https://thesession.org/tunes/188#setting188> |
+| COMBAT (kamishiro) | The Lilting Banshee | jig, A dorian | Jeremy | <https://thesession.org/tunes/60#setting60> |
+| COMBAT (shinjuku) | The Maids Of Mount Kisco | reel, A dorian | b.maloney | <https://thesession.org/tunes/432#setting432> |
+| COMBAT (SWARM) | The Star Of Munster | reel, A dorian | Jeremy | <https://thesession.org/tunes/197#setting197> |
 | COMBAT (FINAL) | Toss The Feathers | reel, E dorian | Jeremy | <https://thesession.org/tunes/113#setting113> |
+| COMBAT (BOSS) | The Butterfly | slip jig, E minor | Jeremy | <https://thesession.org/tunes/10#setting10> |
+| COMBAT (BOSS) | The Rocky Road To Dublin | slip jig, A dorian | bsykes62 | <https://thesession.org/tunes/593#setting593> |
 | REST | Port Na bPúcaí | waltz, D major | Daithi_C | <https://thesession.org/tunes/1811#setting1811> |
 | CLEAR | Haste To The Wedding | jig, D major | Jeremy | <https://thesession.org/tunes/582#setting582> |
 | DOWN | Chumha Eoghain Rua Ui Neill | reel, G minor | Respect | <https://thesession.org/tunes/907#setting7199> |
 
-COMBAT (FINAL) は最終ステージ（TOKYO AREA IV）で巨大局のシールドが消えた後の戦闘曲です（`credits.json` の `scene: "FINAL"`）。
+COMBAT (FINAL) は最終ステージ（新宿）で巨大局のシールドが消えた後の戦闘曲です（`credits.json` の `scene: "FINAL"`）。
 COMBAT (FINAL) is the battle tune for the final stage (Shinjuku) after the macro station's shield is down.
+
+COMBAT (SWARM) は敵の群れが集まってきたとき（自分を狙う敵が 40m 以内に 6 体以上）の戦闘曲です（`credits.json` の `scene: "SWARM"`）。
+COMBAT (SWARM) is the battle tune played when a swarm of enemies closes in (6 or more hostiles targeting you within 40 m).
+
+COMBAT（ステージ id 付き）はそのステージの通常の戦闘曲です（v0.19.0-dev からステージごと。`credits.json` の `stage`）。
+COMBAT (BOSS) はボスと戦っている間の曲で、旋律を 1 オクターブ下げて遅く重く演奏します（`credits.json` の `scene: "BOSS"`）。
+COMBAT entries with a stage id are that stage's regular battle tune (per stage since v0.19.0-dev, `stage` in `credits.json`).
+COMBAT (BOSS) plays while fighting a boss, performed an octave lower, slower and heavier (`scene: "BOSS"` in `credits.json`).
 
 ## ライセンス / License
 

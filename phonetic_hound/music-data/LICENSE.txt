@@ -43,25 +43,32 @@ made available under the ODC Open Database License (ODbL).
 
 採譜者 / Transcribed by:
 
-    Carolan's Farewell To Music  glauber    https://thesession.org/tunes/244#setting244
-    Morrison's                   Jeremy     https://thesession.org/tunes/71#setting71
-    The Cliffs Of Moher          Jeremy     https://thesession.org/tunes/12#setting12
-    The Rights Of Man            Jeremy     https://thesession.org/tunes/83#setting83
-    The Mist Covered Mountain    glauber    https://thesession.org/tunes/256#setting256
-    The Ballydesmond             Jeremy     https://thesession.org/tunes/238#setting238
-    The Sligo Maid               Josh Kane  https://thesession.org/tunes/399#setting399
-    Julia Delaney's              b.maloney  https://thesession.org/tunes/589#setting589
-    Jenny's Chickens             b.maloney  https://thesession.org/tunes/756#setting756
-    The Kid On The Mountain      Jeremy     https://thesession.org/tunes/52#setting52
-    Scatter The Mud              seara      https://thesession.org/tunes/728#setting728
-    The Gravel Walks             Jeremy     https://thesession.org/tunes/42#setting42
-    Brian Boru's March           JeffK627   https://thesession.org/tunes/271#setting271
-    The Musical Priest           Jeremy     https://thesession.org/tunes/73#setting73
-    The Star Of Munster          Jeremy     https://thesession.org/tunes/197#setting197
-    Toss The Feathers            Jeremy     https://thesession.org/tunes/113#setting113
-    Port Na bPúcaí               Daithi_C   https://thesession.org/tunes/1811#setting1811
-    Haste To The Wedding         Jeremy     https://thesession.org/tunes/582#setting582
-    Chumha Eoghain Rua Ui Neill  Respect    https://thesession.org/tunes/907#setting7199
+    Carolan's Farewell To Music  glauber      https://thesession.org/tunes/244#setting244
+    Morrison's                   Jeremy       https://thesession.org/tunes/71#setting71
+    The Cliffs Of Moher          Jeremy       https://thesession.org/tunes/12#setting12
+    The Rights Of Man            Jeremy       https://thesession.org/tunes/83#setting83
+    The Mist Covered Mountain    glauber      https://thesession.org/tunes/256#setting256
+    The Ballydesmond             Jeremy       https://thesession.org/tunes/238#setting238
+    The Sligo Maid               Josh Kane    https://thesession.org/tunes/399#setting399
+    Julia Delaney's              b.maloney    https://thesession.org/tunes/589#setting589
+    Jenny's Chickens             b.maloney    https://thesession.org/tunes/756#setting756
+    The Kid On The Mountain      Jeremy       https://thesession.org/tunes/52#setting52
+    Scatter The Mud              seara        https://thesession.org/tunes/728#setting728
+    The Gravel Walks             Jeremy       https://thesession.org/tunes/42#setting42
+    Brian Boru's March           JeffK627     https://thesession.org/tunes/271#setting271
+    The Musical Priest           Jeremy       https://thesession.org/tunes/73#setting73
+    The Tarbolton                b.maloney    https://thesession.org/tunes/560#setting560
+    The Rakes Of Kildare         Jeremy       https://thesession.org/tunes/84#setting84
+    The Glass Of Beer            Will Harmon  https://thesession.org/tunes/188#setting188
+    The Lilting Banshee          Jeremy       https://thesession.org/tunes/60#setting60
+    The Maids Of Mount Kisco     b.maloney    https://thesession.org/tunes/432#setting432
+    The Star Of Munster          Jeremy       https://thesession.org/tunes/197#setting197
+    Toss The Feathers            Jeremy       https://thesession.org/tunes/113#setting113
+    The Butterfly                Jeremy       https://thesession.org/tunes/10#setting10
+    The Rocky Road To Dublin     bsykes62     https://thesession.org/tunes/593#setting593
+    Port Na bPúcaí               Daithi_C     https://thesession.org/tunes/1811#setting1811
+    Haste To The Wedding         Jeremy       https://thesession.org/tunes/582#setting582
+    Chumha Eoghain Rua Ui Neill  Respect      https://thesession.org/tunes/907#setting7199
 
 ================================================================
 4. 加えた変更 / Changes made
@@ -85,7 +92,7 @@ retrieved from The Session's API. The notes themselves were not altered.
     4. 1 曲 1 ファイルに分割し、UTF-8 (BOM なし) で保存した。
        Split into one file per tune, saved as UTF-8 without BOM.
 
-取得日 / Retrieved: 2026-09-25
+取得日 / Retrieved: 2026-09-29
 
 ================================================================
 5. データの入手 / Obtaining this data
