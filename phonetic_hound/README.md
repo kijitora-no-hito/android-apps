@@ -37,7 +37,7 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.16.0-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.16.0-dev/phonetichound-0.16.0-dev-release.apk)
+### [APK をダウンロード（v0.16.1-dev・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.16.1-dev/phonetichound-0.16.1-dev-release.apk)
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -52,7 +52,7 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.16.0-dev）
+## この版でできること（0.16.1-dev）
 
 - **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
@@ -98,6 +98,13 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.16.1-dev</b>（2026-09-29）</summary>
+
+- **ブレイクの修正**: 指示役の振りかぶり中に電波放射を当てたとき、膝つきが 2 秒で終わって「止まっているのにパンチで吹っ飛ばない」状態になっていたのを直しました。膝つきは電波で止まっている間ずっと続き、その間ならいつパンチしても吹っ飛ばせます。エリアの境目の近くでも吹っ飛ぶようにしました。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.16.0-dev</b>（2026-09-29）</summary>
 
 - **成長に「回避」を追加**: 回避の速さと距離が伸びます（200 ポイントで速さ 2 倍・距離 3 倍、無敵時間も伸びます）。
@@ -327,9 +334,9 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.16.0-dev（2026-09-29・開発中） |
-| ファイル | `phonetichound-0.16.0-dev-release.apk`（11,450,250 バイト） |
-| SHA-256 | `23BB0F2F4871EB3BC810E5EE67C8EB8170515641B94B33099C4B7117EF098760` |
+| バージョン | 0.16.1-dev（2026-09-29・開発中） |
+| ファイル | `phonetichound-0.16.1-dev-release.apk`（11,450,246 バイト） |
+| SHA-256 | `79CCCEE275FD9DF7273598124835C9C11D7C55A553AEA75CAA70DF9EC70CE904` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
