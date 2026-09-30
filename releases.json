@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.26.0-dev",
-      "title": "Phonetic Hound v0.26.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.26.0-dev-release.apk",
-      "sha256": "493D2727D7C545F6A0955091ACF57194096CA9D7B14BDDE79CF7F2401F37AF7C",
+      "tag": "phonetichound-v0.27.0-dev",
+      "title": "Phonetic Hound v0.27.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.27.0-dev-release.apk",
+      "sha256": "63DE0D69657721C5819F4816D0BBDEBF223D41500CD4DA991B260DC0FAD2D5A8",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.26.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **BGM の音量をそろえました**: フル版の内蔵 MP3 の 19 曲の音の大きさを測り、大きすぎた曲（ボス戦・支配者との戦闘の曲など）を下げて、どの曲もほぼ同じ大きさで流れるようにしました。効果音が聞こえやすくなります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 493D2727D7C545F6A0955091ACF57194096CA9D7B14BDDE79CF7F2401F37AF7C\nSHA-256（軽量版）: EA25FD2F4596733B94B23433E126C782C32CF9FACE0AAEAA10C322B5F33ABBB8",
+      "notes": "Phonetic Hound v0.27.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **基地局のロボットを強化**: 設備盤を守るロボットが支配者並みになりました（体力・技・大きさ。離れているとミサイルを撃ってきます。振りかぶり中の電波でブレイク、パンチで吹っ飛ばせます）。\n- **ピンが遠くでも見える**: 地図で置いたピンは、光の柱と「◆ 距離」でどこからでも見えるようになりました（画面の外なら縁に矢印）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 63DE0D69657721C5819F4816D0BBDEBF223D41500CD4DA991B260DC0FAD2D5A8\nSHA-256（軽量版）: 17ED88CEED7A025E78C36B3ECBDA27CA6CBB66797622448AEF90717665AFAF4C",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.26.0-dev-lite-release.apk",
-          "sha256": "EA25FD2F4596733B94B23433E126C782C32CF9FACE0AAEAA10C322B5F33ABBB8"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.27.0-dev-lite-release.apk",
+          "sha256": "17ED88CEED7A025E78C36B3ECBDA27CA6CBB66797622448AEF90717665AFAF4C"
         }
       ]
     }
