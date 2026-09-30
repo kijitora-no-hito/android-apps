@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.25.0-dev",
-      "title": "Phonetic Hound v0.25.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.25.0-dev-release.apk",
-      "sha256": "A545DD4A71C6BBEE94FD8977FEB1EFBE1E639575C7E9DF84DAC9DB433A5B761C",
+      "tag": "phonetichound-v0.26.0-dev",
+      "title": "Phonetic Hound v0.26.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.26.0-dev-release.apk",
+      "sha256": "493D2727D7C545F6A0955091ACF57194096CA9D7B14BDDE79CF7F2401F37AF7C",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.25.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **新しい版のお知らせ**: 起動時に GitHub のリリース一覧を確かめ、新しい版があればタイトル画面に［ダウンロード］［更新内容］［説明を見る］の帯を出します（フル版にはフル版、軽量版には軽量版の APK）。このため、インターネットの権限を使うようになりました。設定の「音・カメラ」→「更新の確認」を OFF にすると一切通信しません。**この版を入れると、次の版からはアプリの中で更新に気づけます。**\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: A545DD4A71C6BBEE94FD8977FEB1EFBE1E639575C7E9DF84DAC9DB433A5B761C\nSHA-256（軽量版）: 90B4F2EEF8A1CABEDB4F48896CB83994035743429CF54721D3A95588B381E073",
+      "notes": "Phonetic Hound v0.26.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **BGM の音量をそろえました**: フル版の内蔵 MP3 の 19 曲の音の大きさを測り、大きすぎた曲（ボス戦・支配者との戦闘の曲など）を下げて、どの曲もほぼ同じ大きさで流れるようにしました。効果音が聞こえやすくなります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 493D2727D7C545F6A0955091ACF57194096CA9D7B14BDDE79CF7F2401F37AF7C\nSHA-256（軽量版）: EA25FD2F4596733B94B23433E126C782C32CF9FACE0AAEAA10C322B5F33ABBB8",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.25.0-dev-lite-release.apk",
-          "sha256": "90B4F2EEF8A1CABEDB4F48896CB83994035743429CF54721D3A95588B381E073"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.26.0-dev-lite-release.apk",
+          "sha256": "EA25FD2F4596733B94B23433E126C782C32CF9FACE0AAEAA10C322B5F33ABBB8"
         }
       ]
     }
