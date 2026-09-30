@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.24.0-dev",
-      "title": "Phonetic Hound v0.24.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.0-dev-release.apk",
-      "sha256": "8632643CD8303C6EC751FEB497DC3634620D070B99AB8D196043D7163C8AA604",
+      "tag": "phonetichound-v0.24.1-dev",
+      "title": "Phonetic Hound v0.24.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.1-dev-release.apk",
+      "sha256": "0F374CDB0A4E6546BBD544FF674C5BF40847CB3DBADC41579A9742C9FF0CC4C5",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.24.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **アンテナを 2 種類追加**: 敵の方向へビームが分散して飛ぶ**フェーズドアレイ**（NAGANO のクリアで入手）と、上空から敵に光の柱が降ってくる**ディッシュ**（TOKYO AREA IV のクリアで入手）。これで全ステージのクリアでアンテナが 1 種類ずつ増えます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 8632643CD8303C6EC751FEB497DC3634620D070B99AB8D196043D7163C8AA604\nSHA-256（軽量版）: 70D8EF37FA1F3B4B3133FD2634B086FC154F004F2D7BB94C759F67F68B18266A",
+      "notes": "Phonetic Hound v0.24.1-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **BGM の音量を調整**: フル版の内蔵 MP3 のうち、ボス戦の曲（音楽：魔王魂）が大きく効果音が聞こえにくかったので、音量を下げました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 0F374CDB0A4E6546BBD544FF674C5BF40847CB3DBADC41579A9742C9FF0CC4C5\nSHA-256（軽量版）: A9EBCADCE01E5EC209F793B630A00F2CD4BA0D0F2B8356116E0D63D348BE156F",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.0-dev-lite-release.apk",
-          "sha256": "70D8EF37FA1F3B4B3133FD2634B086FC154F004F2D7BB94C759F67F68B18266A"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.1-dev-lite-release.apk",
+          "sha256": "A9EBCADCE01E5EC209F793B630A00F2CD4BA0D0F2B8356116E0D63D348BE156F"
         }
       ]
     }
