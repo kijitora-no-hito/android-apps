@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.23.0-dev",
-      "title": "Phonetic Hound v0.23.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.23.0-dev-release.apk",
-      "sha256": "A93A2B39A0A0FB6DC7A2E83C0760AC5BEE4D68A0FFD98BEE9E584D84EE508DA4",
+      "tag": "phonetichound-v0.24.0-dev",
+      "title": "Phonetic Hound v0.24.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.0-dev-release.apk",
+      "sha256": "8632643CD8303C6EC751FEB497DC3634620D070B99AB8D196043D7163C8AA604",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.23.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **停波を 30 秒に**: 基地局の停波（制圧）にかかる時間を 10 秒から 30 秒にし、耐える範囲を設備盤から 16m（開始は 10m 以内）に広げました。\n- **休憩中は座る**: 休憩地点のパネルを開いている間はプレイヤーが座り、周り（約 60m）のゾンビ・支配者・ドローン・弾はその場で止まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: A93A2B39A0A0FB6DC7A2E83C0760AC5BEE4D68A0FFD98BEE9E584D84EE508DA4\nSHA-256（軽量版）: 96BFF25DAB6577AE16E844F3F87F442C33632B0F1BB36E2B10997A686C1442D0",
+      "notes": "Phonetic Hound v0.24.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **アンテナを 2 種類追加**: 敵の方向へビームが分散して飛ぶ**フェーズドアレイ**（NAGANO のクリアで入手）と、上空から敵に光の柱が降ってくる**ディッシュ**（TOKYO AREA IV のクリアで入手）。これで全ステージのクリアでアンテナが 1 種類ずつ増えます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 8632643CD8303C6EC751FEB497DC3634620D070B99AB8D196043D7163C8AA604\nSHA-256（軽量版）: 70D8EF37FA1F3B4B3133FD2634B086FC154F004F2D7BB94C759F67F68B18266A",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.23.0-dev-lite-release.apk",
-          "sha256": "96BFF25DAB6577AE16E844F3F87F442C33632B0F1BB36E2B10997A686C1442D0"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.24.0-dev-lite-release.apk",
+          "sha256": "70D8EF37FA1F3B4B3133FD2634B086FC154F004F2D7BB94C759F67F68B18266A"
         }
       ]
     }
