@@ -37,9 +37,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.24.1-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.24.1-dev/phonetichound-0.24.1-dev-release.apk)
+### [フル版 APK をダウンロード（v0.25.0-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.25.0-dev/phonetichound-0.25.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.24.1-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.24.1-dev/phonetichound-0.24.1-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.25.0-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.25.0-dev/phonetichound-0.25.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -56,7 +56,7 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.24.1-dev）
+## この版でできること（0.25.0-dev）
 
 - **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
@@ -103,6 +103,13 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.25.0-dev</b>（2026-09-30）</summary>
+
+- **新しい版のお知らせ**: 起動時に GitHub のリリース一覧を確かめ、新しい版があればタイトル画面に［ダウンロード］［更新内容］［説明を見る］の帯を出します（フル版にはフル版、軽量版には軽量版の APK）。このため、インターネットの権限を使うようになりました。設定の「音・カメラ」→「更新の確認」を OFF にすると一切通信しません。**この版を入れると、次の版からはアプリの中で更新に気づけます。**
+
+</details>
+
+<details markdown="1">
 <summary><b>0.24.1-dev</b>（2026-09-30）</summary>
 
 - **BGM の音量を調整**: フル版の内蔵 MP3 のうち、ボス戦の曲（音楽：魔王魂）が大きく効果音が聞こえにくかったので、音量を下げました。
@@ -422,15 +429,15 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.24.1-dev（2026-09-30・開発中） |
-| ファイル（フル版） | `phonetichound-0.24.1-dev-release.apk`（93,661,317 バイト） |
-| SHA-256（フル版） | `0F374CDB0A4E6546BBD544FF674C5BF40847CB3DBADC41579A9742C9FF0CC4C5` |
-| ファイル（軽量版） | `phonetichound-0.24.1-dev-lite-release.apk`（11,437,477 バイト） |
-| SHA-256（軽量版） | `A9EBCADCE01E5EC209F793B630A00F2CD4BA0D0F2B8356116E0D63D348BE156F` |
+| バージョン | 0.25.0-dev（2026-09-30・開発中） |
+| ファイル（フル版） | `phonetichound-0.25.0-dev-release.apk`（93,661,353 バイト） |
+| SHA-256（フル版） | `A545DD4A71C6BBEE94FD8977FEB1EFBE1E639575C7E9DF84DAC9DB433A5B761C` |
+| ファイル（軽量版） | `phonetichound-0.25.0-dev-lite-release.apk`（11,437,509 バイト） |
+| SHA-256（軽量版） | `90B4F2EEF8A1CABEDB4F48896CB83994035743429CF54721D3A95588B381E073` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
-権限は使いません（インターネット通信もしません）。BGM の MP3 モードで選んだ曲は、Android のファイル選択で選んだものだけを端末内で再生します。結果の共有は、端末の共有メニューで選んだアプリに画像と文章を渡すだけです。
+使う権限はインターネットだけです（新しい版の確認のため）。起動時に GitHub の公開リポジトリのリリース一覧（releases.json）を読み、新しい版があればタイトル画面でお知らせします（前の確認から 6 時間以内は確かめません）。送るのはこの取得の通信だけで、セーブ・プレイの内容・端末の情報は送りません。設定の「音・カメラ」→「更新の確認」を OFF にすると一切通信しません。BGM の MP3 モードで選んだ曲は、Android のファイル選択で選んだものだけを端末内で再生します。結果の共有は、端末の共有メニューで選んだアプリに画像と文章を渡すだけです。
 
 ---
 
