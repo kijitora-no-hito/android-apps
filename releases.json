@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.22.0-dev",
-      "title": "Phonetic Hound v0.22.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.22.0-dev-release.apk",
-      "sha256": "B5DFB5B9367DD2FE5A0E926B96A0B1A59EB03A98A7CC1F38A0598C9457B0951F",
+      "tag": "phonetichound-v0.23.0-dev",
+      "title": "Phonetic Hound v0.23.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.23.0-dev-release.apk",
+      "sha256": "A93A2B39A0A0FB6DC7A2E83C0760AC5BEE4D68A0FFD98BEE9E584D84EE508DA4",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.22.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **「指示役」を「支配者」に改名**しました（画面・案内・BGM の「② 支配者との戦闘」・エンディングなど）。\n- **メニューの補足文を「？」の中へ**: 設定・記録・クレジット・成長などの画面の細かい説明文は、ふだんは出さず、右上の「？」を押すと読めるようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: B5DFB5B9367DD2FE5A0E926B96A0B1A59EB03A98A7CC1F38A0598C9457B0951F\nSHA-256（軽量版）: F9F8ED4CB0BB9EB314CCDC0E7BF061892DA5D60235673CD5736FA4F9446B2257",
+      "notes": "Phonetic Hound v0.23.0-dev（2026-09-30・**開発中**）\n\n開発中の版です。\n\n- **停波を 30 秒に**: 基地局の停波（制圧）にかかる時間を 10 秒から 30 秒にし、耐える範囲を設備盤から 16m（開始は 10m 以内）に広げました。\n- **休憩中は座る**: 休憩地点のパネルを開いている間はプレイヤーが座り、周り（約 60m）のゾンビ・支配者・ドローン・弾はその場で止まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: A93A2B39A0A0FB6DC7A2E83C0760AC5BEE4D68A0FFD98BEE9E584D84EE508DA4\nSHA-256（軽量版）: 96BFF25DAB6577AE16E844F3F87F442C33632B0F1BB36E2B10997A686C1442D0",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.22.0-dev-lite-release.apk",
-          "sha256": "F9F8ED4CB0BB9EB314CCDC0E7BF061892DA5D60235673CD5736FA4F9446B2257"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.23.0-dev-lite-release.apk",
+          "sha256": "96BFF25DAB6577AE16E844F3F87F442C33632B0F1BB36E2B10997A686C1442D0"
         }
       ]
     }
