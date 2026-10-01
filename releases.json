@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.28.1-dev",
-      "title": "Phonetic Hound v0.28.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.28.1-dev-release.apk",
-      "sha256": "AF2027C39453E0607EC4EDBD193E302CE2413B9E759039F57015B22DEC45DD2B",
+      "tag": "phonetichound-v0.29.0-dev",
+      "title": "Phonetic Hound v0.29.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.29.0-dev-release.apk",
+      "sha256": "9A4F44B6672F4C20078DEF634E8F733753C217EC40F90234264DED1FA64E15CA",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.28.1-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **ボス戦の BGM**: ボス戦は強敵（支配者との戦闘）の曲で始まり、1 体倒して 2 段階目（パワーアップ）に入るとボス戦の曲に切り替わります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: AF2027C39453E0607EC4EDBD193E302CE2413B9E759039F57015B22DEC45DD2B\nSHA-256（軽量版）: B99BF7607594770F19AB5AA6B4DC03BFAC9E6906F185CA10DC51D36DCA72343F",
+      "notes": "Phonetic Hound v0.29.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **最終ステージを追加**: TOKYO AREA IV の後に、新しい最終ステージ（7 番目）が加わりました。中身は遊んでのお楽しみです。エンディングは最終ステージのクリア後になります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 9A4F44B6672F4C20078DEF634E8F733753C217EC40F90234264DED1FA64E15CA\nSHA-256（軽量版）: 2FA919466519EC65072674235BCEE1BE7DF75D0B65AFEBC0D00209182491249D",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.28.1-dev-lite-release.apk",
-          "sha256": "B99BF7607594770F19AB5AA6B4DC03BFAC9E6906F185CA10DC51D36DCA72343F"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.29.0-dev-lite-release.apk",
+          "sha256": "2FA919466519EC65072674235BCEE1BE7DF75D0B65AFEBC0D00209182491249D"
         }
       ]
     }

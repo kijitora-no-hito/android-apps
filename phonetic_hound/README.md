@@ -37,9 +37,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.28.1-dev・内蔵 BGM 入り・89.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.28.1-dev/phonetichound-0.28.1-dev-release.apk)
+### [フル版 APK をダウンロード（v0.29.0-dev・内蔵 BGM 入り・89.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.29.0-dev/phonetichound-0.29.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.28.1-dev・内蔵 BGM なし・10.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.28.1-dev/phonetichound-0.28.1-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.29.0-dev・内蔵 BGM なし・11.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.29.0-dev/phonetichound-0.29.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -56,9 +56,9 @@
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.28.1-dev）
+## この版でできること（0.29.0-dev）
 
-- **全 6 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
+- **全 7 ステージ**を最初から最後まで遊べます（開発中の版では、どのステージも最初から選べます）。
 
   | # | ステージ | 特徴 | 難易度 |
   | --- | --- | --- | --- |
@@ -67,7 +67,8 @@
   | 3 | KYUSHU | 川と橋 | ★★ |
   | 4 | TOKYO AREA III | 高層ビルの谷 | ★★★ |
   | 5 | NAGANO | 山あい・森林・敵はすべてロボット・回復スポットあり | ★★★ |
-  | 6 | TOKYO AREA IV | 超高層街（最終ステージ） | ★★★★ |
+  | 6 | TOKYO AREA IV | 超高層街 | ★★★★ |
+  | 7 | ??? | 最終ステージ（遊んでのお楽しみ） | ★★★★★ |
 
 - **ノーマルモード**（セーブあり・レベルと成長）と、**チャレンジモード**（Lv 200 固定・セーブ無し・1 回倒れたら終わり。全ステージ通し / ステージ選択）。
 - スコアアタック: クリアタイム・撃破数・支配数のランキング、記録画面、スクリーンショット付きの結果共有（#phonetichound）。
@@ -86,6 +87,7 @@
 
 - 建物・道路などの地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
 - 地形: [国土地理院（標高タイル）](https://maps.gsi.go.jp/development/ichiran.html)
+- 最終ステージの地形: NASA/GSFC/Arizona State University（LROC NAC DTM、パブリックドメイン）を縮小して使用
 - NAGANO の一部の建物の位置・形: [国土地理院（シームレス空中写真）](https://maps.gsi.go.jp/development/ichiran.html)をもとに作成
 - BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
   [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
@@ -103,6 +105,13 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.29.0-dev</b>（2026-10-01）</summary>
+
+- **最終ステージを追加**: TOKYO AREA IV の後に、新しい最終ステージ（7 番目）が加わりました。中身は遊んでのお楽しみです。エンディングは最終ステージのクリア後になります。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.28.1-dev</b>（2026-10-01）</summary>
 
 - **ボス戦の BGM**: ボス戦は強敵（支配者との戦闘）の曲で始まり、1 体倒して 2 段階目（パワーアップ）に入るとボス戦の曲に切り替わります。
@@ -459,11 +468,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.28.1-dev（2026-10-01・開発中） |
-| ファイル（フル版） | `phonetichound-0.28.1-dev-release.apk`（93,677,913 バイト） |
-| SHA-256（フル版） | `AF2027C39453E0607EC4EDBD193E302CE2413B9E759039F57015B22DEC45DD2B` |
-| ファイル（軽量版） | `phonetichound-0.28.1-dev-lite-release.apk`（11,454,045 バイト） |
-| SHA-256（軽量版） | `B99BF7607594770F19AB5AA6B4DC03BFAC9E6906F185CA10DC51D36DCA72343F` |
+| バージョン | 0.29.0-dev（2026-10-01・開発中） |
+| ファイル（フル版） | `phonetichound-0.29.0-dev-release.apk`（94,240,079 バイト） |
+| SHA-256（フル版） | `9A4F44B6672F4C20078DEF634E8F733753C217EC40F90234264DED1FA64E15CA` |
+| ファイル（軽量版） | `phonetichound-0.29.0-dev-lite-release.apk`（12,016,191 バイト） |
+| SHA-256（軽量版） | `2FA919466519EC65072674235BCEE1BE7DF75D0B65AFEBC0D00209182491249D` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
