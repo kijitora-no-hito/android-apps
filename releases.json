@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.32.0-dev",
-      "title": "Phonetic Hound v0.32.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.32.0-dev-release.apk",
-      "sha256": "A838487089692C1F8546244E7F02AAB3BBC8009165DB23358ED65F08E61FA378",
+      "tag": "phonetichound-v0.32.1-dev",
+      "title": "Phonetic Hound v0.32.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.32.1-dev-release.apk",
+      "sha256": "BE667E2C0D00C38862E65BC218ED98745360AD7A450353510DC309F03536823E",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.32.0-dev（2026-10-02・**開発中**）\n\n開発中の版です。\n\n- **フライングアンテナ**: 最終ステージのクリアで手に入る 8 種類目のアンテナ。肩の左右に浮かぶ 2 台の飛行ユニットが、短く押すと放射状の弾、溜めると青いレーザー、ロックオン中に溜めると相手の真上へ飛んで弾を撃ちおろします。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: A838487089692C1F8546244E7F02AAB3BBC8009165DB23358ED65F08E61FA378\nSHA-256（軽量版）: 3ED2362057654F5E199BDE4B3552C80C7FC61072B11392B0ABB14463D1CCAFC0",
+      "notes": "Phonetic Hound v0.32.1-dev（2026-10-02・**開発中**）\n\n開発中の版です。\n\n- タイトルの［チュートリアル］のボタンを小さくして、チャレンジモードの下に並べました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: BE667E2C0D00C38862E65BC218ED98745360AD7A450353510DC309F03536823E\nSHA-256（軽量版）: 770B77C0D4A0E28302B3D4BBBA4933E91F52CEC36A3DE7A1BD86AE22B3C4E32C",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.32.0-dev-lite-release.apk",
-          "sha256": "3ED2362057654F5E199BDE4B3552C80C7FC61072B11392B0ABB14463D1CCAFC0"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.32.1-dev-lite-release.apk",
+          "sha256": "770B77C0D4A0E28302B3D4BBBA4933E91F52CEC36A3DE7A1BD86AE22B3C4E32C"
         }
       ]
     }
