@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.30.0-dev",
-      "title": "Phonetic Hound v0.30.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.30.0-dev-release.apk",
-      "sha256": "EB3E5CAF1402B77529ECB7FDF1EA6C7FD69B52047E7D30FFCB3773E123E8E2C8",
+      "tag": "phonetichound-v0.31.0-dev",
+      "title": "Phonetic Hound v0.31.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.31.0-dev-release.apk",
+      "sha256": "A73507CE8FE4C72A0ECDD01E7E4972844F7644C27FBCB7068372CA8F24013EC1",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.30.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **ロックオン中の移動を選べるように**: 設定の「操作・パッド」→「ロックオン中の移動」で、今までの動き（通常）と、ロックした敵の周りを回り込む動き（スティックの左右で回る・上下で近づく/離れる）を選べます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: EB3E5CAF1402B77529ECB7FDF1EA6C7FD69B52047E7D30FFCB3773E123E8E2C8\nSHA-256（軽量版）: 53C090C0657123349E01E5CE1FB213046BFA304E5BE99138C8A18DF6C50855DC",
+      "notes": "Phonetic Hound v0.31.0-dev（2026-10-01・**開発中**）\n\n開発中の版です。\n\n- **チュートリアルモード**: タイトルの［チュートリアル］で、小さな訓練場で操作と遊び方を 13 の段で練習できます（各段は［次へ］で飛ばせる・全部スキップも可・練習中は倒れない）。プレイデータ（セーブ・記録・Lv）は残りません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: A73507CE8FE4C72A0ECDD01E7E4972844F7644C27FBCB7068372CA8F24013EC1\nSHA-256（軽量版）: 9B2689AAD8E468F356625976EF2A8E147CEF061C1AF77B83C17FEA5768C85096",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.30.0-dev-lite-release.apk",
-          "sha256": "53C090C0657123349E01E5CE1FB213046BFA304E5BE99138C8A18DF6C50855DC"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.31.0-dev-lite-release.apk",
+          "sha256": "9B2689AAD8E468F356625976EF2A8E147CEF061C1AF77B83C17FEA5768C85096"
         }
       ]
     }
