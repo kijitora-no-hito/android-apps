@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.35.0-dev",
-      "title": "Phonetic Hound v0.35.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.35.0-dev-release.apk",
-      "sha256": "D6F69463D078467966644FC6F945BCA059A544490C199DAC9ED751FE1229F48C",
+      "tag": "phonetichound-v0.36.0-dev",
+      "title": "Phonetic Hound v0.36.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.36.0-dev-release.apk",
+      "sha256": "1CAC0AE607500917758FFEACC3463B2C707C4836D7A8343722C896EFE9ED1B9F",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.35.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **NAGANO の巨大局への山道**: 山の上の巨大局へ登る道が分かりにくかったので、川を渡った先から頂上の設備盤の手前まで、つづら折りの土の山道（約 400m）を作りました。地図にも線で出ます。道の上は急な所も歩いて登れます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: D6F69463D078467966644FC6F945BCA059A544490C199DAC9ED751FE1229F48C\nSHA-256（軽量版）: 1CEDE1325C28039CD0DB9990375DA80ACE10D38E5119FA085A0639D57EB5EB32",
+      "notes": "Phonetic Hound v0.36.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **難易度 EASY / NORMAL / HARD**: 設定の新しいタブ「ゲーム」で選べます（これまでの内容が NORMAL）。ノーマルモードで難易度を変えると、ステージの進行がリセットされて最初のステージから始まります（Lv・割り振り・アンテナ・記録はそのまま）。チャレンジモードのランキングは難易度ごとに分かれます。\n  - EASY: 巨大局のボスは 1 体（パワーアップなし）。支配者・ボス・管理ロボット以外の敵の体力が半分。\n  - HARD: ボスが残り 1 体になってパワーアップするとき体力が全回復。取り巻きを倒された支配者・ボス・ロボットが、2 分ごとに足の速い「取り巻き」を 20 体呼ぶ（体力 1。パンチで倒せる）。支配者以上の敵に新しい技が 2 つ（広がる衝撃の輪＝回避でくぐる、足元への時間差の落雷）。Lv の上がる速さが 2 倍。\n- **味方が最後まで付いてくる**: 指揮で従えた敵は、倒されるまで局のエリアを越えてどこまでも付いてきます。疾走すると疾走の速さで追いかけてきます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 1CAC0AE607500917758FFEACC3463B2C707C4836D7A8343722C896EFE9ED1B9F\nSHA-256（軽量版）: 5FF98AF0B55B33254A3CE9CDFBC5D2E7051B4BE4D0BCDDD3F6305C3B5AD0F5CE",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.35.0-dev-lite-release.apk",
-          "sha256": "1CEDE1325C28039CD0DB9990375DA80ACE10D38E5119FA085A0639D57EB5EB32"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.36.0-dev-lite-release.apk",
+          "sha256": "5FF98AF0B55B33254A3CE9CDFBC5D2E7051B4BE4D0BCDDD3F6305C3B5AD0F5CE"
         }
       ]
     }

@@ -38,9 +38,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.35.0-dev・内蔵 BGM 入り・71.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.35.0-dev/phonetichound-0.35.0-dev-release.apk)
+### [フル版 APK をダウンロード（v0.36.0-dev・内蔵 BGM 入り・71.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.36.0-dev/phonetichound-0.36.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.35.0-dev・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.35.0-dev/phonetichound-0.35.0-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.36.0-dev・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.36.0-dev/phonetichound-0.36.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -57,7 +57,7 @@
 - 自動更新はありません。v0.25.0-dev 以降はアプリの起動時に新しい版を確かめ、あればタイトル画面でお知らせします（設定で OFF にできます）。このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.35.0-dev）
+## この版でできること（0.36.0-dev）
 
 - **全 7 ステージ**を最初から最後まで遊べます（ノーマルモードは TOKYO AREA I から順に進む 1 本道。最後のステージをクリアするとエンディング）。
 
@@ -107,6 +107,16 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.36.0-dev</b>（2026-10-03）</summary>
+
+- **難易度 EASY / NORMAL / HARD**: 設定の新しいタブ「ゲーム」で選べます（これまでの内容が NORMAL）。ノーマルモードで難易度を変えると、ステージの進行がリセットされて最初のステージから始まります（Lv・割り振り・アンテナ・記録はそのまま）。チャレンジモードのランキングは難易度ごとに分かれます。
+  - EASY: 巨大局のボスは 1 体（パワーアップなし）。支配者・ボス・管理ロボット以外の敵の体力が半分。
+  - HARD: ボスが残り 1 体になってパワーアップするとき体力が全回復。取り巻きを倒された支配者・ボス・ロボットが、2 分ごとに足の速い「取り巻き」を 20 体呼ぶ（体力 1。パンチで倒せる）。支配者以上の敵に新しい技が 2 つ（広がる衝撃の輪＝回避でくぐる、足元への時間差の落雷）。Lv の上がる速さが 2 倍。
+- **味方が最後まで付いてくる**: 指揮で従えた敵は、倒されるまで局のエリアを越えてどこまでも付いてきます。疾走すると疾走の速さで追いかけてきます。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.35.0-dev</b>（2026-10-03）</summary>
 
 - **NAGANO の巨大局への山道**: 山の上の巨大局へ登る道が分かりにくかったので、川を渡った先から頂上の設備盤の手前まで、つづら折りの土の山道（約 400m）を作りました。地図にも線で出ます。道の上は急な所も歩いて登れます。
@@ -520,11 +530,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.35.0-dev（2026-10-03・開発中） |
-| ファイル（フル版） | `phonetichound-0.35.0-dev-release.apk`（74,792,490 バイト） |
-| SHA-256（フル版） | `D6F69463D078467966644FC6F945BCA059A544490C199DAC9ED751FE1229F48C` |
-| ファイル（軽量版） | `phonetichound-0.35.0-dev-lite-release.apk`（12,168,182 バイト） |
-| SHA-256（軽量版） | `1CEDE1325C28039CD0DB9990375DA80ACE10D38E5119FA085A0639D57EB5EB32` |
+| バージョン | 0.36.0-dev（2026-10-03・開発中） |
+| ファイル（フル版） | `phonetichound-0.36.0-dev-release.apk`（74,792,486 バイト） |
+| SHA-256（フル版） | `1CAC0AE607500917758FFEACC3463B2C707C4836D7A8343722C896EFE9ED1B9F` |
+| ファイル（軽量版） | `phonetichound-0.36.0-dev-lite-release.apk`（12,168,182 バイト） |
+| SHA-256（軽量版） | `5FF98AF0B55B33254A3CE9CDFBC5D2E7051B4BE4D0BCDDD3F6305C3B5AD0F5CE` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
