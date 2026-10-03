@@ -4,7 +4,7 @@
 
 [← Phonetic Hound のページに戻る](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/)
 
-> 開発中の版（v0.13.5-dev）の画面です。見た目や数値は今後変わることがあります。
+> 画面写真の一部は開発中の版（v0.13.5-dev）のものです。今の版とは見た目や数値が違うところがあります。
 
 ## もくじ
 
