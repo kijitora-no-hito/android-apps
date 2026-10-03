@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.0.0",
-      "title": "Phonetic Hound v1.0.0",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.0.0-release.apk",
-      "sha256": "16A9E58786B166F9C663C8264DEC7B12D47A5E814FEC09377E3D187BE4551C2F",
+      "tag": "phonetichound-v1.1.0",
+      "title": "Phonetic Hound v1.1.0",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.1.0-release.apk",
+      "sha256": "5546A91F9E0B09880B0792ECCC28C1E9684F7ACCA95EEF001A9C1B4E58003DF4",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.0.0（2026-10-04）\n\n- **正式版 1.0.0**: 開発中の表記を外しました。全 7 ステージ・エンディングまで遊べます。開発中の版からそのまま上書きインストールでき、セーブも引き継がれます。\n- まだ手に入れていないアンテナは、装備・記録・説明の画面で名前と性能を「？？？」で隠すようにしました。\n- エンディングのステージ名が、背景の場面の切り替わりと合わず、まとまって流れることがあったのを直しました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 16A9E58786B166F9C663C8264DEC7B12D47A5E814FEC09377E3D187BE4551C2F\nSHA-256（軽量版）: E71B358831798FFC81B2206DE15C865A933826D08DED1BB38863C250B18222B4",
+      "notes": "Phonetic Hound v1.1.0（2026-10-04）\n\n- **スマホを 5 台まで持てるように**: 小基地局 4 局に加えて、巨大局の支配者のスマホも同時に持てます（巨大局の信号の強さが見え、巨大局のエリアの群れも指揮できます）。\n- まだたどり着いていないステージの名前は、装備・記録・チャレンジ・説明の画面で「？？？」と表示するようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 5546A91F9E0B09880B0792ECCC28C1E9684F7ACCA95EEF001A9C1B4E58003DF4\nSHA-256（軽量版）: B3830672C1C26C2267E9C51951A0409785DC842C0B8508870A45FD1A4B0E04A0",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.0.0-lite-release.apk",
-          "sha256": "E71B358831798FFC81B2206DE15C865A933826D08DED1BB38863C250B18222B4"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.1.0-lite-release.apk",
+          "sha256": "B3830672C1C26C2267E9C51951A0409785DC842C0B8508870A45FD1A4B0E04A0"
         }
       ]
     }

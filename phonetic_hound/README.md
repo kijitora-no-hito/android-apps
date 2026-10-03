@@ -35,9 +35,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v1.0.0・内蔵 BGM 入り・71.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.0.0/phonetichound-1.0.0-release.apk)
+### [フル版 APK をダウンロード（v1.1.0・内蔵 BGM 入り・71.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.1.0/phonetichound-1.1.0-release.apk)
 
-### [軽量版 APK をダウンロード（v1.0.0・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.0.0/phonetichound-1.0.0-lite-release.apk)
+### [軽量版 APK をダウンロード（v1.1.0・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.1.0/phonetichound-1.1.0-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -54,7 +54,7 @@
 - 自動更新はありません。v0.25.0-dev 以降はアプリの起動時に新しい版を確かめ、あればタイトル画面でお知らせします（設定で OFF にできます）。このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（1.0.0）
+## この版でできること（1.1.0）
 
 - **全 7 ステージ**を最初から最後まで遊べます（ノーマルモードは TOKYO AREA I から順に進む 1 本道。最後のステージをクリアするとエンディング）。
 
@@ -103,6 +103,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>1.1.0</b>（2026-10-04）</summary>
+
+- **スマホを 5 台まで持てるように**: 小基地局 4 局に加えて、巨大局の支配者のスマホも同時に持てます（巨大局の信号の強さが見え、巨大局のエリアの群れも指揮できます）。
+- まだたどり着いていないステージの名前は、装備・記録・チャレンジ・説明の画面で「？？？」と表示するようにしました。
+
+</details>
+
+<details markdown="1">
 <summary><b>1.0.0</b>（2026-10-04）</summary>
 
 - **正式版 1.0.0**: 開発中の表記を外しました。全 7 ステージ・エンディングまで遊べます。開発中の版からそのまま上書きインストールでき、セーブも引き継がれます。
@@ -558,11 +566,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 1.0.0（2026-10-04） |
-| ファイル（フル版） | `phonetichound-1.0.0-release.apk`（74,825,250 バイト） |
-| SHA-256（フル版） | `16A9E58786B166F9C663C8264DEC7B12D47A5E814FEC09377E3D187BE4551C2F` |
-| ファイル（軽量版） | `phonetichound-1.0.0-lite-release.apk`（12,200,942 バイト） |
-| SHA-256（軽量版） | `E71B358831798FFC81B2206DE15C865A933826D08DED1BB38863C250B18222B4` |
+| バージョン | 1.1.0（2026-10-04） |
+| ファイル（フル版） | `phonetichound-1.1.0-release.apk`（74,825,250 バイト） |
+| SHA-256（フル版） | `5546A91F9E0B09880B0792ECCC28C1E9684F7ACCA95EEF001A9C1B4E58003DF4` |
+| ファイル（軽量版） | `phonetichound-1.1.0-lite-release.apk`（12,200,942 バイト） |
+| SHA-256（軽量版） | `B3830672C1C26C2267E9C51951A0409785DC842C0B8508870A45FD1A4B0E04A0` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
