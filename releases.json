@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.37.0-dev",
-      "title": "Phonetic Hound v0.37.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.37.0-dev-release.apk",
-      "sha256": "D9C39132FA469E9C8A651ED157D65F7C595A4B1E1DFE43E77E0D1F0C4D830820",
+      "tag": "phonetichound-v0.38.0-dev",
+      "title": "Phonetic Hound v0.38.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.38.0-dev-release.apk",
+      "sha256": "99AE802A4F455481DBADD1308A9C1A8C91060B0418792274FCC10474EA067B94",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.37.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **ボス戦の復活ポイント「公衆電話」**: 全ステージで、巨大局のボスから約 100m 手前に公衆電話を置きました（地図にも表示）。ボス戦で倒れると「公衆電話から復活する？」と聞かれ、［はい］なら公衆電話の前で復活します（ボスの残り体力・倒したボスはそのまま）。［いいえ］は今までどおり。公衆電話の周り 12m には敵が入ってきません。チャレンジモードでは使えません。\n- 森の中でカメラが木の葉に埋まりにくくなりました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: D9C39132FA469E9C8A651ED157D65F7C595A4B1E1DFE43E77E0D1F0C4D830820\nSHA-256（軽量版）: 3088E9ADF93178761C6E5B907E6DB75FA6C3F09CC2F49E6368FB008258DE73EB",
+      "notes": "Phonetic Hound v0.38.0-dev（2026-10-04・**開発中**）\n\n開発中の版です。\n\n- **アンテナの装備スロット 3 つ・戦闘中の切り替え**: メニューの「装備」で、持っているアンテナから 3 本までをスロット ①②③ に入れられます。ゲーム中はパッドの十字キー ← / →、またはタッチの［アンテナ］ボタンの左上の小さな丸 3 つで切り替えます（溜め中に切り替えると溜めは取り消し）。これに合わせて、パッドの「スマホ切替」の既定は R3 だけになりました（ボタンの割り当てで変えられます）。チャレンジモードは持っているアンテナの強い順に 3 本入った状態で始まります。\n- **公衆電話へのファストトラベル**: 巨大局のシールドを解除すると、休憩地点の行き先に［公衆電話］が出ます。公衆電話の前の［電話］からは休憩地点・制圧した局へ戻れます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 99AE802A4F455481DBADD1308A9C1A8C91060B0418792274FCC10474EA067B94\nSHA-256（軽量版）: AFDAAE15B9CBC83B9FE64B218FC63CC69AD85D66D9BA3E4E24FC4B0D8FA8909F",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.37.0-dev-lite-release.apk",
-          "sha256": "3088E9ADF93178761C6E5B907E6DB75FA6C3F09CC2F49E6368FB008258DE73EB"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.38.0-dev-lite-release.apk",
+          "sha256": "AFDAAE15B9CBC83B9FE64B218FC63CC69AD85D66D9BA3E4E24FC4B0D8FA8909F"
         }
       ]
     }

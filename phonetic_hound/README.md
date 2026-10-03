@@ -38,9 +38,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.37.0-dev・内蔵 BGM 入り・71.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.37.0-dev/phonetichound-0.37.0-dev-release.apk)
+### [フル版 APK をダウンロード（v0.38.0-dev・内蔵 BGM 入り・71.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.38.0-dev/phonetichound-0.38.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.37.0-dev・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.37.0-dev/phonetichound-0.37.0-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.38.0-dev・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.38.0-dev/phonetichound-0.38.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -57,7 +57,7 @@
 - 自動更新はありません。v0.25.0-dev 以降はアプリの起動時に新しい版を確かめ、あればタイトル画面でお知らせします（設定で OFF にできます）。このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.37.0-dev）
+## この版でできること（0.38.0-dev）
 
 - **全 7 ステージ**を最初から最後まで遊べます（ノーマルモードは TOKYO AREA I から順に進む 1 本道。最後のステージをクリアするとエンディング）。
 
@@ -107,6 +107,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.38.0-dev</b>（2026-10-04）</summary>
+
+- **アンテナの装備スロット 3 つ・戦闘中の切り替え**: メニューの「装備」で、持っているアンテナから 3 本までをスロット ①②③ に入れられます。ゲーム中はパッドの十字キー ← / →、またはタッチの［アンテナ］ボタンの左上の小さな丸 3 つで切り替えます（溜め中に切り替えると溜めは取り消し）。これに合わせて、パッドの「スマホ切替」の既定は R3 だけになりました（ボタンの割り当てで変えられます）。チャレンジモードは持っているアンテナの強い順に 3 本入った状態で始まります。
+- **公衆電話へのファストトラベル**: 巨大局のシールドを解除すると、休憩地点の行き先に［公衆電話］が出ます。公衆電話の前の［電話］からは休憩地点・制圧した局へ戻れます。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.37.0-dev</b>（2026-10-03）</summary>
 
 - **ボス戦の復活ポイント「公衆電話」**: 全ステージで、巨大局のボスから約 100m 手前に公衆電話を置きました（地図にも表示）。ボス戦で倒れると「公衆電話から復活する？」と聞かれ、［はい］なら公衆電話の前で復活します（ボスの残り体力・倒したボスはそのまま）。［いいえ］は今までどおり。公衆電話の周り 12m には敵が入ってきません。チャレンジモードでは使えません。
@@ -545,11 +553,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.37.0-dev（2026-10-03・開発中） |
-| ファイル（フル版） | `phonetichound-0.37.0-dev-release.apk`（74,808,874 バイト） |
-| SHA-256（フル版） | `D9C39132FA469E9C8A651ED157D65F7C595A4B1E1DFE43E77E0D1F0C4D830820` |
-| ファイル（軽量版） | `phonetichound-0.37.0-dev-lite-release.apk`（12,184,566 バイト） |
-| SHA-256（軽量版） | `3088E9ADF93178761C6E5B907E6DB75FA6C3F09CC2F49E6368FB008258DE73EB` |
+| バージョン | 0.38.0-dev（2026-10-04・開発中） |
+| ファイル（フル版） | `phonetichound-0.38.0-dev-release.apk`（74,808,874 バイト） |
+| SHA-256（フル版） | `99AE802A4F455481DBADD1308A9C1A8C91060B0418792274FCC10474EA067B94` |
+| ファイル（軽量版） | `phonetichound-0.38.0-dev-lite-release.apk`（12,184,566 バイト） |
+| SHA-256（軽量版） | `AFDAAE15B9CBC83B9FE64B218FC63CC69AD85D66D9BA3E4E24FC4B0D8FA8909F` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
