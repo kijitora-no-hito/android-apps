@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.36.1-dev",
-      "title": "Phonetic Hound v0.36.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.36.1-dev-release.apk",
-      "sha256": "FB1748711CD72A100AF4D89A34EFBBFC912CB7929A44F125135F301F888B90B1",
+      "tag": "phonetichound-v0.37.0-dev",
+      "title": "Phonetic Hound v0.37.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.37.0-dev-release.apk",
+      "sha256": "D9C39132FA469E9C8A651ED157D65F7C595A4B1E1DFE43E77E0D1F0C4D830820",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.36.1-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- 開発・確認用の機能を足しました（通常の遊びには影響ありません）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: FB1748711CD72A100AF4D89A34EFBBFC912CB7929A44F125135F301F888B90B1\nSHA-256（軽量版）: 1BFA3F4F4BDEF0FDE3C1D1FF6CBE20B6DF0AE0F71ADFA4B2B1D3443252CDC96B",
+      "notes": "Phonetic Hound v0.37.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **ボス戦の復活ポイント「公衆電話」**: 全ステージで、巨大局のボスから約 100m 手前に公衆電話を置きました（地図にも表示）。ボス戦で倒れると「公衆電話から復活する？」と聞かれ、［はい］なら公衆電話の前で復活します（ボスの残り体力・倒したボスはそのまま）。［いいえ］は今までどおり。公衆電話の周り 12m には敵が入ってきません。チャレンジモードでは使えません。\n- 森の中でカメラが木の葉に埋まりにくくなりました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: D9C39132FA469E9C8A651ED157D65F7C595A4B1E1DFE43E77E0D1F0C4D830820\nSHA-256（軽量版）: 3088E9ADF93178761C6E5B907E6DB75FA6C3F09CC2F49E6368FB008258DE73EB",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.36.1-dev-lite-release.apk",
-          "sha256": "1BFA3F4F4BDEF0FDE3C1D1FF6CBE20B6DF0AE0F71ADFA4B2B1D3443252CDC96B"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.37.0-dev-lite-release.apk",
+          "sha256": "3088E9ADF93178761C6E5B907E6DB75FA6C3F09CC2F49E6368FB008258DE73EB"
         }
       ]
     }
