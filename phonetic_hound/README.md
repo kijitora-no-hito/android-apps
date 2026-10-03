@@ -38,9 +38,9 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v0.32.1-dev・内蔵 BGM 入り・89.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.32.1-dev/phonetichound-0.32.1-dev-release.apk)
+### [フル版 APK をダウンロード（v0.33.0-dev・内蔵 BGM 入り・71.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.33.0-dev/phonetichound-0.33.0-dev-release.apk)
 
-### [軽量版 APK をダウンロード（v0.32.1-dev・内蔵 BGM なし・11.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.32.1-dev/phonetichound-0.32.1-dev-lite-release.apk)
+### [軽量版 APK をダウンロード（v0.33.0-dev・内蔵 BGM なし・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v0.33.0-dev/phonetichound-0.33.0-dev-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
@@ -57,7 +57,7 @@
 - 自動更新はありません。v0.25.0-dev 以降はアプリの起動時に新しい版を確かめ、あればタイトル画面でお知らせします（設定で OFF にできます）。このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.32.1-dev）
+## この版でできること（0.33.0-dev）
 
 - **全 7 ステージ**を最初から最後まで遊べます（ノーマルモードは TOKYO AREA I から順に進む 1 本道。最後のステージをクリアするとエンディング）。
 
@@ -94,7 +94,7 @@
 - BGM の譜面: [The Session](https://thesession.org/)（ODbL 1.0）。アプリに同梱した譜面データ（派生データベース）は
   [music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data) で公開しています。
   アプリのクレジット画面からも書き出せます。
-- 音楽（フル版の内蔵 MP3）: 音楽：[かまタマゴ](https://kamatamago.com/)、音楽：[魔王魂](https://maou.audio/)。曲名はアプリのクレジット画面に。曲ファイル単体の再配布は各サイトの規約で禁止されています。
+- 音楽（フル版の内蔵 MP3）: 音楽：[かまタマゴ](https://kamatamago.com/)、音楽：[魔王魂](https://maou.audio/)。曲名はアプリのクレジット画面に。ループ再生のために、曲の頭・終わりの切り出し、継ぎ目の処理、OGG への変換をしています。曲ファイル単体の再配布は各サイトの規約で禁止されています。
 - フォント: Noto Sans JP（SIL Open Font License 1.1）
 - ゲームエンジン: libGDX（Apache License 2.0）
 
@@ -107,6 +107,14 @@
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>0.33.0-dev</b>（2026-10-03）</summary>
+
+- **内蔵 MP3 の BGM が途切れずにループするように**: フル版の内蔵 MP3 の全 19 曲で、曲の終わりの無音・フェードアウトで止まらず、曲の途中の区切りから継ぎ目なく繰り返すようにしました（最初の 1 回だけイントロを流します）。
+- フル版の APK が約 89 MB から約 71 MB に小さくなりました。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.32.1-dev</b>（2026-10-02）</summary>
 
 - タイトルの［チュートリアル］のボタンを小さくして、チャレンジモードの下に並べました。
@@ -498,11 +506,11 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.32.1-dev（2026-10-02・開発中） |
-| ファイル（フル版） | `phonetichound-0.32.1-dev-release.apk`（94,262,078 バイト） |
-| SHA-256（フル版） | `BE667E2C0D00C38862E65BC218ED98745360AD7A450353510DC309F03536823E` |
-| ファイル（軽量版） | `phonetichound-0.32.1-dev-lite-release.apk`（12,038,194 バイト） |
-| SHA-256（軽量版） | `770B77C0D4A0E28302B3D4BBBA4933E91F52CEC36A3DE7A1BD86AE22B3C4E32C` |
+| バージョン | 0.33.0-dev（2026-10-03・開発中） |
+| ファイル（フル版） | `phonetichound-0.33.0-dev-release.apk`（74,776,182 バイト） |
+| SHA-256（フル版） | `3A055E6D05D60D5F3765C18F3CD0F4D2A61BA23AACAED21E34D1BAB7C5D47538` |
+| ファイル（軽量版） | `phonetichound-0.33.0-dev-lite-release.apk`（12,151,874 バイト） |
+| SHA-256（軽量版） | `B18BA99AEFC7DD7F153F01BF6E08DE037BD6C63270B111ABDF0DA95F1D3F6856` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
