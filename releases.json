@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.33.0-dev",
-      "title": "Phonetic Hound v0.33.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.33.0-dev-release.apk",
-      "sha256": "3A055E6D05D60D5F3765C18F3CD0F4D2A61BA23AACAED21E34D1BAB7C5D47538",
+      "tag": "phonetichound-v0.34.0-dev",
+      "title": "Phonetic Hound v0.34.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.34.0-dev-release.apk",
+      "sha256": "7CF69302A5C3B2714D9BF8FC7B2C244D4BC62C40315730D44A484F8CAD30A28A",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.33.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **内蔵 MP3 の BGM が途切れずにループするように**: フル版の内蔵 MP3 の全 19 曲で、曲の終わりの無音・フェードアウトで止まらず、曲の途中の区切りから継ぎ目なく繰り返すようにしました（最初の 1 回だけイントロを流します）。\n- フル版の APK が約 89 MB から約 71 MB に小さくなりました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 3A055E6D05D60D5F3765C18F3CD0F4D2A61BA23AACAED21E34D1BAB7C5D47538\nSHA-256（軽量版）: B18BA99AEFC7DD7F153F01BF6E08DE037BD6C63270B111ABDF0DA95F1D3F6856",
+      "notes": "Phonetic Hound v0.34.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **パッドのボタン割り当て**: 設定「操作・パッド」の［ボタンの割り当て…］で、ゲーム中の操作（疾走・パンチ・アンテナ・回避・アクション・電波放射・ロックオン・地図・メニューなど）のボタンを変えられるようにしました。使用中のボタンを選ぶと入れ替わります。［初期設定に戻す］もあります。画面のボタン表示・操作説明も割り当てに合わせて変わります（メニューの決定・戻るとスティックは固定）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 7CF69302A5C3B2714D9BF8FC7B2C244D4BC62C40315730D44A484F8CAD30A28A\nSHA-256（軽量版）: 62F8EC7177E87671F0E0867A83B9FDDC6F66EA6F881222B9635C2809B9F34AA4",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.33.0-dev-lite-release.apk",
-          "sha256": "B18BA99AEFC7DD7F153F01BF6E08DE037BD6C63270B111ABDF0DA95F1D3F6856"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.34.0-dev-lite-release.apk",
+          "sha256": "62F8EC7177E87671F0E0867A83B9FDDC6F66EA6F881222B9635C2809B9F34AA4"
         }
       ]
     }
