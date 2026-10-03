@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v0.34.0-dev",
-      "title": "Phonetic Hound v0.34.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.34.0-dev-release.apk",
-      "sha256": "7CF69302A5C3B2714D9BF8FC7B2C244D4BC62C40315730D44A484F8CAD30A28A",
+      "tag": "phonetichound-v0.35.0-dev",
+      "title": "Phonetic Hound v0.35.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.35.0-dev-release.apk",
+      "sha256": "D6F69463D078467966644FC6F945BCA059A544490C199DAC9ED751FE1229F48C",
       "prerelease": true,
-      "notes": "Phonetic Hound v0.34.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **パッドのボタン割り当て**: 設定「操作・パッド」の［ボタンの割り当て…］で、ゲーム中の操作（疾走・パンチ・アンテナ・回避・アクション・電波放射・ロックオン・地図・メニューなど）のボタンを変えられるようにしました。使用中のボタンを選ぶと入れ替わります。［初期設定に戻す］もあります。画面のボタン表示・操作説明も割り当てに合わせて変わります（メニューの決定・戻るとスティックは固定）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 7CF69302A5C3B2714D9BF8FC7B2C244D4BC62C40315730D44A484F8CAD30A28A\nSHA-256（軽量版）: 62F8EC7177E87671F0E0867A83B9FDDC6F66EA6F881222B9635C2809B9F34AA4",
+      "notes": "Phonetic Hound v0.35.0-dev（2026-10-03・**開発中**）\n\n開発中の版です。\n\n- **NAGANO の巨大局への山道**: 山の上の巨大局へ登る道が分かりにくかったので、川を渡った先から頂上の設備盤の手前まで、つづら折りの土の山道（約 400m）を作りました。地図にも線で出ます。道の上は急な所も歩いて登れます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: D6F69463D078467966644FC6F945BCA059A544490C199DAC9ED751FE1229F48C\nSHA-256（軽量版）: 1CEDE1325C28039CD0DB9990375DA80ACE10D38E5119FA085A0639D57EB5EB32",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.34.0-dev-lite-release.apk",
-          "sha256": "62F8EC7177E87671F0E0867A83B9FDDC6F66EA6F881222B9635C2809B9F34AA4"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-0.35.0-dev-lite-release.apk",
+          "sha256": "1CEDE1325C28039CD0DB9990375DA80ACE10D38E5119FA085A0639D57EB5EB32"
         }
       ]
     }
