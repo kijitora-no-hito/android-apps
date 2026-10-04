@@ -67,16 +67,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.1.0",
-      "title": "Phonetic Hound v1.1.0",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.1.0-release.apk",
-      "sha256": "5546A91F9E0B09880B0792ECCC28C1E9684F7ACCA95EEF001A9C1B4E58003DF4",
+      "tag": "phonetichound-v1.2.0",
+      "title": "Phonetic Hound v1.2.0",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.2.0-release.apk",
+      "sha256": "F15A4A2E93A4349B64E8D7713B2F6042BA011E4FF0D86EE9DB36DE7A940E6E83",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.1.0（2026-10-04）\n\n- **スマホを 5 台まで持てるように**: 小基地局 4 局に加えて、巨大局の支配者のスマホも同時に持てます（巨大局の信号の強さが見え、巨大局のエリアの群れも指揮できます）。\n- まだたどり着いていないステージの名前は、装備・記録・チャレンジ・説明の画面で「？？？」と表示するようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 5546A91F9E0B09880B0792ECCC28C1E9684F7ACCA95EEF001A9C1B4E58003DF4\nSHA-256（軽量版）: B3830672C1C26C2267E9C51951A0409785DC842C0B8508870A45FD1A4B0E04A0",
+      "notes": "Phonetic Hound v1.2.0（2026-10-04）\n\n- **HARD をもっと手ごわく**:\n  - ゾンビ（群れ・野良・支配者）の移動の速さが 2 倍になりました（ボス・管理ロボット・ドローンは今までどおり）。\n  - **局の影**: 基地局の停波を始めると、局ごとに 1 回だけ、約 60m 先に黒い「影」が現れます（「Alpha の影に侵入された」）。影はあなたと同じアンテナで攻撃してきて、強さは制圧済みの局の数に応じてあなたの 25% → 50% → 75% → 100% → 125%。アンテナの振りは赤い予告が出るので、回避でかわせます。\n- **大型ロボットが遠くから気づくように**（全難易度）: 設備盤を守る管理ロボットは 40m 先から気づき、管理ロボット・指揮ロボットとも撃たれたら距離に関係なく撃った方へ向かってきます。遠くから一方的に倒しにくくなりました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: F15A4A2E93A4349B64E8D7713B2F6042BA011E4FF0D86EE9DB36DE7A940E6E83\nSHA-256（軽量版）: 4B2ED28F98343ACD16AA3BAF2A6593598A09DB82CDE516EAF10BBD48DCCD38D5",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.1.0-lite-release.apk",
-          "sha256": "B3830672C1C26C2267E9C51951A0409785DC842C0B8508870A45FD1A4B0E04A0"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.2.0-lite-release.apk",
+          "sha256": "4B2ED28F98343ACD16AA3BAF2A6593598A09DB82CDE516EAF10BBD48DCCD38D5"
         }
       ]
     }
