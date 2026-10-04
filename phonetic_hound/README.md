@@ -27,7 +27,7 @@
 </tr>
 <tr>
 <td align="center"><img src="top/nagano.jpg" width="340" alt="NAGANO"><br>NAGANO: 山あいのロボットの群れ</td>
-<td align="center"><img src="top/finale.jpg" width="340" alt="TOKYO AREA IV"><br>TOKYO AREA IV: 最終ステージ</td>
+<td align="center"><img src="top/finale.jpg" width="340" alt="TOKYO AREA IV"><br>TOKYO AREA IV: 超高層街</td>
 </tr>
 </table>
 
