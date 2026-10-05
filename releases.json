@@ -82,12 +82,12 @@
     },
     {
       "folder": "phonetic_hound_defence",
-      "tag": "phonetichounddefence-v0.3.0-dev",
-      "title": "Phonetic Hound Defence v0.3.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.3.0-dev-release.apk",
-      "sha256": "F7330FD4BC971D47F17E65C687B8B8A43851D98C11926BA8D336AED4C9D06CB4",
+      "tag": "phonetichounddefence-v0.4.0-dev",
+      "title": "Phonetic Hound Defence v0.4.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.4.0-dev-release.apk",
+      "sha256": "136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC",
       "prerelease": true,
-      "notes": "Phonetic Hound Defence v0.3.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- 最初の公開（開発中）。ステージ 1、防衛装置・勇者・中継器、進路の予告、周波数帯とカバレッジ、設定。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: F7330FD4BC971D47F17E65C687B8B8A43851D98C11926BA8D336AED4C9D06CB4"
+      "notes": "Phonetic Hound Defence v0.4.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **ステージ 2（TOKYO AREA II）とステージ 3（KYUSHU）を追加**: 前のステージをクリアすると次が選べます。\n  - TOKYO AREA II: 団地と坂。空から来る敵が多く、丘の上の巨大局を狙う群れが坂を登ってくる。\n  - KYUSHU: 川と橋。橋で進路が絞られ、硬い敵と足の速い敵が多い。建物に囲まれて電波が届きにくい局は中継器で守る。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC"
     }
   ]
 }

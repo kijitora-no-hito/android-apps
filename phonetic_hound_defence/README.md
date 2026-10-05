@@ -2,7 +2,7 @@
 
 # Phonetic Hound Defence（開発中）
 
-> **⚠ 開発中の版です。** 遊べるのはステージ 1 だけで、内容・バランス・画面は今後大きく変わります。
+> **⚠ 開発中の版です。** 遊べるのはステージ 3 までで、内容・バランス・画面は今後大きく変わります。
 > セーブデータは今後の版で引き継げなくなることがあります。
 
 [Phonetic Hound](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/) の街とキャラクターで遊ぶ、横画面のタワーディフェンスです。
@@ -32,7 +32,7 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.3.0-dev・開発中・6.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.3.0-dev/phonetichounddefence-0.3.0-dev-release.apk)
+### [APK をダウンロード（v0.4.0-dev・開発中・9.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.4.0-dev/phonetichounddefence-0.4.0-dev-release.apk)
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -46,15 +46,22 @@
 - Phonetic Hound とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.3.0-dev）
+## この版でできること（0.4.0-dev）
 
-- ステージ 1（TOKYO AREA I）: 10 wave、最後に大型の敵。局を守り切った残りの耐久で ★1〜3。
+- ステージ 3 つ（前のステージをクリアすると次が選べる）。それぞれ 10 wave、最後に大型の敵。局を守り切った残りの耐久で ★1〜3。
+
+  | # | ステージ | 特徴 |
+  | --- | --- | --- |
+  | 1 | TOKYO AREA I | 住宅地。四方から道路沿いに攻めてくる |
+  | 2 | TOKYO AREA II | 団地と坂。空から来る敵が多い |
+  | 3 | KYUSHU | 川と橋。橋で進路が絞られる。電波の届きにくい局がある |
+
 - 防衛装置 6 種類（3 段階の強化・売却）、勇者 1 人（タップで移動・必殺技）、中継器。
 - 進路の予告（次の wave ははっきり、その先は薄く）と、これからの wave の一覧。
 - 周波数帯（900MHz / 2.4GHz / 6GHz / 14GHz / 28GHz）を局ごとに選ぶと、置ける範囲と台数が変わる。
 - 設定: 音・中継器の置き方（自由に置く／決まった地点から選ぶ。端末の速さで初期値が決まる）。
 
-これから: ステージ 2・3、バランスの調整。
+これから: バランスの調整、ステージの追加。
 
 ## 注意
 
@@ -79,6 +86,15 @@
 ## 更新履歴
 
 <details open markdown="1">
+<summary><b>0.4.0-dev</b>（2026-10-05）</summary>
+
+- **ステージ 2（TOKYO AREA II）とステージ 3（KYUSHU）を追加**: 前のステージをクリアすると次が選べます。
+  - TOKYO AREA II: 団地と坂。空から来る敵が多く、丘の上の巨大局を狙う群れが坂を登ってくる。
+  - KYUSHU: 川と橋。橋で進路が絞られ、硬い敵と足の速い敵が多い。建物に囲まれて電波が届きにくい局は中継器で守る。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.3.0-dev</b>（2026-10-05）</summary>
 
 - 最初の公開（開発中）。ステージ 1、防衛装置・勇者・中継器、進路の予告、周波数帯とカバレッジ、設定。
@@ -89,9 +105,9 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.3.0-dev（2026-10-05・開発中） |
-| ファイル | `phonetichounddefence-0.3.0-dev-release.apk`（6,688,493 バイト） |
-| SHA-256 | `F7330FD4BC971D47F17E65C687B8B8A43851D98C11926BA8D336AED4C9D06CB4` |
+| バージョン | 0.4.0-dev（2026-10-05・開発中） |
+| ファイル | `phonetichounddefence-0.4.0-dev-release.apk`（9,824,379 バイト） |
+| SHA-256 | `136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
