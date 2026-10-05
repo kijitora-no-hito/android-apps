@@ -42,7 +42,7 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.5.0-dev・開発中・9.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.5.0-dev/phonetichounddefence-0.5.0-dev-release.apk)
+### [APK をダウンロード（v0.5.1-dev・開発中・9.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.5.1-dev/phonetichounddefence-0.5.1-dev-release.apk)
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -56,7 +56,7 @@
 - Phonetic Hound とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.5.0-dev）
+## この版でできること（0.5.1-dev）
 
 - ステージ 3 つ（前のステージをクリアすると次が選べる）。それぞれ 10 wave、最後に大型の敵。局を守り切った残りの耐久で ★1〜3。
 
@@ -97,6 +97,13 @@
 ## 更新履歴
 
 <details open markdown="1">
+<summary><b>0.5.1-dev</b>（2026-10-05）</summary>
+
+- **エリアの外の見た目を整理**: 遊ぶ範囲の外へ長く延びていた道路を短く切り落とし、範囲の外の地面・建物・木は暗がりへ自然に消えるようにしました（肌色の平面も無くなりました）。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.5.0-dev</b>（2026-10-05）</summary>
 
 - **カバレッジのささっと確認**: 右上の［電波］で全局のカバレッジを表示（もう一度押すと消える。wave 中も使える）。局の札を長押しすると、その局だけを表示。
@@ -125,9 +132,9 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.5.0-dev（2026-10-05・開発中） |
-| ファイル | `phonetichounddefence-0.5.0-dev-release.apk`（9,840,763 バイト） |
-| SHA-256 | `315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995` |
+| バージョン | 0.5.1-dev（2026-10-05・開発中） |
+| ファイル | `phonetichounddefence-0.5.1-dev-release.apk`（9,840,763 バイト） |
+| SHA-256 | `0CFCEAAE432FD98DC4969E08809DF3A906EC565B770CC461C441B5F4F8BB7F96` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 

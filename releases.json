@@ -82,12 +82,12 @@
     },
     {
       "folder": "phonetic_hound_defence",
-      "tag": "phonetichounddefence-v0.5.0-dev",
-      "title": "Phonetic Hound Defence v0.5.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.5.0-dev-release.apk",
-      "sha256": "315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995",
+      "tag": "phonetichounddefence-v0.5.1-dev",
+      "title": "Phonetic Hound Defence v0.5.1-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.5.1-dev-release.apk",
+      "sha256": "0CFCEAAE432FD98DC4969E08809DF3A906EC565B770CC461C441B5F4F8BB7F96",
       "prerelease": true,
-      "notes": "Phonetic Hound Defence v0.5.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **カバレッジのささっと確認**: 右上の［電波］で全局のカバレッジを表示（もう一度押すと消える。wave 中も使える）。局の札を長押しすると、その局だけを表示。\n- **キャラクターと装置を大きく**: 敵・勇者・装置を大きく描き、カメラを引いても小さくなりすぎないように。HP バーと名札も大きく。\n- **ミニマップ**: 左上に全体の地図（局・敵・次の wave の進路・装置・勇者・見ている範囲）。タップ・ドラッグでその場所へ移動、［▲］で畳める。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995"
+      "notes": "Phonetic Hound Defence v0.5.1-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **エリアの外の見た目を整理**: 遊ぶ範囲の外へ長く延びていた道路を短く切り落とし、範囲の外の地面・建物・木は暗がりへ自然に消えるようにしました（肌色の平面も無くなりました）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 0CFCEAAE432FD98DC4969E08809DF3A906EC565B770CC461C441B5F4F8BB7F96"
     }
   ]
 }
