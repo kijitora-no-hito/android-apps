@@ -82,12 +82,12 @@
     },
     {
       "folder": "phonetic_hound_defence",
-      "tag": "phonetichounddefence-v0.5.1-dev",
-      "title": "Phonetic Hound Defence v0.5.1-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.5.1-dev-release.apk",
-      "sha256": "0CFCEAAE432FD98DC4969E08809DF3A906EC565B770CC461C441B5F4F8BB7F96",
+      "tag": "phonetichounddefence-v0.5.2-dev",
+      "title": "Phonetic Hound Defence v0.5.2-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.5.2-dev-release.apk",
+      "sha256": "CBF7E958B45E02EBB50244B5B2AD09D7A615944F336D2D412913870823194728",
       "prerelease": true,
-      "notes": "Phonetic Hound Defence v0.5.1-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **エリアの外の見た目を整理**: 遊ぶ範囲の外へ長く延びていた道路を短く切り落とし、範囲の外の地面・建物・木は暗がりへ自然に消えるようにしました（肌色の平面も無くなりました）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 0CFCEAAE432FD98DC4969E08809DF3A906EC565B770CC461C441B5F4F8BB7F96"
+      "notes": "Phonetic Hound Defence v0.5.2-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **不具合の修正**: 周波数帯の窓と装置の窓で、［×］・帯の切り替え・強化・売却のボタンが押せなかったのを直しました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: CBF7E958B45E02EBB50244B5B2AD09D7A615944F336D2D412913870823194728"
     }
   ]
 }
