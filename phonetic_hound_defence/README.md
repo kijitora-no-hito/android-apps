@@ -40,6 +40,8 @@
 
 ### [📖 遊び方マニュアル（画面の見方・装置・周波数帯・勇者・攻略のヒント）](https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/manual.html)
 
+### [📄 PDF マニュアルをダウンロード（A4・36 ページ・5 MB。操作方法から電波伝搬のしくみまで）](https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/Phonetic_Hound_Defence_manual.pdf)
+
 ## ダウンロード
 
 ### [APK をダウンロード（v0.7.0-dev・開発中・14.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.7.0-dev/phonetichounddefence-0.7.0-dev-release.apk)

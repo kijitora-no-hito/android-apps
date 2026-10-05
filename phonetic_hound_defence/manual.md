@@ -6,6 +6,8 @@
 
 > 開発中の版（v0.5.0-dev）の画面と数値です。今後の版で見た目や数値が変わることがあります。
 
+**[📄 PDF マニュアルをダウンロード](https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/Phonetic_Hound_Defence_manual.pdf)**（A4・36 ページ。0.7.0-dev の内容で、装置の強化段ごとの値・電波伝搬のしくみなど、このページより詳しく書いています）
+
 ## もくじ
 
 1. [ゲームの目的](#ゲームの目的)
