@@ -26,9 +26,19 @@
 </tr>
 <tr>
 <td align="center"><img src="top/boss.jpg" width="420" alt="大型の敵"><br>最後の wave には大型の敵が巨大局を狙ってくる</td>
-<td align="center"><img src="top/river.jpg" width="420" alt="KYUSHU"><br>KYUSHU: 川と橋で進路が絞られる</td>
+<td align="center"><img src="top/river.jpg" width="420" alt="KYUSHU"><br>KYUSHU: 川と橋で進路が絞られる。建物に囲まれて電波が届きにくい局も</td>
+</tr>
+<tr>
+<td align="center"><img src="top/band_window.jpg" width="420" alt="周波数帯"><br>局ごとに周波数帯を選ぶ。高い帯ほど範囲は狭いが、たくさん置ける</td>
+<td align="center"><img src="top/stage_select.jpg" width="420" alt="ステージ選択"><br>ステージは 3 つ。クリアすると次が解放</td>
+</tr>
+<tr>
+<td align="center"><img src="top/title.jpg" width="420" alt="タイトル"><br>タイトル</td>
+<td align="center"><img src="top/result.jpg" width="420" alt="リザルト"><br>守り切った局の耐久で ★1〜3</td>
 </tr>
 </table>
+
+### [📖 遊び方マニュアル（画面の見方・装置・周波数帯・勇者・攻略のヒント）](https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/manual.html)
 
 ## ダウンロード
 
