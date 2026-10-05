@@ -21,12 +21,12 @@
 
 <table>
 <tr>
-<td align="center"><img src="top/routes.jpg" width="420" alt="進路の予告"><br>次の wave の進路を確かめてから守りを組む</td>
-<td align="center"><img src="top/battle.jpg" width="420" alt="防衛"><br>道路を進む群れを砲台で迎え撃つ</td>
+<td align="center"><img src="top/routes_minimap.jpg" width="420" alt="進路とミニマップ"><br>道路を進む群れと次の wave の進路。左上のミニマップで全体の侵攻が分かる</td>
+<td align="center"><img src="top/coverage.jpg" width="420" alt="カバレッジ"><br>［電波］で各局のカバレッジを確認。装置は電波が届く所にだけ置ける</td>
 </tr>
 <tr>
-<td align="center"><img src="top/boss_wave.jpg" width="420" alt="最後の wave"><br>最後の wave。勇者が巨大局の前で踏みとどまる</td>
-<td></td>
+<td align="center"><img src="top/boss.jpg" width="420" alt="大型の敵"><br>最後の wave には大型の敵が巨大局を狙ってくる</td>
+<td align="center"><img src="top/river.jpg" width="420" alt="KYUSHU"><br>KYUSHU: 川と橋で進路が絞られる</td>
 </tr>
 </table>
 
