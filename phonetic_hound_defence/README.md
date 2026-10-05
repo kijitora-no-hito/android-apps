@@ -32,7 +32,7 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.4.0-dev・開発中・9.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.4.0-dev/phonetichounddefence-0.4.0-dev-release.apk)
+### [APK をダウンロード（v0.5.0-dev・開発中・9.4 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichounddefence-v0.5.0-dev/phonetichounddefence-0.5.0-dev-release.apk)
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -46,7 +46,7 @@
 - Phonetic Hound とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.4.0-dev）
+## この版でできること（0.5.0-dev）
 
 - ステージ 3 つ（前のステージをクリアすると次が選べる）。それぞれ 10 wave、最後に大型の敵。局を守り切った残りの耐久で ★1〜3。
 
@@ -59,6 +59,7 @@
 - 防衛装置 6 種類（3 段階の強化・売却）、勇者 1 人（タップで移動・必殺技）、中継器。
 - 進路の予告（次の wave ははっきり、その先は薄く）と、これからの wave の一覧。
 - 周波数帯（900MHz / 2.4GHz / 6GHz / 14GHz / 28GHz）を局ごとに選ぶと、置ける範囲と台数が変わる。
+- 右上の［電波］で全局のカバレッジをすぐ確認（局の札の長押しでその局だけ）。左上のミニマップで敵の侵攻を一目で（畳める）。
 - 設定: 音・中継器の置き方（自由に置く／決まった地点から選ぶ。端末の速さで初期値が決まる）。
 
 これから: バランスの調整、ステージの追加。
@@ -86,6 +87,15 @@
 ## 更新履歴
 
 <details open markdown="1">
+<summary><b>0.5.0-dev</b>（2026-10-05）</summary>
+
+- **カバレッジのささっと確認**: 右上の［電波］で全局のカバレッジを表示（もう一度押すと消える。wave 中も使える）。局の札を長押しすると、その局だけを表示。
+- **キャラクターと装置を大きく**: 敵・勇者・装置を大きく描き、カメラを引いても小さくなりすぎないように。HP バーと名札も大きく。
+- **ミニマップ**: 左上に全体の地図（局・敵・次の wave の進路・装置・勇者・見ている範囲）。タップ・ドラッグでその場所へ移動、［▲］で畳める。
+
+</details>
+
+<details markdown="1">
 <summary><b>0.4.0-dev</b>（2026-10-05）</summary>
 
 - **ステージ 2（TOKYO AREA II）とステージ 3（KYUSHU）を追加**: 前のステージをクリアすると次が選べます。
@@ -105,9 +115,9 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.4.0-dev（2026-10-05・開発中） |
-| ファイル | `phonetichounddefence-0.4.0-dev-release.apk`（9,824,379 バイト） |
-| SHA-256 | `136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC` |
+| バージョン | 0.5.0-dev（2026-10-05・開発中） |
+| ファイル | `phonetichounddefence-0.5.0-dev-release.apk`（9,840,763 バイト） |
+| SHA-256 | `315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995` |
 | 対応 Android | 7.0 以上（横画面） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 

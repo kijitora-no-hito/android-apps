@@ -82,12 +82,12 @@
     },
     {
       "folder": "phonetic_hound_defence",
-      "tag": "phonetichounddefence-v0.4.0-dev",
-      "title": "Phonetic Hound Defence v0.4.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.4.0-dev-release.apk",
-      "sha256": "136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC",
+      "tag": "phonetichounddefence-v0.5.0-dev",
+      "title": "Phonetic Hound Defence v0.5.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.5.0-dev-release.apk",
+      "sha256": "315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995",
       "prerelease": true,
-      "notes": "Phonetic Hound Defence v0.4.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **ステージ 2（TOKYO AREA II）とステージ 3（KYUSHU）を追加**: 前のステージをクリアすると次が選べます。\n  - TOKYO AREA II: 団地と坂。空から来る敵が多く、丘の上の巨大局を狙う群れが坂を登ってくる。\n  - KYUSHU: 川と橋。橋で進路が絞られ、硬い敵と足の速い敵が多い。建物に囲まれて電波が届きにくい局は中継器で守る。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 136D33A0F71035DD84EB65F99F1B0C482A9F1F870765ADEB3511EC7D96348BBC"
+      "notes": "Phonetic Hound Defence v0.5.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **カバレッジのささっと確認**: 右上の［電波］で全局のカバレッジを表示（もう一度押すと消える。wave 中も使える）。局の札を長押しすると、その局だけを表示。\n- **キャラクターと装置を大きく**: 敵・勇者・装置を大きく描き、カメラを引いても小さくなりすぎないように。HP バーと名札も大きく。\n- **ミニマップ**: 左上に全体の地図（局・敵・次の wave の進路・装置・勇者・見ている範囲）。タップ・ドラッグでその場所へ移動、［▲］で畳める。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 315705BDFAFEE7526A8AE337388554BE6FC663D123E4086BA2FAA0AB462E9995"
     }
   ]
 }
