@@ -62,6 +62,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="phonetic_hound_defence/">Phonetic Hound Defence</a></b>（<b>開発中</b> v0.7.0-dev）<br>Phonetic Hound の街とキャラクターで遊ぶタワーディフェンス。取り戻した基地局を、押し寄せるゾンビの群れから守り抜く。</td>
 <td align="center"><img src="phonetic_hound_defence/images/qr.png" width="140" alt="Phonetic Hound Defence のページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="talk_compass/"><img src="talk_compass/images/icon.png" width="80" alt="話題コンパス"></a></td>
+<td><b><a href="talk_compass/">話題コンパス</a></b>（v0.2.0）<br>懇親会・飲み会・オフ会の前に、同梱のヒントから話題を考えて並べておくアプリ。権限なし・通信なし。</td>
+<td align="center"><img src="talk_compass/images/qr.png" width="140" alt="話題コンパスのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -79,7 +84,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound はここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・話題コンパスはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 

@@ -88,6 +88,14 @@
       "sha256": "D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70",
       "prerelease": true,
       "notes": "Phonetic Hound Defence v0.7.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **攻撃の演出と効果音をかなり派手に**: 装置ごとにはっきり違う攻撃（地面を走る電撃・太いビーム・全周の衝撃波・溜めてから撃つ狙撃・電磁パルス）、命中の火花、撃破の爆発と焦げ跡、ボス撃破の大爆発とスロー、局の陥落の大爆発と黒煙、勇者の必殺技の閃光と揺れ。効果音も重く迫力のある音に作り直し、大勢が同時に鳴っても割れないようにしました。\n- **設定「演出」**: ［標準］［控えめ］（粒・閃光・揺れを減らす）と、画面の揺れの ON/OFF。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70"
+    },
+    {
+      "folder": "talk_compass",
+      "tag": "talkcompass-v0.2.0",
+      "title": "話題コンパス v0.2.0",
+      "apk": "d:/work/android/talk_compass/dist/talkcompass-0.2.0-release.apk",
+      "sha256": "71C5A4805FC7F1B764962964A2929BE1C9FA8B665D516529ABFA2DD4E4BF1197",
+      "notes": "話題コンパス v0.2.0（2026-10-06）\n\n最初の公開です。\n\n- 懇親会・飲み会・オフ会の前に、同梱のヒント（26 の場面・約 1,700 枚のカード）から話題を考えて「話題案」にまとめ、カード型の話題プランで並べておけます。\n- 当日は「その場モード」で話題案を 1 枚ずつ表示。［広げる］［話題を変える］［人に振る］［沈黙］［今の状況］のヒントも出せます。\n- 振り返りの評価が次からのヒントの並び順に反映されます。人物メモ・ネタ帳、趣味の自分での追加、ファイルへの書き出し / 読み込みに対応。\n- 権限なし・通信なし・生成 AI なし。データは端末の中だけに保存されます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: 71C5A4805FC7F1B764962964A2929BE1C9FA8B665D516529ABFA2DD4E4BF1197"
     }
   ]
 }
