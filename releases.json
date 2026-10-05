@@ -82,12 +82,12 @@
     },
     {
       "folder": "phonetic_hound_defence",
-      "tag": "phonetichounddefence-v0.6.0-dev",
-      "title": "Phonetic Hound Defence v0.6.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.6.0-dev-release.apk",
-      "sha256": "04B0E2015FCA10E8B875C73165EDACE3E24DA50A8268F62332B5880B6FA5D975",
+      "tag": "phonetichounddefence-v0.7.0-dev",
+      "title": "Phonetic Hound Defence v0.7.0-dev（開発中）",
+      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.7.0-dev-release.apk",
+      "sha256": "D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70",
       "prerelease": true,
-      "notes": "Phonetic Hound Defence v0.6.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **ステージ 4〜7 を追加（全 7 ステージ）**: TOKYO AREA III（高層ビルの谷）、NAGANO（山あいと森・敵はロボット・山の上の巨大局）、TOKYO AREA IV（超高層街）、そして最終ステージ（遊んでのお楽しみ）。\n- **電波デコイ**: 近くを通る敵を引き寄せる小さな基地局（50C）。すぐ壊されるが、局への攻撃を逸らして時間を稼げる。\n- **新しい版のお知らせ**: 起動時に GitHub のリリース一覧を確かめ、新しい版があればタイトル画面でお知らせします（設定の「更新の確認」で OFF にできます）。このため、インターネットの権限を使うようになりました。**この版を入れると、次の版からはアプリの中で更新に気づけます。**\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: 04B0E2015FCA10E8B875C73165EDACE3E24DA50A8268F62332B5880B6FA5D975"
+      "notes": "Phonetic Hound Defence v0.7.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **攻撃の演出と効果音をかなり派手に**: 装置ごとにはっきり違う攻撃（地面を走る電撃・太いビーム・全周の衝撃波・溜めてから撃つ狙撃・電磁パルス）、命中の火花、撃破の爆発と焦げ跡、ボス撃破の大爆発とスロー、局の陥落の大爆発と黒煙、勇者の必殺技の閃光と揺れ。効果音も重く迫力のある音に作り直し、大勢が同時に鳴っても割れないようにしました。\n- **設定「演出」**: ［標準］［控えめ］（粒・閃光・揺れを減らす）と、画面の揺れの ON/OFF。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70"
     }
   ]
 }

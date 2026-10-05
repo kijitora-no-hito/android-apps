@@ -59,7 +59,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="phonetic_hound_defence/"><img src="phonetic_hound_defence/images/icon.png" width="80" alt="Phonetic Hound Defence"></a></td>
-<td><b><a href="phonetic_hound_defence/">Phonetic Hound Defence</a></b>（<b>開発中</b> v0.6.0-dev）<br>Phonetic Hound の街とキャラクターで遊ぶタワーディフェンス。取り戻した基地局を、押し寄せるゾンビの群れから守り抜く。</td>
+<td><b><a href="phonetic_hound_defence/">Phonetic Hound Defence</a></b>（<b>開発中</b> v0.7.0-dev）<br>Phonetic Hound の街とキャラクターで遊ぶタワーディフェンス。取り戻した基地局を、押し寄せるゾンビの群れから守り抜く。</td>
 <td align="center"><img src="phonetic_hound_defence/images/qr.png" width="140" alt="Phonetic Hound Defence のページの QR コード"></td>
 </tr>
 </table>
