@@ -27,6 +27,7 @@ PAGES = [
     "radio_survey",
     "phonetic_hound",
     "gps_camera",
+    "phonetic_hound_defence",
 ]
 
 ROOT = Path(__file__).resolve().parent.parent

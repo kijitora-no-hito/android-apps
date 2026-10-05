@@ -57,6 +57,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（v1.2.2）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
 <td align="center"><img src="phonetic_hound/images/qr.png" width="140" alt="Phonetic Hound のページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="phonetic_hound_defence/"><img src="phonetic_hound_defence/images/icon.png" width="80" alt="Phonetic Hound Defence"></a></td>
+<td><b><a href="phonetic_hound_defence/">Phonetic Hound Defence</a></b>（<b>開発中</b>・まだダウンロードできません）<br>Phonetic Hound の街とキャラクターで遊ぶタワーディフェンス。取り戻した基地局を、押し寄せるゾンビの群れから守り抜く。</td>
+<td align="center"><img src="phonetic_hound_defence/images/qr.png" width="140" alt="Phonetic Hound Defence のページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
