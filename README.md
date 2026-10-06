@@ -64,7 +64,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="talk_compass/"><img src="talk_compass/images/icon.png" width="80" alt="話題コンパス"></a></td>
-<td><b><a href="talk_compass/">話題コンパス</a></b>（v0.2.0）<br>懇親会・飲み会・オフ会の前に、同梱のヒントから話題を考えて並べておくアプリ。権限なし・通信なし。</td>
+<td><b><a href="talk_compass/">話題コンパス</a></b>（v0.3.0）<br>懇親会・飲み会・オフ会の前に、同梱のヒントから話題を考えて並べておくアプリ。権限なし・通信なし。</td>
 <td align="center"><img src="talk_compass/images/qr.png" width="140" alt="話題コンパスのページの QR コード"></td>
 </tr>
 </table>

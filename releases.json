@@ -91,11 +91,11 @@
     },
     {
       "folder": "talk_compass",
-      "tag": "talkcompass-v0.2.0",
-      "title": "話題コンパス v0.2.0",
-      "apk": "d:/work/android/talk_compass/dist/talkcompass-0.2.0-release.apk",
-      "sha256": "71C5A4805FC7F1B764962964A2929BE1C9FA8B665D516529ABFA2DD4E4BF1197",
-      "notes": "話題コンパス v0.2.0（2026-10-06）\n\n最初の公開です。\n\n- 懇親会・飲み会・オフ会の前に、同梱のヒント（26 の場面・約 1,700 枚のカード）から話題を考えて「話題案」にまとめ、カード型の話題プランで並べておけます。\n- 当日は「その場モード」で話題案を 1 枚ずつ表示。［広げる］［話題を変える］［人に振る］［沈黙］［今の状況］のヒントも出せます。\n- 振り返りの評価が次からのヒントの並び順に反映されます。人物メモ・ネタ帳、趣味の自分での追加、ファイルへの書き出し / 読み込みに対応。\n- 権限なし・通信なし・生成 AI なし。データは端末の中だけに保存されます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: 71C5A4805FC7F1B764962964A2929BE1C9FA8B665D516529ABFA2DD4E4BF1197"
+      "tag": "talkcompass-v0.3.0",
+      "title": "話題コンパス v0.3.0",
+      "apk": "d:/work/android/talk_compass/dist/talkcompass-0.3.0-release.apk",
+      "sha256": "D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011",
+      "notes": "話題コンパス v0.3.0（2026-10-06）\n\n- **組織**: 「A社」「釣りの仲間」「〇〇家の親族」のような組織を作って人物に付けられます（複数可）。人物一覧と予定の参加者選びは組織ごとに折りたたみ、［全員選ぶ］もできます。\n- **エリア**: 出身地に加えて、住んだことのある地域（複数）とエリアのメモを登録できます。住んでいた地域の話題のヒントと、「同じ県に住んだことがある」共通点が出ます。\n- 前の版からの上書きインストールでデータはそのまま残ります。権限なし・通信なしは変わりません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011"
     }
   ]
 }
