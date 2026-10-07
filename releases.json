@@ -99,11 +99,11 @@
     },
     {
       "folder": "kijunten_meguri",
-      "tag": "kijuntenmeguri-v0.2.0",
-      "title": "基準点めぐり v0.2.0",
-      "apk": "d:/work/android/kijunten_meguri/dist/kijuntenmeguri-0.2.0-release.apk",
-      "sha256": "03B2082D63F13A03A0DCC814896A4BF8EB1DE83A31DD0738093D32567A58D924",
-      "notes": "基準点めぐり v0.2.0（2026-10-07）\n\n- **達成率**: 全国 約 12 万 4 千点の基準点一覧をアプリに同梱し、全国・都道府県・市区町村ごと、種別ごとに何 % 獲得したかを表示。未獲得の点を近い順に一覧、記録画面に「いまいる所」の達成率。\n- 地域の称号を 5 個追加（市区町村コンプリートなど）。準基準水準点を種別に追加（150 XP）。\n- 基準点の一覧が端末に入ったので、圏外でも一覧・案内・獲得ができます。獲得地点の座標を都道府県の判定のために送る通信をなくしました。\n- 0.1.0 からの上書きで、獲得の記録・写真・称号はそのまま残ります（初回起動時にデータの取り込みで十数秒かかります）。\n\n出典：国土地理院（地理院タイル・基準点）、国土数値情報（行政区域データ）（国土交通省）を加工して作成\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 03B2082D63F13A03A0DCC814896A4BF8EB1DE83A31DD0738093D32567A58D924"
+      "tag": "kijuntenmeguri-v0.3.0",
+      "title": "基準点めぐり v0.3.0",
+      "apk": "d:/work/android/kijunten_meguri/dist/kijuntenmeguri-0.3.0-release.apk",
+      "sha256": "9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4",
+      "notes": "基準点めぐり v0.3.0（2026-10-07）\n\n- **獲得の条件を変更**: 測位の精度（±10 m 以内）の条件をなくし、代わりに**移動が徒歩程度まで（時速 9 km 以下）**を条件にしました。車や電車から通りすがりに獲得することはできません。\n- 撮影画面に現在の移動速度を表示します。\n- 前の版からの上書きで、記録はそのまま残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4"
     }
   ]
 }

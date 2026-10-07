@@ -69,7 +69,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="kijunten_meguri/"><img src="kijunten_meguri/images/icon.png" width="80" alt="基準点めぐり"></a></td>
-<td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.2.0）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
+<td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.3.0）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
 <td align="center"><img src="kijunten_meguri/images/qr.png" width="140" alt="基準点めぐりのページの QR コード"></td>
 </tr>
 </table>
