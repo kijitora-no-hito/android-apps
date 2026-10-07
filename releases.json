@@ -96,6 +96,14 @@
       "apk": "d:/work/android/talk_compass/dist/talkcompass-0.3.0-release.apk",
       "sha256": "D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011",
       "notes": "話題コンパス v0.3.0（2026-10-06）\n\n- **組織**: 「A社」「釣りの仲間」「〇〇家の親族」のような組織を作って人物に付けられます（複数可）。人物一覧と予定の参加者選びは組織ごとに折りたたみ、［全員選ぶ］もできます。\n- **エリア**: 出身地に加えて、住んだことのある地域（複数）とエリアのメモを登録できます。住んでいた地域の話題のヒントと、「同じ県に住んだことがある」共通点が出ます。\n- 前の版からの上書きインストールでデータはそのまま残ります。権限なし・通信なしは変わりません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011"
+    },
+    {
+      "folder": "kijunten_meguri",
+      "tag": "kijuntenmeguri-v0.1.0",
+      "title": "基準点めぐり v0.1.0",
+      "apk": "d:/work/android/kijunten_meguri/dist/kijuntenmeguri-0.1.0-release.apk",
+      "sha256": "03CC52BE547F81BCE903B459D78EB473B5C5D7F0ABBEB1DA90E48026025531C0",
+      "notes": "基準点めぐり v0.1.0（2026-10-07）\n\n最初の公開です。\n\n- 電子基準点・三角点・水準点を地図に表示（獲得済みは一目で分かる）、現在地から近い順の一覧とコンパスでの案内。\n- 点から 10 m 以内（測位精度 10 m 以内）で写真を撮ると獲得。等級が高い点ほど経験値が多く、Lv アップと 30 種類の称号。\n- 図鑑（写真つき）・種別/都道府県ごとの達成・月ごとの記録、ZIP での書き出し/読み込み、圏外に備えた「このあたりを保存」。\n- 出典：国土地理院（地理院タイル・基準点）。基準点は私有地・道路上・山中にあることがあります。立ち入りと安全に注意し、標石には触れないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 03CC52BE547F81BCE903B459D78EB473B5C5D7F0ABBEB1DA90E48026025531C0"
     }
   ]
 }

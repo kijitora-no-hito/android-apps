@@ -67,6 +67,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="talk_compass/">話題コンパス</a></b>（v0.3.0）<br>懇親会・飲み会・オフ会の前に、同梱のヒントから話題を考えて並べておくアプリ。権限なし・通信なし。</td>
 <td align="center"><img src="talk_compass/images/qr.png" width="140" alt="話題コンパスのページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="kijunten_meguri/"><img src="kijunten_meguri/images/icon.png" width="80" alt="基準点めぐり"></a></td>
+<td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.1.0）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
+<td align="center"><img src="kijunten_meguri/images/qr.png" width="140" alt="基準点めぐりのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -84,7 +89,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound・話題コンパスはここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐりはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 
