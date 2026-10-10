@@ -107,12 +107,12 @@
     },
     {
       "folder": "geo_quest",
-      "tag": "geoquest-v0.1.0-dev",
-      "title": "ジオクエスト v0.1.0-dev（開発中）",
-      "apk": "d:/work/android/geo_quest/dist/geoquest-0.1.0-dev-release.apk",
-      "sha256": "EA5AB199C2D9E5AA0BB9AC0DCFBC9ADE3BBB650863B571C66A03766CA3D80B2D",
+      "tag": "geoquest-v0.2.0-dev",
+      "title": "ジオクエスト v0.2.0-dev（開発中）",
+      "apk": "d:/work/android/geo_quest/dist/geoquest-0.2.0-dev-release.apk",
+      "sha256": "60983271E5A6118187F9B8567A5BE5C92B2549A2DA03E49655E65E8D4D49978E",
       "prerelease": true,
-      "notes": "ジオクエスト v0.1.0-dev（2026-10-11・**開発中**・仮名）\n\n開発中の版です。ゲームの土台と短いデモだけです。\n\n- 実際の場所へ行くと会話やイベント、場所で写真を撮るとアイテム。歩く・撮ると経験値で Lv アップ。\n- 地図の上の戦闘: 実際に歩くとキャラクターが動く。攻撃は自動、予告範囲から歩いて出て［ローリング］でかわす。\n- 場所に応じた BGM（アプリ内で合成した曲）。シナリオパックの作成モード。\n- デモ「はじまりの小さな冒険」: 冒険を始めた場所のまわりに 7 か所。\n\n歩きながら画面を見ない・道路や私有地に入らないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/geo_quest/\nSHA-256: EA5AB199C2D9E5AA0BB9AC0DCFBC9ADE3BBB650863B571C66A03766CA3D80B2D"
+      "notes": "ジオクエスト v0.2.0-dev（2026-10-11・**開発中**・仮名）\n\n- **シナリオ「光が丘の灯（ともしび）」**: 練馬区の光が丘公園を舞台に、メインクエスト 6 つとサブクエスト 7 つ、NPC 8 人。図書館の外観を撮ると本を借りたことになる、などのお使いクエスト。\n- **クエストの仕組み**: 依頼主の頭上に「！」（メインは金、サブは青）、報告できるときは「？」。目的地の旗と画面端の矢印、クエスト一覧（追跡の切り替え）。\n- 建物には入らず外観を撮るだけ、戦闘は公園の広い芝生だけ。写真に人が写らないように。\n- 前の版からの上書きで、データは残ります。\n\n地点の位置: © OpenStreetMap contributors\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/geo_quest/\nSHA-256: 60983271E5A6118187F9B8567A5BE5C92B2549A2DA03E49655E65E8D4D49978E"
     }
   ]
 }

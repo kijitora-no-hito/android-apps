@@ -74,7 +74,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="geo_quest/"><img src="geo_quest/images/icon.png" width="80" alt="ジオクエスト"></a></td>
-<td><b><a href="geo_quest/">ジオクエスト</a></b>（<b>開発中</b> v0.1.0-dev・仮名）<br>現実の街を歩いて冒険する GPS 位置ゲーム。場所で写真を撮るとイベント、地図の上で戦闘、場所ごとの BGM。</td>
+<td><b><a href="geo_quest/">ジオクエスト</a></b>（<b>開発中</b> v0.2.0-dev・仮名）<br>現実の街を歩いて冒険する GPS 位置ゲーム。場所で写真を撮るとイベント、地図の上で戦闘、場所ごとの BGM。</td>
 <td align="center"><img src="geo_quest/images/qr.png" width="140" alt="ジオクエストのページの QR コード"></td>
 </tr>
 </table>
