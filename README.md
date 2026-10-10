@@ -72,6 +72,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.3.0）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
 <td align="center"><img src="kijunten_meguri/images/qr.png" width="140" alt="基準点めぐりのページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="geo_quest/"><img src="geo_quest/images/icon.png" width="80" alt="ジオクエスト"></a></td>
+<td><b><a href="geo_quest/">ジオクエスト</a></b>（<b>開発中</b> v0.1.0-dev・仮名）<br>現実の街を歩いて冒険する GPS 位置ゲーム。場所で写真を撮るとイベント、地図の上で戦闘、場所ごとの BGM。</td>
+<td align="center"><img src="geo_quest/images/qr.png" width="140" alt="ジオクエストのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -89,7 +94,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐりはここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・ジオクエストはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 

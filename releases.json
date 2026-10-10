@@ -104,6 +104,15 @@
       "apk": "d:/work/android/gps_camera/dist/gpscamera-1.2-release.apk",
       "sha256": "2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B",
       "notes": "GPSカメラ v1.2（2026-10-10）\n\n- **カメラごとの画角調整**: 背面カメラ（ピンチ・−/＋）と前面カメラの小窓（小窓の中でピンチ）で、それぞれ画角を変えられます。\n- **ズーム中は写す位置をずらせる**: ドラッグで写す位置を動かせます。ダブルタップ（小窓は［↺］も）で 1.0×・中央に戻ります。\n- 画角と位置は次の起動でも同じ値で始まります。前の版からの上書きで、累計距離と走行ルートは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: 2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B"
+    },
+    {
+      "folder": "geo_quest",
+      "tag": "geoquest-v0.1.0-dev",
+      "title": "ジオクエスト v0.1.0-dev（開発中）",
+      "apk": "d:/work/android/geo_quest/dist/geoquest-0.1.0-dev-release.apk",
+      "sha256": "EA5AB199C2D9E5AA0BB9AC0DCFBC9ADE3BBB650863B571C66A03766CA3D80B2D",
+      "prerelease": true,
+      "notes": "ジオクエスト v0.1.0-dev（2026-10-11・**開発中**・仮名）\n\n開発中の版です。ゲームの土台と短いデモだけです。\n\n- 実際の場所へ行くと会話やイベント、場所で写真を撮るとアイテム。歩く・撮ると経験値で Lv アップ。\n- 地図の上の戦闘: 実際に歩くとキャラクターが動く。攻撃は自動、予告範囲から歩いて出て［ローリング］でかわす。\n- 場所に応じた BGM（アプリ内で合成した曲）。シナリオパックの作成モード。\n- デモ「はじまりの小さな冒険」: 冒険を始めた場所のまわりに 7 か所。\n\n歩きながら画面を見ない・道路や私有地に入らないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/geo_quest/\nSHA-256: EA5AB199C2D9E5AA0BB9AC0DCFBC9ADE3BBB650863B571C66A03766CA3D80B2D"
     }
   ]
 }

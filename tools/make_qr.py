@@ -30,6 +30,7 @@ PAGES = [
     "phonetic_hound_defence",
     "talk_compass",
     "kijunten_meguri",
+    "geo_quest",
 ]
 
 ROOT = Path(__file__).resolve().parent.parent
