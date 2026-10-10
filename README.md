@@ -49,7 +49,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="gps_camera/"><img src="gps_camera/images/icon.png" width="80" alt="GPSカメラ"></a></td>
-<td><b><a href="gps_camera/">GPSカメラ</a></b>（v1.1）<br>カメラ映像に速度・方位・累計距離・ミニマップを重ねて表示。車・自転車・徒歩のお供に。</td>
+<td><b><a href="gps_camera/">GPSカメラ</a></b>（v1.2）<br>カメラ映像に速度・方位・累計距離・ミニマップを重ねて表示。車・自転車・徒歩のお供に。</td>
 <td align="center"><img src="gps_camera/images/qr.png" width="140" alt="GPSカメラのページの QR コード"></td>
 </tr>
 <tr>

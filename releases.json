@@ -58,14 +58,6 @@
       "notes": "りんくこねこね v1.3.2（2026-09-28）\n\n- ミッションの結果画面で「もう一度」を押したとき、すぐにリセットせず確認するようにしました。\n  「この盤面から直す」を選ぶと、置いた機器・ケーブル・設定をそのまま残してやり直せます（一手だけ直したいときに）。「最初からやり直す」なら従来どおり初期の盤面から始まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/link_conne2/\nSHA-256: 856CCB7A33BA6629A5F8C51726594D6B76094A97FE758096337350FA5ECC174A"
     },
     {
-      "folder": "gps_camera",
-      "tag": "gpscamera-v1.1",
-      "title": "GPSカメラ v1.1",
-      "apk": "d:/work/android/gps_camera/dist/gpscamera-1.1-release.apk",
-      "sha256": "E5D502312E1209F2BBE0B655CE3122B379CD62B42A4CAC1D1A46EEDF422424D5",
-      "notes": "GPSカメラ v1.1（2026-09-29）\n\n- カメラのズームを調整できるようにしました（下中央の −/＋、カメラ映像の上でピンチ。倍率をタップで 1.0x）。\n- ミニマップのズームレベルを調整できるようにしました（地図左上の −/＋、10〜20）。\n- どちらの設定も次回起動時に引き継がれます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: E5D502312E1209F2BBE0B655CE3122B379CD62B42A4CAC1D1A46EEDF422424D5"
-    },
-    {
       "folder": "phonetic_hound",
       "tag": "phonetichound-v1.2.2",
       "title": "Phonetic Hound v1.2.2",
@@ -104,6 +96,14 @@
       "apk": "d:/work/android/kijunten_meguri/dist/kijuntenmeguri-0.3.0-release.apk",
       "sha256": "9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4",
       "notes": "基準点めぐり v0.3.0（2026-10-07）\n\n- **獲得の条件を変更**: 測位の精度（±10 m 以内）の条件をなくし、代わりに**移動が徒歩程度まで（時速 9 km 以下）**を条件にしました。車や電車から通りすがりに獲得することはできません。\n- 撮影画面に現在の移動速度を表示します。\n- 前の版からの上書きで、記録はそのまま残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4"
+    },
+    {
+      "folder": "gps_camera",
+      "tag": "gpscamera-v1.2",
+      "title": "GPSカメラ v1.2",
+      "apk": "d:/work/android/gps_camera/dist/gpscamera-1.2-release.apk",
+      "sha256": "2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B",
+      "notes": "GPSカメラ v1.2（2026-10-10）\n\n- **カメラごとの画角調整**: 背面カメラ（ピンチ・−/＋）と前面カメラの小窓（小窓の中でピンチ）で、それぞれ画角を変えられます。\n- **ズーム中は写す位置をずらせる**: ドラッグで写す位置を動かせます。ダブルタップ（小窓は［↺］も）で 1.0×・中央に戻ります。\n- 画角と位置は次の起動でも同じ値で始まります。前の版からの上書きで、累計距離と走行ルートは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: 2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B"
     }
   ]
 }
