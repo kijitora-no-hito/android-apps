@@ -116,11 +116,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.4.0",
-      "title": "自転車ルートロガー v0.4.0",
-      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.4.0-release.apk",
-      "sha256": "3250F5A60CE70C7146F9C62E7A3C1CB08B92AA88C2BB9B481456F4EB3201519D",
-      "notes": "自転車ルートロガー v0.4.0（2026-10-12）\n\n- **更新の確認**: 新しい版が出るとホーム画面に「新しい版があります」と表示（［更新内容］［ダウンロード］［あとで］）。設定の「更新」で OFF・今すぐ確認。\n- 確認は GitHub の公開の版一覧を 6 時間に 1 回まで取得するだけ。走行中は表示しません。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 3250F5A60CE70C7146F9C62E7A3C1CB08B92AA88C2BB9B481456F4EB3201519D"
+      "tag": "cycleroutelogger-v0.4.1",
+      "title": "自転車ルートロガー v0.4.1",
+      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.4.1-release.apk",
+      "sha256": "3EA41B872DCBAE29D5B8E741E418F9623F91A7D67BF400133184528F74E18B02",
+      "notes": "自転車ルートロガー v0.4.1（2026-10-12）\n\n- ルートプランとルートを描く画面の地図に［現在地へ］ボタンを追加しました（押したときだけ現在地を取りに行きます）。\n- 同じ地図に現在地の青い点を表示します。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 3EA41B872DCBAE29D5B8E741E418F9623F91A7D67BF400133184528F74E18B02"
     }
   ]
 }
