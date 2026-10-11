@@ -116,11 +116,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.1.0",
-      "title": "自転車ルートロガー v0.1.0",
-      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.1.0-release.apk",
-      "sha256": "81EE5A2C108432B99878EE32DC64BD546A10D9A48AD07A19C4427F58EA8B40C6",
-      "notes": "自転車ルートロガー v0.1.0（2026-10-11）\n\n最初の公開です。\n\n- フリーサイクリング（ルートなしで記録）とルートサイクリング（ルートプランを見ながら走る）。\n- ルートプラン: GPX のルートを何本でも、経由地を地図で登録（飲食店・休憩地点・観光地点・駐輪・宿泊・駅など）。GPX で書き出し・共有。\n- 今向かいたい地点を選ぶと、地図に方角の矢印と距離。\n- GPS の記録（画面オフでも継続、自動一時停止、速度・距離・獲得標高）、GPX 1.1 で書き出し・共有。Google マップ・航空写真。\n\n走行中に画面を操作しないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 81EE5A2C108432B99878EE32DC64BD546A10D9A48AD07A19C4427F58EA8B40C6"
+      "tag": "cycleroutelogger-v0.3.0",
+      "title": "自転車ルートロガー v0.3.0",
+      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.3.0-release.apk",
+      "sha256": "A15C483BD872E22CEE73E1BCF6B7060D60A4A94BB49740579A602BDE0CC4C0AF",
+      "notes": "自転車ルートロガー v0.3.0（2026-10-12）\n\n- **走行中の写真**: 走行画面の［写真］でアプリのカメラ。フォトライブラリに保存し、撮った時刻と位置で記録に紐づけ、地図に表示。\n- **SNS 用の画像**: ルートの地図・写真・距離や時間を 1 枚に（正方形・縦長・横長）。保存・共有。\n- **ルートを描く**: 点を打って直線でつなぐ・分割・ドラッグ・ベジエ曲線で調整。\n- **QR コード・URL から GPX**（Google ドライブ・Dropbox・OneDrive・GitHub の共有リンク）。\n- **記録をルートとして保存・GPX で書き出し**を走り終えたときにすぐ選べるように。\n- **バックグラウンドでの記録を強化**（止まったときの通知・自動再開・電池の最適化の案内）。\n- ルートプランの地図を広く（つまみ・全画面）。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: A15C483BD872E22CEE73E1BCF6B7060D60A4A94BB49740579A602BDE0CC4C0AF"
     }
   ]
 }
