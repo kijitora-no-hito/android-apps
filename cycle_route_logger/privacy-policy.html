@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>自転車ルートロガー プライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.7; max-width: 760px; margin: 0 auto; padding: 16px; color: #1b1b1b; background: #fff; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 1.8em; border-bottom: 1px solid #ddd; }
+  td, th { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; text-align: left; }
+  table { border-collapse: collapse; width: 100%; }
+  @media (prefers-color-scheme: dark) { body { background: #121212; color: #e6e6e6; } td, th { border-color: #444; } h2 { border-color: #444; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+<h1>自転車ルートロガー プライバシーポリシー</h1>
+<p>制定日: 2026年10月11日（バージョン 0.1.0）</p>
+
+<p>「自転車ルートロガー」（以下「本アプリ」）は、自転車の走行ルートの表示・記録をするアプリです。
+本アプリが扱う情報と、その扱い方を説明します。</p>
+
+<h2>1. 端末の外に送らない情報</h2>
+<ul>
+  <li><strong>位置情報</strong>: 現在地の表示、走行の記録（軌跡・距離・速度・獲得標高）、ルートからの外れ・目的地までの距離の計算に使います。
+    記録した位置は端末の中（アプリのデータベース）だけに保存し、開発者を含む第三者へ送信しません。</li>
+  <li><strong>読み込んだ GPX ファイル・ルートプラン・経由地・メモ</strong>: 端末の中だけに保存します。</li>
+  <li>本アプリには広告・アクセス解析・クラッシュレポートの仕組みはありません。アカウント登録もありません。</li>
+  <li>端末のクラウドバックアップ（Android の自動バックアップ）には、走行の記録とプランのデータベースを含めない設定にしています。</li>
+</ul>
+
+<h2>2. 地図（Google マップ）</h2>
+<p>地図の表示には Google の「Maps SDK for Android」を使います。地図を表示するために、表示している範囲の地図データを
+Google のサーバーから取得します。このとき、端末の IP アドレスや表示範囲などの情報が Google に送られます。
+これらの扱いには Google の
+<a href="https://policies.google.com/privacy">プライバシーポリシー</a> と
+<a href="https://cloud.google.com/maps-platform/terms">Google マップ利用規約</a> が適用されます。
+本アプリから Google へ、記録した走行の軌跡やプランを送ることはありません。</p>
+
+<h2>3. 利用者が自分で書き出すとき</h2>
+<p>記録やプランを GPX ファイル・バックアップ（ZIP）として書き出したり、「共有」で他のアプリに渡したりできます。
+これは利用者が操作したときだけ行われ、渡し先の扱いはその保存先・アプリの方針によります。</p>
+
+<h2>4. 権限</h2>
+<table>
+  <tr><th>権限</th><th>使い道</th></tr>
+  <tr><td>位置情報（正確・おおよそ）</td><td>現在地の表示と走行の記録。「アプリの使用中のみ」の許可で動きます。バックグラウンドの位置の権限は求めません。</td></tr>
+  <tr><td>フォアグラウンドサービス（位置）・通知</td><td>記録中に画面を消しても記録を続けるため。記録中は通知に経過時間と距離を表示します。</td></tr>
+  <tr><td>インターネット・ネットワーク状態</td><td>地図（Google マップ）の取得。</td></tr>
+  <tr><td>スリープ防止（WAKE_LOCK）・振動</td><td>記録中に端末が眠って位置が途切れないようにするため。ルート外れ・到着の知らせの振動。</td></tr>
+</table>
+
+<h2>5. データの削除</h2>
+<p>記録・プランはアプリの中で個別に削除できます。アプリをアンインストールすると、端末に保存したデータはすべて消えます。</p>
+
+<h2>6. 安全について</h2>
+<p>走行中に画面を見続けたり操作したりしないでください。端末はホルダーにしっかり固定してください。
+ルート・距離・速度は GPS による目安です。</p>
+
+<h2>7. お問い合わせ</h2>
+<p>本アプリについてのお問い合わせは、GitHub の Issues
+（<a href="https://github.com/kijitora-no-hito/android-apps/issues">kijitora-no-hito/android-apps</a>）へお願いします。</p>
+
+<h2>8. 変更</h2>
+<p>このポリシーを変更するときは、このページを更新します。</p>
+</body>
+</html>

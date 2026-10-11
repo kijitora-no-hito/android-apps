@@ -77,6 +77,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="geo_quest/">ジオクエスト</a></b>（<b>開発中</b> v0.4.0-dev・仮名）<br>現実の街を歩いて冒険する GPS 位置ゲーム。AR カメラで人や精霊を探して撮るとイベントが進む。場所ごとの BGM。</td>
 <td align="center"><img src="geo_quest/images/qr.png" width="140" alt="ジオクエストのページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="cycle_route_logger/"><img src="cycle_route_logger/images/icon.png" width="80" alt="自転車ルートロガー"></a></td>
+<td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.1.0）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
+<td align="center"><img src="cycle_route_logger/images/qr.png" width="140" alt="自転車ルートロガーのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -94,7 +99,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・ジオクエストはここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・ジオクエスト・自転車ルートロガーはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 

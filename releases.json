@@ -113,6 +113,14 @@
       "sha256": "83C96F48CD1E4130F05FCF1E279D7040FFDAA6DBBFCB71657EDEC4D4FA1A38FA",
       "prerelease": true,
       "notes": "ジオクエスト v0.4.0-dev（2026-10-11・**開発中**・仮名）\n\n- **戦闘をやめ、AR カメラで撮る遊びに**: 場所に人（NPC）や精霊が立ち絵で立っていて、カメラで撮るとイベントやクエストが進みます。撮った写真は立ち絵入りの記念写真になります。\n- 遠くでは GPS と方位の AR で方向と距離、場所に着くと ARCore 対応端末では地面に立ちます（非対応端末は GPS の AR）。\n- 光が丘公園のシナリオを、散らばった光の精を探して撮る話に書き直しました（敵は出ません）。\n- NPC の顔と立ち絵。前の版のデータ・パックは読み込めます（戦闘の部分は読み替え）。\n\n歩きながら画面を見ない・道路や私有地に入らないでください。\n\n地点の位置: © OpenStreetMap contributors\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/geo_quest/\nSHA-256: 83C96F48CD1E4130F05FCF1E279D7040FFDAA6DBBFCB71657EDEC4D4FA1A38FA"
+    },
+    {
+      "folder": "cycle_route_logger",
+      "tag": "cycleroutelogger-v0.1.0",
+      "title": "自転車ルートロガー v0.1.0",
+      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.1.0-release.apk",
+      "sha256": "81EE5A2C108432B99878EE32DC64BD546A10D9A48AD07A19C4427F58EA8B40C6",
+      "notes": "自転車ルートロガー v0.1.0（2026-10-11）\n\n最初の公開です。\n\n- フリーサイクリング（ルートなしで記録）とルートサイクリング（ルートプランを見ながら走る）。\n- ルートプラン: GPX のルートを何本でも、経由地を地図で登録（飲食店・休憩地点・観光地点・駐輪・宿泊・駅など）。GPX で書き出し・共有。\n- 今向かいたい地点を選ぶと、地図に方角の矢印と距離。\n- GPS の記録（画面オフでも継続、自動一時停止、速度・距離・獲得標高）、GPX 1.1 で書き出し・共有。Google マップ・航空写真。\n\n走行中に画面を操作しないでください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 81EE5A2C108432B99878EE32DC64BD546A10D9A48AD07A19C4427F58EA8B40C6"
     }
   ]
 }
