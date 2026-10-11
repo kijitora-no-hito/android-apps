@@ -10,3 +10,6 @@ local.properties
 _site/
 .jekyll-cache/
 .sass-cache/
+# ソースコードは入れない（エージェントの書き損じの空ファイルが直下にできることがある）
+/*.kt
+/*.java
