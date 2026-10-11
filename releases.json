@@ -58,21 +58,6 @@
       "notes": "りんくこねこね v1.3.2（2026-09-28）\n\n- ミッションの結果画面で「もう一度」を押したとき、すぐにリセットせず確認するようにしました。\n  「この盤面から直す」を選ぶと、置いた機器・ケーブル・設定をそのまま残してやり直せます（一手だけ直したいときに）。「最初からやり直す」なら従来どおり初期の盤面から始まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/link_conne2/\nSHA-256: 856CCB7A33BA6629A5F8C51726594D6B76094A97FE758096337350FA5ECC174A"
     },
     {
-      "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.2.2",
-      "title": "Phonetic Hound v1.2.2",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.2.2-release.apk",
-      "sha256": "3115960D8190E69D108343328818EA5BDA828334ACBAFDE328A85184FFAA4A61",
-      "prerelease": false,
-      "notes": "Phonetic Hound v1.2.2（2026-10-05）\n\n- 制圧済みの局のエリアの境目で野良ゾンビが一列に並んで止まる問題の直し方（灰色になって下がり、ばらけてからまた寄ってくる）を、HARD だけでなく全難易度に広げました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 3115960D8190E69D108343328818EA5BDA828334ACBAFDE328A85184FFAA4A61\nSHA-256（軽量版）: 2E9720BA6AAC0D41430A7A3DEEA6D9C3BBF222D32D4708D243D982D043B7B4D5",
-      "extraApks": [
-        {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.2.2-lite-release.apk",
-          "sha256": "2E9720BA6AAC0D41430A7A3DEEA6D9C3BBF222D32D4708D243D982D043B7B4D5"
-        }
-      ]
-    },
-    {
       "folder": "phonetic_hound_defence",
       "tag": "phonetichounddefence-v0.7.0-dev",
       "title": "Phonetic Hound Defence v0.7.0-dev（開発中）",
@@ -121,6 +106,21 @@
       "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.4.1-release.apk",
       "sha256": "3EA41B872DCBAE29D5B8E741E418F9623F91A7D67BF400133184528F74E18B02",
       "notes": "自転車ルートロガー v0.4.1（2026-10-12）\n\n- ルートプランとルートを描く画面の地図に［現在地へ］ボタンを追加しました（押したときだけ現在地を取りに行きます）。\n- 同じ地図に現在地の青い点を表示します。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 3EA41B872DCBAE29D5B8E741E418F9623F91A7D67BF400133184528F74E18B02"
+    },
+    {
+      "folder": "phonetic_hound",
+      "tag": "phonetichound-v1.3.0",
+      "title": "Phonetic Hound v1.3.0",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.3.0-release.apk",
+      "sha256": "5184A34BBF2838897AA5C5B56BF5353B02FA8864F122AA05E8D7CB3CFF6F5CC8",
+      "prerelease": false,
+      "notes": "Phonetic Hound v1.3.0（2026-10-12）\n\n- **サバイバルモード**を追加しました。訓練場の円い闘技場で、全 100 ステージを勝ち抜くモードです。敵を全滅させると次のステージへ進み、ステージが進むほど敵が増えて強くなります（最初は 6 体、最後は 120 体）。\n- 9・19・29…はボーナスステージ。回復アイテムがたくさん落ちています。10・20・30…は強化ステージ。敵の体力・攻撃・速さが上がり、強敵が加わります。\n- 大量のボス、大量のドローン、ロボットの群れ、包囲・挟み撃ち・横一列・合図で一斉突撃・射撃役の護衛など組織的に動く敵のステージもあります。100 は全部入りの最終決戦です。\n- 回復アイテムと HP は次のステージへ持ち越し。ノーマルモードのレベルと手に入れたアンテナで戦い、倒した敵はレベルの経験にもなります。\n- 1 回倒れたら GAME OVER。ステージをクリアするたびに自動でセーブされ、「つづきから」で再開できます。到達したステージのランキング（難易度別）と結果の共有に対応しています。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 5184A34BBF2838897AA5C5B56BF5353B02FA8864F122AA05E8D7CB3CFF6F5CC8\nSHA-256（軽量版）: 75D88788D72C79293093948FE218A5E2E101695C5C1D2C123F050FAD9EBCCFFB",
+      "extraApks": [
+        {
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.3.0-lite-release.apk",
+          "sha256": "75D88788D72C79293093948FE218A5E2E101695C5C1D2C123F050FAD9EBCCFFB"
+        }
+      ]
     }
   ]
 }
