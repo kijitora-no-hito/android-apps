@@ -116,11 +116,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.5.1",
-      "title": "自転車ルートロガー v0.5.1",
-      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.5.1-release.apk",
-      "sha256": "5417C6477DE86A5C0FFE26A844975AEB1250CCDFE59CBFA3BC5978E10B575FAC",
-      "notes": "自転車ルートロガー v0.5.1（2026-10-12）\n\n- ルートを描く画面で、地図の標準の現在地ボタンが［現在地へ］ボタンと重なって出ていたのを直しました。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 5417C6477DE86A5C0FFE26A844975AEB1250CCDFE59CBFA3BC5978E10B575FAC"
+      "tag": "cycleroutelogger-v0.6.0",
+      "title": "自転車ルートロガー v0.6.0",
+      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.6.0-release.apk",
+      "sha256": "07038903F321F34B3E4234A8B131D8B85D6E922404A458419F0E1261FDE395F2",
+      "notes": "自転車ルートロガー v0.6.0（2026-10-12）\n\n- **場所名で地点を検索**できるようにしました。ルートプラン・ルートを描く・走行画面の地図に検索欄（走行画面は虫眼鏡から）。\n- 結果から［経由地として追加］（名前と種類を入れた状態で）、［ここへ向かう］、［ここに点を打つ］。\n- 検索は検索ボタンを押したときだけ、検索語と地図のおおよその範囲を Nominatim（OpenStreetMap）に送ります。場所検索: Nominatim / © OpenStreetMap contributors。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 07038903F321F34B3E4234A8B131D8B85D6E922404A458419F0E1261FDE395F2"
     }
   ]
 }
