@@ -116,11 +116,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.5.0",
-      "title": "自転車ルートロガー v0.5.0",
-      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.5.0-release.apk",
-      "sha256": "DABB1B9FA4DFFBF8C24AF5E3283F8EC667CA21CB1F0352E99DEFD196B28C32E4",
-      "notes": "自転車ルートロガー v0.5.0（2026-10-12）\n\n- **記録の詳細の地図を大きく**: 既定で画面の 6 割。境目のつまみで広さを変えられ、［全画面］で地図だけにもできます（情報は下から引き出して見る）。\n- **区間**: 1 km ごと・5 km ごとの走行時間・平均・最高速度・登りの表。一番速い区間は緑、遅い区間は赤。\n- **速度の分布**: 2 km/h ごとのヒストグラム（その速さで走った時間／距離）。平均速度の線、棒をタップで時間と割合。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: DABB1B9FA4DFFBF8C24AF5E3283F8EC667CA21CB1F0352E99DEFD196B28C32E4"
+      "tag": "cycleroutelogger-v0.5.1",
+      "title": "自転車ルートロガー v0.5.1",
+      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.5.1-release.apk",
+      "sha256": "5417C6477DE86A5C0FFE26A844975AEB1250CCDFE59CBFA3BC5978E10B575FAC",
+      "notes": "自転車ルートロガー v0.5.1（2026-10-12）\n\n- ルートを描く画面で、地図の標準の現在地ボタンが［現在地へ］ボタンと重なって出ていたのを直しました。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 5417C6477DE86A5C0FFE26A844975AEB1250CCDFE59CBFA3BC5978E10B575FAC"
     }
   ]
 }

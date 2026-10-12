@@ -6,13 +6,13 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.5.0・14.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.5.0/cycleroutelogger-0.5.0-release.apk)
+### [APK をダウンロード（v0.5.1・14.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.5.1/cycleroutelogger-0.5.1-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.5.0（2026-10-12） |
-| ファイル | `cycleroutelogger-0.5.0-release.apk`（15,290,616 バイト） |
-| SHA-256 | `DABB1B9FA4DFFBF8C24AF5E3283F8EC667CA21CB1F0352E99DEFD196B28C32E4` |
+| バージョン | 0.5.1（2026-10-12） |
+| ファイル | `cycleroutelogger-0.5.1-release.apk`（15,290,616 バイト） |
+| SHA-256 | `5417C6477DE86A5C0FFE26A844975AEB1250CCDFE59CBFA3BC5978E10B575FAC` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 位置情報（使用中のみ。「常に許可」は任意）、通知、カメラ（走行中の写真）、インターネット（地図・GPX の取得） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
