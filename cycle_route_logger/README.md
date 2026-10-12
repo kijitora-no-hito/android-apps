@@ -6,13 +6,13 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.4.2・14.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.4.2/cycleroutelogger-0.4.2-release.apk)
+### [APK をダウンロード（v0.5.0・14.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.5.0/cycleroutelogger-0.5.0-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.4.2（2026-10-12） |
-| ファイル | `cycleroutelogger-0.4.2-release.apk`（15,244,288 バイト） |
-| SHA-256 | `623B7FEE30B233E32183C2BBE6F4DFC86462CCA3F2746E7C32618B2856CECA8E` |
+| バージョン | 0.5.0（2026-10-12） |
+| ファイル | `cycleroutelogger-0.5.0-release.apk`（15,290,616 バイト） |
+| SHA-256 | `DABB1B9FA4DFFBF8C24AF5E3283F8EC667CA21CB1F0352E99DEFD196B28C32E4` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 位置情報（使用中のみ。「常に許可」は任意）、通知、カメラ（走行中の写真）、インターネット（地図・GPX の取得） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
@@ -43,7 +43,9 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 
 - 画面を消しても記録を続けます（通知に経過時間と距離）。速度・距離・走行時間・平均・最高・獲得標高。止まっている間は自動で一時停止。
 - 途中でアプリが落ちても、記録は端末に残り、続きから再開できます。
-- 記録の一覧・詳細（速度で色分けした軌跡、標高グラフ）。
+- 記録の一覧・詳細（速度で色分けした軌跡、標高グラフ）。詳細の地図は大きく（つまみで広さを変える・全画面）。
+- **区間**: 1 km ごと・5 km ごとの走行時間・平均・最高速度・登り（一番速い区間・遅い区間に色）。
+- **速度の分布**: 2 km/h ごとのヒストグラム（その速さで走った時間か距離）。棒をタップすると「14–16 km/h：4分49秒（全体の 30%）」のように表示。
 - **走り終えたら、記録を［ルートとして保存］（点の間引き・止まっていた間を除く）や［GPX で書き出す］［共有］**。フリー・ルートどちらの走り方でも。
 - バックグラウンドでも記録が続きます。始められなかったときや止まったときは理由と対処を表示します。電池の使用量を「制限なし」にすると長時間でも止まりにくくなります。
 
@@ -69,6 +71,11 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 <td align="center"><img src="images/07-sns.jpg" width="200" alt="SNS 用の画像"><br>SNS 用の画像</td>
 <td align="center"><img src="images/08-url.jpg" width="200" alt="URL から読み込み"><br>URL・QR から GPX を読み込む</td>
 <td align="center"><img src="images/09-save-route.jpg" width="200" alt="ルートとして保存"><br>記録をルートとして保存</td>
+</tr>
+<tr>
+<td align="center"><img src="images/10-splits.jpg" width="200" alt="区間"><br>1 km ごとの区間</td>
+<td align="center"><img src="images/11-histogram.jpg" width="200" alt="速度の分布"><br>速度の分布（2 km/h ごと）</td>
+<td></td>
 </tr>
 </table>
 
