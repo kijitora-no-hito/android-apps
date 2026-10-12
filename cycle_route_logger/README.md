@@ -6,13 +6,13 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.6.0・14.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.6.0/cycleroutelogger-0.6.0-release.apk)
+### [APK をダウンロード（v0.7.0・14.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/cycleroutelogger-v0.7.0/cycleroutelogger-0.7.0-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.6.0（2026-10-12） |
-| ファイル | `cycleroutelogger-0.6.0-release.apk`（15,348,912 バイト） |
-| SHA-256 | `07038903F321F34B3E4234A8B131D8B85D6E922404A458419F0E1261FDE395F2` |
+| バージョン | 0.7.0（2026-10-13） |
+| ファイル | `cycleroutelogger-0.7.0-release.apk`（15,414,900 バイト） |
+| SHA-256 | `ED1004A1F2DEF56B6643E27623F0B9717880BB547ECBE1F1A3F307E8113BC300` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 位置情報（使用中のみ。「常に許可」は任意）、通知、カメラ（走行中の写真）、インターネット（地図・GPX の取得） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
@@ -47,6 +47,7 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 - 記録の一覧・詳細（速度で色分けした軌跡、標高グラフ）。詳細の地図は大きく（つまみで広さを変える・全画面）。
 - **区間**: 1 km ごと・5 km ごとの走行時間・平均・最高速度・登り（一番速い区間・遅い区間に色）。
 - **速度の分布**: 2 km/h ごとのヒストグラム（その速さで走った時間か距離）。棒をタップすると「14–16 km/h：4分49秒（全体の 30%）」のように表示。
+- **まとめ**（0.7.0〜）: 記録の一覧から、全記録の総走行距離・総走行時間・回数・平均・走った日数・獲得標高・写真の数・**開拓したマス**（走ったことのある 1 km 四方のマス目の数）、最高速度やいちばん長い記録。期間（全期間・今年・今月・直近 30 日・任意）とフリー / ルートで絞れます。月ごとの距離・曜日 / 時間帯ごとの走行時間・速度の分布のグラフと、**全走行を重ねた地図**（記録ごとの色 / よく走った道ほど濃く、軌跡をタップでその記録へ、写真の位置）。
 - **走り終えたら、記録を［ルートとして保存］（点の間引き・止まっていた間を除く）や［GPX で書き出す］［共有］**。フリー・ルートどちらの走り方でも。
 - バックグラウンドでも記録が続きます。始められなかったときや止まったときは理由と対処を表示します。電池の使用量を「制限なし」にすると長時間でも止まりにくくなります。
 
@@ -77,6 +78,11 @@ GPX のルートと経由地を地図に出して走り、走った道を GPS �
 <td align="center"><img src="images/10-splits.jpg" width="200" alt="区間"><br>1 km ごとの区間</td>
 <td align="center"><img src="images/11-histogram.jpg" width="200" alt="速度の分布"><br>速度の分布（2 km/h ごと）</td>
 <td align="center"><img src="images/12-search.jpg" width="200" alt="場所名で検索"><br>場所名で検索</td>
+</tr>
+<tr>
+<td align="center"><img src="images/13-summary.jpg" width="200" alt="まとめ"><br>まとめ（統計と全走行の地図）</td>
+<td align="center"><img src="images/14-summary-graphs.jpg" width="200" alt="まとめのグラフ"><br>まとめ（グラフ）</td>
+<td></td>
 </tr>
 </table>
 

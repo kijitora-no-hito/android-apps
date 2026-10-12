@@ -79,7 +79,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="cycle_route_logger/"><img src="cycle_route_logger/images/icon.png" width="80" alt="自転車ルートロガー"></a></td>
-<td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.6.0）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
+<td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.7.0）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
 <td align="center"><img src="cycle_route_logger/images/qr.png" width="140" alt="自転車ルートロガーのページの QR コード"></td>
 </tr>
 <tr>
