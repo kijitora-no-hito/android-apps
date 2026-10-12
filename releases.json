@@ -109,16 +109,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.3.0",
-      "title": "Phonetic Hound v1.3.0",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.3.0-release.apk",
-      "sha256": "5184A34BBF2838897AA5C5B56BF5353B02FA8864F122AA05E8D7CB3CFF6F5CC8",
+      "tag": "phonetichound-v1.4.0",
+      "title": "Phonetic Hound v1.4.0",
+      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.4.0-release.apk",
+      "sha256": "B161626418E269B51E62D30B69299D0FCD718082086F4330A7C4948502BBE0C3",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.3.0（2026-10-12）\n\n- **サバイバルモード**を追加しました。訓練場の円い闘技場で、全 100 ステージを勝ち抜くモードです。敵を全滅させると次のステージへ進み、ステージが進むほど敵が増えて強くなります（最初は 6 体、最後は 120 体）。\n- 9・19・29…はボーナスステージ。回復アイテムがたくさん落ちています。10・20・30…は強化ステージ。敵の体力・攻撃・速さが上がり、強敵が加わります。\n- 大量のボス、大量のドローン、ロボットの群れ、包囲・挟み撃ち・横一列・合図で一斉突撃・射撃役の護衛など組織的に動く敵のステージもあります。100 は全部入りの最終決戦です。\n- 回復アイテムと HP は次のステージへ持ち越し。ノーマルモードのレベルと手に入れたアンテナで戦い、倒した敵はレベルの経験にもなります。\n- 1 回倒れたら GAME OVER。ステージをクリアするたびに自動でセーブされ、「つづきから」で再開できます。到達したステージのランキング（難易度別）と結果の共有に対応しています。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 5184A34BBF2838897AA5C5B56BF5353B02FA8864F122AA05E8D7CB3CFF6F5CC8\nSHA-256（軽量版）: 75D88788D72C79293093948FE218A5E2E101695C5C1D2C123F050FAD9EBCCFFB",
+      "notes": "Phonetic Hound v1.4.0（2026-10-12）\n\n- サバイバル: 闘技場を半分の広さにしました。組織的に動く敵の陣形も新しい広さに合わせました。\n- サバイバル: STAGE 10・20 … をクリアすると、その難易度では次の 11・21 … から始められるようになりました（途中から始めると HP 満タン・救急キット付き。ランキングは開始ステージごと）。\n- サバイバル: 敵の数を 2 倍にしました。一度に出てくる数には上限があり、倒すと縁から増援が湧いてきます。\n- サバイバル: あなたの力を写した「影」が敵として出てくるようになりました（先のステージほど強く・多く。影が大量に出るステージもあります）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: B161626418E269B51E62D30B69299D0FCD718082086F4330A7C4948502BBE0C3\nSHA-256（軽量版）: 67F17E6C36D21CB18540B5B8C0A282FB7B6CE962651D4C3EC86B8633F253BD8C",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.3.0-lite-release.apk",
-          "sha256": "75D88788D72C79293093948FE218A5E2E101695C5C1D2C123F050FAD9EBCCFFB"
+          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.4.0-lite-release.apk",
+          "sha256": "67F17E6C36D21CB18540B5B8C0A282FB7B6CE962651D4C3EC86B8633F253BD8C"
         }
       ]
     }
