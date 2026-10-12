@@ -82,6 +82,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.6.0）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
 <td align="center"><img src="cycle_route_logger/images/qr.png" width="140" alt="自転車ルートロガーのページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="drive_logger/"><img src="drive_logger/images/icon.png" width="80" alt="ドライブロガー"></a></td>
+<td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.1.0）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置を焼き込み・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
+<td align="center"><img src="drive_logger/images/qr.png" width="140" alt="ドライブロガーのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
@@ -99,7 +104,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・ジオクエスト・自転車ルートロガーはここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・ジオクエスト・自転車ルートロガー・ドライブロガーはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 

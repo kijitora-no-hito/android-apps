@@ -32,6 +32,7 @@ PAGES = [
     "kijunten_meguri",
     "geo_quest",
     "cycle_route_logger",
+    "drive_logger",
 ]
 
 ROOT = Path(__file__).resolve().parent.parent

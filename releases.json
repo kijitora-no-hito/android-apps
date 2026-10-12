@@ -121,6 +121,14 @@
       "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.6.0-release.apk",
       "sha256": "07038903F321F34B3E4234A8B131D8B85D6E922404A458419F0E1261FDE395F2",
       "notes": "自転車ルートロガー v0.6.0（2026-10-12）\n\n- **場所名で地点を検索**できるようにしました。ルートプラン・ルートを描く・走行画面の地図に検索欄（走行画面は虫眼鏡から）。\n- 結果から［経由地として追加］（名前と種類を入れた状態で）、［ここへ向かう］、［ここに点を打つ］。\n- 検索は検索ボタンを押したときだけ、検索語と地図のおおよその範囲を Nominatim（OpenStreetMap）に送ります。場所検索: Nominatim / © OpenStreetMap contributors。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 07038903F321F34B3E4234A8B131D8B85D6E922404A458419F0E1261FDE395F2"
+    },
+    {
+      "folder": "drive_logger",
+      "tag": "drivelogger-v0.1.0",
+      "title": "ドライブロガー v0.1.0",
+      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.1.0-release.apk",
+      "sha256": "8A4AD01BC3DE2FD8E6945FFC1A59E0F428F27C2D9A475EAF1F552757C4B91A5D",
+      "notes": "ドライブロガー v0.1.0（2026-10-13）\n\n最初の公開です。\n\n- 車での走行を GPS で記録（画面を消しても続く）。記録ごとの地図・統計・区間・速度の分布・GPX 書き出し。\n- オプションでドラレコ風の録画: 日時・速度・緯度経度・方位を焼き込み、ループ録画、衝撃や［保護］ボタンで保護。走行中に録画 ON / OFF。\n- 動画の再生で地図の位置と速度を同期表示、ギャラリーへの書き出し。\n- まとめ: 全記録の統計・グラフ・全走行の地図・開拓したマス。\n- 運転中は操作しないでください。録画を公開するときはナンバーや人物に配慮してください。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 8A4AD01BC3DE2FD8E6945FFC1A59E0F428F27C2D9A475EAF1F552757C4B91A5D"
     }
   ]
 }
