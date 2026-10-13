@@ -22,6 +22,11 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
 $config = Get-Content (Join-Path $root 'releases.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $repo = $config.repo
+# APK は releases.json にはファイル名だけを書き、手元の <ワークスペース>\<folder>\dist\ から探す（公開物に PC のパスを載せない）
+$workspace = Split-Path -Parent $root
+# タグは README だけの空のコミット（release-tags ブランチ）に付ける。Release の「Source code」の zip にリポジトリの中身が入らないように
+$tagTarget = 'release-tags'
+function Resolve-Apk($folder, $apk) { Join-Path (Join-Path (Join-Path $workspace $folder) 'dist') $apk }
 
 if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
     throw 'gh（GitHub CLI）が見つかりません。https://cli.github.com/ から入れて gh auth login してください。'
@@ -37,24 +42,26 @@ foreach ($r in $config.releases) {
         Write-Host "skip   $($r.tag)（既にあります）"
         continue
     }
-    if (-not (Test-Path $r.apk)) {
-        throw "APK が見つかりません: $($r.apk)"
+    $apkPath = Resolve-Apk $r.folder $r.apk
+    if (-not (Test-Path $apkPath)) {
+        throw "APK が見つかりません: $apkPath"
     }
-    $hash = (Get-FileHash $r.apk -Algorithm SHA256).Hash
+    $hash = (Get-FileHash $apkPath -Algorithm SHA256).Hash
     if ($hash -ne $r.sha256) {
         throw "SHA-256 が releases.json と一致しません: $($r.tag)`n  実際: $hash`n  記載: $($r.sha256)"
     }
 
-    # 追加の APK（例: 軽量版。"extraApks": [{"apk": "...", "sha256": "..."}]）も同じく照合して添付する
-    $assets = @($r.apk)
+    # 追加の APK（例: 軽量版。"extraApks": [{"apk": "<ファイル名>", "sha256": "..."}]）も同じく照合して添付する
+    $assets = @($apkPath)
     foreach ($x in @($r.extraApks)) {
         if (-not $x) { continue }
-        if (-not (Test-Path $x.apk)) { throw "APK が見つかりません: $($x.apk)" }
-        $xh = (Get-FileHash $x.apk -Algorithm SHA256).Hash
+        $xPath = Resolve-Apk $r.folder $x.apk
+        if (-not (Test-Path $xPath)) { throw "APK が見つかりません: $xPath" }
+        $xh = (Get-FileHash $xPath -Algorithm SHA256).Hash
         if ($xh -ne $x.sha256) {
             throw "SHA-256 が releases.json と一致しません: $($x.apk)`n  実際: $xh`n  記載: $($x.sha256)"
         }
-        $assets += $x.apk
+        $assets += $xPath
     }
 
     if ($DryRun) {
@@ -69,7 +76,7 @@ foreach ($r in $config.releases) {
         # 開発中の版（"prerelease": true）はプレリリースとして作る
         $extra = @()
         if ($r.prerelease) { $extra += '--prerelease' }
-        gh release create $r.tag @assets --repo $repo --title $r.title --notes-file $notesFile @extra
+        gh release create $r.tag @assets --repo $repo --target $tagTarget --title $r.title --notes-file $notesFile @extra
         if ($LASTEXITCODE -ne 0) { throw "gh release create に失敗しました: $($r.tag)" }
         Write-Host "done   $($r.tag)"
     }

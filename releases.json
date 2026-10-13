@@ -5,7 +5,7 @@
       "folder": "trip_planner",
       "tag": "tripplanner-v1.6",
       "title": "旅行プランナー v1.6",
-      "apk": "d:/work/android/trip_planner/dist/tripplanner-1.6-release.apk",
+      "apk": "tripplanner-1.6-release.apk",
       "sha256": "A95D7D70F9310DBB637850C7D7BA7051417BA421A60CE2248C2DDE30CD1916E2",
       "notes": "旅行プランナー v1.6（2026-09-24）\n\n- 予定カードに画像（1 枚のカードに 10 枚まで）とリンク（URL）を付けられるようにしました。画像はタップで全画面表示（拡大・左右送り）。\n- 共有・Wi-Fi 送信・書き出しにカードの画像も含まれます（受け取る側も 1.6 以降が必要です）。\n\n前の版（1.5）: Android 16（targetSdk 36）に対応。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/trip_planner/\nSHA-256: A95D7D70F9310DBB637850C7D7BA7051417BA421A60CE2248C2DDE30CD1916E2"
     },
@@ -13,7 +13,7 @@
       "folder": "career_log",
       "tag": "careerlog-v1.2.0",
       "title": "キャリアログ v1.2.0",
-      "apk": "d:/work/android/career_log/dist/careerlog-1.2.0-release.apk",
+      "apk": "careerlog-1.2.0-release.apk",
       "sha256": "FE43A4D20A5189734479535549BEBAB0AC22705C008CCAC4EA4C7BEFBDBA3DA9",
       "notes": "キャリアログ v1.2.0（2026-09-24）\n\n- Android 16（targetSdk 36）に対応しました。\n- 横向きのとき、画面の左右の切り欠き（カメラ穴）を避けて表示するようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/career_log/\nSHA-256: FE43A4D20A5189734479535549BEBAB0AC22705C008CCAC4EA4C7BEFBDBA3DA9"
     },
@@ -21,7 +21,7 @@
       "folder": "whistle_trainer",
       "tag": "whistletrainer-v1.1",
       "title": "ホイッスルトレーナー v1.1",
-      "apk": "d:/work/android/whistle_trainer/dist/whistletrainer-1.1-release.apk",
+      "apk": "whistletrainer-1.1-release.apk",
       "sha256": "810B15A67F4499823D5982409742C53D85B111591469D59DC895EFE4432B2F44",
       "notes": "ホイッスルトレーナー v1.1（2026-09-24）\n\n- Android 16（targetSdk 36）に対応しました。\n- 横向きのとき、画面の左右の切り欠き（カメラ穴）を避けて表示するようにしました。\n- 「Web から探す」の下部の出典表記がジェスチャーバーに隠れていたのを直しました。\n- 「Web から探す」の版一覧で、端末の「戻る」操作でも曲一覧へ戻るようにしました。\n\nファイルが約 83MB あります（AI 採譜のモデルと推論エンジンを同梱）。Wi-Fi でのダウンロードをおすすめします。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/whistle_trainer/\nSHA-256: 810B15A67F4499823D5982409742C53D85B111591469D59DC895EFE4432B2F44"
     },
@@ -29,7 +29,7 @@
       "folder": "mask_camera",
       "tag": "maskcamera-v1.1",
       "title": "MaskCamera v1.1",
-      "apk": "d:/work/android/mask_camera/dist/maskcamera-1.1-release.apk",
+      "apk": "maskcamera-1.1-release.apk",
       "sha256": "3A56F9A032CA79C51A2F57FA8A6D094CAC34177B0443E89562067FC76004E357",
       "notes": "MaskCamera v1.1（2026-09-24）\n\n- Android 16（targetSdk 36）に対応しました（画面の端まで表示する edge-to-edge に合わせ、操作ボタンがシステムバーや切り欠きに隠れないようにしました）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/mask_camera/\nSHA-256: 3A56F9A032CA79C51A2F57FA8A6D094CAC34177B0443E89562067FC76004E357"
     },
@@ -37,7 +37,7 @@
       "folder": "TPS_CAMERA",
       "tag": "tpscamera-v1.4",
       "title": "TPS Camera v1.4",
-      "apk": "d:/work/android/TPS_CAMERA/dist/tpscamera-1.4-release.apk",
+      "apk": "tpscamera-1.4-release.apk",
       "sha256": "3D7672225080082D9B9B9BE94D53587C4F8A2F61CEDABB4A5DDE890412DBE385",
       "notes": "TPS Camera v1.4（2026-10-02）\n\n- 地図の小窓を追加しました（左下。現在地・ピン・歩いた道筋を表示、進行方向が上、＋／− でズーム）。歩いた道筋は小窓を出している間だけ記録して端末内に保存し、設定画面から消せます。\n- 戦闘機の HUD のような幾何学模様の AR 表示を追加しました（Y 字の照準と回るリング、傾きに合わせて動く水平線とピッチの目盛り、右端の仰角テープ、方位などの数値）。\n- レーダーがオンの間、映っている人に回転する三角のロックオンマーカーが付くようにしました（中央に近い人がピンクのロックオンに。人をタップでその人に固定）。\n- 設定の「表示するパーツ」で、HUD の部品ごとに表示・非表示を切り替えられるようにしました。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/TPS_CAMERA/\nSHA-256: 3D7672225080082D9B9B9BE94D53587C4F8A2F61CEDABB4A5DDE890412DBE385"
     },
@@ -45,7 +45,7 @@
       "folder": "radio_survey",
       "tag": "radiosurvey-v1.1.1",
       "title": "電測記録 v1.1.1",
-      "apk": "d:/work/android/radio_survey/dist/radiosurvey-1.1.1-release.apk",
+      "apk": "radiosurvey-1.1.1-release.apk",
       "sha256": "61ECB0CFC467D84C280077C73FE330E053C56146497797C3A17C970AD56B9C51",
       "notes": "電測記録 v1.1.1（2026-09-25）\n\n- マップ右上のボタン類を、右上の開閉ボタンで畳めるようにしました（開閉の状態は次回も保たれます。位置を選ぶ地図も同じ）。\n- ボタン名を「カバレッジマップ（実測）」「カバレッジマップ（推定）」に変えました。\n- 建物データのサーバが混み合っているときや、短時間に取得が続いたときに、分かりやすい案内を出すようにしました。\n- 取得済みの範囲の建物データを取り直そうとしたときに、確認を出すようにしました。\n\n前の版（1.1.0）: カバレッジマップ（推定）を追加（送信局の設定と地形・建物データから、エリアの推定電界強度と各測定点の推定値を計算）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/radio_survey/\nSHA-256: 61ECB0CFC467D84C280077C73FE330E053C56146497797C3A17C970AD56B9C51"
     },
@@ -53,7 +53,7 @@
       "folder": "link_conne2",
       "tag": "linkconne2-v1.3.2",
       "title": "りんくこねこね v1.3.2",
-      "apk": "d:/work/android/link_conne2/dist/linkconne2-1.3.2-release.apk",
+      "apk": "linkconne2-1.3.2-release.apk",
       "sha256": "856CCB7A33BA6629A5F8C51726594D6B76094A97FE758096337350FA5ECC174A",
       "notes": "りんくこねこね v1.3.2（2026-09-28）\n\n- ミッションの結果画面で「もう一度」を押したとき、すぐにリセットせず確認するようにしました。\n  「この盤面から直す」を選ぶと、置いた機器・ケーブル・設定をそのまま残してやり直せます（一手だけ直したいときに）。「最初からやり直す」なら従来どおり初期の盤面から始まります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/link_conne2/\nSHA-256: 856CCB7A33BA6629A5F8C51726594D6B76094A97FE758096337350FA5ECC174A"
     },
@@ -61,7 +61,7 @@
       "folder": "phonetic_hound_defence",
       "tag": "phonetichounddefence-v0.7.0-dev",
       "title": "Phonetic Hound Defence v0.7.0-dev（開発中）",
-      "apk": "d:/work/android/phonetic_hound_defence/dist/phonetichounddefence-0.7.0-dev-release.apk",
+      "apk": "phonetichounddefence-0.7.0-dev-release.apk",
       "sha256": "D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70",
       "prerelease": true,
       "notes": "Phonetic Hound Defence v0.7.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **攻撃の演出と効果音をかなり派手に**: 装置ごとにはっきり違う攻撃（地面を走る電撃・太いビーム・全周の衝撃波・溜めてから撃つ狙撃・電磁パルス）、命中の火花、撃破の爆発と焦げ跡、ボス撃破の大爆発とスロー、局の陥落の大爆発と黒煙、勇者の必殺技の閃光と揺れ。効果音も重く迫力のある音に作り直し、大勢が同時に鳴っても割れないようにしました。\n- **設定「演出」**: ［標準］［控えめ］（粒・閃光・揺れを減らす）と、画面の揺れの ON/OFF。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70"
@@ -70,7 +70,7 @@
       "folder": "talk_compass",
       "tag": "talkcompass-v0.3.0",
       "title": "話題コンパス v0.3.0",
-      "apk": "d:/work/android/talk_compass/dist/talkcompass-0.3.0-release.apk",
+      "apk": "talkcompass-0.3.0-release.apk",
       "sha256": "D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011",
       "notes": "話題コンパス v0.3.0（2026-10-06）\n\n- **組織**: 「A社」「釣りの仲間」「〇〇家の親族」のような組織を作って人物に付けられます（複数可）。人物一覧と予定の参加者選びは組織ごとに折りたたみ、［全員選ぶ］もできます。\n- **エリア**: 出身地に加えて、住んだことのある地域（複数）とエリアのメモを登録できます。住んでいた地域の話題のヒントと、「同じ県に住んだことがある」共通点が出ます。\n- 前の版からの上書きインストールでデータはそのまま残ります。権限なし・通信なしは変わりません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011"
     },
@@ -78,7 +78,7 @@
       "folder": "kijunten_meguri",
       "tag": "kijuntenmeguri-v0.3.0",
       "title": "基準点めぐり v0.3.0",
-      "apk": "d:/work/android/kijunten_meguri/dist/kijuntenmeguri-0.3.0-release.apk",
+      "apk": "kijuntenmeguri-0.3.0-release.apk",
       "sha256": "9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4",
       "notes": "基準点めぐり v0.3.0（2026-10-07）\n\n- **獲得の条件を変更**: 測位の精度（±10 m 以内）の条件をなくし、代わりに**移動が徒歩程度まで（時速 9 km 以下）**を条件にしました。車や電車から通りすがりに獲得することはできません。\n- 撮影画面に現在の移動速度を表示します。\n- 前の版からの上書きで、記録はそのまま残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 9D642107B2B52E0B4A54DF56E4B833F3BBAF5A0FB3BD6F99A936565B003EA8E4"
     },
@@ -86,7 +86,7 @@
       "folder": "gps_camera",
       "tag": "gpscamera-v1.2",
       "title": "GPSカメラ v1.2",
-      "apk": "d:/work/android/gps_camera/dist/gpscamera-1.2-release.apk",
+      "apk": "gpscamera-1.2-release.apk",
       "sha256": "2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B",
       "notes": "GPSカメラ v1.2（2026-10-10）\n\n- **カメラごとの画角調整**: 背面カメラ（ピンチ・−/＋）と前面カメラの小窓（小窓の中でピンチ）で、それぞれ画角を変えられます。\n- **ズーム中は写す位置をずらせる**: ドラッグで写す位置を動かせます。ダブルタップ（小窓は［↺］も）で 1.0×・中央に戻ります。\n- 画角と位置は次の起動でも同じ値で始まります。前の版からの上書きで、累計距離と走行ルートは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/gps_camera/\nSHA-256: 2D0716A861ECA2D2999FBA55B0342AE65C203FA0F03BA804D3F23DA50138B28B"
     },
@@ -94,7 +94,7 @@
       "folder": "geo_quest",
       "tag": "geoquest-v0.4.0-dev",
       "title": "ジオクエスト v0.4.0-dev（開発中）",
-      "apk": "d:/work/android/geo_quest/dist/geoquest-0.4.0-dev-release.apk",
+      "apk": "geoquest-0.4.0-dev-release.apk",
       "sha256": "83C96F48CD1E4130F05FCF1E279D7040FFDAA6DBBFCB71657EDEC4D4FA1A38FA",
       "prerelease": true,
       "notes": "ジオクエスト v0.4.0-dev（2026-10-11・**開発中**・仮名）\n\n- **戦闘をやめ、AR カメラで撮る遊びに**: 場所に人（NPC）や精霊が立ち絵で立っていて、カメラで撮るとイベントやクエストが進みます。撮った写真は立ち絵入りの記念写真になります。\n- 遠くでは GPS と方位の AR で方向と距離、場所に着くと ARCore 対応端末では地面に立ちます（非対応端末は GPS の AR）。\n- 光が丘公園のシナリオを、散らばった光の精を探して撮る話に書き直しました（敵は出ません）。\n- NPC の顔と立ち絵。前の版のデータ・パックは読み込めます（戦闘の部分は読み替え）。\n\n歩きながら画面を見ない・道路や私有地に入らないでください。\n\n地点の位置: © OpenStreetMap contributors\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/geo_quest/\nSHA-256: 83C96F48CD1E4130F05FCF1E279D7040FFDAA6DBBFCB71657EDEC4D4FA1A38FA"
@@ -103,13 +103,13 @@
       "folder": "phonetic_hound",
       "tag": "phonetichound-v1.4.0",
       "title": "Phonetic Hound v1.4.0",
-      "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.4.0-release.apk",
+      "apk": "phonetichound-1.4.0-release.apk",
       "sha256": "B161626418E269B51E62D30B69299D0FCD718082086F4330A7C4948502BBE0C3",
       "prerelease": false,
       "notes": "Phonetic Hound v1.4.0（2026-10-12）\n\n- サバイバル: 闘技場を半分の広さにしました。組織的に動く敵の陣形も新しい広さに合わせました。\n- サバイバル: STAGE 10・20 … をクリアすると、その難易度では次の 11・21 … から始められるようになりました（途中から始めると HP 満タン・救急キット付き。ランキングは開始ステージごと）。\n- サバイバル: 敵の数を 2 倍にしました。一度に出てくる数には上限があり、倒すと縁から増援が湧いてきます。\n- サバイバル: あなたの力を写した「影」が敵として出てくるようになりました（先のステージほど強く・多く。影が大量に出るステージもあります）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: B161626418E269B51E62D30B69299D0FCD718082086F4330A7C4948502BBE0C3\nSHA-256（軽量版）: 67F17E6C36D21CB18540B5B8C0A282FB7B6CE962651D4C3EC86B8633F253BD8C",
       "extraApks": [
         {
-          "apk": "d:/work/android/phonetic_hound/dist/phonetichound-1.4.0-lite-release.apk",
+          "apk": "phonetichound-1.4.0-lite-release.apk",
           "sha256": "67F17E6C36D21CB18540B5B8C0A282FB7B6CE962651D4C3EC86B8633F253BD8C"
         }
       ]
@@ -118,7 +118,7 @@
       "folder": "drive_logger",
       "tag": "drivelogger-v0.5.0",
       "title": "ドライブロガー v0.5.0",
-      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.5.0-release.apk",
+      "apk": "drivelogger-0.5.0-release.apk",
       "sha256": "9DCBEA3135D42672FFA0FEA4706817EB3156B96E00B63F6EC46A9E75F50D8AE9",
       "notes": "ドライブロガー v0.5.0（2026-10-13）\n\n- 起動時の画面をホームにしました（ドライブを始める［記録だけ］［記録＋録画］・最近のドライブ・これまでの記録・一覧・まとめ・設定への入口）。\n- 地図と速度の画面はドライブを始めてからの画面になりました。戻るでホームへ（走行中は移れません）。\n- ドライブ中にアプリを開くと、走行中の画面へ直接戻ります（ホームにも「走行中の画面へ戻る」）。\n- 前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 9DCBEA3135D42672FFA0FEA4706817EB3156B96E00B63F6EC46A9E75F50D8AE9"
     },
@@ -126,7 +126,7 @@
       "folder": "cycle_route_logger",
       "tag": "cycleroutelogger-v0.8.0",
       "title": "自転車ルートロガー v0.8.0",
-      "apk": "d:/work/android/cycle_route_logger/dist/cycleroutelogger-0.8.0-release.apk",
+      "apk": "cycleroutelogger-0.8.0-release.apk",
       "sha256": "CE41797CE6BE1E5FEF160C5974B6C523ED5FFB513084A22A4EBED2B66D2A4E09",
       "notes": "自転車ルートロガー v0.8.0（2026-10-13）\n\n- **開拓したマスを地図に表示**: まとめの全走行の地図で、走ったことのある 1 km 四方のマスを色付きで（軌跡だけ / マスだけ / 両方）。期間内で初めて走ったマスは橙色。「開拓したマス」の数字をタップでも表示。\n- 記録の詳細でも、その記録で初めて走ったマスを表示できます。\n- 記録中の記録に［この時間に撮った写真を追加］で写真を足せなかった不具合を直しました。\n- 前の版からの上書きで、記録とプランは残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: CE41797CE6BE1E5FEF160C5974B6C523ED5FFB513084A22A4EBED2B66D2A4E09"
     }

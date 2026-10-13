@@ -26,12 +26,16 @@ android-apps/
 - URL: トップ `https://kijitora-no-hito.github.io/android-apps/`、アプリ `…/android-apps/<folder>/`（大文字小文字を区別する。`TPS_CAMERA/`）。
 - タグ: `<slug>-v<version>`（`tripplanner-v1.5` など。slug は APK ファイル名の先頭と同じ）。
 - APK の直リンク: `https://github.com/kijitora-no-hito/android-apps/releases/download/<tag>/<apk ファイル名>`
+- `releases.json` の `apk` はファイル名だけ（PC のパスは書かない）。公開スクリプトが `<ワークスペース>\<folder>\dist\<apk>` から探す。
+- **配布するのは APK だけ**。Release に GitHub が自動で付ける「Source code (zip / tar.gz)」は消せないので、
+  タグは `release-tags` ブランチ（README 1 枚だけの空のコミット）に付ける（公開スクリプトが `--target release-tags` で作る）。
+  main に打つと、このリポジトリの中身（全アプリのページ・画像・tools など）が zip に入ってしまう。
 - **QR はアプリページを指している**ので、版を上げても作り直さない。
 
 ## 初回の公開
 
 1. GitHub に公開リポジトリ `android-apps` を作り、このフォルダを push する（main ブランチ）。
-   `gh release create` はタグをデフォルトブランチの先頭に打つので、**Release より先に 1 回 push しておく**。
+   タグは `release-tags` ブランチに付けるので、**Release より先にそのブランチを push しておく**（上の「配布するのは APK だけ」）。
 2. Settings → Pages → Source: 「Deploy from a branch」、Branch: `main` / `/ (root)`。
 3. `gh auth login` 済みの状態で `.\tools\publish-releases.ps1 -DryRun` → 問題なければ `.\tools\publish-releases.ps1`。
 4. Pages とリポジトリ画面の両方で、各アプリページのダウンロードリンクが 404 にならないか確かめる。
