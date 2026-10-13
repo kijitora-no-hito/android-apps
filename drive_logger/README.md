@@ -6,13 +6,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.4.0・16.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/drivelogger-v0.4.0/drivelogger-0.4.0-release.apk)
+### [APK をダウンロード（v0.4.1・16.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/drivelogger-v0.4.1/drivelogger-0.4.1-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.4.0（2026-10-13） |
-| ファイル | `drivelogger-0.4.0-release.apk`（17,548,265 バイト） |
-| SHA-256 | `46BB5099ACF3B22181AEC8C0453354E3932F08DD372A7D64D23FF23F62C8B7B2` |
+| バージョン | 0.4.1（2026-10-13） |
+| ファイル | `drivelogger-0.4.1-release.apk`（17,549,053 バイト） |
+| SHA-256 | `76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 位置情報（使用中のみ。「常に許可」は任意）、カメラ（録画・写真）、マイク（音声を録るときだけ・既定 OFF）、通知、インターネット（地図・更新の確認） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |

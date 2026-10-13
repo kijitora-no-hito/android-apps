@@ -116,11 +116,11 @@
     },
     {
       "folder": "drive_logger",
-      "tag": "drivelogger-v0.4.0",
-      "title": "ドライブロガー v0.4.0",
-      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.4.0-release.apk",
-      "sha256": "46BB5099ACF3B22181AEC8C0453354E3932F08DD372A7D64D23FF23F62C8B7B2",
-      "notes": "ドライブロガー v0.4.0（2026-10-13）\n\n- **写真**: いつでも撮影（録画中も録画を止めずに）。フォトライブラリに保存し、時刻と位置でドライブに紐づけ。SNS 用の画像（地図・写真・統計）。\n- **駐車・寄り道**: ［駐車する］で GPS の記録を止めて駐車位置を記録、歩いて写真、［ドライブを再開］。\n- **タイムライン**: 録画・写真・駐車・停車・衝撃を時刻順に。\n- **録画は横画面**が既定。**表示はあとから重ねる**方式に（録画はきれいな映像のまま、書き出し・再生で表示を重ね、外した項目は描かない）。\n- **開拓したマス**を地図に表示。ドライブの詳細とまとめの地図の広さを変えられるように。\n- 用語を「トリップ」から「ドライブ」に。前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 46BB5099ACF3B22181AEC8C0453354E3932F08DD372A7D64D23FF23F62C8B7B2"
+      "tag": "drivelogger-v0.4.1",
+      "title": "ドライブロガー v0.4.1",
+      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.4.1-release.apk",
+      "sha256": "76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03",
+      "notes": "ドライブロガー v0.4.1（2026-10-13）\n\n- ドライブの詳細の「このドライブで初めて走ったマス」の数が少なく出ることがあった（隣り合うマスを 1 つに数えていた）のを直しました。\n- 地図を小さくすると右のボタンが拡大・縮小のボタンに重なっていたのを直しました（拡大・縮小はアプリのボタンに。ボタンが入りきらないときは縦にスクロール）。\n- 機能・権限・通信は変わりません。前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03"
     },
     {
       "folder": "cycle_route_logger",
