@@ -6,13 +6,13 @@
 
 ## ダウンロード
 
-### [APK をダウンロード（v0.4.1・16.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/drivelogger-v0.4.1/drivelogger-0.4.1-release.apk)
+### [APK をダウンロード（v0.5.0・16.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/drivelogger-v0.5.0/drivelogger-0.5.0-release.apk)
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.4.1（2026-10-13） |
-| ファイル | `drivelogger-0.4.1-release.apk`（17,549,053 バイト） |
-| SHA-256 | `76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03` |
+| バージョン | 0.5.0（2026-10-13） |
+| ファイル | `drivelogger-0.5.0-release.apk`（17,571,733 バイト） |
+| SHA-256 | `9DCBEA3135D42672FFA0FEA4706817EB3156B96E00B63F6EC46A9E75F50D8AE9` |
 | 対応 Android | 7.0 以上 |
 | 権限 | 位置情報（使用中のみ。「常に許可」は任意）、カメラ（録画・写真）、マイク（音声を録るときだけ・既定 OFF）、通知、インターネット（地図・更新の確認） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
@@ -23,7 +23,8 @@
 
 ### 走行の記録（基本）
 
-- ［開始］で GPS の記録を始めます。走行画面は地図と大きな速度、走行距離・経過時間・停車時間。
+- ホームの［記録だけ］か［記録＋録画］でドライブを始めます。ホームには最近のドライブ・これまでの記録と、一覧・動画・まとめ・設定への入口。
+- 走行画面は地図と大きな速度、走行距離・経過時間・停車時間。ドライブ中にアプリを開くと走行画面に直接戻ります。
 - 画面を消しても、アプリを裏に回しても記録を続けます（通知に表示）。途中でアプリが落ちても、記録は端末に残ります。
 - **GPS と加速度センサーの組み合わせ**: GPS の位置・速度を、加速度とジャイロで補って軌跡と速度のばらつきを減らします。ビル街や短いトンネルで GPS が途切れても、しばらくは推測で補います（設定で OFF にできます。元の GPS の値も残します）。
 - **停車中は測位を止めます**: 止まっていると判断したら GPS を止めて電池を節約し、止まった位置にいるものとして記録します。動き出すとすぐに再開します。
@@ -63,24 +64,24 @@
 
 <table>
 <tr>
+<td align="center"><img src="images/00-home.jpg" width="200" alt="ホーム"><br>ホーム（ドライブを始める）</td>
 <td align="center"><img src="images/01-drive.jpg" width="200" alt="記録中"><br>記録中（地図と速度）</td>
 <td align="center"><img src="images/02-dashcam.jpg" width="200" alt="録画中"><br>録画中（ドラレコ）</td>
-<td align="center"><img src="images/03-frame.jpg" width="200" alt="表示を重ねた動画"><br>表示を重ねた動画</td>
 </tr>
 <tr>
+<td align="center"><img src="images/03-frame.jpg" width="200" alt="表示を重ねた動画"><br>表示を重ねた動画</td>
 <td align="center"><img src="images/04-trip.jpg" width="200" alt="記録の詳細"><br>記録の詳細</td>
 <td align="center"><img src="images/05-summary.jpg" width="200" alt="まとめ"><br>まとめ</td>
-<td align="center"><img src="images/06-summary-map.jpg" width="200" alt="全走行の地図"><br>全走行の地図</td>
 </tr>
 <tr>
+<td align="center"><img src="images/06-summary-map.jpg" width="200" alt="全走行の地図"><br>全走行の地図</td>
 <td align="center"><img src="images/07-meter.jpg" width="200" alt="メーター表示"><br>メーター表示</td>
 <td align="center"><img src="images/08-frame-map.jpg" width="200" alt="地図とメーターを重ねた動画"><br>地図とメーターを重ねた動画</td>
-<td align="center"><img src="images/10-sns-export.jpg" width="200" alt="SNS 用に書き出す"><br>SNS 用に書き出す</td>
 </tr>
 <tr>
+<td align="center"><img src="images/10-sns-export.jpg" width="200" alt="SNS 用に書き出す"><br>SNS 用に書き出す</td>
 <td align="center"><img src="images/11-timeline.jpg" width="200" alt="タイムライン"><br>タイムライン（駐車中の写真）</td>
 <td align="center"><img src="images/13-cells.jpg" width="200" alt="開拓したマス"><br>開拓したマスと全走行</td>
-<td></td>
 </tr>
 <tr>
 <td align="center" colspan="3"><img src="images/12-landscape.jpg" width="480" alt="横向きの録画中に撮影"><br>横向きの録画中に写真を撮影</td>

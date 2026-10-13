@@ -116,11 +116,11 @@
     },
     {
       "folder": "drive_logger",
-      "tag": "drivelogger-v0.4.1",
-      "title": "ドライブロガー v0.4.1",
-      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.4.1-release.apk",
-      "sha256": "76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03",
-      "notes": "ドライブロガー v0.4.1（2026-10-13）\n\n- ドライブの詳細の「このドライブで初めて走ったマス」の数が少なく出ることがあった（隣り合うマスを 1 つに数えていた）のを直しました。\n- 地図を小さくすると右のボタンが拡大・縮小のボタンに重なっていたのを直しました（拡大・縮小はアプリのボタンに。ボタンが入りきらないときは縦にスクロール）。\n- 機能・権限・通信は変わりません。前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 76BDBA2AD5D58BCAF58509BBB2D0996FA3C1DE26CDC74625DB954FDE5B73DD03"
+      "tag": "drivelogger-v0.5.0",
+      "title": "ドライブロガー v0.5.0",
+      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.5.0-release.apk",
+      "sha256": "9DCBEA3135D42672FFA0FEA4706817EB3156B96E00B63F6EC46A9E75F50D8AE9",
+      "notes": "ドライブロガー v0.5.0（2026-10-13）\n\n- 起動時の画面をホームにしました（ドライブを始める［記録だけ］［記録＋録画］・最近のドライブ・これまでの記録・一覧・まとめ・設定への入口）。\n- 地図と速度の画面はドライブを始めてからの画面になりました。戻るでホームへ（走行中は移れません）。\n- ドライブ中にアプリを開くと、走行中の画面へ直接戻ります（ホームにも「走行中の画面へ戻る」）。\n- 前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 9DCBEA3135D42672FFA0FEA4706817EB3156B96E00B63F6EC46A9E75F50D8AE9"
     },
     {
       "folder": "cycle_route_logger",
