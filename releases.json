@@ -124,11 +124,11 @@
     },
     {
       "folder": "drive_logger",
-      "tag": "drivelogger-v0.2.0",
-      "title": "ドライブロガー v0.2.0",
-      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.2.0-release.apk",
-      "sha256": "C960ADAADEA51C850237B77A4ACD3A1A88DACD56CB2A3FAA2F007A7B2DDABB89",
-      "notes": "ドライブロガー v0.2.0（2026-10-13）\n\n- **動画に地図を焼き込むオプション**: 国土地理院の地図（標準・淡色・写真）と走った軌跡・現在地を動画の隅に。出典も一緒に入ります。大きさ・位置・ズーム・向きを選べます。\n- **メーター表示のオプション**: 速度計（針）・コンパス・G メーター。画面と動画でそれぞれ「文字 / メーター」を選べます。\n- 前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: C960ADAADEA51C850237B77A4ACD3A1A88DACD56CB2A3FAA2F007A7B2DDABB89"
+      "tag": "drivelogger-v0.3.0",
+      "title": "ドライブロガー v0.3.0",
+      "apk": "d:/work/android/drive_logger/dist/drivelogger-0.3.0-release.apk",
+      "sha256": "66DDD7047343D1854D7A9091E58AAF3421736D35ECC75BD9C5940E7944A2ABE0",
+      "notes": "ドライブロガー v0.3.0（2026-10-13）\n\n- **SNS 用に書き出す**: 範囲を切り出して X・Instagram リール・YouTube・LINE の目安に合わせて書き出し、共有画面から各アプリへ。ギャラリーにも保存できます。\n- **決めた速度を超えた場面だけ速度の表示を「---」で隠す**オプション（文字・速度計とも）。緯度経度・地図も隠せます。元の動画と記録は変わりません。\n- **GPS と加速度センサーの組み合わせ**で軌跡と速度のばらつきを減らし、短い途切れを補います（設定で OFF）。\n- **停車中は GPS を止めて**電池を節約し、止まった位置として記録します。動き出すと再開します。\n- 前の版からの上書きで、記録と動画は残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 66DDD7047343D1854D7A9091E58AAF3421736D35ECC75BD9C5940E7944A2ABE0"
     }
   ]
 }
