@@ -84,7 +84,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="drive_logger/"><img src="drive_logger/images/icon.png" width="80" alt="ドライブロガー"></a></td>
-<td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.3.0）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置を焼き込み・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
+<td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.4.0）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置を焼き込み・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
 <td align="center"><img src="drive_logger/images/qr.png" width="140" alt="ドライブロガーのページの QR コード"></td>
 </tr>
 </table>
