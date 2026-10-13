@@ -65,7 +65,7 @@
 <tr>
 <td align="center"><img src="images/01-drive.jpg" width="200" alt="記録中"><br>記録中（地図と速度）</td>
 <td align="center"><img src="images/02-dashcam.jpg" width="200" alt="録画中"><br>録画中（ドラレコ）</td>
-<td align="center"><img src="images/03-frame.jpg" width="200" alt="焼き込み"><br>動画に焼き込んだ表示</td>
+<td align="center"><img src="images/03-frame.jpg" width="200" alt="表示を重ねた動画"><br>表示を重ねた動画</td>
 </tr>
 <tr>
 <td align="center"><img src="images/04-trip.jpg" width="200" alt="記録の詳細"><br>記録の詳細</td>
@@ -74,7 +74,7 @@
 </tr>
 <tr>
 <td align="center"><img src="images/07-meter.jpg" width="200" alt="メーター表示"><br>メーター表示</td>
-<td align="center"><img src="images/08-frame-map.jpg" width="200" alt="地図とメーターの焼き込み"><br>地図とメーターを焼き込んだ動画</td>
+<td align="center"><img src="images/08-frame-map.jpg" width="200" alt="地図とメーターを重ねた動画"><br>地図とメーターを重ねた動画</td>
 <td align="center"><img src="images/10-sns-export.jpg" width="200" alt="SNS 用に書き出す"><br>SNS 用に書き出す</td>
 </tr>
 <tr>
