@@ -124,11 +124,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.9.0",
-      "title": "自転車ルートロガー v0.9.0",
-      "apk": "cycleroutelogger-0.9.0-release.apk",
-      "sha256": "5350D7B61C2B1D3B0DCA956DAF6E21A06C25FCC25421F0F991C780A5EE859117",
-      "notes": "自転車ルートロガー v0.9.0（2026-10-15）\n\n- 設定「測位の方式」に「Google の融合測位（高精度）」を追加しました（Google Play 開発者サービスの位置情報を使います。既定は端末の GPS）。\n- 軌跡をなめらかにする設定を追加しました（既定 ON。GPS の数 m のギザギザをならして地図・距離に使います。記録した点はそのまま残ります）。\n- 記録の詳細の地図で、生の GPS の点と精度の円を重ねて見比べられるようにしました。\n- GPX の書き出しで「なめらかにした位置 / 記録した位置」を選べるようにしました。\n- 獲得標高が GPS の高度の揺れで大きく出ていたのを直しました（10 m 以上の登りだけ数えます）。\n- 更新後の最初の起動で、これまでの記録の距離・獲得標高を計算し直します。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 5350D7B61C2B1D3B0DCA956DAF6E21A06C25FCC25421F0F991C780A5EE859117"
+      "tag": "cycleroutelogger-v0.10.0",
+      "title": "自転車ルートロガー v0.10.0",
+      "apk": "cycleroutelogger-0.10.0-release.apk",
+      "sha256": "CD463DD2F85036D3174AB782295CA9FB908388B98E2E570EBA2F04AAB33810A3",
+      "notes": "自転車ルートロガー v0.10.0（2026-10-16）\n\n- GPX・FIT・TCX・KML のファイルや、それらがたくさん入った zip（Strava・Garmin などの書き出し）から記録を取り込めるようにしました（記録の一覧の右上のボタン）。\n- 取り込んだ点は日付ごとに 1 つの記録にまとめます（同じ日の複数のファイルは 1 つに、0 時をまたぐ走行は日付で分けます）。\n- 同じ走行が GPX と FIT の両方に入っていても二重に数えません。\n- 取り込む前に日ごとの距離・時間を確認でき、今ある記録と時間が重なる日は外しておきます。\n- 取り込んだ記録もまとめ・SNS 用の画像・GPX の書き出しなどにそのまま使えます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: CD463DD2F85036D3174AB782295CA9FB908388B98E2E570EBA2F04AAB33810A3"
     }
   ]
 }
