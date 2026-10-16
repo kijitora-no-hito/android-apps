@@ -124,11 +124,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.10.0",
-      "title": "自転車ルートロガー v0.10.0",
-      "apk": "cycleroutelogger-0.10.0-release.apk",
-      "sha256": "CD463DD2F85036D3174AB782295CA9FB908388B98E2E570EBA2F04AAB33810A3",
-      "notes": "自転車ルートロガー v0.10.0（2026-10-16）\n\n- GPX・FIT・TCX・KML のファイルや、それらがたくさん入った zip（Strava・Garmin などの書き出し）から記録を取り込めるようにしました（記録の一覧の右上のボタン）。\n- 取り込んだ点は日付ごとに 1 つの記録にまとめます（同じ日の複数のファイルは 1 つに、0 時をまたぐ走行は日付で分けます）。\n- 同じ走行が GPX と FIT の両方に入っていても二重に数えません。\n- 取り込む前に日ごとの距離・時間を確認でき、今ある記録と時間が重なる日は外しておきます。\n- 取り込んだ記録もまとめ・SNS 用の画像・GPX の書き出しなどにそのまま使えます。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: CD463DD2F85036D3174AB782295CA9FB908388B98E2E570EBA2F04AAB33810A3"
+      "tag": "cycleroutelogger-v0.10.1",
+      "title": "自転車ルートロガー v0.10.1",
+      "apk": "cycleroutelogger-0.10.1-release.apk",
+      "sha256": "6331DCA3CF7AD6FEBCEE4D1F8A0B2ABD9A6809E90E1C0CE70519875843C259EB",
+      "notes": "自転車ルートロガー v0.10.1（2026-10-17）\n\n- Strava の一括書き出しの zip（activities フォルダの .fit.gz）をそのまま取り込めることを確かめました。\n- Strava の activities.csv から種目と名前を読み、自転車の記録だけを取り込みます（ラン・ウォーク・バーチャルライドは外せます）。\n- いろいろな機器で記録した同じ走行は、いちばん良い 1 つだけを丸ごと使います。\n- 一度取り込んだデータをもう一度選んでも二重に取り込みません。\n- 今ある記録と同じ走行は外し、同じ日の別の走行だけを足します。\n- 確認画面を年・月ごとに畳めるようにしました（まとめて選ぶ・外す）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 6331DCA3CF7AD6FEBCEE4D1F8A0B2ABD9A6809E90E1C0CE70519875843C259EB"
     }
   ]
 }
