@@ -124,11 +124,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.10.1",
-      "title": "自転車ルートロガー v0.10.1",
-      "apk": "cycleroutelogger-0.10.1-release.apk",
-      "sha256": "6331DCA3CF7AD6FEBCEE4D1F8A0B2ABD9A6809E90E1C0CE70519875843C259EB",
-      "notes": "自転車ルートロガー v0.10.1（2026-10-17）\n\n- Strava の一括書き出しの zip（activities フォルダの .fit.gz）をそのまま取り込めることを確かめました。\n- Strava の activities.csv から種目と名前を読み、自転車の記録だけを取り込みます（ラン・ウォーク・バーチャルライドは外せます）。\n- いろいろな機器で記録した同じ走行は、いちばん良い 1 つだけを丸ごと使います。\n- 一度取り込んだデータをもう一度選んでも二重に取り込みません。\n- 今ある記録と同じ走行は外し、同じ日の別の走行だけを足します。\n- 確認画面を年・月ごとに畳めるようにしました（まとめて選ぶ・外す）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 6331DCA3CF7AD6FEBCEE4D1F8A0B2ABD9A6809E90E1C0CE70519875843C259EB"
+      "tag": "cycleroutelogger-v0.10.2",
+      "title": "自転車ルートロガー v0.10.2",
+      "apk": "cycleroutelogger-0.10.2-release.apk",
+      "sha256": "5260F9F6BCFD66D06F9203835587443549B35A7090DEF5A31DCB46F3293157DE",
+      "notes": "自転車ルートロガー v0.10.2（2026-10-17）\n\n- 記録がとても多いとき（Strava の書き出しを取り込んだ後など）にまとめを開くと落ちることがあったのを直しました。\n- まとめの全走行の地図を、記録が何千本あっても軽く表示できるようにしました（地図の線をタップしてその記録を選ぶのは今までどおり）。\n- 設定の［バックアップを読み込む］で Strava などの記録のファイルを選んだとき、エラーにせず［ファイルから記録を取り込む］へそのまま進めるようにしました。\n- 記録の取り込みでこのアプリのバックアップを選んだときは、バックアップとして読み込めるよう案内します。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 5260F9F6BCFD66D06F9203835587443549B35A7090DEF5A31DCB46F3293157DE"
     }
   ]
 }
