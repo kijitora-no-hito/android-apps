@@ -117,16 +117,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.5.0",
-      "title": "Phonetic Hound v1.5.0",
-      "apk": "phonetichound-1.5.0-release.apk",
-      "sha256": "D2E82D5DC287A0CC1017B5F3EAEACCAF27475E169BF708EE2CD85ECE3104B40B",
+      "tag": "phonetichound-v1.6.0",
+      "title": "Phonetic Hound v1.6.0",
+      "apk": "phonetichound-1.6.0-release.apk",
+      "sha256": "572DD72643B79B5E32E5C2A0C5726AC02FFF3C8A9825F76ADE4DD9D371A240C1",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.5.0（2026-10-17）\n\n- サバイバルの敵の攻撃が、ステージが進むほど強くなるようになりました（最後は最初の約 3 倍）。いまの強さは画面右上と各ステージの始めに「火力 ×1.8」のように出ます\n- サバイバルは難易度の設定に関係なく、いつも HARD の決まりで遊ぶようになりました（これまでの HARD の記録はそのまま引き継ぎ、EASY / NORMAL の記録は「記録」で見られます）\n- サバイバルに、強くなったボスと 1 対 1 で戦う「一騎打ち」のステージを足しました\n- 新しい難易度 HARDEST（敵の攻撃力 2 倍）と NIGHTMARE（4 倍）を足しました。HARD でノーマルモードを全ステージクリアすると HARDEST、HARDEST で全ステージクリアすると NIGHTMARE が選べるようになります\n- パワーアップしたボスの攻撃が強くなり、歩いたり走ったりするだけでは避けにくくなりました。赤い予告が点滅したら回避でくぐりましょう\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: D2E82D5DC287A0CC1017B5F3EAEACCAF27475E169BF708EE2CD85ECE3104B40B\nSHA-256（軽量版）: 2C2F42757DFF0FA15CC875862BA48235A973933E8F673EAF3598B548B6C5C194",
+      "notes": "Phonetic Hound v1.6.0（2026-10-17）\n\n- サバイバルの BGM がステージごとにランダムになりました。ステージが始まるたびに、ゲーム外の曲と各ステージの曲（探索・支配者との戦闘・ボス戦）の全部から 1 曲を選びます（直前の 3 曲とは重なりません）\n- 強いステージ（DANGER STAGE・BOSS DUEL・BOSS RUSH・ALL FORCES・SHADOW LEGION・FINAL BATTLE）では、ボス戦の曲からランダムに選びます\n- BONUS STAGE では落ち着いた曲（ゲーム外・探索の曲）から選びます\n- ランダムの間は 1 ステージ 1 曲です（支配者やボスが来ても曲は変わりません）。曲の種類（内蔵（演奏）/ 内蔵 MP3 / 自分の MP3）は「BGM の曲」の設定に従います\n- 設定の「ゲーム」に「サバイバルの BGM」を追加しました。「今まで」を選ぶと以前の決め方に戻せます（初期設定はランダム）\n- 内蔵 MP3・自分の MP3 で、ステージの切り替わりの曲の入れ替わりを途切れずなめらかにしました\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 572DD72643B79B5E32E5C2A0C5726AC02FFF3C8A9825F76ADE4DD9D371A240C1\nSHA-256（軽量版）: ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1",
       "extraApks": [
         {
-          "apk": "phonetichound-1.5.0-lite-release.apk",
-          "sha256": "2C2F42757DFF0FA15CC875862BA48235A973933E8F673EAF3598B548B6C5C194"
+          "apk": "phonetichound-1.6.0-lite-release.apk",
+          "sha256": "ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1"
         }
       ]
     }
