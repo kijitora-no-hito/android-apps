@@ -129,6 +129,16 @@
           "sha256": "ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1"
         }
       ]
+    },
+    {
+      "folder": "phonetic_hound_pc",
+      "distFolder": "phonetic_hound",
+      "tag": "phonetichound-pc-v1.7.0",
+      "title": "Phonetic Hound for Windows v1.7.0",
+      "apk": "PhoneticHound-1.7.0-setup.exe",
+      "sha256": "423288C02A061BF354EE6528421F705CE5E746EBDFA084B0619CE111589CB85D",
+      "prerelease": false,
+      "notes": "Phonetic Hound for Windows v1.7.0（2026-10-18）\n\n- Windows 版の最初の版です。Windows 10 / 11（64 bit）で、キーボード・マウスとゲームパッドで遊べます。\n- インストーラで入れます（管理者の権限は不要）。更新は新しい setup.exe を開くだけで、セーブは残ります。\n- ウィンドウ / 全画面（Alt+Enter・F11）の切り替え、垂直同期・fps の上限を設定の「画面」で選べます。\n- キーの割り当ては設定の「操作・パッド」→［キーの割り当て…］で変えられます。\n- 新しい版はタイトル画面でお知らせします（設定で OFF にできます）。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 423288C02A061BF354EE6528421F705CE5E746EBDFA084B0619CE111589CB85D"
     }
   ]
 }

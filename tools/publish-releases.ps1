@@ -42,7 +42,9 @@ foreach ($r in $config.releases) {
         Write-Host "skip   $($r.tag)（既にあります）"
         continue
     }
-    $apkPath = Resolve-Apk $r.folder $r.apk
+    # distFolder があればそのフォルダの dist から探す（例: Windows 版は folder=phonetic_hound_pc / distFolder=phonetic_hound）
+    $srcFolder = if ($r.distFolder) { $r.distFolder } else { $r.folder }
+    $apkPath = Resolve-Apk $srcFolder $r.apk
     if (-not (Test-Path $apkPath)) {
         throw "APK が見つかりません: $apkPath"
     }
@@ -55,7 +57,7 @@ foreach ($r in $config.releases) {
     $assets = @($apkPath)
     foreach ($x in @($r.extraApks)) {
         if (-not $x) { continue }
-        $xPath = Resolve-Apk $r.folder $x.apk
+        $xPath = Resolve-Apk $srcFolder $x.apk
         if (-not (Test-Path $xPath)) { throw "APK が見つかりません: $xPath" }
         $xh = (Get-FileHash $xPath -Algorithm SHA256).Hash
         if ($xh -ne $x.sha256) {
