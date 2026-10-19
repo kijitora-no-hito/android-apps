@@ -10,16 +10,16 @@
 
 ### [APK をダウンロード（v1.6・11.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tripplanner-v1.6/tripplanner-1.6-release.apk)
 
-### [Windows 版インストーラをダウンロード（v1.0.0・53.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tripplanner-pc-v1.0.0/TripPlanner-1.0.0-setup.exe)
+### [Windows 版インストーラをダウンロード（v1.0.1・53.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tripplanner-pc-v1.0.1/TripPlanner-1.0.1-setup.exe)
 
 | 項目 | 内容 |
 | --- | --- |
 | バージョン | 1.6（2026-09-24） |
 | ファイル | `tripplanner-1.6-release.apk`（12,248,613 バイト） |
 | SHA-256 | `A95D7D70F9310DBB637850C7D7BA7051417BA421A60CE2248C2DDE30CD1916E2` |
-| バージョン（Windows 版） | 1.0.0（2026-10-20） |
-| ファイル（Windows 版） | `TripPlanner-1.0.0-setup.exe`（55,667,149 バイト） |
-| SHA-256（Windows 版） | `D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236` |
+| バージョン（Windows 版） | 1.0.1（2026-10-20） |
+| ファイル（Windows 版） | `TripPlanner-1.0.1-setup.exe`（55,690,471 バイト） |
+| SHA-256（Windows 版） | `6C740A93AF9F11EE32E8066214F99E973E390AC41630B71729C05B33B69DE94B` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 対応 Android | 7.0 以上 |
 | 権限 | インターネット / ネットワーク状態の確認（地図と場所名検索のため。どちらも許可ダイアログは出ません） |
@@ -101,7 +101,7 @@
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `TripPlanner-1.0.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `TripPlanner-1.0.1-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. 旅行のデータは `%APPDATA%\TripPlanner` に保存されます。更新は新しい setup.exe を開くだけで、データは残ります。アンインストールは「設定」→「アプリ」から（旅行のデータを消すかどうか聞かれます）。
 

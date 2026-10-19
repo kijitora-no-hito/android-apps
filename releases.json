@@ -147,16 +147,6 @@
       "notes": "Phonetic Hound for Windows v1.8.0（2026-10-20）\n\n- 協力プレイを追加しました。サバイバルを 2〜6 人で、部屋番号で友達と遊べます（Android 版と一緒に遊べます）。中継サーバと Android 版の準備ができしだい使えるようになります（それまでは接続できないことがあります）。\n- 抜けても同じ部屋番号で入り直せば次のステージから戻れ、途中から友達が加わることもできます。\n- 兵装は自キャラ / 初心兵装（Lv 1 から）/ チャレンジ兵装（Lv 200）から選べ、10 ステージごとに休憩（2 分）をとるか全員に聞きます。\n- 更新は新しい setup.exe を開くだけで、セーブは残ります。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57"
     },
     {
-      "folder": "trip_planner_pc",
-      "distFolder": "trip_planner",
-      "tag": "tripplanner-pc-v1.0.0",
-      "title": "旅行プランナー for Windows v1.0.0",
-      "apk": "TripPlanner-1.0.0-setup.exe",
-      "sha256": "D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236",
-      "prerelease": false,
-      "notes": "旅行プランナー for Windows v1.0.0（2026-10-20）\n\n- Windows 版の最初の版です。スマホ版と同じ全機能（旅程ボード・カードの編集・地図・予算・準備・画像・リンク・受け渡し）を PC で使えます。\n- 地図は OpenStreetMap です（© OpenStreetMap contributors）。\n- スマホとは同じ JSON ファイル、または同じ Wi-Fi の中の「Wi-Fi で送る / 受け取る」でやりとりできます。\n- インストーラで入れます（管理者の権限は不要）。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/trip_planner/\nSHA-256: D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236"
-    },
-    {
       "folder": "talk_compass_pc",
       "distFolder": "talk_compass",
       "tag": "talkcompass-pc-v0.4.1",
@@ -165,6 +155,16 @@
       "sha256": "F76FCCE37A98AADE358BF792540679BD1331A628ACFCBF80EAB4AD5E55E5007F",
       "prerelease": false,
       "notes": "話題コンパス for Windows v0.4.1（2026-10-20）\n\n- PC 版（Windows）: 縦に長い画面・ダイアログのすべてに、常に見えるスクロールバーを付けました（マウスでつまんで動かせます）。\n- PC 版: 窓が狭いとき、準備のタブ（①〜話題プラン）の下に横のスクロールバーを出し、マウスのホイールでも送れるようにしました。\n- PC 版: プルダウン（出身地など）の選択肢にもスクロールバーを付けました。\n- Android 版は変更ありません（0.4.0 のまま）。データ・Wi-Fi のやりとりは 0.4.0 とそのまま互換です。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: F76FCCE37A98AADE358BF792540679BD1331A628ACFCBF80EAB4AD5E55E5007F"
+    },
+    {
+      "folder": "trip_planner_pc",
+      "distFolder": "trip_planner",
+      "tag": "tripplanner-pc-v1.0.1",
+      "title": "旅行プランナー for Windows v1.0.1",
+      "apk": "TripPlanner-1.0.1-setup.exe",
+      "sha256": "6C740A93AF9F11EE32E8066214F99E973E390AC41630B71729C05B33B69DE94B",
+      "prerelease": false,
+      "notes": "旅行プランナー for Windows v1.0.1（2026-10-20）\n\n- 縦に長い画面・シート・ダイアログのすべてに、常に見えるスクロールバーを付けました（旅程の各日の列、予定の編集、予算・準備、地図の予定の詳細、Wi-Fi の画面など）。マウスでつまんで動かせます。\n- 「Wi-Fi で受け取る」の画面が窓に収まらないときもスクロールできるようにしました。\n- 画像のサムネイルの列が入りきらないときは横のスクロールバーを出します。\n- 既にあったスクロールバー（旅行一覧・地図の左のパネル・旅程ボードの横）も同じ見た目にそろえました。\n- データの形式・スマホとのやりとりは 1.0.0 と同じです。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/trip_planner/\nSHA-256: 6C740A93AF9F11EE32E8066214F99E973E390AC41630B71729C05B33B69DE94B"
     }
   ]
 }
