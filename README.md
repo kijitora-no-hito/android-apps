@@ -14,7 +14,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <table>
 <tr>
 <td width="110" align="center"><a href="trip_planner/"><img src="trip_planner/images/icon.png" width="80" alt="旅行プランナー"></a></td>
-<td><b><a href="trip_planner/">旅行プランナー</a></b>（v1.6）<br>予定カードを日ごとのボードに並べ、地図と予算で旅程を俯瞰。JSON で仲間に丸ごと渡せます。</td>
+<td><b><a href="trip_planner/">旅行プランナー</a></b>（v1.6・Windows 版 v1.0.0）<br>予定カードを日ごとのボードに並べ、地図と予算で旅程を俯瞰。JSON で仲間に丸ごと渡せます。</td>
 <td width="150" align="center"><img src="trip_planner/images/qr.png" width="140" alt="旅行プランナーのページの QR コード"></td>
 </tr>
 <tr>

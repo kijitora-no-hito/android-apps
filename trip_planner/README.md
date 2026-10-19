@@ -2,7 +2,7 @@
 
 # 旅行プランナー
 
-予定カードを日ごとのボードに並べ、地図と予算で旅程を俯瞰。JSON で仲間に丸ごと渡せます。
+予定カードを日ごとのボードに並べ、地図と予算で旅程を俯瞰。JSON で仲間に丸ごと渡せます。PC 版（Windows）もあり、PC で作った旅程をスマホで見られます。
 
 <p><img src="images/feature.png" width="720" alt="旅行プランナーの概要"></p>
 
@@ -10,11 +10,17 @@
 
 ### [APK をダウンロード（v1.6・11.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tripplanner-v1.6/tripplanner-1.6-release.apk)
 
+### [Windows 版インストーラをダウンロード（v1.0.0・53.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/tripplanner-pc-v1.0.0/TripPlanner-1.0.0-setup.exe)
+
 | 項目 | 内容 |
 | --- | --- |
 | バージョン | 1.6（2026-09-24） |
 | ファイル | `tripplanner-1.6-release.apk`（12,248,613 バイト） |
 | SHA-256 | `A95D7D70F9310DBB637850C7D7BA7051417BA421A60CE2248C2DDE30CD1916E2` |
+| バージョン（Windows 版） | 1.0.0（2026-10-20） |
+| ファイル（Windows 版） | `TripPlanner-1.0.0-setup.exe`（55,667,149 バイト） |
+| SHA-256（Windows 版） | `D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236` |
+| 対応 Windows | 10 / 11（64 bit） |
 | 対応 Android | 7.0 以上 |
 | 権限 | インターネット / ネットワーク状態の確認（地図と場所名検索のため。どちらも許可ダイアログは出ません） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
@@ -56,6 +62,12 @@
 - 同じ旅行なら上書きされるので、更新版を送り直すこともできます。地図の既定範囲やカードの画像も一緒に付いていきます
   （画像を受け取るには相手も 1.6 以降が必要です）。
 
+### PC 版（Windows）
+
+- スマホ版と同じ全機能（旅程ボード・カードの編集・地図・予算・準備・画像・リンク・受け渡し）を PC で使えます。マウスでカードを動かし、Ctrl+Z で元に戻す、右クリックのメニュー、JSON や画像のドラッグ＆ドロップにも対応。
+- 地図は OpenStreetMap です（Android 版は Google マップ）。
+- スマホとは同じ JSON ファイルでやりとりでき、同じ Wi-Fi の中なら「Wi-Fi で送る / 受け取る」で直接渡せます（PC は一覧に「コンピューター名 (PC)」と出ます。見つからなければ IP アドレスを入れて送れます）。PC で受け取るときは、初回に Windows のファイアウォールの許可を求められることがあります。
+
 ### データについて
 
 - 旅行のデータは端末の中だけに保存されます（サーバに預かりません）。
@@ -87,6 +99,12 @@
 3. Google Play プロテクトが警告を出すことがあります。ストアを通さない APK では一般的に出る表示です。心配なときは上の SHA-256 と一致するか確かめてください。
 4. **アンインストールすると、端末内の旅行データは消えます。** 残したい旅行は先に書き出して（共有・エクスポート）おいてください。
 
+### Windows 版
+
+1. 上の「Windows 版インストーラをダウンロード」で `TripPlanner-1.0.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
+3. 旅行のデータは `%APPDATA%\TripPlanner` に保存されます。更新は新しい setup.exe を開くだけで、データは残ります。アンインストールは「設定」→「アプリ」から（旅行のデータを消すかどうか聞かれます）。
+
 ### 更新について
 
 - 自動更新はありません。新しい版が出たら、このページから同じ手順で入れ直してください（上書きインストールになり、旅行データは残ります）。
@@ -94,7 +112,8 @@
 
 ## 出典
 
-- 地図: Google マップ（Google のロゴと出典は地図上に表示されます）
+- 地図: Google マップ（Android 版。Google のロゴと出典は地図上に表示されます）
+- 地図（Windows 版）: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）のタイル
 - 場所名検索: [Nominatim](https://nominatim.org/) / © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors（ODbL）
 
 ## プライバシーポリシー
