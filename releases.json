@@ -68,11 +68,17 @@
     },
     {
       "folder": "talk_compass",
-      "tag": "talkcompass-v0.3.0",
-      "title": "話題コンパス v0.3.0",
-      "apk": "talkcompass-0.3.0-release.apk",
-      "sha256": "D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011",
-      "notes": "話題コンパス v0.3.0（2026-10-06）\n\n- **組織**: 「A社」「釣りの仲間」「〇〇家の親族」のような組織を作って人物に付けられます（複数可）。人物一覧と予定の参加者選びは組織ごとに折りたたみ、［全員選ぶ］もできます。\n- **エリア**: 出身地に加えて、住んだことのある地域（複数）とエリアのメモを登録できます。住んでいた地域の話題のヒントと、「同じ県に住んだことがある」共通点が出ます。\n- 前の版からの上書きインストールでデータはそのまま残ります。権限なし・通信なしは変わりません。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: D91A981CC77D305BD362D64FFE63A3CE410E6FBF57F0CDDB70EB42474348B011"
+      "tag": "talkcompass-v0.4.0",
+      "title": "話題コンパス v0.4.0",
+      "apk": "talkcompass-0.4.0-release.apk",
+      "sha256": "EA1F0E323D224B87EAE11E271B570E483C8C99E427E385AAD644F2CA7BDB7D56",
+      "notes": "話題コンパス v0.4.0（2026-10-20）\n\n- PC 版（Windows）ができました。PC で人物メモや話題プランを作って、スマホで見られます（同じ画面・同じ機能）。\n- Wi-Fi でやりとり: 同じ Wi-Fi の中の自分の PC・スマホと、全データを直接受け渡せます（4 桁の確認コード、通信は暗号化）。\n- 読み込みのときに「追加・更新」か「置き換え」を選べるようになりました。\n- この版から「インターネット」の権限を使います。Wi-Fi でやりとりするとき（自分で始めたときだけ）に同じ Wi-Fi の中の自分の機器と直接通信するためで、インターネット上のサービスには接続しません。\n- 0.3.0 からの上書きでデータはそのまま残ります。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256（Android）: EA1F0E323D224B87EAE11E271B570E483C8C99E427E385AAD644F2CA7BDB7D56\nSHA-256（Windows）: 3C6E6A58807B728E7C8581E2F50CCB86531D5039CDA50FB7E10F066FA2733FBF",
+      "extraApks": [
+        {
+          "apk": "TalkCompass-0.4.0-setup.exe",
+          "sha256": "3C6E6A58807B728E7C8581E2F50CCB86531D5039CDA50FB7E10F066FA2733FBF"
+        }
+      ]
     },
     {
       "folder": "kijunten_meguri",
