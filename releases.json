@@ -133,12 +133,12 @@
     {
       "folder": "phonetic_hound_pc",
       "distFolder": "phonetic_hound",
-      "tag": "phonetichound-pc-v1.7.0",
-      "title": "Phonetic Hound for Windows v1.7.0",
-      "apk": "PhoneticHound-1.7.0-setup.exe",
-      "sha256": "423288C02A061BF354EE6528421F705CE5E746EBDFA084B0619CE111589CB85D",
+      "tag": "phonetichound-pc-v1.8.0",
+      "title": "Phonetic Hound for Windows v1.8.0",
+      "apk": "PhoneticHound-1.8.0-setup.exe",
+      "sha256": "32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57",
       "prerelease": false,
-      "notes": "Phonetic Hound for Windows v1.7.0（2026-10-18）\n\n- Windows 版の最初の版です。Windows 10 / 11（64 bit）で、キーボード・マウスとゲームパッドで遊べます。\n- インストーラで入れます（管理者の権限は不要）。更新は新しい setup.exe を開くだけで、セーブは残ります。\n- ウィンドウ / 全画面（Alt+Enter・F11）の切り替え、垂直同期・fps の上限を設定の「画面」で選べます。\n- キーの割り当ては設定の「操作・パッド」→［キーの割り当て…］で変えられます。\n- 新しい版はタイトル画面でお知らせします（設定で OFF にできます）。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 423288C02A061BF354EE6528421F705CE5E746EBDFA084B0619CE111589CB85D"
+      "notes": "Phonetic Hound for Windows v1.8.0（2026-10-20）\n\n- 協力プレイを追加しました。サバイバルを 2〜6 人で、部屋番号で友達と遊べます（Android 版と一緒に遊べます）。中継サーバと Android 版の準備ができしだい使えるようになります（それまでは接続できないことがあります）。\n- 抜けても同じ部屋番号で入り直せば次のステージから戻れ、途中から友達が加わることもできます。\n- 兵装は自キャラ / 初心兵装（Lv 1 から）/ チャレンジ兵装（Lv 200）から選べ、10 ステージごとに休憩（2 分）をとるか全員に聞きます。\n- 更新は新しい setup.exe を開くだけで、セーブは残ります。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57"
     }
   ]
 }

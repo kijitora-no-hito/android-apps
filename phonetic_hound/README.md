@@ -41,9 +41,11 @@
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
-### [Windows 版インストーラをダウンロード（v1.7.0・92.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-pc-v1.7.0/PhoneticHound-1.7.0-setup.exe)
+### [Windows 版インストーラをダウンロード（v1.8.0・92.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-pc-v1.8.0/PhoneticHound-1.8.0-setup.exe)
 
 Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。Android 版とはセーブを共有しません。
+
+Windows 版 1.8.0 から**協力プレイ**（サバイバルを 2〜6 人で、部屋番号で友達と。Android 版と一緒に遊べます）が入っています。中継サーバと Android 版の準備ができしだい使えるようになります。
 
 <p><img src="images/qr.png" width="140" alt="このページの QR コード"><br>PC で見ている方へ: スマホでこの QR を読み取ると、このページが開きます。</p>
 
@@ -55,7 +57,7 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHound-1.7.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHound-1.8.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。セーブ・設定・記録はそのまま残ります。新しい版はタイトル画面でお知らせします。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。セーブは残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHound`）。
@@ -670,9 +672,9 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 | ファイル（軽量版） | `phonetichound-1.6.0-lite-release.apk`（12,250,094 バイト） |
 | SHA-256（軽量版） | `ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1` |
 | 対応 Android | 7.0 以上（横画面） |
-| バージョン（Windows 版） | 1.7.0（2026-10-18） |
-| ファイル（Windows 版） | `PhoneticHound-1.7.0-setup.exe`（96,678,094 バイト） |
-| SHA-256（Windows 版） | `423288C02A061BF354EE6528421F705CE5E746EBDFA084B0619CE111589CB85D` |
+| バージョン（Windows 版） | 1.8.0（2026-10-20） |
+| ファイル（Windows 版） | `PhoneticHound-1.8.0-setup.exe`（96,945,760 バイト） |
+| SHA-256（Windows 版） | `32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
