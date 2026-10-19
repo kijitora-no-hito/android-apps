@@ -155,6 +155,16 @@
       "sha256": "D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236",
       "prerelease": false,
       "notes": "旅行プランナー for Windows v1.0.0（2026-10-20）\n\n- Windows 版の最初の版です。スマホ版と同じ全機能（旅程ボード・カードの編集・地図・予算・準備・画像・リンク・受け渡し）を PC で使えます。\n- 地図は OpenStreetMap です（© OpenStreetMap contributors）。\n- スマホとは同じ JSON ファイル、または同じ Wi-Fi の中の「Wi-Fi で送る / 受け取る」でやりとりできます。\n- インストーラで入れます（管理者の権限は不要）。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/trip_planner/\nSHA-256: D28803F6775F2B44B7ED5312F11B5447B33CE9064CCB8FBBD0E8439EE054A236"
+    },
+    {
+      "folder": "talk_compass_pc",
+      "distFolder": "talk_compass",
+      "tag": "talkcompass-pc-v0.4.1",
+      "title": "話題コンパス for Windows v0.4.1",
+      "apk": "TalkCompass-0.4.1-setup.exe",
+      "sha256": "F76FCCE37A98AADE358BF792540679BD1331A628ACFCBF80EAB4AD5E55E5007F",
+      "prerelease": false,
+      "notes": "話題コンパス for Windows v0.4.1（2026-10-20）\n\n- PC 版（Windows）: 縦に長い画面・ダイアログのすべてに、常に見えるスクロールバーを付けました（マウスでつまんで動かせます）。\n- PC 版: 窓が狭いとき、準備のタブ（①〜話題プラン）の下に横のスクロールバーを出し、マウスのホイールでも送れるようにしました。\n- PC 版: プルダウン（出身地など）の選択肢にもスクロールバーを付けました。\n- Android 版は変更ありません（0.4.0 のまま）。データ・Wi-Fi のやりとりは 0.4.0 とそのまま互換です。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/talk_compass/\nSHA-256: F76FCCE37A98AADE358BF792540679BD1331A628ACFCBF80EAB4AD5E55E5007F"
     }
   ]
 }

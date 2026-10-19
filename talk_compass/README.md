@@ -10,15 +10,15 @@
 
 ### [APK をダウンロード（v0.4.0・11.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/talkcompass-v0.4.0/talkcompass-0.4.0-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.4.0・60.0 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/talkcompass-v0.4.0/TalkCompass-0.4.0-setup.exe)
+### [Windows 版インストーラをダウンロード（v0.4.1・60.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/talkcompass-pc-v0.4.1/TalkCompass-0.4.1-setup.exe)
 
 | 項目 | 内容 |
 | --- | --- |
 | バージョン | 0.4.0（2026-10-20） |
 | ファイル | `talkcompass-0.4.0-release.apk`（12,202,368 バイト） |
 | SHA-256 | `EA1F0E323D224B87EAE11E271B570E483C8C99E427E385AAD644F2CA7BDB7D56` |
-| ファイル（Windows 版） | `TalkCompass-0.4.0-setup.exe`（62,936,819 バイト） |
-| SHA-256（Windows 版） | `3C6E6A58807B728E7C8581E2F50CCB86531D5039CDA50FB7E10F066FA2733FBF` |
+| ファイル（Windows 版） | `TalkCompass-0.4.1-setup.exe`（62,974,032 バイト） |
+| SHA-256（Windows 版） | `F76FCCE37A98AADE358BF792540679BD1331A628ACFCBF80EAB4AD5E55E5007F` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 対応 Android | 7.0 以上（縦画面） |
 | 権限 | インターネット（0.4.0 から。「Wi-Fi でやりとり」で同じ Wi-Fi の中の自分の機器と直接通信するためだけに使います。インターネット上のサービスにはつながりません） |
@@ -113,7 +113,7 @@
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `TalkCompass-0.4.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `TalkCompass-0.4.1-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. データは `%APPDATA%\TalkCompass` に保存されます。更新は新しい setup.exe を開くだけで、データは残ります。アンインストールは「設定」→「アプリ」から（データを消すかどうか聞かれます）。
 
