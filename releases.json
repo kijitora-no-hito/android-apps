@@ -122,21 +122,6 @@
       "notes": "自転車ルートロガー v0.11.0（2026-10-17）\n\n- 記録の一覧で絞り込みができるようになりました（時期・場所・距離・平均速度・最高速度・走行時間・獲得標高・種類・名前）。\n- 時期は年・月・期間のほか、季節・曜日・時間帯（朝・昼・夕方・夜）でも選べます。\n- 場所は地図で円や見えている範囲を選び、そこを通った / そこから出発 / そこで終了した記録を探せます（場所名の検索も使えます）。\n- 並べ替え（新しい順・古い順・距離・走行時間・平均速度・獲得標高）と「1108 件中 37 件」の件数を表示し、条件は次に開いても残ります。\n- 絞り込んだ記録だけのまとめ（統計・全走行の地図・グラフ）を見られるようにしました。\n- 更新後の最初の起動で、これまでの記録の場所の情報をバックグラウンドで準備します（記録が千件あっても数秒です）。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 56735BE60E048E6C8F6D4AD095D96F8D44327FC93AE0C7DBAC09E8D5E317F9D6"
     },
     {
-      "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.6.0",
-      "title": "Phonetic Hound v1.6.0",
-      "apk": "phonetichound-1.6.0-release.apk",
-      "sha256": "572DD72643B79B5E32E5C2A0C5726AC02FFF3C8A9825F76ADE4DD9D371A240C1",
-      "prerelease": false,
-      "notes": "Phonetic Hound v1.6.0（2026-10-17）\n\n- サバイバルの BGM がステージごとにランダムになりました。ステージが始まるたびに、ゲーム外の曲と各ステージの曲（探索・支配者との戦闘・ボス戦）の全部から 1 曲を選びます（直前の 3 曲とは重なりません）\n- 強いステージ（DANGER STAGE・BOSS DUEL・BOSS RUSH・ALL FORCES・SHADOW LEGION・FINAL BATTLE）では、ボス戦の曲からランダムに選びます\n- BONUS STAGE では落ち着いた曲（ゲーム外・探索の曲）から選びます\n- ランダムの間は 1 ステージ 1 曲です（支配者やボスが来ても曲は変わりません）。曲の種類（内蔵（演奏）/ 内蔵 MP3 / 自分の MP3）は「BGM の曲」の設定に従います\n- 設定の「ゲーム」に「サバイバルの BGM」を追加しました。「今まで」を選ぶと以前の決め方に戻せます（初期設定はランダム）\n- 内蔵 MP3・自分の MP3 で、ステージの切り替わりの曲の入れ替わりを途切れずなめらかにしました\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 572DD72643B79B5E32E5C2A0C5726AC02FFF3C8A9825F76ADE4DD9D371A240C1\nSHA-256（軽量版）: ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1",
-      "extraApks": [
-        {
-          "apk": "phonetichound-1.6.0-lite-release.apk",
-          "sha256": "ABA63115CB43E42C49E9A1F50B52D43FDEC39F541CBC8E2812536408989FADC1"
-        }
-      ]
-    },
-    {
       "folder": "phonetic_hound_pc",
       "distFolder": "phonetic_hound",
       "tag": "phonetichound-pc-v1.8.0",
@@ -165,6 +150,21 @@
       "sha256": "6C740A93AF9F11EE32E8066214F99E973E390AC41630B71729C05B33B69DE94B",
       "prerelease": false,
       "notes": "旅行プランナー for Windows v1.0.1（2026-10-20）\n\n- 縦に長い画面・シート・ダイアログのすべてに、常に見えるスクロールバーを付けました（旅程の各日の列、予定の編集、予算・準備、地図の予定の詳細、Wi-Fi の画面など）。マウスでつまんで動かせます。\n- 「Wi-Fi で受け取る」の画面が窓に収まらないときもスクロールできるようにしました。\n- 画像のサムネイルの列が入りきらないときは横のスクロールバーを出します。\n- 既にあったスクロールバー（旅行一覧・地図の左のパネル・旅程ボードの横）も同じ見た目にそろえました。\n- データの形式・スマホとのやりとりは 1.0.0 と同じです。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/trip_planner/\nSHA-256: 6C740A93AF9F11EE32E8066214F99E973E390AC41630B71729C05B33B69DE94B"
+    },
+    {
+      "folder": "phonetic_hound",
+      "tag": "phonetichound-v1.7.0",
+      "title": "Phonetic Hound v1.7.0",
+      "apk": "phonetichound-1.7.0-release.apk",
+      "sha256": "585F66FE9595BAA734CEC0A67A9FC75CAD82ECC46EB621EE5F4A5500297BB14A",
+      "prerelease": false,
+      "notes": "Phonetic Hound v1.7.0（2026-10-23）\n\n- **協力プレイ**を追加しました。サバイバルを 2〜6 人で、部屋番号を伝えた友達と一緒に遊べます（知らない人とはつながりません）。サバイバルの画面の左下［協力プレイ（2〜6 人）］から始めます\n- **Windows 版（1.8.0 以降）とも一緒に遊べます**（クロスプレイ）\n- ゲームを始めた後でも、番号を知っていれば途中から加われます（次のステージから）。抜けた人も同じ番号で入り直せます\n- 兵装は 自キャラ / 初心兵装（Lv 1 から・アンテナ全種）/ チャレンジ兵装（Lv 200）から選べます\n- STAGE 10・20…をクリアすると休憩（2 分）をとるかを全員に聞きます。協力プレイでは、割り振りと装備の変更は休憩の間だけです\n- 自由な文字のチャットはなく、決まった言葉のスタンプだけを送れます\n- 協力プレイを使うときだけ、作者の中継サーバ（taisen-game.com）に接続します（プライバシーポリシーの「協力プレイ」）\n- 遊び方は[マニュアルの「協力プレイ（マルチプレイ）」](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html#協力プレイマルチプレイ)へ\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 585F66FE9595BAA734CEC0A67A9FC75CAD82ECC46EB621EE5F4A5500297BB14A\nSHA-256（軽量版）: 7894F2E4BFCEE963F853AD9F97C8169461873404C7878EE0E5C3EB4C7A58E447",
+      "extraApks": [
+        {
+          "apk": "phonetichound-1.7.0-lite-release.apk",
+          "sha256": "7894F2E4BFCEE963F853AD9F97C8169461873404C7878EE0E5C3EB4C7A58E447"
+        }
+      ]
     }
   ]
 }
