@@ -124,12 +124,12 @@
     {
       "folder": "phonetic_hound_pc",
       "distFolder": "phonetic_hound",
-      "tag": "phonetichound-pc-v1.8.0",
-      "title": "Phonetic Hound for Windows v1.8.0",
-      "apk": "PhoneticHound-1.8.0-setup.exe",
-      "sha256": "32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57",
+      "tag": "phonetichound-pc-v1.9.0",
+      "title": "Phonetic Hound for Windows v1.9.0",
+      "apk": "PhoneticHound-1.9.0-setup.exe",
+      "sha256": "B254C11F4AFF45905D29A1A306E4F2F11B4B4360C8AB6D5C604AF1C41A70369D",
       "prerelease": false,
-      "notes": "Phonetic Hound for Windows v1.8.0（2026-10-20）\n\n- 協力プレイを追加しました。サバイバルを 2〜6 人で、部屋番号で友達と遊べます（Android 版と一緒に遊べます）。中継サーバと Android 版の準備ができしだい使えるようになります（それまでは接続できないことがあります）。\n- 抜けても同じ部屋番号で入り直せば次のステージから戻れ、途中から友達が加わることもできます。\n- 兵装は自キャラ / 初心兵装（Lv 1 から）/ チャレンジ兵装（Lv 200）から選べ、10 ステージごとに休憩（2 分）をとるか全員に聞きます。\n- 更新は新しい setup.exe を開くだけで、セーブは残ります。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 32A4EBE1F2B07D2184662D6F9815E8A161A8D119C4220C60AAD97E61E7799C57"
+      "notes": "Phonetic Hound for Windows v1.9.0（2026-10-24）\n\n- **セーブデータの控え**を追加しました。いまの進行をスロット 1〜3 に保存し、あとで読み込めます（ノーマルモードの画面の右下［セーブデータ］、またはタイトルの設定「ゲーム」の［セーブデータ…］）。記録・ランキング・設定は共通のままです。\n- **Wi-Fi でやりとり**: 同じ Wi-Fi の中にある自分の Android 端末（Android 版 1.8.0 以降）や別の PC と、セーブデータ（進行）を送ったり取り込んだりできます。4 桁の確認コードでつなぎ、通信は暗号化します。インターネットには送りません（PC で待つときは Windows のファイアウォールの許可を求められることがあります）。\n- **協力プレイを 1 人で始められる**ようになりました。あとから入ってきた人は次のステージから加わります。\n- **公開の部屋**: 部屋を作るときに［公開: する］を選ぶと、番号を知らない人も［公開の部屋をさがす］の一覧から入れます（既定は今までどおり番号を知っている人だけ）。ホストは参加者を外したり、公開をやめたりできます。\n- HARD 以上の「局の影」とサバイバルの「影」が持つアンテナが、あなたの持っているアンテナからランダムに選ばれるようになりました。\n- Android 版 1.8.0 と同時の公開です。協力プレイは Android 版 1.7.0・Windows 版 1.8.0 とも一緒に遊べます。\n- 更新は新しい setup.exe を開くだけで、セーブは残ります。\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: B254C11F4AFF45905D29A1A306E4F2F11B4B4360C8AB6D5C604AF1C41A70369D"
     },
     {
       "folder": "talk_compass_pc",
@@ -153,16 +153,16 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.7.0",
-      "title": "Phonetic Hound v1.7.0",
-      "apk": "phonetichound-1.7.0-release.apk",
-      "sha256": "585F66FE9595BAA734CEC0A67A9FC75CAD82ECC46EB621EE5F4A5500297BB14A",
+      "tag": "phonetichound-v1.8.0",
+      "title": "Phonetic Hound v1.8.0",
+      "apk": "phonetichound-1.8.0-release.apk",
+      "sha256": "E554D323E333CE8191623755646A9874167DABFA8582EEA57F87B6E001F7A4BB",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.7.0（2026-10-23）\n\n- **協力プレイ**を追加しました。サバイバルを 2〜6 人で、部屋番号を伝えた友達と一緒に遊べます（知らない人とはつながりません）。サバイバルの画面の左下［協力プレイ（2〜6 人）］から始めます\n- **Windows 版（1.8.0 以降）とも一緒に遊べます**（クロスプレイ）\n- ゲームを始めた後でも、番号を知っていれば途中から加われます（次のステージから）。抜けた人も同じ番号で入り直せます\n- 兵装は 自キャラ / 初心兵装（Lv 1 から・アンテナ全種）/ チャレンジ兵装（Lv 200）から選べます\n- STAGE 10・20…をクリアすると休憩（2 分）をとるかを全員に聞きます。協力プレイでは、割り振りと装備の変更は休憩の間だけです\n- 自由な文字のチャットはなく、決まった言葉のスタンプだけを送れます\n- 協力プレイを使うときだけ、作者の中継サーバ（taisen-game.com）に接続します（プライバシーポリシーの「協力プレイ」）\n- 遊び方は[マニュアルの「協力プレイ（マルチプレイ）」](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html#協力プレイマルチプレイ)へ\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: 585F66FE9595BAA734CEC0A67A9FC75CAD82ECC46EB621EE5F4A5500297BB14A\nSHA-256（軽量版）: 7894F2E4BFCEE963F853AD9F97C8169461873404C7878EE0E5C3EB4C7A58E447",
+      "notes": "Phonetic Hound v1.8.0（2026-10-24）\n\n- **セーブデータの控え**を追加しました。いまの進行（Lv・割り振り・アンテナ・ノーマルモードの進行・サバイバルのつづきなど）をスロット 1〜3 に保存し、あとで読み込めます。ノーマルモードの画面の右下［セーブデータ］か、タイトルの設定「ゲーム」の［セーブデータ…］から開きます。記録・ランキング・設定は控えに入らず、共通のままです\n- **Wi-Fi でやりとり**: 同じ Wi-Fi の中にある自分の Android 端末と Windows PC の間で、セーブデータ（進行）を送ったり取り込んだりできます（セーブデータの画面の［Wi-Fi でやりとり］）。相手の画面に出る 4 桁の確認コードを入れてつなぎ、通信は暗号化します。インターネットには送りません\n- **協力プレイを 1 人で始められる**ようになりました（協力プレイ（1〜6 人））。あとから入ってきた人は次のステージから加わります\n- **公開の部屋**: 部屋を作るときに［公開: する］を選ぶと、番号を知らない人も［公開の部屋をさがす］の一覧から入れます（既定は今までどおり番号を知っている人だけ）。ホストは参加者を外したり、公開をやめたりできます\n- HARD 以上の「局の影」とサバイバルの「影」が持つアンテナが、あなたの持っているアンテナからランダムに選ばれるようになりました\n- **Windows 版 1.9.0** も同時に公開しました。協力プレイは Android 版 1.7.0・Windows 版 1.8.0 とも一緒に遊べます（公開の部屋を作る・一覧から入るのは 1.8.0 / Windows 版 1.9.0 から）\n- 遊び方は[マニュアル](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html)の「セーブデータ」「協力プレイ（マルチプレイ）」へ\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: E554D323E333CE8191623755646A9874167DABFA8582EEA57F87B6E001F7A4BB\nSHA-256（軽量版）: 70D208F7A694EEE946285097092102C20375C7DDFF93E6CE0B06F07995D4E794",
       "extraApks": [
         {
-          "apk": "phonetichound-1.7.0-lite-release.apk",
-          "sha256": "7894F2E4BFCEE963F853AD9F97C8169461873404C7878EE0E5C3EB4C7A58E447"
+          "apk": "phonetichound-1.8.0-lite-release.apk",
+          "sha256": "70D208F7A694EEE946285097092102C20375C7DDFF93E6CE0B06F07995D4E794"
         }
       ]
     }
