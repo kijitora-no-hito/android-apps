@@ -73,6 +73,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td align="center"><img src="kijunten_meguri/images/qr.png" width="140" alt="基準点めぐりのページの QR コード"></td>
 </tr>
 <tr>
+<td align="center"><a href="jinja_meguri/"><img src="jinja_meguri/images/icon.png" width="80" alt="神社めぐり"></a></td>
+<td><b><a href="jinja_meguri/">神社めぐり</a></b>（v0.1.0）<br>全国約 4 万社の神社を訪ねる位置ゲーム。境内で撮影して参拝の記録、御朱印帳・経験値・称号・達成率。</td>
+<td align="center"><img src="jinja_meguri/images/qr.png" width="140" alt="神社めぐりのページの QR コード"></td>
+</tr>
+<tr>
 <td align="center"><a href="geo_quest/"><img src="geo_quest/images/icon.png" width="80" alt="ジオクエスト"></a></td>
 <td><b><a href="geo_quest/">ジオクエスト</a></b>（<b>開発中</b> v0.4.0-dev・仮名）<br>現実の街を歩いて冒険する GPS 位置ゲーム。AR カメラで人や精霊を探して撮るとイベントが進む。場所ごとの BGM。</td>
 <td align="center"><img src="geo_quest/images/qr.png" width="140" alt="ジオクエストのページの QR コード"></td>

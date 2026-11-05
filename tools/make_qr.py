@@ -30,6 +30,7 @@ PAGES = [
     "phonetic_hound_defence",
     "talk_compass",
     "kijunten_meguri",
+    "jinja_meguri",
     "geo_quest",
     "cycle_route_logger",
     "drive_logger",
