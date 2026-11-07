@@ -28,6 +28,7 @@ PAGES = [
     "phonetic_hound",
     "gps_camera",
     "phonetic_hound_defence",
+    "phonetic_hound_versus",
     "talk_compass",
     "kijunten_meguri",
     "jinja_meguri",

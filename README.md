@@ -63,6 +63,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td align="center"><img src="phonetic_hound_defence/images/qr.png" width="140" alt="Phonetic Hound Defence のページの QR コード"></td>
 </tr>
 <tr>
+<td align="center"><a href="phonetic_hound_versus/"><img src="phonetic_hound_versus/images/icon.png" width="80" alt="Phonetic Hound Versus"></a></td>
+<td><b><a href="phonetic_hound_versus/">Phonetic Hound Versus</a></b>（<b>開発中</b> v0.6.0-dev・Windows 版あり）<br>Phonetic Hound をもとにした TPS の対戦ゲーム。光の刃と電波で斬り合う 1 対 1 〜 4 対 4。CPU 戦・観戦・オンライン対戦（Android と Windows で一緒に遊べる）。</td>
+<td align="center"><img src="phonetic_hound_versus/images/qr.png" width="140" alt="Phonetic Hound Versus のページの QR コード"></td>
+</tr>
+<tr>
 <td align="center"><a href="talk_compass/"><img src="talk_compass/images/icon.png" width="80" alt="話題コンパス"></a></td>
 <td><b><a href="talk_compass/">話題コンパス</a></b>（v0.4.0・Windows 版あり）<br>懇親会・飲み会・オフ会の前に、同梱のヒントから話題を考えて並べておくアプリ。PC とスマホで同じ Wi-Fi の中でデータを受け渡せる。インターネット接続なし。</td>
 <td align="center"><img src="talk_compass/images/qr.png" width="140" alt="話題コンパスのページの QR コード"></td>
@@ -109,7 +114,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 - **アンインストールすると、端末の中に保存したデータは消えます。** データを書き出す機能があるアプリは、先に書き出しておいてください。
 - ここで配っている APK は、tsukutta.app で配っている版、および今後 Google Play で公開する予定の版と**同じ署名鍵**で署名しています。
   そのため、どの配布元から入れた版にも（同じか新しい版なら）アンインストールせずに上書きできます。
-  （電測記録・GPSカメラ・Phonetic Hound・話題コンパス・基準点めぐり・神社めぐり・ジオクエスト・自転車ルートロガー・ドライブロガーはここ GitHub でのみ配布しています。）
+  （電測記録・GPSカメラ・Phonetic Hound・Phonetic Hound Versus・話題コンパス・基準点めぐり・神社めぐり・ジオクエスト・自転車ルートロガー・ドライブロガーはここ GitHub でのみ配布しています。）
 
 ## 利用条件
 

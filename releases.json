@@ -67,6 +67,21 @@
       "notes": "Phonetic Hound Defence v0.7.0-dev（2026-10-05・**開発中**）\n\n開発中の版です。\n\n- **攻撃の演出と効果音をかなり派手に**: 装置ごとにはっきり違う攻撃（地面を走る電撃・太いビーム・全周の衝撃波・溜めてから撃つ狙撃・電磁パルス）、命中の火花、撃破の爆発と焦げ跡、ボス撃破の大爆発とスロー、局の陥落の大爆発と黒煙、勇者の必殺技の閃光と揺れ。効果音も重く迫力のある音に作り直し、大勢が同時に鳴っても割れないようにしました。\n- **設定「演出」**: ［標準］［控えめ］（粒・閃光・揺れを減らす）と、画面の揺れの ON/OFF。\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_defence/\nSHA-256: D4CB76CBF56B5A52C147C853CB42298559137E0820D81252F863EBCF3CCBBD70"
     },
     {
+      "folder": "phonetic_hound_versus",
+      "tag": "phonetichoundversus-v0.6.0-dev",
+      "title": "Phonetic Hound Versus v0.6.0-dev（開発中）",
+      "apk": "phonetichoundversus-0.6.0-dev-release.apk",
+      "sha256": "A5E543E3879865F603127CD40A629842CCACFCC5FDF4D4C30DAA6C2B60A6961B",
+      "extraApks": [
+        {
+          "apk": "PhoneticHoundVersus-0.6.0-dev-setup.exe",
+          "sha256": "74EF48276072AB98FA88F9632A874EED7B1C339C30BC3789E35A48DCDF6F3BB8"
+        }
+      ],
+      "prerelease": true,
+      "notes": "Phonetic Hound Versus v0.6.0-dev（2026-11-08・**開発中**）\n\n- 開発中の版です。操作・バランス・画面は今後大きく変わります\n- Phonetic Hound をもとにした TPS の対戦ゲーム。1 対 1 〜 4 対 4・CPU 戦・CPU どうしの観戦\n- 近接は光の刃（振りかぶり・踏み込み・回り込み斬り）、振り向き連射、アンテナ 8 種の溜め完了の攻撃、電波の噛み合い → 半ダウン → 致命の一撃、Lv 200 のセッティング、キャラ 9 体\n- **オンライン対戦**: 部屋を作る / 番号で入る / 公開の部屋。Android と Windows の混ざった対戦ができ、空いた席は CPU（人は 1 部屋 6 人まで）\n- オンライン対戦は**全員が同じ版**のときだけ遊べます（版が違う人の部屋には入れません）\n- Android 版（APK）と Windows 版（setup.exe、Windows 10 / 11 64 bit。コード署名なし →「PC が保護されました」は［詳細情報］→［実行］）\n- SHA-256（APK）: A5E543E3879865F603127CD40A629842CCACFCC5FDF4D4C30DAA6C2B60A6961B\n- SHA-256（setup.exe）: 74EF48276072AB98FA88F9632A874EED7B1C339C30BC3789E35A48DCDF6F3BB8\n- 説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_versus/"
+    },
+    {
       "folder": "talk_compass",
       "tag": "talkcompass-v0.4.0",
       "title": "話題コンパス v0.4.0",

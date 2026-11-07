@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phonetic Hound Versus プライバシーポリシー</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.8;
+         max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+  .updated { color: #666; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<h1>Phonetic Hound Versus プライバシーポリシー</h1>
+<p class="updated">制定日: 2026年11月8日（Android 版・Windows 版 0.6.0-dev でオンライン対戦を追加）</p>
+
+<h2>収集する情報</h2>
+<p>
+Phonetic Hound Versus（以下「本アプリ」）は、利用者の個人情報を<strong>収集しません</strong>。
+アカウント登録は不要で、氏名・メールアドレス・位置情報・端末の識別子などを取得することはありません。
+本アプリが求める権限はインターネット接続だけです（下の「オンライン対戦」のためだけ）。
+</p>
+
+<h2>端末内に保存されるデータ</h2>
+<p>
+設定・セッティング（能力の振り分け）・対戦の準備の選択・CPU 戦の勝ち負けの数・オンライン対戦の名前を、端末内のアプリ専用領域
+（Windows 版は %APPDATA%\PhoneticHoundVersus）に保存します。外部には送信しません。アンインストールすると削除されます
+（Windows 版はアンインストールのときに消すかどうかを聞きます）。
+</p>
+
+<h2>オンライン対戦</h2>
+<p>
+タイトルの［オンライン対戦］を使ったときだけ、作者が運営する中継サーバ（taisen-game.com）に接続します。それ以外のときは通信しません。
+</p>
+<ul>
+  <li><strong>送るもの</strong>: 利用者が決めた名前（最大 8 文字）・選んだキャラクター・アンテナ・セッティング・準備の状態・部屋の設定（ルール・人数など。ホストのとき）・
+      試合中の操作の入力（ボタンとスティックの状態）・試合の状態の照合用の数値（チェックサム）・通信の往復の時間・アプリの版。</li>
+  <li><strong>渡る先</strong>: これらは中継サーバを通って、<strong>同じ部屋にいる相手の端末に渡ります</strong>（相手の画面に名前などが表示されます）。
+      公開の部屋にした場合は、部屋を作った人の名前・人数・ルール・アプリの版が「公開の部屋」の一覧に表示されます。</li>
+  <li><strong>中継サーバは中身を保存しません</strong>: 部屋の番号の管理と転送だけを行い、名前・入力などの中身は読まず、記録もしません。
+      接続の際、通常の通信と同じく IP アドレスなどの情報が中継サーバに届きますが、記録・保存はしません（混雑や総当たりを防ぐための一時的な数えにだけ使い、ディスクには書きません）。</li>
+  <li>位置情報・連絡先・端末の識別子・広告 ID は送りません。広告・解析のための SDK は入っていません。</li>
+</ul>
+
+<h2>第三者への提供</h2>
+<p>
+上の「オンライン対戦」で同じ部屋の相手の端末に渡るものを除き、利用者の情報を第三者に提供することはありません。
+</p>
+
+<h2>お問い合わせ</h2>
+<p>
+本アプリやこのポリシーについてのお問い合わせは、GitHub の Issues へお願いします:
+<a href="https://github.com/kijitora-no-hito/android-apps/issues">https://github.com/kijitora-no-hito/android-apps/issues</a>
+</p>
+
+<h2>改定</h2>
+<p>
+このポリシーを変えるときは、このページを更新し、上の最終更新日を改めます。
+</p>
+
+</body>
+</html>
