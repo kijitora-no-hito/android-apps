@@ -82,11 +82,11 @@
     },
     {
       "folder": "kijunten_meguri",
-      "tag": "kijuntenmeguri-v0.4.0",
-      "title": "基準点めぐり v0.4.0",
-      "apk": "kijuntenmeguri-0.4.0-release.apk",
-      "sha256": "8B2821CDA58AF41B9B1FCBC0A1A031E8EFACB62D344C890B8A884B087954519B",
-      "notes": "基準点めぐり v0.4.0（2026-11-07）\n\n- オンラインランキングを追加しました（設定で参加した人だけ・はじめはオフ）\n- 参加した人どうしで「経験値」「獲得した基準点の数」の順位（総合・今月）を見られます（図鑑・記録の［ランキング］）\n- 参加者が 10 人になるまでは自分の順位だけ、10 人以上で上位 100 人の一覧が見られます\n- 送るのは名前・ランダムな ID・数値だけで、位置・写真・訪ねた基準点は送りません。参加をやめるとサーバの記録は消えます\n- 新しい版が出たら地図の画面でお知らせするようにしました（設定の「更新の確認」でオフにできます）\n- 前の版からの上書きで、記録はそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 8B2821CDA58AF41B9B1FCBC0A1A031E8EFACB62D344C890B8A884B087954519B"
+      "tag": "kijuntenmeguri-v0.4.1",
+      "title": "基準点めぐり v0.4.1",
+      "apk": "kijuntenmeguri-0.4.1-release.apk",
+      "sha256": "6FF492E694345AF1CEDCBB30419D12B5E93265D7E36495795BCD5AD41597F6B2",
+      "notes": "基準点めぐり v0.4.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（0.4.0）: オンラインランキングを追加（設定で参加した人だけ・はじめはオフ。「経験値」「獲得した基準点の数」の順位、総合・今月）\n- 送るのは名前・ランダムな ID・数値だけで、位置・写真・訪ねた基準点は送りません。参加をやめるとサーバの記録は消えます\n- 前の版（0.4.0）: 新しい版が出たら地図の画面でお知らせするようにしました（設定の「更新の確認」でオフにできます）\n- 前の版からの上書きで、記録はそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/kijunten_meguri/\nSHA-256: 6FF492E694345AF1CEDCBB30419D12B5E93265D7E36495795BCD5AD41597F6B2"
     },
     {
       "folder": "gps_camera",
@@ -107,29 +107,29 @@
     },
     {
       "folder": "drive_logger",
-      "tag": "drivelogger-v0.9.0",
-      "title": "ドライブロガー v0.9.0",
-      "apk": "drivelogger-0.9.0-release.apk",
-      "sha256": "29485DA70681C9B88FC8BFB254EC93225EECC40FB65DBF099FDF537E38800320",
-      "notes": "ドライブロガー v0.9.0（2026-11-07）\n\n- オンラインランキングを追加しました（設定で参加した人だけ・はじめはオフ）\n- 参加した人どうしで「走行距離」「開拓したマス」の順位（総合・今月）を見られます（ホームの［ランキング］・まとめの右上から）\n- 参加者が 10 人になるまでは自分の順位だけ、10 人以上で上位 100 人の一覧が見られます\n- 送るのは名前・ランダムな ID・数値だけで、位置・経路・マスの場所・動画は送りません。参加をやめるとサーバの記録は消えます\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 29485DA70681C9B88FC8BFB254EC93225EECC40FB65DBF099FDF537E38800320"
+      "tag": "drivelogger-v0.9.1",
+      "title": "ドライブロガー v0.9.1",
+      "apk": "drivelogger-0.9.1-release.apk",
+      "sha256": "460C31696771B18FE7CAC71AF2E735E925EA091900696705EAB22C55F9687D62",
+      "notes": "ドライブロガー v0.9.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（0.9.0）: オンラインランキングを追加（設定で参加した人だけ・はじめはオフ。「走行距離」「開拓したマス」の順位、総合・今月。ホームの［ランキング］・まとめの右上から）\n- 送るのは名前・ランダムな ID・数値だけで、位置・経路・マスの場所・動画は送りません。参加をやめるとサーバの記録は消えます\n- 前の版からの上書きで、記録はそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/drive_logger/\nSHA-256: 460C31696771B18FE7CAC71AF2E735E925EA091900696705EAB22C55F9687D62"
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.12.0",
-      "title": "自転車ルートロガー v0.12.0",
-      "apk": "cycleroutelogger-0.12.0-release.apk",
-      "sha256": "7D0776B5D938EB78CE051C936C5BA556ADC29D049F1E7A342B983381B9873AE4",
-      "notes": "自転車ルートロガー v0.12.0（2026-11-07）\n\n- オンラインランキングを追加しました（設定で参加した人だけ・はじめはオフ）\n- 参加した人どうしで「走行距離」「開拓したマス」の順位（総合・今月）を見られます（ホームの［ランキング］・まとめの右上から）\n- 参加者が 10 人になるまでは自分の順位だけ、10 人以上で上位 100 人の一覧が見られます\n- 送るのは名前・ランダムな ID・数値だけで、位置・経路・マスの場所は送りません。参加をやめるとサーバの記録は消えます\n- ホームに［まとめ］の入口を足しました\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 7D0776B5D938EB78CE051C936C5BA556ADC29D049F1E7A342B983381B9873AE4"
+      "tag": "cycleroutelogger-v0.12.1",
+      "title": "自転車ルートロガー v0.12.1",
+      "apk": "cycleroutelogger-0.12.1-release.apk",
+      "sha256": "13C07ABC1A3397B22B1C10B755E028A53AB9271ECD9104FCFF94D63D3C7B03C1",
+      "notes": "自転車ルートロガー v0.12.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（0.12.0）: オンラインランキングを追加（設定で参加した人だけ・はじめはオフ。「走行距離」「開拓したマス」の順位、総合・今月。ホームの［ランキング］・まとめの右上から）\n- 送るのは名前・ランダムな ID・数値だけで、位置・経路・マスの場所は送りません。参加をやめるとサーバの記録は消えます\n- 前の版からの上書きで、記録とプランはそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 13C07ABC1A3397B22B1C10B755E028A53AB9271ECD9104FCFF94D63D3C7B03C1"
     },
     {
       "folder": "phonetic_hound_pc",
       "distFolder": "phonetic_hound",
-      "tag": "phonetichound-pc-v1.10.0",
-      "title": "Phonetic Hound for Windows v1.10.0",
-      "apk": "PhoneticHound-1.10.0-setup.exe",
-      "sha256": "ACD2BF5BA059C4E71AC74ECE32F91503621423B64CB2D3260CEAAADBBC0679C5",
+      "tag": "phonetichound-pc-v1.10.1",
+      "title": "Phonetic Hound for Windows v1.10.1",
+      "apk": "PhoneticHound-1.10.1-setup.exe",
+      "sha256": "91E1C7FB08AB16016D3B000DBAF74E703D4DB486F4481C285BB4332284EAE40F",
       "prerelease": false,
-      "notes": "Phonetic Hound for Windows v1.10.0（2026-11-07）\n\n- **オンラインランキング**を追加しました。設定の「ランキング」で参加すると、ステージごとのクリアタイムの自己ベストを参加者どうしで見せ合えます（総合 / 今月）。**既定は OFF**（参加しない）です\n- 参加者が 10 人になるまでは自分の順位だけ、10 人からは上位 100 件が見られます。記録の画面のランキングの［オンライン］で見ます。リザルトにもオンラインの順位が出ます\n- 送るのは名前・ランダムな ID・ステージごとのベストタイム・アプリの版・端末の種類だけです。位置・セーブの中身は送りません。OFF にするとサーバの記録は消えます\n- 載るのはノーマルモードとチャレンジ（ステージ）の NORMAL 以上のクリア（60 秒以上）です。EASY・フリープレイ・チュートリアル・通し・サバイバル・協力プレイは載りません。Android と Windows は同じ表です（別の参加者として載ります）\n- Android 版 1.9.0 と同時の公開です\n- 更新は新しい setup.exe を開くだけで、セーブは残ります\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: ACD2BF5BA059C4E71AC74ECE32F91503621423B64CB2D3260CEAAADBBC0679C5"
+      "notes": "Phonetic Hound for Windows v1.10.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（1.10.0）: **オンラインランキング**を追加（設定の「ランキング」で参加。ステージごとのクリアタイムの自己ベストを総合 / 今月で見せ合えます。**既定は OFF**）\n- 送るのは名前・ランダムな ID・ステージごとのベストタイム・アプリの版・端末の種類だけです。位置・セーブの中身は送りません\n- Android 版 1.9.1 と同時の公開です\n- 更新は新しい setup.exe を開くだけで、セーブは残ります\n\n説明・入れ方: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256: 91E1C7FB08AB16016D3B000DBAF74E703D4DB486F4481C285BB4332284EAE40F"
     },
     {
       "folder": "talk_compass_pc",
@@ -153,26 +153,26 @@
     },
     {
       "folder": "phonetic_hound",
-      "tag": "phonetichound-v1.9.0",
-      "title": "Phonetic Hound v1.9.0",
-      "apk": "phonetichound-1.9.0-release.apk",
-      "sha256": "B0E87E8906776A3759CED243EF16ED00EC8C9681EF903D5DF9F30F3158CE7EB9",
+      "tag": "phonetichound-v1.9.1",
+      "title": "Phonetic Hound v1.9.1",
+      "apk": "phonetichound-1.9.1-release.apk",
+      "sha256": "E99F68055EC29761B334BD216CBFCE6BC19CD6F3508A5DF1E32C297C6EF6CD4E",
       "prerelease": false,
-      "notes": "Phonetic Hound v1.9.0（2026-11-07）\n\n- **オンラインランキング**を追加しました。設定の「ランキング」で参加すると、ステージごとのクリアタイムの自己ベストを参加者どうしで見せ合えます（総合 / 今月）。**既定は OFF**（参加しない）です\n- 参加者が 10 人になるまでは自分の順位だけ、10 人からは上位 100 件が見られます。記録の画面のランキングの［オンライン］で見ます。リザルトにもオンラインの順位が出ます\n- 送るのは名前・ランダムな ID・ステージごとのベストタイム・アプリの版・端末の種類だけです。位置・セーブの中身は送りません。OFF にするとサーバの記録は消えます\n- 載るのはノーマルモードとチャレンジ（ステージ）の NORMAL 以上のクリア（60 秒以上）です。EASY・フリープレイ・チュートリアル・通し・サバイバル・協力プレイは載りません。Android と Windows は同じ表です（別の参加者として載ります）\n- **Windows 版 1.10.0** も同時に公開しました（同じくオンラインランキングを追加）\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: B0E87E8906776A3759CED243EF16ED00EC8C9681EF903D5DF9F30F3158CE7EB9\nSHA-256（軽量版）: ADC0ED63934252C1708D9E24B05738837DF87BB90C25116C157D4F0F5D8E0961",
+      "notes": "Phonetic Hound v1.9.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（1.9.0）: **オンラインランキング**を追加（設定の「ランキング」で参加。ステージごとのクリアタイムの自己ベストを総合 / 今月で見せ合えます。**既定は OFF**）\n- 送るのは名前・ランダムな ID・ステージごとのベストタイム・アプリの版・端末の種類だけです。位置・セーブの中身は送りません\n- **Windows 版 1.10.1** も同時に公開しました（同じ変更）\n- 更新は上書きインストールで、セーブは残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound/\nSHA-256（フル版）: E99F68055EC29761B334BD216CBFCE6BC19CD6F3508A5DF1E32C297C6EF6CD4E\nSHA-256（軽量版）: 4BB8805A83742EE17B6FB01A350B200A2782C331C8F003C5FC26690A1A0B24B8",
       "extraApks": [
         {
-          "apk": "phonetichound-1.9.0-lite-release.apk",
-          "sha256": "ADC0ED63934252C1708D9E24B05738837DF87BB90C25116C157D4F0F5D8E0961"
+          "apk": "phonetichound-1.9.1-lite-release.apk",
+          "sha256": "4BB8805A83742EE17B6FB01A350B200A2782C331C8F003C5FC26690A1A0B24B8"
         }
       ]
     },
     {
       "folder": "jinja_meguri",
-      "tag": "jinjameguri-v0.2.0",
-      "title": "神社めぐり v0.2.0",
-      "apk": "jinjameguri-0.2.0-release.apk",
-      "sha256": "8A38D86F55AA1656231D0134C01E04908C1F592EC2FB0530FA0B4FBA04AD2480",
-      "notes": "神社めぐり v0.2.0（2026-11-07）\n\n- オンラインランキングを追加しました（設定で参加した人だけ・はじめはオフ）\n- 参加した人どうしで「経験値」「参拝した神社の数」「御朱印の数」の順位（総合・今月）を見られます\n- 参加者が 10 人になるまでは自分の順位だけ、10 人以上で上位 100 人の一覧が見られます\n- 送るのは名前・ランダムな ID・数値だけで、位置・写真・参拝した神社は送りません。参加をやめるとサーバの記録は消えます\n- 新しい版が出たら地図の画面でお知らせするようにしました（設定の「更新の確認」でオフにできます）\n- 前の版からの上書きで、記録はそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/jinja_meguri/\nSHA-256: 8A38D86F55AA1656231D0134C01E04908C1F592EC2FB0530FA0B4FBA04AD2480"
+      "tag": "jinjameguri-v0.2.1",
+      "title": "神社めぐり v0.2.1",
+      "apk": "jinjameguri-0.2.1-release.apk",
+      "sha256": "FA8BEA72F3CDA490F220A16215EBE29A7D6EB22BE8FD9D25D2DCB4BF89F0E2C1",
+      "notes": "神社めぐり v0.2.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（0.2.0）: オンラインランキングを追加（設定で参加した人だけ・はじめはオフ。「経験値」「参拝した神社の数」「御朱印の数」の順位、総合・今月）\n- 送るのは名前・ランダムな ID・数値だけで、位置・写真・参拝した神社は送りません。参加をやめるとサーバの記録は消えます\n- 前の版（0.2.0）: 新しい版が出たら地図の画面でお知らせするようにしました（設定の「更新の確認」でオフにできます）\n- 前の版からの上書きで、記録はそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/jinja_meguri/\nSHA-256: FA8BEA72F3CDA490F220A16215EBE29A7D6EB22BE8FD9D25D2DCB4BF89F0E2C1"
     }
   ]
 }

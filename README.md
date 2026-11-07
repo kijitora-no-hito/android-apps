@@ -54,7 +54,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="phonetic_hound/"><img src="phonetic_hound/images/icon.png" width="80" alt="Phonetic Hound"></a></td>
-<td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（v1.9.0・Windows 版 v1.10.0）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
+<td><b><a href="phonetic_hound/">Phonetic Hound</a></b>（v1.9.1・Windows 版 v1.10.1）<br>電波で操られたゾンビの街で、スマホの信号強度と到来方向を頼りに携帯基地局を探して制圧する TPS アクション。</td>
 <td align="center"><img src="phonetic_hound/images/qr.png" width="140" alt="Phonetic Hound のページの QR コード"></td>
 </tr>
 <tr>
@@ -69,12 +69,12 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="kijunten_meguri/"><img src="kijunten_meguri/images/icon.png" width="80" alt="基準点めぐり"></a></td>
-<td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.4.0）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
+<td><b><a href="kijunten_meguri/">基準点めぐり</a></b>（v0.4.1）<br>電子基準点・三角点・水準点を現地で集める位置ゲーム。10 m 以内で撮影して獲得、経験値で Lv アップ。</td>
 <td align="center"><img src="kijunten_meguri/images/qr.png" width="140" alt="基準点めぐりのページの QR コード"></td>
 </tr>
 <tr>
 <td align="center"><a href="jinja_meguri/"><img src="jinja_meguri/images/icon.png" width="80" alt="神社めぐり"></a></td>
-<td><b><a href="jinja_meguri/">神社めぐり</a></b>（v0.2.0）<br>全国約 4 万社の神社を訪ねる位置ゲーム。境内で撮影して参拝の記録、御朱印帳・経験値・称号・達成率。</td>
+<td><b><a href="jinja_meguri/">神社めぐり</a></b>（v0.2.1）<br>全国約 4 万社の神社を訪ねる位置ゲーム。境内で撮影して参拝の記録、御朱印帳・経験値・称号・達成率。</td>
 <td align="center"><img src="jinja_meguri/images/qr.png" width="140" alt="神社めぐりのページの QR コード"></td>
 </tr>
 <tr>
@@ -84,12 +84,12 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="cycle_route_logger/"><img src="cycle_route_logger/images/icon.png" width="80" alt="自転車ルートロガー"></a></td>
-<td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.12.0）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
+<td><b><a href="cycle_route_logger/">自転車ルートロガー</a></b>（v0.12.1）<br>GPX のルートと経由地を Google マップ・航空写真に出して走り、走った道を GPS で記録。目的地の方角と距離も。</td>
 <td align="center"><img src="cycle_route_logger/images/qr.png" width="140" alt="自転車ルートロガーのページの QR コード"></td>
 </tr>
 <tr>
 <td align="center"><a href="drive_logger/"><img src="drive_logger/images/icon.png" width="80" alt="ドライブロガー"></a></td>
-<td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.9.0）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置の表示・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
+<td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.9.1）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置の表示・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
 <td align="center"><img src="drive_logger/images/qr.png" width="140" alt="ドライブロガーのページの QR コード"></td>
 </tr>
 </table>

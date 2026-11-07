@@ -35,13 +35,13 @@
 
 ## ダウンロード
 
-### [フル版 APK をダウンロード（v1.9.0・内蔵 BGM 入り・71.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.9.0/phonetichound-1.9.0-release.apk)
+### [フル版 APK をダウンロード（v1.9.1・内蔵 BGM 入り・71.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.9.1/phonetichound-1.9.1-release.apk)
 
-### [軽量版 APK をダウンロード（v1.9.0・内蔵 BGM なし・11.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.9.0/phonetichound-1.9.0-lite-release.apk)
+### [軽量版 APK をダウンロード（v1.9.1・内蔵 BGM なし・11.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-v1.9.1/phonetichound-1.9.1-lite-release.apk)
 
 フル版と軽量版の違いは内蔵 MP3 の BGM（音楽：かまタマゴ・魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、セーブは引き継がれます。
 
-### [Windows 版インストーラをダウンロード（v1.10.0・92.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-pc-v1.10.0/PhoneticHound-1.10.0-setup.exe)
+### [Windows 版インストーラをダウンロード（v1.10.1・92.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichound-pc-v1.10.1/PhoneticHound-1.10.1-setup.exe)
 
 Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。Android 版とはセーブを共有しませんが、同じ Wi-Fi の中なら**セーブデータ（進行）を送ったり取り込んだり**できます（Android 版 1.8.0・Windows 版 1.9.0 から。マニュアルの「[セーブデータ](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/manual.html#セーブデータ)」）。
 
@@ -57,7 +57,7 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHound-1.10.0-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHound-1.10.1-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。セーブ・設定・記録はそのまま残ります。新しい版はタイトル画面でお知らせします。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。セーブは残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHound`）。
@@ -83,7 +83,7 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 - 自動更新はありません。v0.25.0-dev 以降はアプリの起動時に新しい版を確かめ、あればタイトル画面でお知らせします（設定で OFF にできます）。このページから同じ手順で入れ直してください（上書きインストールになります）。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（1.9.0）
+## この版でできること（1.9.1）
 
 - **全 7 ステージ**を最初から最後まで遊べます（ノーマルモードは TOKYO AREA I から順に進む 1 本道。最後のステージをクリアするとエンディング）。
 
@@ -113,7 +113,7 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 設定の「ランキング」で「オンラインランキングに参加する」を ON にした人どうしで、**ステージごとのクリアタイムの自己ベスト**の順位（総合 / 今月）を見られます。記録の画面のランキングの［オンライン］で見ます。リザルトにもオンラインの順位が出ます。
 
 - **既定は OFF**（参加しない）。参加していない人は見られません。
-- 参加者が 10 人になるまでは自分の順位だけ、10 人からは上位 100 件が見られます。
+- 参加者が 10 人になるまでは自分の順位だけ（参加者の人数も出しません）、10 人からは上位 100 件と参加者の人数が見られます。
 - 載るのはノーマルモードとチャレンジ（ステージ）の NORMAL 以上のクリア（60 秒以上）です。**EASY・フリープレイ・チュートリアル・通し・サバイバル・協力プレイの記録は送りません。** Android と Windows は同じ表です（別の参加者として載ります）。
 - 送るのは名前・ランダムな ID・ステージごとのベストタイム・アプリの版・端末の種類（android / windows）だけです。**位置・セーブの中身は送りません。** OFF にすると、サーバの記録（名前・タイム）は消えます。
 
@@ -148,6 +148,14 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 版の見出しを押すと開閉します。
 
 <details open markdown="1">
+<summary><b>1.9.1</b>（2026-11-07）</summary>
+
+- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです
+- **Windows 版 1.10.1** も同時に公開しました（同じ変更）
+
+</details>
+
+<details markdown="1">
 <summary><b>1.9.0</b>（2026-11-07）</summary>
 
 - **オンラインランキング**を追加しました。設定の「ランキング」で参加すると、ステージごとのクリアタイムの自己ベストを参加者どうしで見せ合えます（総合 / 今月）。**既定は OFF**（参加しない）です
@@ -718,15 +726,15 @@ Windows 10 / 11（64 bit）用です。キーボードとマウス、ゲーム�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 1.9.0（2026-11-07） |
-| ファイル（フル版） | `phonetichound-1.9.0-release.apk`（75,022,298 バイト） |
-| SHA-256（フル版） | `B0E87E8906776A3759CED243EF16ED00EC8C9681EF903D5DF9F30F3158CE7EB9` |
-| ファイル（軽量版） | `phonetichound-1.9.0-lite-release.apk`（12,397,990 バイト） |
-| SHA-256（軽量版） | `ADC0ED63934252C1708D9E24B05738837DF87BB90C25116C157D4F0F5D8E0961` |
+| バージョン | 1.9.1（2026-11-07） |
+| ファイル（フル版） | `phonetichound-1.9.1-release.apk`（75,022,298 バイト） |
+| SHA-256（フル版） | `E99F68055EC29761B334BD216CBFCE6BC19CD6F3508A5DF1E32C297C6EF6CD4E` |
+| ファイル（軽量版） | `phonetichound-1.9.1-lite-release.apk`（12,397,990 バイト） |
+| SHA-256（軽量版） | `4BB8805A83742EE17B6FB01A350B200A2782C331C8F003C5FC26690A1A0B24B8` |
 | 対応 Android | 7.0 以上（横画面） |
-| バージョン（Windows 版） | 1.10.0（2026-11-07） |
-| ファイル（Windows 版） | `PhoneticHound-1.10.0-setup.exe`（97,265,615 バイト） |
-| SHA-256（Windows 版） | `ACD2BF5BA059C4E71AC74ECE32F91503621423B64CB2D3260CEAAADBBC0679C5` |
+| バージョン（Windows 版） | 1.10.1（2026-11-07） |
+| ファイル（Windows 版） | `PhoneticHound-1.10.1-setup.exe`（97,258,283 バイト） |
+| SHA-256（Windows 版） | `91E1C7FB08AB16016D3B000DBAF74E703D4DB486F4481C285BB4332284EAE40F` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
