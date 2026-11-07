@@ -64,7 +64,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="phonetic_hound_versus/"><img src="phonetic_hound_versus/images/icon.png" width="80" alt="Phonetic Hound Versus"></a></td>
-<td><b><a href="phonetic_hound_versus/">Phonetic Hound Versus</a></b>（<b>開発中</b> v0.6.0-dev・Windows 版あり）<br>Phonetic Hound をもとにした TPS の対戦ゲーム。光の刃と電波で斬り合う 1 対 1 〜 4 対 4。CPU 戦・観戦・オンライン対戦（Android と Windows で一緒に遊べる）。</td>
+<td><b><a href="phonetic_hound_versus/">Phonetic Hound Versus</a></b>（<b>開発中</b> v0.6.1-dev・Windows 版あり）<br>Phonetic Hound をもとにした TPS の対戦ゲーム。光の刃と電波で斬り合う 1 対 1 〜 4 対 4。CPU 戦・観戦・オンライン対戦（Android と Windows で一緒に遊べる）。</td>
 <td align="center"><img src="phonetic_hound_versus/images/qr.png" width="140" alt="Phonetic Hound Versus のページの QR コード"></td>
 </tr>
 <tr>
