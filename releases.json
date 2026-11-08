@@ -68,18 +68,18 @@
     },
     {
       "folder": "phonetic_hound_versus",
-      "tag": "phonetichoundversus-v0.6.4-dev",
-      "title": "Phonetic Hound Versus v0.6.4-dev（開発中）",
-      "apk": "phonetichoundversus-0.6.4-dev-release.apk",
-      "sha256": "CD407246C37F3ABF6346537FDEC16624DB12123E14C70C139A96147C19210F44",
+      "tag": "phonetichoundversus-v0.6.5-dev",
+      "title": "Phonetic Hound Versus v0.6.5-dev（開発中）",
+      "apk": "phonetichoundversus-0.6.5-dev-release.apk",
+      "sha256": "2DAC132F09EEA56CBD8B3F16AEF214BBDC9DA3D3B6E72DCA4353F68B0933D235",
       "extraApks": [
         {
-          "apk": "PhoneticHoundVersus-0.6.4-dev-setup.exe",
-          "sha256": "7767FD749A14516ECCF0AE0BEF8426280738467EBDB6F3B83616B16075983C6F"
+          "apk": "PhoneticHoundVersus-0.6.5-dev-setup.exe",
+          "sha256": "ABEE3F87BE0D9DF64AD08A1E96C13971694DBC267A5B34CBE13521D7F3513784"
         }
       ],
       "prerelease": true,
-      "notes": "Phonetic Hound Versus v0.6.4-dev（2026-11-08・**開発中**）\n\n- 0.6.4-dev: 更新の確認（新しい版が出るとタイトルにお知らせ・設定でオフにできる）\n- 0.6.3-dev 以前とは一緒に遊べません（全員 0.6.4-dev に）\n- 0.6.3-dev: 操作の割り当て（パッドのふつう・ツインスティック・キーボード）\n- 0.6.2-dev: 起き上がり 0.5 秒と近接の踏み込み・回り込みの間を無敵に（攻撃ボタン・当たりが出た瞬間で解除。電波の噛み合いは通る）\n- オンラインの部屋で［観戦］を選べる（途中からも見られる・空いた席は CPU）\n- パッドのツインスティック操作・練習でアンテナの動く見本・遊び方を図と動く見本に\n- 開発中の版です。操作・バランス・画面は今後大きく変わります\n- Phonetic Hound をもとにした TPS の対戦ゲーム。1 対 1 〜 4 対 4・CPU 戦・CPU どうしの観戦\n- 近接は光の刃（振りかぶり・踏み込み・回り込み斬り）、振り向き連射、アンテナ 8 種の溜め完了の攻撃、電波の噛み合い → 半ダウン → 致命の一撃、Lv 200 のセッティング、キャラ 9 体\n- **オンライン対戦**: 部屋を作る / 番号で入る / 公開の部屋。Android と Windows の混ざった対戦ができ、空いた席は CPU（人は 1 部屋 6 人まで）\n- オンライン対戦は**全員が同じ版**のときだけ遊べます（版が違う人の部屋には入れません）\n- Android 版（APK）と Windows 版（setup.exe、Windows 10 / 11 64 bit。コード署名なし →「PC が保護されました」は［詳細情報］→［実行］）\n- SHA-256（APK）: CD407246C37F3ABF6346537FDEC16624DB12123E14C70C139A96147C19210F44\n- SHA-256（setup.exe）: 7767FD749A14516ECCF0AE0BEF8426280738467EBDB6F3B83616B16075983C6F\n- 説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_versus/"
+      "notes": "Phonetic Hound Versus v0.6.5-dev（2026-11-08・**開発中**）\n\n- 0.6.5-dev: 近接を疾走でキャンセル・疾走からジャンプすると空中疾走できなかった不具合を修正・振り向き連射の弾数を疾走の向きで（前 3・横 5・後ろ 2、空中は −1）、前は攻撃 2 倍と速い弾、2 発でダウン\n- 0.6.4-dev 以前とは一緒に遊べません（全員 0.6.5-dev に）\n- 0.6.4-dev: 更新の確認（新しい版が出るとタイトルにお知らせ・設定でオフにできる）\n- 0.6.3-dev: 操作の割り当て（パッドのふつう・ツインスティック・キーボード）\n- 0.6.2-dev: 起き上がり 0.5 秒と近接の踏み込み・回り込みの間を無敵に（攻撃ボタン・当たりが出た瞬間で解除。電波の噛み合いは通る）\n- オンラインの部屋で［観戦］を選べる（途中からも見られる・空いた席は CPU）\n- パッドのツインスティック操作・練習でアンテナの動く見本・遊び方を図と動く見本に\n- 開発中の版です。操作・バランス・画面は今後大きく変わります\n- Phonetic Hound をもとにした TPS の対戦ゲーム。1 対 1 〜 4 対 4・CPU 戦・CPU どうしの観戦\n- 近接は光の刃（振りかぶり・踏み込み・回り込み斬り）、振り向き連射、アンテナ 8 種の溜め完了の攻撃、電波の噛み合い → 半ダウン → 致命の一撃、Lv 200 のセッティング、キャラ 9 体\n- **オンライン対戦**: 部屋を作る / 番号で入る / 公開の部屋。Android と Windows の混ざった対戦ができ、空いた席は CPU（人は 1 部屋 6 人まで）\n- オンライン対戦は**全員が同じ版**のときだけ遊べます（版が違う人の部屋には入れません）\n- Android 版（APK）と Windows 版（setup.exe、Windows 10 / 11 64 bit。コード署名なし →「PC が保護されました」は［詳細情報］→［実行］）\n- SHA-256（APK）: 2DAC132F09EEA56CBD8B3F16AEF214BBDC9DA3D3B6E72DCA4353F68B0933D235\n- SHA-256（setup.exe）: ABEE3F87BE0D9DF64AD08A1E96C13971694DBC267A5B34CBE13521D7F3513784\n- 説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/phonetic_hound_versus/"
     },
     {
       "folder": "talk_compass",

@@ -55,9 +55,9 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 ## ダウンロード
 
-### [Android 版 APK をダウンロード（v0.6.4-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.6.4-dev/phonetichoundversus-0.6.4-dev-release.apk)
+### [Android 版 APK をダウンロード（v0.6.5-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.6.5-dev/phonetichoundversus-0.6.5-dev-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.6.4-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.6.4-dev/PhoneticHoundVersus-0.6.4-dev-setup.exe)
+### [Windows 版インストーラをダウンロード（v0.6.5-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.6.5-dev/PhoneticHoundVersus-0.6.5-dev-setup.exe)
 
 Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。
 
@@ -88,7 +88,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.6.4-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.6.5-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。設定・セッティングはそのまま残ります。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。設定は残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHoundVersus`）。
@@ -112,7 +112,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - Phonetic Hound・Phonetic Hound Defence とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.6.4-dev）
+## この版でできること（0.6.5-dev）
 
 - CPU との対戦（1 対 1 〜 4 対 4・ルール 3 種・CPU の強さと型）、練習、CPU どうしの観戦。
 - オンライン対戦（部屋を作る / 番号で入る / 公開の部屋・1 対 1 〜 4 対 4・人は 6 人まで・空いた席は CPU・Android と Windows の混ざった対戦）。
@@ -125,6 +125,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - 練習・CPU 戦の準備でアンテナの動く見本、遊び方は 8 ページの図と動く見本。
 - 操作の割り当て（パッドのふつう・ツインスティック・キーボード。押して覚えさせる・初期設定に戻す）。
 - 更新の確認（新しい版が出るとタイトルにお知らせ。GitHub の公開ファイルを読むだけ・設定でオフにできる）。
+- 近接（振りかぶり・踏み込み・振り）を疾走でキャンセルできる。振り向き連射は疾走の向きで弾数が変わる（前 3・横 5・後ろ 2、空中は 1 発少なく。前は攻撃 2 倍・速い弾）、2 発当たると相手はダウン。
 - BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。
 
 これから: バランスの調整、操作の見直し。
@@ -150,12 +151,12 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.6.4-dev（2026-11-08・開発中） |
-| ファイル（Android 版） | `phonetichoundversus-0.6.4-dev-release.apk`（5,589,225 バイト） |
-| SHA-256（Android 版） | `CD407246C37F3ABF6346537FDEC16624DB12123E14C70C139A96147C19210F44` |
+| バージョン | 0.6.5-dev（2026-11-08・開発中） |
+| ファイル（Android 版） | `phonetichoundversus-0.6.5-dev-release.apk`（5,589,225 バイト） |
+| SHA-256（Android 版） | `2DAC132F09EEA56CBD8B3F16AEF214BBDC9DA3D3B6E72DCA4353F68B0933D235` |
 | 対応 Android | 7.0 以上（横画面） |
-| ファイル（Windows 版） | `PhoneticHoundVersus-0.6.4-dev-setup.exe`（28,670,119 バイト） |
-| SHA-256（Windows 版） | `7767FD749A14516ECCF0AE0BEF8426280738467EBDB6F3B83616B16075983C6F` |
+| ファイル（Windows 版） | `PhoneticHoundVersus-0.6.5-dev-setup.exe`（28,674,468 バイト） |
+| SHA-256（Windows 版） | `ABEE3F87BE0D9DF64AD08A1E96C13971694DBC267A5B34CBE13521D7F3513784` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
