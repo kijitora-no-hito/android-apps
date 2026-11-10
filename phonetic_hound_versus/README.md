@@ -55,9 +55,9 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 ## ダウンロード
 
-### [Android 版 APK をダウンロード（v0.9.1-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.9.1-dev/phonetichoundversus-0.9.1-dev-release.apk)
+### [Android 版 APK をダウンロード（v0.9.2-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.9.2-dev/phonetichoundversus-0.9.2-dev-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.9.1-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.9.1-dev/PhoneticHoundVersus-0.9.1-dev-setup.exe)
+### [Windows 版インストーラをダウンロード（v0.9.2-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.9.2-dev/PhoneticHoundVersus-0.9.2-dev-setup.exe)
 
 Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。
 
@@ -88,7 +88,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.9.1-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.9.2-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。設定・セッティングはそのまま残ります。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。設定は残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHoundVersus`）。
@@ -112,7 +112,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - Phonetic Hound・Phonetic Hound Defence とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.9.1-dev）
+## この版でできること（0.9.2-dev）
 
 - アーケード（8 ステージ・相手はランダムな CPU・ステージごとに強くなる・最後はボス・2 本先取・コンティニュー・ベストタイムの記録）。
 - アーケードの乱入（「乱入待ち受け」で遊んでいる人に、アーケードの入口の［乱入する］からオンラインで乱入。NEW CHALLENGER!! で CPU 戦が中断して 1 対 1）。
@@ -154,12 +154,12 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.9.1-dev（2026-11-08・開発中） |
-| ファイル（Android 版） | `phonetichoundversus-0.9.1-dev-release.apk`（5,638,381 バイト） |
-| SHA-256（Android 版） | `7E5402650A921ADFBCE24DD8D70D7B715C9E577D021CB5B4FCF88B72EA43A6DA` |
+| バージョン | 0.9.2-dev（2026-11-08・開発中） |
+| ファイル（Android 版） | `phonetichoundversus-0.9.2-dev-release.apk`（5,638,381 バイト） |
+| SHA-256（Android 版） | `C9DE2BD007D3E25469AD1090C3D58EEC2A771FFFA829ACD04BB8DF6256CADADC` |
 | 対応 Android | 7.0 以上（横画面） |
-| ファイル（Windows 版） | `PhoneticHoundVersus-0.9.1-dev-setup.exe`（28,840,612 バイト） |
-| SHA-256（Windows 版） | `8430D6EEA870D7D2F4224D6FA90C0173214F0DC8C76CF02C8AD5835C20C0020D` |
+| ファイル（Windows 版） | `PhoneticHoundVersus-0.9.2-dev-setup.exe`（28,835,697 バイト） |
+| SHA-256（Windows 版） | `E0738F6838DF1654A7896D50D86FF79B7DB7EE0D70AE9F06CC8B2643E2972145` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
