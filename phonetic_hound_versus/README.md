@@ -55,13 +55,13 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 ## ダウンロード
 
-### [Android 版 APK をダウンロード（v0.13.0-dev・開発中・mp3 同梱版・43.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.13.0-dev/phonetichoundversus-0.13.0-dev-release.apk)
+### [Android 版 APK をダウンロード（v0.14.0-dev・開発中・mp3 同梱版・43.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.14.0-dev/phonetichoundversus-0.14.0-dev-release.apk)
 
-### [Android 版 APK・mp3 無し版（v0.13.0-dev・5.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.13.0-dev/phonetichoundversus-0.13.0-dev-lite-release.apk)
+### [Android 版 APK・mp3 無し版（v0.14.0-dev・5.5 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.14.0-dev/phonetichoundversus-0.14.0-dev-lite-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.13.0-dev・開発中・mp3 同梱版・65.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.13.0-dev/PhoneticHoundVersus-0.13.0-dev-setup.exe)
+### [Windows 版インストーラをダウンロード（v0.14.0-dev・開発中・mp3 同梱版・65.9 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.14.0-dev/PhoneticHoundVersus-0.14.0-dev-setup.exe)
 
-### [Windows 版インストーラ・mp3 無し版（v0.13.0-dev・28.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.13.0-dev/PhoneticHoundVersus-0.13.0-dev-lite-setup.exe)
+### [Windows 版インストーラ・mp3 無し版（v0.14.0-dev・28.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.14.0-dev/PhoneticHoundVersus-0.14.0-dev-lite-setup.exe)
 
 mp3 同梱版と mp3 無し版の違いは、BGM の魔王魂の曲（音楽：魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、設定は引き継がれます。オンライン対戦も同梱版と無し版の人どうしで一緒に遊べます（同じ版どうし）。mp3 無し版の BGM は、内蔵の演奏か自分の MP3 です。
 
@@ -94,7 +94,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラ」で `PhoneticHoundVersus-0.13.0-dev-setup.exe`（mp3 無し版は `-lite-setup.exe`）を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラ」で `PhoneticHoundVersus-0.14.0-dev-setup.exe`（mp3 無し版は `-lite-setup.exe`）を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。設定・セッティングはそのまま残ります。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。設定は残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHoundVersus`）。
@@ -108,6 +108,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 | 疾走 / ジャンプ / ジャンプキャンセル | Shift / Space / C |
 | 回避 | Ctrl |
 | 狙いの切り替え（チーム戦） | T |
+| 視点の切り替え | V |
 | ポーズ・メニュー | P / Esc |
 
 ゲームパッド（DualShock 4 など）でも遊べます。
@@ -118,8 +119,9 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - Phonetic Hound・Phonetic Hound Defence とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.13.0-dev）
+## この版でできること（0.14.0-dev）
 
+- **プレイ中の視点の切り替え**: 標準（肩越し）・近め・真上（見下ろし）・FPS（目の位置）。プレイ中に［視点］ボタン（タッチは時間表示の左、パッドは SHARE / View、キーボードは V）で切り替え、設定の「プレイ時の視点」でも選べる。見え方だけで、オンラインの相手には関係しない。
 - **BGM に魔王魂の曲**（mp3 同梱版）。試合の前から曲が始まり、決着までループ、決着が付くと曲のエンディングへ。設定の［場面ごとの BGM…］で、場面（タイトル・1 対 1・チーム戦・アーケード・ボス・オンライン・観戦・練習・結果）ごとに 魔王魂の曲 / 内蔵の演奏 / 自分の MP3 を選べる（試聴・ランダムも）。BGM と効果音の音量は別々に、試合中もポーズで変えられる。
 - パッドの確認と、ゲームパッドとして認識されないツインスティック（汎用の USB のスティックなど）の割り当て（Windows 版。設定の［パッドの確認…］）。
 - アーケード（8 ステージ・相手はランダムな CPU・ステージごとに強くなる・最後はボス・2 本先取・コンティニュー・ベストタイムの記録）。
@@ -165,16 +167,16 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.13.0-dev（2026-11-14・開発中） |
-| ファイル（Android 版・mp3 同梱版） | `phonetichoundversus-0.13.0-dev-release.apk`（45,759,418 バイト） |
-| SHA-256 | `4876323976BF865CB7C11C47681F3F404B95202E54EC923BBC3CB7373CE16CF7` |
-| ファイル（Android 版・mp3 無し版） | `phonetichoundversus-0.13.0-dev-lite-release.apk`（5,769,461 バイト） |
-| SHA-256 | `9F9909A160D308C0771B1405AF4F2FA1F388F3E398CA0A872D574F9196D54249` |
+| バージョン | 0.14.0-dev（2026-11-14・開発中） |
+| ファイル（Android 版・mp3 同梱版） | `phonetichoundversus-0.14.0-dev-release.apk`（45,759,522 バイト） |
+| SHA-256 | `4904AD98DD8AC3617360AA57255DA92CEA1A387A3D9CEC5653D936157D9F965C` |
+| ファイル（Android 版・mp3 無し版） | `phonetichoundversus-0.14.0-dev-lite-release.apk`（5,769,561 バイト） |
+| SHA-256 | `B74093DCD885C1D501C5B32374FF2B6698F826DC4A04B8299E15C5DB26F656AB` |
 | 対応 Android | 7.0 以上（横画面） |
-| ファイル（Windows 版・mp3 同梱版） | `PhoneticHoundVersus-0.13.0-dev-setup.exe`（69,121,578 バイト） |
-| SHA-256 | `571D96E2597905FBFA04193DCC2F2B080C79364FD0F2F8586CCED9800F3C195A` |
-| ファイル（Windows 版・mp3 無し版） | `PhoneticHoundVersus-0.13.0-dev-lite-setup.exe`（29,451,609 バイト） |
-| SHA-256 | `3A994BC286949DA20E7C42577A20DEFE9B3E8836FF411AE13977702FD2E36D91` |
+| ファイル（Windows 版・mp3 同梱版） | `PhoneticHoundVersus-0.14.0-dev-setup.exe`（69,141,368 バイト） |
+| SHA-256 | `8A85262247224343E1C69B3345FC219778E84A0EC8AEF639124D4DE26109071E` |
+| ファイル（Windows 版・mp3 無し版） | `PhoneticHoundVersus-0.14.0-dev-lite-setup.exe`（29,471,822 バイト） |
+| SHA-256 | `C75C9E48ECC8E2EF79E517844490DA120A6C86D182F904846CE0AF6E1A130110` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
