@@ -55,9 +55,9 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 ## ダウンロード
 
-### [Android 版 APK をダウンロード（v0.11.0-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.11.0-dev/phonetichoundversus-0.11.0-dev-release.apk)
+### [Android 版 APK をダウンロード（v0.12.0-dev・開発中・5.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.12.0-dev/phonetichoundversus-0.12.0-dev-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.11.0-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.11.0-dev/PhoneticHoundVersus-0.11.0-dev-setup.exe)
+### [Windows 版インストーラをダウンロード（v0.12.0-dev・開発中・27.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.12.0-dev/PhoneticHoundVersus-0.12.0-dev-setup.exe)
 
 Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。
 
@@ -88,7 +88,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.11.0-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラをダウンロード」で `PhoneticHoundVersus-0.12.0-dev-setup.exe` を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。設定・セッティングはそのまま残ります。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。設定は残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHoundVersus`）。
@@ -112,7 +112,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - Phonetic Hound・Phonetic Hound Defence とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.11.0-dev）
+## この版でできること（0.12.0-dev）
 
 - アーケード（8 ステージ・相手はランダムな CPU・ステージごとに強くなる・最後はボス・2 本先取・コンティニュー・ベストタイムの記録）。
 - アーケードの乱入（「乱入待ち受け」で遊んでいる人に、アーケードの入口の［乱入する］からオンラインで乱入。NEW CHALLENGER!! で CPU 戦が中断して 1 対 1）。
@@ -129,6 +129,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - 操作の割り当て（パッドのふつう・ツインスティック・キーボード。押して覚えさせる・初期設定に戻す）。
 - 更新の確認（新しい版が出るとタイトルにお知らせ。GitHub の公開ファイルを読むだけ・設定でオフにできる）。
 - 入力の表示（スティックとボタンを画面の端に小さく。配信の飾りにも）、練習の入力履歴、練習の CPU の動きの繰り返し（20 種）と自分の動きの録画・再生。
+- タイトルの背景で CPU どうしの対戦が流れる（設定でオフ）、30 秒操作しないとデモ（対戦と自動チュートリアル、約 3 分で一周）。
 - 近接（振りかぶり・踏み込み・振り）を疾走でキャンセルできる。振り向き連射は疾走の向きで弾数が変わる（前 3・横 5・後ろ 2、空中は 1 発少なく。前は攻撃 2 倍・速い弾）、2 発当たると相手はダウン。
 - BGM と効果音（ケルト伝統曲をアプリ内のシンセサイザーで演奏）。
 
@@ -155,12 +156,12 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.11.0-dev（2026-11-08・開発中） |
-| ファイル（Android 版） | `phonetichoundversus-0.11.0-dev-release.apk`（5,687,533 バイト） |
-| SHA-256（Android 版） | `D092F97B82FEEC6DEF7958EDAFF95FD1D0FD6CC3E385D52F56CC189EF8FCA854` |
+| バージョン | 0.12.0-dev（2026-11-08・開発中） |
+| ファイル（Android 版） | `phonetichoundversus-0.12.0-dev-release.apk`（5,703,917 バイト） |
+| SHA-256（Android 版） | `0C57E7DBFB75E6BF012BA3EB1461D369E8E9D87858FF4369223102782C0A2030` |
 | 対応 Android | 7.0 以上（横画面） |
-| ファイル（Windows 版） | `PhoneticHoundVersus-0.11.0-dev-setup.exe`（29,028,400 バイト） |
-| SHA-256（Windows 版） | `B1CB1618C54BDBD7F1D460555B958C393810505F8EE47D2820230D475BD903E7` |
+| ファイル（Windows 版） | `PhoneticHoundVersus-0.12.0-dev-setup.exe`（29,068,353 バイト） |
+| SHA-256（Windows 版） | `8FAC507CDC1EA0A69026A6355D565342CA5BD710596485680B06D8367EB451B8` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
