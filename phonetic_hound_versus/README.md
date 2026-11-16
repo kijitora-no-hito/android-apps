@@ -1,9 +1,8 @@
 <p><img src="images/icon.png" width="96" alt="Phonetic Hound Versus のアイコン"></p>
 
-# Phonetic Hound Versus（開発中）
+# Phonetic Hound Versus
 
-> **⚠ 開発中の版です。** CPU 戦・観戦・オンライン対戦を遊べますが、操作・バランス・画面は今後大きく変わります。
-> オンライン対戦は**全員が同じ版**のときだけ遊べます（版が違う人の部屋には入れません）。
+> **1.0.0（2026-11-16）から正式版です。** 0.16.1-dev 以前の版とはオンラインで一緒に遊べません。前の版を入れている方は 1.0.0 に入れ直してください（上書きでき、設定は残ります）。
 
 [Phonetic Hound](https://kijitora-no-hito.github.io/android-apps/phonetic_hound/) の世界のアンテナ使いたちが、光の壁に囲まれた闘技場で戦う、横画面の TPS 対戦ゲームです。
 Android 版と Windows 版があり、**オンライン対戦では Android と Windows で一緒に遊べます**。
@@ -55,15 +54,15 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 ## ダウンロード
 
-### [Android 版 APK をダウンロード（v0.16.1-dev・開発中・mp3 同梱版・43.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.16.1-dev/phonetichoundversus-0.16.1-dev-release.apk)
+### [Android 版 APK をダウンロード（v1.0.0・mp3 同梱版・43.8 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v1.0.0/phonetichoundversus-1.0.0-release.apk)
 
-### [Android 版 APK・mp3 無し版（v0.16.1-dev・5.6 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.16.1-dev/phonetichoundversus-0.16.1-dev-lite-release.apk)
+### [Android 版 APK・mp3 無し版（v1.0.0・5.7 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v1.0.0/phonetichoundversus-1.0.0-lite-release.apk)
 
-### [Windows 版インストーラをダウンロード（v0.16.1-dev・開発中・mp3 同梱版・66.1 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.16.1-dev/PhoneticHoundVersus-0.16.1-dev-setup.exe)
+### [Windows 版インストーラをダウンロード（v1.0.0・mp3 同梱版・67.0 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v1.0.0/PhoneticHoundVersus-1.0.0-setup.exe)
 
-### [Windows 版インストーラ・mp3 無し版（v0.16.1-dev・28.3 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v0.16.1-dev/PhoneticHoundVersus-0.16.1-dev-lite-setup.exe)
+### [Windows 版インストーラ・mp3 無し版（v1.0.0・29.2 MB）](https://github.com/kijitora-no-hito/android-apps/releases/download/phonetichoundversus-v1.0.0/PhoneticHoundVersus-1.0.0-lite-setup.exe)
 
-mp3 同梱版と mp3 無し版の違いは、BGM の魔王魂の曲（音楽：魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、設定は引き継がれます。オンライン対戦も同梱版と無し版の人どうしで一緒に遊べます（同じ版どうし）。mp3 無し版の BGM は、内蔵の演奏か自分の MP3 です。
+mp3 同梱版と mp3 無し版の違いは、BGM の魔王魂の曲（音楽：魔王魂）が入っているかどうかだけです。どちらからどちらへも上書きインストールでき、設定は引き継がれます。オンライン対戦も同梱版と無し版の人どうしで一緒に遊べます。mp3 無し版の BGM は、内蔵の演奏か自分の MP3 です。
 
 Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで遊べます（入れ方は下の「Windows 版」）。
 
@@ -73,7 +72,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 タイトルの［オンライン対戦］から。初めてのときは名前（8 文字まで）を決めます。
 
-- **全員が同じ版**を入れてください。版が違うと部屋に入れません（「版が違う部屋」と出ます）。新しい版が出たら、みんなで入れ直してください。
+- **全員が 1.0.0 以降**を入れてください。0.16.1-dev 以前の版とは一緒に遊べません。今後、一緒に遊べなくなる変更を入れた版が出たときは、このページでお知らせします（合わない版の部屋には入れません）。
 - **部屋を作る**: ［部屋を作る］で 6 桁の部屋番号が出ます。番号を友達に伝えて入ってもらいます。「公開」を［する］にすると、番号を知らない人も一覧から入れます。
 - **番号で入る**: ［番号で入る］で、教えてもらった 6 桁の番号を入れます。
 - **公開の部屋をさがす**: 公開の部屋の一覧から選んで入ります。
@@ -81,7 +80,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - **空いた席は CPU** が戦います。試合の途中で抜けた人の席も CPU が引き継ぎます。
 - **ホストが抜けると部屋は閉じ、試合も終わります。**
 - 1 部屋に入れる人は **6 人まで**です（4 対 4 の残りの席は CPU）。
-- 試合中は一時停止できません（メニューを開いても試合は進みます）。
+- 試合中は一時停止できません（メニューを開いても試合は進みます）。席を外すときは、ポーズの［CPU におまかせ（席を外す）］で、試合が終わるまで CPU（弱め）が代わりに戦います。相手の画面には「〇〇 は離席のため CPU 操作に切り替わりました」と出ます。
 - Android 版と Windows 版の混ざった対戦ができます。通信が遅い・止まるときは、画面の真ん中に「通信待ち」と出ます。
 
 ## インストール方法
@@ -94,7 +93,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ### Windows 版
 
-1. 上の「Windows 版インストーラ」で `PhoneticHoundVersus-0.16.1-dev-setup.exe`（mp3 無し版は `-lite-setup.exe`）を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
+1. 上の「Windows 版インストーラ」で `PhoneticHoundVersus-1.0.0-setup.exe`（mp3 無し版は `-lite-setup.exe`）を保存して開き、案内に従って［次へ］→［インストール］。管理者の権限は要りません。
 2. 「Windows によって PC が保護されました」と出たら **［詳細情報］→［実行］** を押してください（個人で配っているためコード署名をしていません）。
 3. **更新**: ゲームを終わってから、新しい setup.exe を開くだけです。設定・セッティングはそのまま残ります。
 4. **アンインストール**: Windows の「設定」→「アプリ」から。設定は残ります（消すかどうかも聞かれます。保存先は `%APPDATA%\PhoneticHoundVersus`）。
@@ -119,8 +118,17 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 - Phonetic Hound・Phonetic Hound Defence とは別のアプリです。両方入れても、互いのセーブには影響しません。
 - このアプリは GitHub でのみ配布しています。
 
-## この版でできること（0.16.1-dev）
+## この版でできること（1.0.0）
 
+- **新しいメニュー**: 対戦・ひとりで・オプションに分けた入口、前回の続きをすぐ始める［すぐ遊ぶ］、初回の案内、押せるボタンの案内。BGM は場面の切り替わりでなめらかに入れ替わる。
+- **友達に紹介**（オプション →［友達に紹介］）: ダウンロード用の QR コードを画面に出す。Android / Windows、BGM あり / BGM なし（軽い版）を選べる。説明ページの QR と URL のコピーも。
+- **乱入の知らせ**: メインメニューにいる間、乱入できる相手がいると知らせる（設定の「オンラインの知らせ」でオフにできる）。乱入されて勝つと、プレイ中の画面に「n 連勝中」。
+- **チーム戦の見分け**: 足元の輪・頭の上の印（味方 ▼ / 敵 ◆）・名札・肩と帯をチームの色に。開始のときに「あなたは 〇チーム」。
+- **遠距離攻撃の色がキャラごとに違う**（ハウンドは黄、ドローンはピンクなど）。チーム戦では弾の尾がチームの色。
+- **ロックオンされている数と方向**: 相手が 2 人以上のとき「LOCKED ×n」。自分の足元から、ロックしている敵の方へ赤い帯（1 対 1 でも）。レーダーにも印。
+- **派手な演出**（設定の「画面・視点」で ON / OFF）: 当たりの火花、KO の衝撃波、疾走の風の線、溜めの光など。
+- **CPU におまかせ（席を外す）**: 試合の途中で CPU の操作に切り替え。アーケードはそのまま続きを自動で、ほかは試合が終わるとメニューへ。操作に戻ることもできる。
+- **遠距離の溜めの時間が射撃のポイントで変わる**（均等の振り分けは今までと同じ、多く振ると最大 30% 短く、0 だと 10% 長く）。
 - **AI 作成**（タイトルの［AI 作成］）: 名前を付けて保存する自分だけの AI（50 体まで）。CPU のプリセット（強さ × 型）から始めて、装備（キャラ・アンテナ・Lv 200 の振り分け）と 100 以上の項目（反応の速さ・間合いと作戦・攻め・守り・使う技・チーム戦の狙い方）を細かく調整。［試す］でその場で戦う・観戦する。
 - 作った AI は CPU 戦・チーム戦・観戦の席に置ける・**アーケードを遊ばせて観戦**（成績は AI ごと）・オンラインの部屋の空いた CPU の席にも。文字列（コード）にして人と共有できる。
 - **乱入体験用BOT**: アーケードの［乱入する］の一覧に「乱入体験用BOT」（BOT の札）が出ていたら、CPU が遊んでいる待ち受けです。いつでも乱入して 1 対 1 を試せます（作者の PC で動かしているので、いないこともあります）。
@@ -150,7 +158,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 ## 注意
 
-- 開発中の版です。不具合があれば [Issues](https://github.com/kijitora-no-hito/android-apps/issues) へお知らせください。
+- 不具合があれば [Issues](https://github.com/kijitora-no-hito/android-apps/issues) へお知らせください。
 - 戦闘の表現があります（流血の表現はありません）。
 
 ## 出典
@@ -160,6 +168,7 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
   （[music-data](https://github.com/kijitora-no-hito/android-apps/tree/main/phonetic_hound/music-data)）。
 - フォント: Noto Sans JP（SIL Open Font License 1.1）
 - ゲームエンジン: libGDX（Apache License 2.0）
+- QR コードの生成: ZXing（Apache License 2.0）
 - Windows 版: LWJGL（BSD）、GLFW・SDL2・tinyfd（zlib）、OpenAL Soft（LGPL）ほか、Java 実行環境（同梱）。ライセンス文はインストール先に同梱しています。
 
 ## プライバシーポリシー
@@ -170,20 +179,20 @@ Windows 10 / 11（64 bit）用です。キーボード、ゲームパッドで�
 
 | 項目 | 内容 |
 | --- | --- |
-| バージョン | 0.16.1-dev（2026-11-15・開発中） |
-| ファイル（Android 版・mp3 同梱版） | `phonetichoundversus-0.16.1-dev-release.apk`（45,808,674 バイト） |
-| SHA-256 | `7A5C89CA8EC7148B98F00E7ED07658318C6198A3E11895B7F71CEC9F21774C7D` |
-| ファイル（Android 版・mp3 無し版） | `phonetichoundversus-0.16.1-dev-lite-release.apk`（5,835,097 バイト） |
-| SHA-256 | `BFC3CFF47A736F364D38F84E71ABA55A222E2CC8052A1E814434AEFF5A95954F` |
+| バージョン | 1.0.0（2026-11-16） |
+| ファイル（Android 版・mp3 同梱版） | `phonetichoundversus-1.0.0-release.apk`（45,939,742 バイト） |
+| SHA-256 | `619AB4DDE0F7ADEF70F114F1BBA45887DC70DD0AC51ACDCE8A23C2B468482575` |
+| ファイル（Android 版・mp3 無し版） | `phonetichoundversus-1.0.0-lite-release.apk`（5,949,773 バイト） |
+| SHA-256 | `8112D8C04CC8B1CD42D22EFCA2E3A08133C3F596EF4340BC20781ECE65878E5A` |
 | 対応 Android | 7.0 以上（横画面） |
-| ファイル（Windows 版・mp3 同梱版） | `PhoneticHoundVersus-0.16.1-dev-setup.exe`（69,352,377 バイト） |
-| SHA-256 | `3DEEADA2B9F4542DB7C90EA1ADA8B3B39C109985DAA5C9843F663B9BED0C61B4` |
-| ファイル（Windows 版・mp3 無し版） | `PhoneticHoundVersus-0.16.1-dev-lite-setup.exe`（29,680,944 バイト） |
-| SHA-256 | `F2AA3320A6E09398861455C795EC8E19E3D1E66C77FE64F08FCAF78B14363F89` |
+| ファイル（Windows 版・mp3 同梱版） | `PhoneticHoundVersus-1.0.0-setup.exe`（70,252,423 バイト） |
+| SHA-256 | `25923969B073FB7D45AC5CBECAACBD16FACBBB5D3B8B370E18836C136FE52608` |
+| ファイル（Windows 版・mp3 無し版） | `PhoneticHoundVersus-1.0.0-lite-setup.exe`（30,581,989 バイト） |
+| SHA-256 | `6FC83E3D69D9453C6C6487B275EDC8A84059212A9DF028A7445579853B1A122E` |
 | 対応 Windows | 10 / 11（64 bit） |
 | 価格 | 無料・広告なし・アプリ内課金なし・アカウント登録なし |
 
-使う権限はインターネットだけです（オンライン対戦の中継のため）。タイトルの［オンライン対戦］を使ったときだけ作者の中継サーバ（taisen-game.com）に接続し、名前・選んだキャラとアンテナとセッティング・部屋の設定・試合中の操作の入力・アプリの版などを、同じ部屋の相手の端末へ送ります（中継サーバは中身を保存しません。部屋を公開したときだけ、ホストの名前と部屋の様子が公開の部屋の一覧に出ます。詳しくはプライバシーポリシーの「オンライン対戦」）。このほか、更新の確認（設定でオフにできる）のために GitHub の公開ファイル（版の一覧）を読みます（何も送りません）。それ以外のときは通信しません。位置情報・端末の識別子は送りません。
+使う権限はインターネットだけです（オンライン対戦の中継のため）。［オンライン対戦］とアーケードの乱入を使ったとき、作者の中継サーバ（taisen-game.com）に接続し、名前・選んだキャラとアンテナとセッティング・部屋の設定・試合中の操作の入力・アプリの版などを、同じ部屋の相手の端末へ送ります（中継サーバは中身を保存しません。部屋を公開したときだけ、ホストの名前と部屋の様子が公開の部屋の一覧に出ます。詳しくはプライバシーポリシーの「オンライン対戦」）。このほか、メインメニューにいる間、乱入できる相手がいるかを知らせるために、同じ中継サーバに待ち受けの一覧を求めます（一覧を求めるだけで、名前などは送りません。設定の「オンラインの知らせ」でオフにできます）。また、更新の確認（設定でオフにできる）のために GitHub の公開ファイル（版の一覧）を読みます（何も送りません）。それ以外のときは通信しません。位置情報・端末の識別子は送りません。
 
 ---
 
