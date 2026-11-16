@@ -27,28 +27,40 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 <table>
 <tr>
-<td align="center"><img src="images/blade_windup.jpg" width="420" alt="光の刃の振りかぶり"><br>近接は光の刃。大きく振りかぶってから振り下ろす</td>
+<td align="center"><img src="images/blade_windup.jpg" width="420" alt="光の刃"><br>近接は光の刃。当たると火花が散る</td>
 <td align="center"><img src="images/blade_trail.jpg" width="420" alt="光の刃の残像"><br>刃の長さ = 届く距離。振り抜くと残像が残る</td>
 </tr>
 <tr>
-<td align="center"><img src="images/finisher.jpg" width="420" alt="噛み合いと致命の一撃"><br>電波が噛み合うと半ダウン → 致命の一撃</td>
-<td align="center"><img src="images/charged.jpg" width="420" alt="溜め完了の攻撃"><br>溜め完了の攻撃（バイコニカルは全周の衝撃波）</td>
+<td align="center"><img src="images/finisher.jpg" width="420" alt="致命の一撃"><br>電波が噛み合うと半ダウン → 致命の一撃</td>
+<td align="center"><img src="images/charged.jpg" width="420" alt="パラボラの溜め完了の攻撃"><br>溜め完了の攻撃。パラボラは端まで届いて貫く太いレーザー</td>
 </tr>
 <tr>
-<td align="center"><img src="images/team_4v4.jpg" width="420" alt="4 対 4"><br>4 対 4 のリーダー戦。左はレーダー</td>
+<td align="center"><img src="images/horn6.jpg" width="420" alt="ホーンの溜め完了の攻撃"><br>ホーンは細いレーザー 6 本</td>
+<td align="center"><img src="images/dipole_wall.jpg" width="420" alt="ダイポールの溜め完了の攻撃"><br>ダイポールは扇状に広がる光の壁</td>
+</tr>
+<tr>
+<td align="center"><img src="images/team_4v4.jpg" width="420" alt="4 対 4"><br>4 対 4。足元の輪・名札・色でチームが分かる</td>
+<td align="center"><img src="images/lock.jpg" width="420" alt="ロックオンされている数と方向"><br>LOCKED ×n と、ロックしている敵の方へ伸びる足元の帯</td>
+</tr>
+<tr>
 <td align="center"><img src="images/spectate.jpg" width="420" alt="観戦"><br>CPU どうしの 4 対 4 を観戦（4 倍速）</td>
+<td align="center"><img src="images/arcade.jpg" width="420" alt="アーケードの連勝"><br>アーケード。乱入に勝ち続けると「n 連勝中」</td>
 </tr>
 <tr>
 <td align="center"><img src="images/chara.jpg" width="420" alt="キャラ選択"><br>キャラは 9 体。みんな同じ背丈・同じ性能</td>
 <td align="center"><img src="images/setting.jpg" width="420" alt="セッティング"><br>Lv 200 のポイントを振り分ける</td>
 </tr>
 <tr>
-<td align="center"><img src="images/online_lobby.jpg" width="420" alt="オンライン対戦のロビー"><br>オンライン対戦: 部屋を作る / 番号で入る / 公開の部屋</td>
+<td align="center"><img src="images/menu.jpg" width="420" alt="メインメニュー"><br>メインメニュー（Android 版）</td>
+<td align="center"><img src="images/invite.jpg" width="420" alt="友達に紹介"><br>友達に紹介: ダウンロード用の QR コード</td>
+</tr>
+<tr>
+<td align="center"><img src="images/online_lobby.jpg" width="420" alt="オンライン対戦の入口"><br>オンライン対戦: すぐ遊ぶ / 部屋を作る / 番号で入る / 公開の部屋</td>
 <td align="center"><img src="images/online_room.jpg" width="420" alt="部屋"><br>部屋: ホストがルール・人数を決める。空いた席は CPU</td>
 </tr>
 <tr>
-<td align="center"><img src="images/online_match.jpg" width="420" alt="オンラインの試合"><br>オンラインの 2 対 2（人 2 人 + CPU 2 人）</td>
-<td align="center"><img src="images/online_android.jpg" width="420" alt="Android のタッチ操作"><br>Android 版（タッチ）で Windows 版の相手と対戦</td>
+<td align="center"><img src="images/online_match.jpg" width="420" alt="オンラインの試合"><br>オンラインの試合（Windows 版）</td>
+<td align="center"><img src="images/android_touch.jpg" width="420" alt="Android のタッチ操作"><br>Android 版（タッチ）の 4 対 4</td>
 </tr>
 </table>
 
