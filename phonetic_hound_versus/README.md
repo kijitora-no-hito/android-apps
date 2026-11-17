@@ -9,6 +9,10 @@ Android 版と Windows 版があり、**オンライン対戦では Android と 
 
 <p><img src="images/feature.png" width="540" alt="Phonetic Hound Versus"></p>
 
+### [ユーザマニュアル（PDF・45 ページ・約 8 MB）](https://kijitora-no-hito.github.io/android-apps/phonetic_hound_versus/PhoneticHoundVersus-manual.pdf)
+
+入れ方・操作・戦い方・アンテナ 8 種・遊ぶモード・オンライン対戦・**AI 作成の全項目**・設定・困ったときを、図と画面写真つきでまとめた説明書です（1.0.0 用）。
+
 ## どんなゲーム？
 
 本家 Phonetic Hound の操作をもとに、人どうし・CPU と戦う対戦に作り直したゲームです。
