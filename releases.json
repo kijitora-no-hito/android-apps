@@ -138,11 +138,11 @@
     },
     {
       "folder": "cycle_route_logger",
-      "tag": "cycleroutelogger-v0.12.1",
-      "title": "自転車ルートロガー v0.12.1",
-      "apk": "cycleroutelogger-0.12.1-release.apk",
-      "sha256": "13C07ABC1A3397B22B1C10B755E028A53AB9271ECD9104FCFF94D63D3C7B03C1",
-      "notes": "自転車ルートロガー v0.12.1（2026-11-07）\n\n- オンラインランキングで、参加者が 10 人になるまでは人数（「○ 人中」「いま ○ 人」）を出さないようにしました（自分の順位だけ表示）。10 人以上ではこれまでどおりです\n- 前の版（0.12.0）: オンラインランキングを追加（設定で参加した人だけ・はじめはオフ。「走行距離」「開拓したマス」の順位、総合・今月。ホームの［ランキング］・まとめの右上から）\n- 送るのは名前・ランダムな ID・数値だけで、位置・経路・マスの場所は送りません。参加をやめるとサーバの記録は消えます\n- 前の版からの上書きで、記録とプランはそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 13C07ABC1A3397B22B1C10B755E028A53AB9271ECD9104FCFF94D63D3C7B03C1"
+      "tag": "cycleroutelogger-v0.13.0",
+      "title": "自転車ルートロガー v0.13.0",
+      "apk": "cycleroutelogger-0.13.0-release.apk",
+      "sha256": "78AF20AC28A68B969EE92CD572BB95AA12EF8B2C8DBECB26A6B05E24212B8899",
+      "notes": "自転車ルートロガー v0.13.0（2026-11-23）\n\n- 設定「測位の方式」に「u-blox 受信機（USB）」を追加しました（USB でつないだ GNSS 受信機の位置で記録。届かない間は端末の GPS で代用）\n- u-blox 受信機の生データ（.ubx）を記録ごとに保存・共有できるようにしました（設定で ON。既定 OFF）\n- u-blox 受信機に RTK 補正（NTRIP キャスター）を送れるようにしました（設定で ON。既定 OFF。補正サービスのアカウントが必要）\n- 受信機がつながっている間のための権限（接続した機器のフォアグラウンドサービス）が増えました。プライバシーポリシーを更新しました\n- 前の版からの上書きで、記録とプランはそのまま残ります\n\n説明・インストール方法: https://kijitora-no-hito.github.io/android-apps/cycle_route_logger/\nSHA-256: 78AF20AC28A68B969EE92CD572BB95AA12EF8B2C8DBECB26A6B05E24212B8899"
     },
     {
       "folder": "phonetic_hound_pc",
