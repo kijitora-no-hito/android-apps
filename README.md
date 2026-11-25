@@ -97,6 +97,11 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 <td><b><a href="drive_logger/">ドライブロガー</a></b>（v0.9.1）<br>車での走行を GPS で記録。必要なときはドラレコのように録画（速度・位置の表示・ループ録画・衝撃で保護）。全走行のまとめと地図。</td>
 <td align="center"><img src="drive_logger/images/qr.png" width="140" alt="ドライブロガーのページの QR コード"></td>
 </tr>
+<tr>
+<td align="center"><a href="gakkai_memo/"><img src="gakkai_memo/images/icon.png" width="80" alt="学会メモ"></a></td>
+<td><b><a href="gakkai_memo/">学会メモ</a></b>（v0.1.0・プレビュー）<br>学会の聴講中に講演ごとにスライドの写真とメモを残す。書きながら写真を挿入・写真ごとのメモ・予稿の写真/PDF。シャッター音なし・通信なし。</td>
+<td align="center"><img src="gakkai_memo/images/qr.png" width="140" alt="学会メモのページの QR コード"></td>
+</tr>
 </table>
 
 ## インストール方法（共通）
