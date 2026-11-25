@@ -99,7 +99,7 @@ APK を直接ダウンロードしてインストールする形で配ってい�
 </tr>
 <tr>
 <td align="center"><a href="gakkai_memo/"><img src="gakkai_memo/images/icon.png" width="80" alt="学会メモ"></a></td>
-<td><b><a href="gakkai_memo/">学会メモ</a></b>（v0.1.0・プレビュー）<br>学会の聴講中に講演ごとにスライドの写真とメモを残す。書きながら写真を挿入・写真ごとのメモ・予稿の写真/PDF。シャッター音なし・通信なし。</td>
+<td><b><a href="gakkai_memo/">学会メモ</a></b>（v0.2.0・プレビュー）<br>学会の聴講中に講演ごとにスライドの写真とメモを残す。書きながら写真を挿入・写真ごとのメモ・予稿の写真/PDF。シャッター音なし・通信なし。</td>
 <td align="center"><img src="gakkai_memo/images/qr.png" width="140" alt="学会メモのページの QR コード"></td>
 </tr>
 </table>
